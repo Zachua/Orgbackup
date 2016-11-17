@@ -1407,7 +1407,6 @@ browser-sync start --server --directory --file "**/*"
 |                    | git log --graph           | check graph of merging status                                   |
 |                    | --pretty=oneline          | make it pretty      tag:guess                                   |
 |                    | --abbrev-commit           | make it pretty      tag:guess                                   |
-
 * Spacemacs Rock
 |          | define                    | detail                                         |
 |----------+---------------------------+------------------------------------------------|
@@ -1554,3 +1553,6 @@ browser-sync start --server --directory --file "**/*"
 |----------+-----------+--------------------|
 | list(P)  |           |                    |
 | array(J) |           |                    |
+** submit my Orgmode to Github
+git remote add Orgmodehub git@github.com: Zachua/Orgmode.git
+git push Orgmodehub master

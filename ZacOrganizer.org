@@ -1167,7 +1167,7 @@ CLOSED: [2016-08-25 Thu 08:18]
 ******** TODO Simple Elisp Examples
 ******** TODO How to Evalute Elisp Code
 ******** TODO Find FUnctions, Doc Lookup
-******** TODO How to Edit Lisp Code With Emacs
+******** TODO How to Edit Lisp Code With emacs
 ******* Elisp Detail                                          :ARCHIVE:
 ******** List
 ******** Vector
@@ -1943,9 +1943,10 @@ CLOCK: [2016-11-17 Thu 08:14]--[2016-11-17 Thu 08:14] =>  0:00
 CLOCK: [2016-11-17 Thu 07:59]--[2016-11-17 Thu 07:59] =>  0:00
 CLOCK: [2016-11-14 Mon 18:09]--[2016-11-14 Mon 18:09] =>  0:00
 :END:
-** WAITING Technology                                             :Clocking:
+** STARTED Technology                                             :Clocking:
 SCHEDULED: <2016-11-17 Thu>
 :LOGBOOK:
+CLOCK: [2016-11-17 Thu 11:11]
 CLOCK: [2016-11-17 Thu 07:22]--[2016-11-17 Thu 07:34] =>  0:12
 CLOCK: [2016-11-15 Tue 09:15]--[2016-11-15 Tue 09:51] =>  0:36
 CLOCK: [2016-11-15 Tue 09:15]--[2016-11-15 Tue 09:15] =>  0:00
