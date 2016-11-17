@@ -1,0 +1,1745 @@
+#+STARTUP: indent
+#+SEQ_TODO: TODO STARTED WAITING DONE
+* IMPROVING
+** python
+*** coursera for python                                           :ARCHIVE:
+**** Python for Everyone
+**** Python Data Structures
+***** Chapter6: Strings
+:LOGBOOK:
+CLOCK: [2016-09-19 Mon 22:33]--[2016-09-19 Mon 22:33] =>  0:00
+:END:
+***** Chapter7: Files
+:LOGBOOK:
+CLOCK: [2016-09-21 Wed 18:02]--[2016-09-21 Wed 18:02] =>  0:00
+:END:
+****** hardware
+Input and Output Devices
+Secondary Memory
+******* Software inside
+Central Processing Unit
+Main Memory
+****** File Processing
+******* Opening a File
+******** open()
+********* Handle = open(filename,mode)
+mode could be r(default), or w(write)
+filename is a string
+********* example
+fhand = open('mbox.txt')
+print fhand
+<open file 'mbox.txt', mode 'r' at 0x1005088b0>
+******** The newline Character
+********* example
+stuff = 'Hello\nWorld'
+print stuff
+Hello 
+World!
+********* len
+stuff = 'X\nY'
+len(stuff) = 3
+******** File Handle as a Sequence
+********* A file handle open for read can be treated as a sequence of strings where each line in the file is a string in the sequence
+********* We can use the for statement to iterate through a sequence
+********* Remember- a sequence is an ordered set
+******** Reading the "whole" File
+********* example
+fhand = open('mbox-short.txt')
+inp = fhand.read()
+print len(inp)
+print inp[:20]
+******** Searching Trough a file
+fhand = open('mbox.txt')
+for line in fhand:
+    line = line.rstrip()
+    if line.startswith('From:'):
+        print line
+******** Skipping with continue
+if not line.startswith('From:'):
+    continue
+******** Using in to select lines
+if not '@uct.ac.za' in line:
+    continue
+print line
+******** try and except
+try: 
+    hand = open(fname)
+except:
+    print 'File cannot be opened:', fname
+    exit()
+***** Chapter8: Lists
+:LOGBOOK:
+CLOCK: [2016-09-21 Wed 23:45]--[2016-09-21 Wed 23:46] =>  0:01
+:END:
+****** Collection
+ collection variaables can store multiple values in a single variable
+****** List Constrants
+A list element can be any Python object-even another list
+a list can be empty
+****** Lists are Mutable
+String are immutable
+Lists are mutable--we can change an element of a list using the index operator
+****** How long is a list
+len()
+****** Using the range function
+the range function returns a list of numbers that range from zero to one less than the parameter
+We can construct an index loop using for and an integer iterator
+****** A tale of two loops
+friends = ['Joseph','Glenn','Sally']
+for friend in friends:
+    print'Happy New year:',friend
+
+for i in range(len(friends)):
+    friend = friends[i]
+    print 'Happy New Year:',friend
+****** Concatenating lists using +
+a = [1,2,3]
+b = [4,5,6]
+c = a + b
+print c
+c = [1,2,3,4,5,6]
+****** List Methods
+type()
+dir()    what can we do fir this parameter
+append    stuff.append(x)
+max(nums)
+min(nums)
+sum(nums)
+****** Is something in a List?
+some= [1,9,21,10,16]
+9 in some
+Ture
+****** A list is an Ordered Sequence
+friends.sort()
+****** example
+numlist = list()
+while Ture:
+   inp = raw_input('Enter a number:')
+   if inp = 'done':break
+   value = float(inp)
+   numlist.append(value)
+
+average = sum(numlist)/len(numlist)
+***** Chapter9: Dictionaires
+:LOGBOOK:
+CLOCK: [2016-09-21 Wed 23:46]--[2016-09-21 Wed 23:46] =>  0:00
+:END:
+****** Comparing Lists and Dictionaries
+Dictionaries are like Lists excpet that they use keys instead of numbers to look up value
+****** When we see a new name
+counts = dict()
+names = ['csev','cwen','csav','zqian',cwen']
+for name in names:
+   if name not in counts:
+      counts[name] = 1
+   else:
+      counts[name] = counts[name] + 1
+print counts
+****** The get method for dictionary
+print counts.get(name,0)
+0 is the Default value if key does not exist(and no Traceback).
+
+equal to the following:
+if name in counts:
+   print counts[name]
+else:
+   print 0
+****** Simplified counting with get()
+for name in names:
+    counts[name] = counts.get(name,0) + 1
+print counts
+****** Definite loops and Dicgtionaries
+we can write a for loop that goes through all of the keys in the dictionary and looks up the values
+******* example
+counts = {'chuck':1, 'fred' :42, 'jan': 100}
+for key in coutns
+    print key, counts[keys]
+****** Retrieving lists of keys and values
+jjj = {'chuck':1,'fred':42,'jan':100}
+print list(jjj),   ['jan','chuck','fred']
+print jjj.keys()
+print jjj.values()
+print jjj.items()    return as a list with tuple inside, [('jan',100)...]
+****** Bonus: Two Iteration Variables
+for aaa,bbb in counts.items():
+    print aaa,bbb
+***** Chapter10: Tuples
+:LOGBOOK:
+CLOCK: [2016-09-25 Sun 10:42]--[2016-09-25 Sun 10:42] =>  0:00
+:END:
+****** Tuples are "immutable"
+****** Tuples are more efficient
+******* no need to build tuple structures
+******* prefer tuples over lists on making "temporary variables"
+******* Tuples and Assignment
+******** Put a tuple on the left hand side of an assignment statement
+******** even omit the parenthesis
+******* Tuples and Dictionaries
+d = dict()
+d['csev'] = 2
+d['cwen'] = 4
+for (k,v) in d.items():
+    print k,v
+
+tups = d.items()
+print tups
+[('csev',2),('cwen',4)]
+****** Tuples are Comparable
+Comparision operators work with tuples, If the first item is equal, Python goes on to the next element
+(0,1,2) < (5, 1 ,2)
+true
+('Johes', 'Sally') > ('Adams','Sam')
+true
+****** Sorting Lists of Tuples
+d = {'a':10, 'b':1, 'c':22}
+t = d.items()
+print t
+t.sort()
+print t
+****** Using sorted()
+for k,v in sorted(d.items()):
+    print k,v
+
+tmp = list()
+for k,v in d.items():
+    tmp.append((v,k))
+tmp.sort(reverse=True)
+print tmp
+****** the top 10 most common words
+lst = list()
+for key, val in counts.item():
+    lst.append((val,key))
+lst.sort(reverse=True)
+for val,key in lst[:10]:
+    print key, val
+****** Even Shorter Version(adv)
+print sorted([(v,k) for k,v in d.items()])
+[[https://www.coursera.org/learn/python-data/supplement/iDHXm/lecture-slides][Lecture Slides]]
+**** Using Python to Access Web Data
+[[https://www.coursera.org/learn/python-network-data/home/welcome][Coursera]]
+***** Chapter 11-Regular Expressions
+****** python settting practice experience                     :ARCHIVE:
+******* import experience 
+1. move module to C:\python 
+2. run python, import module
+3. works
+4. run ipython, import module
+5. fail
+
+6. delete module in C:\python
+7. run python, import module
+8. fail
+
+9. move module in C:Anaconda2
+10. run ipyhon, import module
+11. successful
+
+12. move module and file.py in the same folder
+13. using command line to open python
+14. works
+******* python notepad++ experience 
+1. open command line
+2. going to file dir
+cd(change dir), dir(list dir), changing drive(C:/D:/E:) 
+3. python+filename.py
+******* using python to open file
+1. move py.file and openfile in the same folder
+2. using command line to open python
+3. works 
+
+******* ipython and python IDE
+1. ipython IDE support linux command  VS   cpython IDE fail
+2. using python/ipython file.py in ipython IDE, showing invalid syntax
+3. command: # '''  """
+****** symbol tables
+|---------------+----------------------------------------------------|
+| "^"           | matches the beginning of a line                    |
+| "$"           | Matches the end of the line                        |
+| .(dot,period) | Matches any character(wild card)                   |
+| \s            | Mathces whitespace                                 |
+| \S            | Matches any non-whitespace character               |
+| "*"           | Repeats a character zero or more times             |
+| *?            | Repeats a character zero or more times(non-greedy) |
+| +             | Repeats a character one or more times              |
+| +?            | Repeats a character one or more times(non-greedy)  |
+| [aeiou]       | Matches a single character in the listed set       |
+| [a-z0-9]      | The set of characters can include a range          |
+| (             | Indicates where string extraction is to start      |
+| )             | INdicates where string extraction is to end        |
+|---------------+----------------------------------------------------|
+****** The Regular Expression Modules
+import the library using "import re"
+use re.search() to see if a string matches a regular exprssion, similar to using find() for strings
+use re.findall() extract portions of a string that match your regular expression similar to a combination of ind() and slicing: var[5:10]
+****** Wild-Card Characters
+The dot character matches any character
+If you add the asterisk character, the character is "any number of times"
+****** Matching and Extracting Data
+The re.search() returns a True/False depending on whether the string matches the regular expression
+If we actually want the matching strings to be extracted, we use re.findall()
+****** Warning: Greedy Matching
+The repeat (* and +) push outward in both directions(greedy) to match the largest possible string
+****** Fine-Tuning String Extraction
+'\S+@\S+'
+^From (\S+@\S+)
+Parentheses are not part of the match - but they tell where to start and stop what string to exact
+****** The Double Split Pattern
+Sometimes we split a line one way, and then grab one of the pieces of the line and split that piece again
+******* ex. 
+line = From stephen.marquard@uct.ac.za Sat Jan 5 .....
+words = line.split()
+email = words[1]
+pieces = email.split('@')
+print pieces[1]   ;;'uct.ac.za'
+
+or line = From stephen.marquard@uct.ac.za Sat Jan 5 .....
+y = re.findall('@([^ ]*)',line)   ;;'uct.ac.za'        insides[], ^ means not, [^ ]means non blank character
+****** Spam Confidence
+re.findall return as a string
+****** Escape Character
+want a special regular expression behave normally, prefix it with'\'
+***** Chapter 12 Networks and Sockets
+****** Networked Programs
+Client: HTML JavaScrtipt, AJAX,CSS
+INternet: HTTP, Request, Response, GET, socket, POST
+SErver: PHP, MYSql, Templates
+******* Common TCP Ports
+Telnet(23) Login
+SSH(22) Secure Login
+HTTP(80)
+HTTPS(443)
+SMTP(25)(Mail)
+8085 mean ports other than 80
+******* Sockets in Python
+import socket
+mysock = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+mysock.connect(('www.py4inf.com',80))
+[[http://xkcd.com/353/][python 动漫]]
+****** From Sockets to Applications
+******* HTTP
+HTTP is the set of rules to allow browers to retrieve web documents from servers over the Internet
+http://www.dr-chuck.com/page1.htm
+protocol    host         document
+******* Getting Data From THe Server
+Each Time the users click on an anchor tag with an href= value to switch to a new page, the browser makes a connection to the web
+server and issue a "GET" request - to GET the content of the page at the specified URL
+
+The server returns the HTML document to the browser,which formats and display the document to the user
+****** Let's write a Browser
+******* An HTTP Request in Python
+******* Using urllib in Python
+since HTTP is so common, we have a library that does all the socket work for us and makes web pages look like a file
+[[http://www.net-intro.com/][Introduction to Networking]]
+***** Chapter 12 Programs that Surf the Web 
+****** Beautiful Soup
+******* [[https://www.crummy.com/software/BeautifulSoup/bs4/doc.zh/][Beautiful Soup中文教材]]
+****** XML&HTML
+[[http://blog.163.com/txl129_2006@126/blog/static/1851087820103218453645/][HTML与XML的区别(转)]] 
+[[http://www.w3schools.com/html/html_attributes.asp][HTML Attributes]]
+******* XML
+1. 信息交换的标准和简易方式，标记灵活多变
+2. Extentsible Markup Language,没有(tag set),没有(grammatical rule),有(syntax rule),必须是(well-formed)
+3. 符合一个模式(schema),就是有效的(schema valid),但不是强制的
+4. XML是被设计用来描述数据的，重点是:什么是数据，如何存放数据。
+******* HTML
+1. 用于web,自定义是不行的
+2. HTML命令可以说明文字、图形、动画、声音、表格、链接等。HTML的结构包括头部(Head)、主体(Body)两大部分，其中头部描述浏览器所需的信息，而主体则包含所要说明的具体内容。
+3. HTML是被设计用来显示数据的，重点是:显示数据以及如何显示数据更好上面。
+4. 在HTML中，括号内所定义的都是版面(Layout)等信息
+5. 而XML则同时定义了数据的属性
+****** homework
+[[http://www.tutorialspoint.com/python/python_lists.htm][python list function]]
+***** Chapter 13 Web Services and XML
+****** Web Services Overview
+1. With the HTTP Request/Response well understood and well supported, there was a natural move toward 
+exchanging data between programs using these protocols
+2. we needed to come up with an agreed way to represent data going between applications and across network
+3. There are two commonlyused formats: XML and JSON
+****** parsing XML in Python
+******* string could be execute by find function, regular expression and xml.etree
+****** eXtensible Markup Language-XML
+******* XML Basic
+******** Simple Element vs Complex Element
+******** Start Tag,End Tag, Text Content, Attribute, Self Closing Tag
+attributes-Keyword/value pairs on the opening tag of XML
+******** XML as a tree
+******** XML as Paths
+******* XML Schema
+xs:element
+xs:sequence
+xs:complexType
+2002-05-30T09:30:10Z
+******* Parsing XML in Python 
+[[http://www.pythonlearn.com/code.zip][download sample Python code]] or [[http://www.pythonlearn.com/code][individual files]]  
+tree = ET.fromstring(data)    ----  Parsing(the same with deserialize)
+***** Chapter 13 JSON and the REST Architecture
+****** JavaScript Object Notation(JSON)
+******* compared to XML
+disadvantage on infinitely set of thing(XML is better)
+little self describing
+does not attributes(XML has)
+JSON(easy to work with)  VS   XML(harder but more expressive)
+******* two basic struction:
+array(like list)
+object(like dictionary)  key:value
+******* JSON in python
+分解deserialize to dictionary(with { } bracket)
+分解deserialize to list(with [ ] bracket)
+java, hashmap and array
+****** [[http://www.youtube.com/watch?v=mj-kCFzF0ME][Service Oriented Architectures]]
+****** Accessing APIs in Python
+API--Apilication Program Interface(define set of rules)
+REST--Representational State Transfer(resource focused)
+[[https://developers.google.com/maps/documentation/geocoding/][The Google Geocoding API]]
+**** Using Databases with Python
+***** Chapter 14-Object Oriented Python
+****** Object Oriented Python
+******* Object Oriented
+A program is made up of many cooperating objects
+instead of being the"whole program" - each object is a little"island" within the program and cooperatively working with other objects.
+A program is made up of one or more objects working together - objects make use of each other's capabilities
+******* Object
+An Object is a bit of self-contained Code and Data
+A key aspect of the Object approach is to break the problem into smaller understandable parts(divide and conquer)
+Objects have boundaries that allow to ignore unneeded detail
+We have been using objects all alone: String Objects, Integer Objects,Dictionary Objects, List Objects...
+
+objects hide detail---they allow us to ignore the detail of the"rest of the program"
+Objects are bits of code and data
+****** Terminology
+******* Class-a template- Dog
+******* Method or Message - A defined capability of a class-bark()
+******* Field or attribute - A bit of data in a class- length
+******* Object or Instance- A particular instance of a class - Lassie
+
+******* example
+x = list()
+list is an class
+x is an object
+'append' is a method
+****** Object Lifecycle
+******* Constructor
+set up some instance variables to have the proper initial values when the object is created
+****** Inheritance
+When we make a new class- we can resue an existing class and inherit all the capabilities of an existing class and then add our own little bit to make our new class
+Another form of store and reuse
+Write once-reuse many times
+The new class(child) has all the capabilities of the old class(parent)-and then some more
+***** Chapter 15-1 Basic Structured Query Language
+****** Database Instroduction
+python deal with unstruct data
+SQL deal with struct data
+****** Using Database
+large project is used for website
+***** Chapter 15-2 Data Models and Relational SQL
+****** Designing a Data Model
+******* Database design is an art form
+******* Database design starts with a picture
+picture of the data objects for our application and then figuring out how to represent the objects and their relationships
+******* Basic Rule:
+Don't put the same string data in twice-use a relationships instead
+******* When there is one thing in the "real world" there should be one copy of that thing in the database
+******* For each 'piece of info'
+******** Is the column an object or an attribute of another object?
+******** Once we define objects, we need to define the relationships between objects
+****** Representing a Data Model in Tables
+****** inserting Relational Data
+****** Reconstructing data with JOIN
+******* Relational Power
+******** By removing the replicated data and 
+********* replacing it with references to a single copy of each bit of data we build a "web" of information that the relational databsae can read through very quickly-even for every large amounts of data
+********* often when you want some data it comes from a number of tables linked by these foreign keys
+******* The JOIN Operation
+******** The JOIN operation links across several tables as part of a select operation
+******** you must tell the JOIN how to use the keys that make the connection between the tables using an ON clause
+******* It can get complex....
+select Track.title, Artist.name, Album.title, Genre.name from Track join Genre join Album join Artist on 
+Track.genre_id= Genre.id and Track.album_id = Album.id and Album.artist_id = Artist.id
+***** Chapter 15-3 Many-to-Many Relationships in SQL
+***** Chapter 15-4 Databases and Visualization
+****** Geocoding
+******* Data Mining Technologies
+https://hadoop.apache.org/
+http://spark.apache.org/
+https://aws.amazon.com/redshift/
+http://community.pentaho.com/
+******* this class is "personal data mining"
+******* geodata
+******** makes a google map from user entered data
+******** uses the google geodata api
+******** caches data in a database to avoid rate limiting and allow restarting
+******** Visualized in a browser using the Google Maps API
+****** page rank and web searching
+******* web crawler
+A web crawler is a computer program that browsers the World Wide Web in a methodical, automated manner. Web crawlers are mainly used to create a copy of all the visited pages for later processing by a search engine that will index the downloaded pages to provide fast searches.
+******* Web Crawling Policy
+******** a selection policy that states which pages to download
+******** a revisit policy that states when to check for changes to the pages
+******** a politeness policy that states how to avoid overloading Web sites
+******** a parallelization policy that states how to coordinate distributed Web Crawlers
+******* Search Indexing
+Search engine indexing collects, parses, and stores data to facilitate fast and accurate information retrieval. The purpose of storing an index
+is to optimize speed and performance in finding relevant documents for a search query. Without an index, the search engine would scan every document 
+in the corpus, which would require considerable time and computing power.
+****** Gmane-Mailing Lists
+******* Mainling List-Gmane
+******** Crawl the archive of a mailing list
+******** Do some analysis/cleanup
+******** Visualize the data as word cloud and lines
+****** Geocoding API Demo
+*** Python by Xah Lee
+[[http://xahlee.info/perl-python/python_basics.html][Python: Learn in 1 hour]]
+*** python教程
+[[http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000][python廖雪峰]]
+[[http://www.diveintopython.net/][Dive in Python]]
+*** python网络爬虫
+[[http://www.zhihu.com/question/20899988][如何入门python爬虫]],知乎
+[[http://cuiqingcai.com/1052.html][python爬虫学习系列教程]]
+[[http://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html][python正则表达式基础]]
+[[http://cuiqingcai.com/990.html][Python爬虫实战一之爬取糗事百科段子]]
+[[http://www.codefrom.com/paper/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3urllib%E3%80%81urllib2%E5%8F%8Arequests][深入理解urllib、urllib2及requests]]
+** Programming
+*** Linux knowledge 
+**** [[http://www.howtogeek.com/248780/how-to-compress-and-extract-files-using-the-tar-command-on-linux/][compress and extract on linux]]
+**** [[http://www.computerhope.com/issues/ch000798.htm][remove dir in linux]]
+**** [[http://www.cyberciti.biz/faq/copy-folder-linux-command-line/][copy folder in linux]]
+**** [[http://www.computerhope.com/unix/utee.htm][tee command in linux]]
+**** command > file.txt
+[[http://askubuntu.com/questions/420981/how-do-i-save-terminal-output-to-a-file][ouput terminal into file]]
+[[http://www.cyberciti.biz/faq/howto-save-ouput-of-linux-unix-command-to-file/][example of output terminal to file]]
+**** rm/cp -r  ------   delete and copy will work on directory
+**** -f ------   force to do, without any notice
+*** Lisp tutorial
+[[http://www.tutorialspoint.com/lisp/][LISP Tutorial]]
+[[https://learnxinyminutes.com/docs/zh-cn/elisp-cn/][Learn X in Y minutes]]
+[[http://www.tutorialspoint.com/lisp/][LISP Tutorial]]
+** Tech Reading
+*** emacs
+[[http://jingtao.freeshell.org/emacs/TheWayIUseEmacs.html][The way I use Emacs]]
+[[https://github.com/redguardtoo/mastering-emacs-in-one-year-guide/blob/master/guide-zh.org][一年成为Emacs高手(像神一样使用编辑器)]]
+[[http://www.jianshu.com/p/b4cf683c25f3][从零开始——Emacs 安装配置使用教程 2015]]
+[[http://xahlee.info/mswin/env_var.html][Windows Environment Variables Tutorial]]
+*** tech doc
+[[http://xiaolai.li/][学习是一种生活方式]]-lixiaolai
+[[http://www.ruanyifeng.com/docs/pg/][阮一峰的个人网站]]
+[[http://www.jianshu.com/collection/2f6a49e22121][折腾之美-简书]]
+*** Spacemacs
+**** [[https://github.com/emacs-china/Spacemacs-rocks][Master Emacs in 21 Days]]
+**** [[https://github.com/emacs-china/Spacemacs-rocks][emacs-china]]
+**** [[https://learnxinyminutes.com/docs/zh-cn/elisp-cn/][Learn X in Y minutes]]
+** WEB and Server in w3cshool                                      :ARCHIVE:
+*** SQL
+global mark L in chrome
+**** SQL Syntax
+SQL keywords are not case sensitive
+in this tutorial, we will use semicolon at the end of each SQL statement
+
++ SELECT - extracts data from a database
++ UPDATE - updates data in a database
++ DELETE - deletes data from a database
++ INSERT INTO - inserts new data into a database
++ CREATE DATABASE - creates a new database
++ ALTER DATABASE - modifies a database
++ CREATE TABLE - creates a new table
++ ALTER TABLE - modifies a table
++ DROP TABLE - deletes a table
++ CREATE INDEX - creates an index (search key)
++ DROP INDEX - deletes an index
+**** [[http://www.w3schools.com/sql/sql_select.asp][SQL Select]]
+*** HTML
+HTML to define the content of web pages
+**** [[http://www.w3schools.com/html/html_intro.asp][HTML Introduction]]
+1. HTML is a marakup language for describing web 
+2. HTML stands for Hyper Text Markup Language
+3. A markup language is a set of markup tags
+4. HTML documents are described by HTML tags
+5. Each HTML tag describes different document content
+**** HTML w3cshool
+***** HTML Elements
+1. nested(elements contain elements)
+2. <html> define the whole document
+3. <body> define the document body
+4. <h1> difine a heading
+5. <p> define a paragraph
+6. End Tag in need
+7. Empty HTML element(without content)---could close like, <br/>
+
+***** HTML Attributes
+****** The lang Attribute
+The language declared in the <html> tag
+The language declared with lang attribute
+****** The title Attribute
+title attribute is added to <p> element
+****** Size Attributes
+image defined with <img> tag
+(scr),(width and height) provided as attributes
+****** The alt Attribute
+The alt spceifiles text, when image not display
+****** W3cshools suggestion
+1. use lowercase Attributes
+2. Quote Attribute Values
+****** Single or Double quotes
+use single quotes, when attribute value contains double quotes
+***** HTML Headings
+Notes: Don't use headings to make text BIG or BOLD
+****** HTML Horizontal Rules
+<hr> desplayed horizontal rule
+****** HTML <head> Element
+nothing with HTML headings
+container for metadata, which not display and about HTML document
+placed between <html> and <body>
+****** How to view HTML Source
+right-click in the page and select"View Page Source"
+*** CSS
+CSS to specify the layout of web pages
+CSS is a stylesheet language that describes the presentation of an HTML (or XML) document.
+
+*** PHP
+PHP is a server scripting language, and a powerful tool for making dynamic and interactive Web pages.
+**** [[http://www.w3schools.com/php/php_intro.asp][PHP Intro]]
+*** JavaScript
+JavaScript to program the behavior of web pages
+JavaScript is the programming language of HTML and the Web.
+* R.M.
+** online job searching website info
+| website       | user       | password      | email                  |
+|---------------+------------+---------------+------------------------|
+| Angellist     | n/a        | 7438428904    | zacharyhua@hotmail.com |
+| Blue Coat     | n/a        | Passw0rd!     | zacharyhua@hotmail.com |
+| CareerBuilder | n/a        | 7438428904Hua | zacharyhua@hotmail.com |
+| Dice          | n/a        | 7438428904Hua | zacharyhua@hotmail.com |
+| Flex          | n/a        | Passw0rd!     | zacharyhua@hotmail.com |
+| Glassdoor     |            |               |                        |
+| Indeed        | n/a        | 7438428904!@  | zacharyhua@hotmail.com |
+| KLA-Tencor    | zacharyhua | Passw0rd!     | zacharyhua@hotmail.com |
+| Linkedin      |            | Passw0rd!     | huazhenhu@hotmail.com  |
+| Recruitment   | zacharyhua | QWaszx!@12    | zacharyhua@hotmail.com |
+| Supermicro    |            |               |                        |
+| WIPRO         |            |               | zacharyhua@hotmail.com |
+| Akamai        | zachary    | Passw0rd!     | zacharyhua@hotmail.com |
+| Kelly         | linkedin   | linkedin      |                        |
+| Lumentum      | zacharyhua | Passw0rd!     | zacharyhua@hotmail     |
+| SanDisk       |            | Passw0rd!     | zacharyhua@hotmail     |
+|               |            |               |                        |
+
+** Job search list(1-10)                                           :ARCHIVE:
+| #   | website | company       | Recruiting Firm   | type | job position            | Location     | Apply Date       | comment |
+|-----+---------+---------------+-------------------+------+-------------------------+--------------+------------------+---------|
+| #1  | Indeed  | amazon        | Varite Inc.       | F    | Software QA Engineer    | Sunnyvale,CA | <2016-06-17 Fri> |         |
+| #2  | Indeed  | Mercedes-Benz | self              | F    | Virtual Test Engineer   | Sunnyvale,CA | <2016-06-20 Mon> |         |
+| #3  | Indeed  | Blue Coat     | self              | F    | Manufacturing Process E | Sunnyvale,CA | <2016-07-07 Thu> |         |
+| #4  | Indeed  | KLA-Tencor    | self              | F    | Manufacturing Process E | Milpitas,CA  | <2016-07-09 Sat> |         |
+| #5  | C.Build | n/a           | self              | F    | Manufacturing Develop.E | Milpitas,CA  | <2016-07-09 Sat> |         |
+| #6  | C.Build | n/a           | Kelly Services IT | C    | Test Engineer           | Cupertino,CA | <2016-07-26 Tue> |         |
+| #7  | n/a     | Flex          | n/a               | F    | Platform Validation E   | Milpitas,CA  | <2016-07-25 Mon> |         |
+| #8  | Indeed  | Talento       | n/a               | F    | Test Engineer           | Fremont,CA   | <2016-08-04 Thu> |         |
+| #9  | email   | n/a           | Deepak.P          | F    | HW Engineer             | Sunnyvale,CA | <2016-08-09 Tue> |         |
+| #10 | Indeed  | n/a           | Career Tech Cnslt | F    | HW Engineer             | Sunnyvale,CA | <2016-08-11 Thu> |         |
+1) [X] [[http://www.indeed.com/cmp/Varite,Inc/jobs/Software-QA-Engineer-162a4be3aa57faba?q=test+engineer][Software QA Engineer]]                                         
+2) [X] [[https://recruitment.daimler.com/psc/hr90pwext/EMPLOYEE/HRMS/c/HRS_HRAM.HRS_APP_SCHJOB.GBL?Page=HRS_APP_JBPST&Action=U&FOCUS=Applicant&SiteId=1&JobOpeningId=1017679&PostingSeq=1&source=Indeed][Virtual Testing Engineer]]
+3) [X] [[https://sjobs.brassring.com/TGWEbHost/jobdetails.aspx?jobId=343430&partnerid=25815&siteid=5130][Manufacturing Process Engineer]]
+4) [X] [[https://ktcareers.kla-tencor.com/psc/ps/APPLICANT/PSRPTS/c/HRS_HRAM.HRS_CE.GBL?Page=HRS_CE_JOB_DTL&Action=A&JobOpeningId=113880&SiteId=1&PostingSeq=1&][Manufacturing Design Engineer]]
+5) [X] [[http://www.careerbuilder.com/job/J3F0ZK76MDJN3RNXPB8?ipath=JRG8&searchid=166803d0-6b02-44f2-9625-20ca50eef7fb&siteid=cbnsv][Manufacutring Process Development Engineer]]
+6) [X] [[http://www.careerbuilder.com/job/J3H6L56XQXBV4551V6L?ipath=JRG4&searchid=bff88f86-2037-4d95-82f4-d23047c2e198&siteid=cbnsv][Test Engineer]]
+7) [X] [[https://flextronics.wd1.myworkdayjobs.com/en-US/Careers/job/Milpitas-California-United-States-of-America/Platform-Validation-Engineer_WD013972-8?source=Indeed][Platform Validation Engineer]]
+8) [X] [[http://www.indeed.com/cmp/Talento,-Inc./jobs/Test-Engineer-ae508c0565c2d3a0?q=test+engineer][test engineer]]
+9) [X] [[HW Engineer]]
+10) [X] [[http://www.indeed.com/cmp/Pro--tekconsulting/jobs/Hardware-Engineer-10069708f6f4b6b6?q=test+engineer][Hardware Engineer]]
+** Job search list(11-20)                                          :ARCHIVE:
+| #   | website | company      | Recruiting Firm | type | job position        | Location       | Apply Date       | comment |
+|-----+---------+--------------+-----------------+------+---------------------+----------------+------------------+---------|
+| #1  | C.Build | Apex Systems | n/a             | F    | Maps Test Engineer  | Santa Clara,CA | <2016-08-11 Thu> |         |
+| #2  | indeed  | Medic Mobile | n/a             | F    | Softawre Test E     | SF, CA         | <2016-08-17 Wed> |         |
+| #3  | C.Build | n/a          | n/a             | n/a  | Test Engineer       | n/a            | <2016-08-21 Sun> |         |
+| #4  | C.Build | Akamai       | Akamai          | F    | Software Test E     | Santa Clara    | <2016-08-21 Sun> |         |
+| #5  | indeed  | n/a          | Kelly           | F    | Systems Engineer    | Santa Clara    | <2016-09-03 Sat> |         |
+| #6  | indeed  | Innominds    | n/a             | F    | QA Engineer         | San Jose       | <2016-09-03 Sat> |         |
+| #7  | indeed  | LeEco        | n/a             | F    | Cloud Test E        | San Jose       | <2016-09-17 Sat> |         |
+| #8  | indeed  | n/a          | Career Tech C   | n/a  | Validation Engineer | San Jose       | <2016-09-17 Sat> |         |
+| #9  | indeed  | LUmentum     | n/a             | F    | Staff TE            | Milpitas       | <2016-09-23 Fri> |         |
+| #10 | indeed  | Hedvig       | n/a             | F    | Technical Staff Mb  | Santa Clara    | <2016-09-23 Fri> |         |
+1) [X] [[http://www.careerbuilder.com/job/J3F8126Z7Z57CT18HKF?ipath=JRG17&searchid=ae87f99c-4511-4c53-ba0d-4c674b692462&siteid=cbnsv][Maps Test Engineer]]
+2) [X] [[http://www.indeed.com/viewjob?jk=63af716ecd1af57d&q=test+engineer&l=San+Francisco%2C+CA&tk=1aq55doiub90vej9&from=web][Software test Engineer]]
+3) [X] [[http://www.careerbuilder.com/job/J3G4636DV7L7XXR63K4?ipath=JRG11&searchid=636fea85-c452-4db6-bbc3-91d186a7bc11&siteid=ns_us_g][Test Engineer Product Engineering Automation]]
+4) [X] [[http://www.careerbuilder.com/job/J3L0GK6LJS79RZ3X8K9?ipath=JRG21&searchid=636fea85-c452-4db6-bbc3-91d186a7bc11&siteid=ns_us_g][Software Development Engineer in Test]]
+5) [X] [[http://www.careerbuilder.com/job/J3F4MX652FQ53X6WGDK?ipath=JRG110&searchid=dba9e844-c17f-4784-9da9-08ad99b30362&siteid=ns_us_g][Systems Engineer]]
+6) [X] [[http://www.indeed.com/cmp/Innominds-Software-Inc/jobs/QA-Engineer-83b419450d7b53c1?q=test+engineer][QA Engineer]]
+7) [X] [[http://www.indeed.com/viewjob?jk=9bde8e3f3cf37001&q=test+development+engineer&l=Milpitas%2C+CA&tk=1assm8c9ibs7o94a&from=web][Cloud Test Engineer]]
+8) [X] [[http://www.indeed.com/cmp/Pro--tekconsulting/jobs/Stb-Dvr-Application-Validation-Engineer-8bdd1fcdd5771fb1?q=validation+engineer&sita=1][Validation Engineer]]
+9) [X] [[https://lumentum.taleo.net/careersection/ex/jobdetail.ftl?job=32620&src=JB-10080][Staff Test Engineer]]
+10) [X] [[http://www.indeed.com/cmp/Hedvig-Inc/jobs/Member-Technical-Staff-8cc6dfd0638b13e2?sjdu=QwrRXKrqZ3CNX5W-O9jEvdvEiYYo-1zuoscWa11_P-dVL6vwvkrjjcKN2kU5bLIwHW9z8A36eY4UoClg2c46gDKfR6bay_KQOEDiXvYhI2A][Member of Technical Staff]]
+** Job search list(21-30)                                          :ARCHIVE:
+| #   | website      | company      | Recruiting Firm | type | job position          | Location      | Apply Date       | comment |
+|-----+--------------+--------------+-----------------+------+-----------------------+---------------+------------------+---------|
+| #1  | Indeed       | Rally Health | n/a             | F    | STE                   | SF            | <2016-09-28 Wed> |         |
+| #2  | Americas Job | KLA-Tencor   | n/a             | F    | Technical Sup E       | Milpitas      | <2016-10-02 Sun> |         |
+| #3  | Americas Job | KLA-Tencor   | n/a             | F    | Product E             | Milpitas      | <2016-10-02 Sun> |         |
+| #4  | Pei Xiang    | DSSD         | n/a             | F    | Sr. Hardware E        | Menlo Park    | <2016-10-03 Mon> |         |
+| #5  | indeed       | Malwarebytes | n/a             | F    | SQA Engineer          | Santa Clara   | <2016-10-03 Mon> |         |
+| #6  | indeed       | SanDisk      | n/a             | F    | Test DE II            | Milpitas      | <2016-10-04 Tue> |         |
+| #7  | indeed       | Approgence   | n/a             | F    | Full stack python D   | Mountain View | <2016-10-04 Tue> |         |
+| #8  | indeed       | Tynker       | n/a             | Int  | Game Developer Intern | Mountain View | <2016-10-04 Tue> |         |
+| #9  | indeed       | Tynker       | n/a             | F    | Content Developer     | Mountain View | <2016-10-04 Tue> |         |
+| #10 | indeed       | study        | n/a             | F    | SE in Testing II      | Mountain View | <2016-10-04 Tue> |         |
+1) [X]  [[http://www.indeed.com/viewjob?jk=54eee797512848f8&q=test+engineer&l=Milpitas%2C+CA&tk=1atot3gov1fgn6mv&from=web&advn=1345050224246333&sjdu=B8kdRzivZCcmX2oPJ9ZivjXrdR8_DyoXBtsRwt3NaEc&pub=4a1b367933fd867b19b072952f68dceb][Software Engineer in Test]]
+2) [X] [[http://www.americasjobexchange.com/job-detail/job-opening-AJE-576327513?source=indeed&utm_source=Indeed&utm_medium=cpc&utm_campaign=Indeed][Technical Support Engineer - eBeam Characterization]]
+3) [X] Product Engineer
+4) [X] [[https://jobs.dell.com/job/menlo-park/sr-hardware-engineer-dssd-menlo-park/375/3146427][Sr. Hardware Engineer]]
+5) [X] [[http://www.indeed.com/viewjob?jk=fc9780a8320c7416&q=test+development+engineer&l=Milpitas,+CA&tk=1au70mbke1fgt2uv&from=web&sita=1][SQA Engineer]]
+6) [X] [[https://careers.sandisk.com/job/Milpitas-Test-Development-Engineer-II-Job-CA-95035/367068400/?feedId=4&utm_source=Indeed][Test Development Engineer II]]
+7) [X] [[http://www.approgence.com/careerdet.php?ide=MTQ1NzExMDEy][Full stack python developer]]
+8) [X] [[http://www.indeed.com/viewjob?jk=64ddfd0e4a04461b&q=software+engineer&l=milpitas%2C+CA&tk=1au8p2mtrb0bkbi5&from=web][Game Developer Intern]]
+9) [X] [[http://www.indeed.com/viewjob?jk=3b323d84483a11d8&q=python+engineer&l=milpitas%2C+CA&tk=1au8pf1b4b0bkevs&from=web][ntent Developer]]
+10) [X] [[http://jobs.study.com/apply/pAKZDp/Software-Engineer-In-Test?source=INDE][SOftware Engineer in Test]]
+** Job search list(31-40)
+| # | website | company | Recruiting Firm | type | job position | Location | Apply Date | comment |
+|---+---------+---------+-----------------+------+--------------+----------+------------+---------|
+** recruiter info                                                  :ARCHIVE:
+| name                    | Zachary hua             |
+|-------------------------+-------------------------|
+| current location        | Milpitas,CA             |
+| Mobile No.              | 541-6028232             |
+| Email ID:               | zacharyhua@hotmail.com  |
+| US Work Authorization   | H1B Visa                |
+| Interview Time Slots:   | 9:00am to 10:00am(M-F)  |
+| Available to join from: | Sep                     |
+| Higest Education        | Master of engineer      |
+| Degree Year             | (2011-2014)             |
+| University              | Oregon State University |
+| Gender:                 | Male                    |
+| Skype ID:               | jiuweihuyao1-dats       |
+| Face to Face interview  | Weekend                 |
+| DOB                     | 2/29/1988               |
+| Salary                  | 70K                     |
+* SOCIAL
+** life facilitation                                               :ARCHIVE:
+*** Body shop
+| shop name | person              | phone | location |
+|-----------+---------------------+-------+----------|
+| Trons     | Timmy big brother   |       |          |
+|           | Andy litter brother |       |          |
+*** medical & Dental doctor
+| refering person      | function | Name       | address                                     |        phone |
+|----------------------+----------+------------+---------------------------------------------+--------------|
+| Jane                 | Dental   | Jiang/chen | 320 N. San Mateo Drive, San Mateo, CA 94401 |   6507597818 |
+|                      |          |            | 333 W. Maude Ave, #201, Sunnyvale, CA 94058 |              |
+|----------------------+----------+------------+---------------------------------------------+--------------|
+| Mawlin Phillip Chang | Medical  | George Yeh | 706 north winchester blvd, san jose 95128   | 408 298 4495 |
+|                      |          |            | Parking: fernwood avenue                    |              |
+|----------------------+----------+------------+---------------------------------------------+--------------|
+| Mawlin Phillip Chang | Medical  | Dr. To An  |                                             |   4082791180 |
+|----------------------+----------+------------+---------------------------------------------+--------------|
+** Human Resource
+*** company
+**** NSGT 
+| Company  | Person    | Nov | Oct | Position       | Email                  | phone             |
+|----------+-----------+-----+-----+----------------+------------------------+-------------------|
+|          | Nha Trans |     |     |                |                        |                   |
+|          | Phillip   |     |     |                |                        |                   |
+|----------+-----------+-----+-----+----------------+------------------------+-------------------|
+| NSGT     | Meihuang  |     |     | MPN, xx manger | mei.huang@foxconn.com  | 408-547-8817      |
+| Planer   | Kathrina  |   1 |     | Planer         |                        |                   |
+| QE       | Mei Wang  |     |     | QE             |                        |                   |
+|          | Juan      |   1 |     |                |                        |                   |
+|          | KC        |   1 |     |                |                        |                   |
+| FAE      | Doris     |   1 |     |                |                        |                   |
+| PM       | Edison    |     |     | PM             | edison.py.yu@gmail.com | TW: 886-928527997 |
+|----------+-----------+-----+-----+----------------+------------------------+-------------------|
+| operator | Kenny     |     |     | operator       |                        |                   |
+|          | Ping      |     |     | operator       |                        |                   |
+|          | Zoe       |     |   1 | operator       |                        |                   |
+|          | Ouyang    |     |     | operator       |                        |                   |
+|          | Sufeiya   |     |     | operator       |                        |                   |
+|          | Tonny     |     |     | operator       |                        |                   |
+|----------+-----------+-----+-----+----------------+------------------------+-------------------|
+|          | jackson   |     |     | operator       |                        |                   |
+|          | John      |     |     |                |                        |                   |
+|          | Shui      |     |     |                |                        |                   |
+|          | Mei       |     |     |                |                        |                   |
+|----------+-----------+-----+-----+----------------+------------------------+-------------------|
+|          |           |     |     |                |                        |                   |
+**** Cisco
+| Company | Person     | Position | Email             |        phone |
+|---------+------------+----------+-------------------+--------------|
+| Cisco   | Wison Ishu | RCFA TE  | <wishu@cisco.com> | 408-424-4415 |
+*** Classmates
+| Group      | Name         |              Nov | Oct              | Sep              | Aug              |
+|------------+--------------+------------------+------------------+------------------+------------------|
+| Classmates | Zhengwei Cai | <2016-11-09 Wed> | <2016-10-23 Sun> |                  | <2016-08-04 Thu> |
+| male       | chengyi Tan  |                2 | 3                | <2016-09-16 Fri> | <2016-08-27 Sat> |
+|            | Yang jin     |                2 | <2016-10-23 Sun> |                  |                  |
+|            | guanheng liu |                  |                  |                  | <2016-08-06 Sat> |
+|            | rui di       |                1 |                  |                  |                  |
+|------------+--------------+------------------+------------------+------------------+------------------|
+| female     | danqi zhu    |                2 | <2016-10-07 Fri> | <2016-09-16 Fri> |                  |
+|            | liu huan     |                2 | <2016-10-23 Sun> |                  |                  |
+|            | qian xiao    |                2 |                  |                  |                  |
+|------------+--------------+------------------+------------------+------------------+------------------|
+| Canada     | Yihao Du     |                  |                  |                  | <2016-08-08 Mon> |
+*** Friends(US)
+| Group       | Name          | Nov              | Oct              | Sep              | Aug | July | June             | May              | April            | March            |   |
+|-------------+---------------+------------------+------------------+------------------+-----+------+------------------+------------------+------------------+------------------+---|
+| Friends(US) | Dandan Miu    |                  | <2016-10-06 Thu> | <2016-09-17 Sat> |     |      |                  |                  | <2016-04-29 Fri> |                  |   |
+|             | Helen(weihua) | <2016-11-02 Wed> | <2016-10-06 Thu> | <2016-09-13 Tue> |     |      | <2016-06-27 Mon> |                  |                  |                  |   |
+|             | Mingkai       |                  |                  |                  |     |      | <2016-06-16 Thu> |                  |                  |                  |   |
+|             | Maggie        |                  | <2016-10-01 Sat> | <2016-09-14 Wed> |     |      |                  | <2016-05-13 Fri> |                  |                  |   |
+|             |               |                  |                  | <2016-09-18 Sun> |     |      |                  |                  |                  |                  |   |
+|             | zhenzhen Zhu  |                  |                  |                  |     |      |                  |                  |                  | <2016-03-29 Tue> |   |
+|             | Zeyu You      |                  |                  |                  |     |      | <2016-06-30 Thu> |                  |                  |                  |   |
+|             | hentian yang  |                  | <2016-10-09 Sun> |                  |     |      |                  |                  |                  |                  |   |
+|             | Lin Wu        |                  | <2016-10-13 Thu> |                  |     |      |                  |                  |                  |                  |   |
+*** Friends(CH)
+| Group       | Name            | Nov              | Sep              | Aug              | July             | March            |               |
+|-------------+-----------------+------------------+------------------+------------------+------------------+------------------+---------------|
+| Friends(CH) | weichen yan     |                  | <2016-10-01 Sat> |                  | <2016-07-26 Tue> |                  |               |
+|             | miemie          |                  |                  | <2016-08-31 Wed> |                  |                  |               |
+|             | Jinghao Tan     |                  |                  |                  | <2016-07-25 Mon> |                  |               |
+|             | huang huang     |                  |                  | <2016-08-02 Tue> |                  |                  |               |
+|             | Elva(liuliu)    |                  |                  |                  | <2016-07-14 Thu> |                  |               |
+|             | Mandy(Manning)  |                  |                  |                  |                  | <2016-03-26 Sat> | froget commit |
+|             | Wolf(zhongchao) |                  |                  | <2016-08-27 Sat> |                  |                  |               |
+|             | Dora            |                  |                  |                  | <2016-07-26 Tue> |                  |               |
+|             | zaizhou chen    |                  |                  |                  |                  | <2016-03-12 Sat> |               |
+|             | Su Bing         | <2016-11-11 Fri> |                  |                  |                  |                  |               |
+*** Church Other Fellowship
+| Group  | Name      | Oct              |
+|--------+-----------+------------------|
+| Church | Sam       | 3                |
+|        | Jia Qi    | <2016-10-09 Sun> |
+|        | Li Yan    | <2016-10-09 Sun> |
+|        | zheng jin | <2016-10-27 Thu> |
+|        | biao ge   | <2016-10-27 Thu> |
+|        | Dannie    | <2016-10-27 Thu> |
+|        | Coral     | <2016-10-30 Sun> |
+|        | Sunny     | <2016-10-30 Sun> |
+|        | chao he   | <2016-10-30 Sun> |
+|        | Phillip   | <2016-10-30 Sun> |
+|        |           |                  |
+*** Church Tongxin Fellowship
+| Group  | Name         | Nov | Oct |
+|--------+--------------+-----+-----|
+| Male   | Ryan         |   1 |   2 |
+|        | yuchi Zhang  |   2 |   3 |
+|        | Dongyang Z   |   1 |   1 |
+|        | Liu Zhanglao |     |   2 |
+|        | jiahong guo  |     |   1 |
+|        | Wang Lu      |   2 |     |
+|        | Michale      |   1 |     |
+|        | bingxiong L  |   1 |     |
+|--------+--------------+-----+-----|
+| Female | Ivy(hanyi)   |   2 |   2 |
+|        | Song Fei     |     |   1 |
+|        | Shi Mu       |     |   2 |
+|        | Grace Z      |   2 |   3 |
+|        | Grace        |   2 |   3 |
+|        | Cindy        |   1 |   1 |
+|        | Katie        |     |   1 |
+|        | Anlin        |   2 |   2 |
+|        | Juan Liu     |   1 |   2 |
+|        | wentao       |   1 |   2 |
+|        | shu yao      |     |   1 |
+|        | copper       |     |   1 |
+|        | Teresa       | 1   |     |
+|        | Kristin      |     |   1 |
+|        | Ye Zhou      |   1 |     |
+*** Others
+| Group           | Name   | Oct | Sep              | Aug              |
+|-----------------+--------+-----+------------------+------------------|
+| Friends(online) | Wen He |     | <2016-09-02 Fri> |                  |
+|-----------------+--------+-----+------------------+------------------|
+| Relative        | Jie Li |     |                  | <2016-08-14 Sun> |
+*** basketball team member
+| Name      | Nov | Oct |
+|-----------+-----+-----|
+| Xue~~     |   1 |   1 |
+| You Xiu   |   2 |   1 |
+| Xiao Ma   |   1 |   1 |
+| yanjia Xu |   2 |   1 |
+| Tao Feng  |   1 |     |
+| Michale   |   2 |     |
+| Wei Ge    |   2 |     |
+** Birthday Info
+*** family
+| name     | C.Birthday | 2014 I.B | 2015 I.B | 2016 I.B |
+|----------+------------+----------+----------+----------|
+| Dad      | 1/27       | 2/26     | 3/17     |          |
+| Sister   | 3/11       | 3/31     | 4/19     | 4/17     |
+| Jiefu    |            | 4/7      | 4/7      | 4/7      |
+| Mom      | 3/28       | 4/27     | 5/16     |          |
+| lingling | 8/28       | 9/21     | 10/10    |          |
+*** classmates
+| name         | I.B       |
+|--------------+-----------|
+| zhengwei cai | 2/5(88)   |
+| yiweng shen  | 2/25(89)  |
+| Blake        | 3/6(89)   |
+| qian ma      | 7/17(88)  |
+| Lin Wu       | 9/19(89)  |
+| xiao huang   | 12/5(87)  |
+| weiwei       | 12/30(88) |
+
+* CHURCH                                                            :ARCHIVE:
+** 每月背誦經文
+*** Jan 2016 
+你们亲近神，神就必亲近你们。有罪的人哪，要洁净你们的手！心怀二意的人哪，要清洁你们的心！ 雅各書 4:8
+*** feb 2016
+你們也當忍耐，堅固你們的心，因為主來的日子近了。 雅各書 5:8
+*** mar 2016
+所以你们要彼此认罪，互相代求，使你们可以得医治。义人祈祷所发的力量是大有功效的。雅各书5：16
+*** April 2016
+希伯来书：他们欲羡慕一个更美的家乡，就是在天上的。所以神被称为他们的神，并不以为耻，因为他已经给他们预备了一座城。
+*** May 2016
+「使徒行傳 2: 38」 ... 你們各人要悔改，奉耶穌基督的名受洗，叫你們的罪得赦，就必領受所賜的聖靈
+*** June 2016
+ 「使徒行傳 4: 12」 除他以外，別無拯救，因為在天下人間，沒有賜下別的名，我們可以靠著得救。
+*** July 2016
+ 「羅馬書 8:37」然而，靠着爱我们的 主 ，在这一切的事上已经得胜有余了。
+** 摘抄
+"因为神在天上，你在地上，所以你的言语要寡少。事务多，就令人作梦，言语多，就显出愚昧。"（传道书5:2-3）
+凡事都可行，但不都有益处。凡事都可行，但不都造就人。 (哥林多前书 10:23 和合本)
+凡事我都可行，但不都有益处。凡事我都可行，但无论哪一件，我总不受它的辖制。 (哥林多前书 6:12 和合本)
+** American Church
+SHAPE
+Reading
+Discovering Your Spiritual Gifts  
+** 带茶经
+*** 雷号介绍
+*** 祷告
+*** review second week 7-13
+**** 邀请成员介绍，过一下内容                                    :ARCHIVE:
+**** 内容
+***** day 12
+“世上没有其它事物没有任何事物比与神建立朋友的关系更重要，那是一份持续到永恒的关系。保罗告诉提摩太说：「有些人已去生命中最重要的事——他们不认识神！」你错过了生命中最重要的东西吗？你现在可以开始行动。请谨记这是你的抉择，要与神有多亲近，由你决定。
+
+　　第12天我的人生目的省思
+
+　　思想要点：与神多亲近在于我的抉择。
+
+　　背记经文：「你们亲近神，神就必亲近你们。」 (雅各书四章8节)
+
+　　思考问题：为了更能亲近神，我今天要作出什么抉择？”
+***** day 11
+“第11天 我的人生目的省思”
+“思想要点：神想成为我的好朋友。
+
+　　背记经文：「耶和华与敬畏他的人亲密；祂必将自己的约指示他们。」(诗篇廿五篇14节)
+
+　　思考问题：我当如何每天提醒自己，要经常与神说话？”
+***** day 10
+“你曾否与神立下这样的约？或者你还在与神争论他在你身上的计划？现在就是降服的时刻————-降服在神的恩典、爱和智慧中。
+
+　　第10天我的人生目的省思”
+“思想要点：降服是敬拜的中心。
+
+　　背记经文：将自己献给神，并将肢体作义的器具献给神。(罗马书6：13节下)
+
+　　思考问题：我生命中的哪些部分仍对神有所保留？”
+
+Excerpt From: [美]华理克. “标杆人生.” iBooks. 
+***** day 9
+“神喜悦的人。圣经说：“耶和华从天上垂看世人，要看看有智慧的没有，有讨他喜悦的没有。”过讨神喜悦的人生是否成为你的目的？神会为完全投入这个目的的人成就一切。
+
+　　第9天 我的人生目的省思
+
+　　思想要点：当我信靠神，他就欢喜。
+
+　　背记经文：耶和华喜爱敬畏他和盼望他慈爱的人。(诗篇147：11节)
+
+　　思考问题：既然神知道什么对我是最好的，我应该在生命中哪些部分更信靠他？”
+***** day 8
+“第8天 我的人生目的省思
+
+　　思想要点：我被造是为讨神喜悦。
+
+　　背记经文：耶和华喜爱他的百姓。(诗篇149：4上)
+
+　　思考问题：我可以从哪一件寻常事物开始，把它当作是为主做的来做？”
+
+Excerpt From: [美]华理克. “标杆人生.” iBooks. 
+***** day 7
+“第7天 我的人生目的省思
+
+　　思想要点：一切都是为了神。
+
+　　背记经文：因为万有都是本于他，倚靠他，归于他。显荣耀归给他。(罗 11:36)
+
+　　思考问题：在日常生活中，我怎样能更清楚地觉察到神的荣耀显现在我周围呢？”
+***** day 6
+“第6天 我的人生目的省思
+
+　　思想要点：这世界并非我家。
+
+　　背记经文：原来我们不是顾念所见的，乃是顾念所不见的，因为所见的是暂时的，所不见的是永远的。(林后 4:18)
+
+　　思考问题：人生在世既是暂时性的任务，我该如何改变我现今的生活方式？”
+
+Excerpt From: [美]华理克. “标杆人生.” iBooks. 
+**** 过一下答案
+**** 讨论4个问题
+***** answer1
+我不觉得这个社会很难接受
+***** answer2
+敬拜想到诗班
+“当你将所做的献给神，并且在做的时候意识他的同在，工作便成为敬拜。”
+Excerpt From: [美]华理克. “标杆人生.” iBooks. 
+第八天
+***** answer4
+“世上没有其它事物没有任何事物比与神建立朋友的关系更重要，那是一份持续到永恒的关系。”
+
+Excerpt From: [美]华理克. “标杆人生.” iBooks.
+***** answer3
+很温暖，这就是家的感觉，委身其中
+**** tips
+***** 让大家多度经文
+* PERSONAL
+** a.p
+| category   | name           | email             | account         | password      | comment |
+|------------+----------------+-------------------+-----------------+---------------+---------|
+| Bank       | paypel         | huazhenhu@hotmail |                 | Passw0rd!     |         |
+|            | Chase          |                   | zhenhuhua880229 | QWaszx12!@    | credit  |
+|            | Chase          |                   | huazhenhu880229 | 7438428904hua | debit   |
+|            | discover       |                   | huazhenhu880229 | 7438428904Hua |         |
+|            | apple          | zhenhuhua@yahoo   |                 | Changzh0u     |         |
+|            | apple          | zhenhuhua@gmail   |                 | 7438428904Hua |         |
+|------------+----------------+-------------------+-----------------+---------------+---------|
+| Social     | QQ             |                   | 1289160690      | Passw0rd!     |         |
+|            | QQ             |                   | 327980630       | 7438428904HUa |         |
+|            | weibo          | huazhenhu@hotmail |                 | Passw0rd!     |         |
+|            | renren         | jiuweihuyao1@126  |                 | Passw0rd      |         |
+|            | weixin         |                   |                 | Passw0rd!     |         |
+|            | facebook       | huazhenhu@hotmail |                 | Passw0rd!     |         |
+|------------+----------------+-------------------+-----------------+---------------+---------|
+| life tools | evernote       | huazhenhu@gmail   | n/a             | 7438428904    |         |
+|            | iMindMap       | huazhenhu@hotmail | zachary         | Passw0rd!     |         |
+|            | dropbox        | huazhenhu@hotmail |                 | Passw0rd!     |         |
+|            | dayone         | huazhenhu@hotmail |                 | 7438428904Hua |         |
+|------------+----------------+-------------------+-----------------+---------------+---------|
+| career     | linkedin       | huazhenhu@hotmail |                 | Passw0rd!     |         |
+|            | LeetCode       | huazhenhu@hotmail |                 | Passw0rd!     |         |
+|------------+----------------+-------------------+-----------------+---------------+---------|
+| technology | fangpianshouji | huazhenhu@hotmail |                 | 7438428904Hua |         |
+|            | kankandou      | huazhenhu@hotmail | zacharyhua      | 7438428904Hua |         |
+|            | codepen        | huazhenhu@hotmail |                 | 7438428904Hua |         |
+|            | Heroku         | huazhenhu@hotmail |                 | 7438428904Hua |         |
+|            | gitHub         | huazhenhu@hotmail |                 | Github5969    |         |
+|            | bigdaddy       | huazhenhu@hotmail | zachary_hua     | 7438428904Hua | 5969    |
+|            |                |                   |                 |               |         |
+** Spiritual Health                                                :ARCHIVE:
+*** Words from Website
+**** 长大以后，你悟出了哪些不一样的道理
+1) 时间更值钱，花一下午找个免费盗版序列号这种事再也不会干了
+2) 不会再和一些人解释一些事情
+3) 挑战自己极限的事情不能成为常态，只可偶尔为之
+4) 事情没有必要一定要争出个你对我错，有时候沉默是最好的应对方法，心如明镜，外圆内方
+5) 唯有行动才能解决焦虑
+6) 性格好，讲道理 往往是身体健康精力充沛的人才有资格表现的品质
+7) 不要把时间浪费在你不擅长，和你本性相违背的东西上，做你自己就好，一个心眼不坏，有能力，并且懂礼貌的人，走遍天下都不怕
+8) 每天可能出现的不开心，60%都是因为没吃好或者没睡好，40%大多是因为把自己看得太重要
+**** 高情商表现
+1) 反驳别人前先肯定
+2) 明白所有的感情都要经营
+3) 关系再好也不直白说对方的短处
+4) 对最熟最亲的人，依然保持尊重和耐心
+5) 懂得倾听，不以自我为中心
+6) 分手已成定局时，平静告白
+7) 分清场合身份，不乱开玩笑
+8) 在心情最糟糕的时候，依然按时吃饭
+9) 与人吵架时，忍住了让他奔溃的那句话
+*** 摘抄
+幽默的秘密泉源并非快乐，而是忧伤
+天堂里没有幽默
+－－－－－末日孤帆
+
+1. 开始，人类因拥有选择而自由。
+2. 后来，人类因过多的选择而不自由。
+3. 人类曾经为了自由选择而抛弃权威。
+4. 但是，人类最终会因为过多选择带来的不自由而重新召唤权威。
+哪怕，权威仅仅是鬼神。
+所以，文明的未来，不是理性做主，而是万神起舞。
+
+
+活在当下，注重体验，则现在将会是一个最好的时代,若选择过一个目标型人生，那么就太难受了，因为一切都在改变。包括自己的目标。
+自由-----逻辑思维
+
+
+ 生活不如意十之八九，不看八九，只看一二
+-----from 徐姗
+   
+
+ 撒旦问三个鬼如何去诱惑大众下地狱，第一个鬼说骗世人说没有上帝，撒旦说效果不好，因为很多人内心相信有上帝，即使他们不跟随上帝。第二个鬼说骗世人说没有天堂地狱，撒旦说效果好些但还是不够，第三个说我会让他们再等等，撒旦就很兴奋！
+----from 我所度过的一本书
+
+
+	* 的确像王蒙所说的那样，千万别掉入人际纠纷的泥潭里
+	* 也不要把自己绑入他人战车里
+	* 宁可失之糊涂，不可失之精明
+	* 人生不如意十之八九，却要把目光放在另外如意的十之一二
+	* 不要为未来过度担心，老是把现实问题扩大到极端情况，那活着就太累了。极端是人生的边缘，离毁灭不远了。
+	* 元老之间的故事从来不简单，人与人之间的故事也不简单，不要去妄加评论，更不要去想当然，做好自己分内的事
+	* 永远不要试图从人际关系中获取什么
+	* 永远不要以为任何你接触的人比你傻比你笨比你容易上套
+  ----from 王蒙，我的人生哲学
+
+  该如何对付险恶
+	* 保持干净保持稳定，保持操守保持好心情，保持正义感保持理性
+*** book and movie读后感
+**** Do More Better: Tim Challies
+***** Summary
+能够很好的整理自己的生活，把生活建立的Task上，教导如何运用Calender和evernote。
+教导如何设定生命中的mission.教导生命中的使命。
+教导如何活得有创造性，如何有处理email。
+***** 摘抄
+- "As you make that decision, you walk a tightrope between two sins: fear of man and pride."
+- "On the one side you will be tempted by fear of man, where pleasing other people is so important to you that you will be tempted to say yes to everything."，选自："Do More Better: A Practical Guide to Productivity"
+- "Pride may make you so convinced that you already know the best direction for your day that you will say no to everything, not letting even God himself interrupt your plans with something so much better than what you had plotted out."
+**** never eat alone: 
+***** Summary
+教导一种与人相处的宏伟世界观，积极乐观而又充满力量
+***** 摘抄
+- 建立一个关系网并不是你成功唯一需要的东西，但是在朋友，佳人以及同时的帮助和支持下成就一项事业，进而成就一生确实千真万确的真理。
+- 去与其他人交往，认识到没有人能够孤军奋战。成为一个交际圈的中心，这个交际圈可以帮助你的人生取得成功。
+- 关系更像肌肉，你越是用，它越强壮。正式去实践这种资产才能真正增加这种资产的价值。
+- 需要最大限度的利用自己的关系和天赋为你的朋友，佳人，公司，社团乃至整个世界做出贡献
+- 认识到他们的价值，从而可以让他们感到自己的重要。每个人心中都有一种最深层次的，一生不变的愿望，这种愿望就是受到重视并被人认可。
+- 每一个你遇到的人所有的人，他能帮助你或者接受你的帮助。我们每个人都不可避免地作为一个社会的存在，在这个社会中我们的力量来自于我们平日里所积累的行动和知识。在这个世界上没有谁能够没有他人的帮助就获得成功。
+
+**** boundaries:
+***** Summary
+教导如何处理自身情绪，如何保持内心独立和与他人保持合适的距离。
+*** language learning from others
+| 广东话 |   | 英文俚语 |   | 西班牙文 |   |
+|        |   |          |   |          |   |
+|--------+---+----------+---+----------+---|
+|        |   |          |   |          |   |
+|        |   |          |   |          |   |
+|        |   |          |   |          |   |
+|        |   |          |   |          |   |
+|        |   |          |   |          |   |
+** life milestone                                                  :ARCHIVE:
+*** 人生旅志2014
+03/20 graduate from oregon state university
+04/20 复活节洗礼
+06/13 graduate ceremony
+10/22  找到工作
+七月初  过来加州
+七月中下旬   遭受大挫折
+11/11 人生第一辆自己购买的车
+ 
+**** 加州旅志
+	* 07/06加入基督五家
+	* 09/18 搬家
+	* 八月面试
+	* 九月面试
+	* 八月九月退休会，秋令营
+**** 俄勒冈旅志
+	* 迈阿密之旅2013年末
+	* 西雅图之旅毕业之旅
+*** 人生旅志2015
+	1. 2月25号接受新项目Arista和Cisco
+	2. 1/1 到 3/31服侍
+	3. 6/1到现在 服侍
+**** 加州旅志
+	1. 10/24/15 去台湾乡福短宣
+	2. 九月份退修会
+	3. 九月份参加新生服侍
+	4. 九月份工作心境重大转变
+	5. 10月参加台湾短宣
+	6. 11/5/15 回国
+*** 人生旅志2016
+	1. 年初融汇boundaries, do more better, never eat alone三类心法和招式
+	2. 2月份16号  和wulin确认关系
+	3. 3月初  接手Pure Storage  BFT
+  4. 4月份初 start to focus on technology
+  5. 5月份  BFT项目结束，更偏重与做shipment
+**** 技术旅志
+| Item            | Beginning time | improving | end |
+|-----------------+----------------+-----------+-----|
+| emacs           | 6/1/16         | 30 days   | n   |
+| org mode        | 6/1/16         | 30 days   | n   |
+| python          | 6/30/16        |           | n   |
+| Git             | 4/1/16         | 15 days   | n   |
+| network         | 4/1/16         | 10 days   | n   |
+| vim             | 3/3/16         | 30 days   | y   |
+| Total Commander | 4/1/16         | 60 days   | y   |
+| Auto Hot Key    | 4/1/16         | 60 days   | y   |
+| Linux           | 4/1/16         | 15 days   | y   |
+| Shell           | 4/1/16         | 20 days   | y   |
+| webdata         | 7/1/16         |           |     |
+| Database        | 8/14/16        |           |     |
+ 
+** Hobby&Entertainment                                             :ARCHIVE:
+*** Music                                                         :ARCHIVE:
+| instructor | song               |
+|------------+--------------------|
+| 縱貫線     | 亡命之徒           |
+|            | 给自己的歌         |
+|            | 公路 Highway       |
+|            | 我終於失去了你     |
+|------------+--------------------|
+| 李荣浩     | 太坦白             |
+|            | 不将就             |
+|            | 自拍 Autodyne      |
+|            | 落俗 Lacking Style |
+
+*** Movies                                                        :ARCHIVE:
+Online downloads
+torrentkitty
+*** 食谱
+**** 蛋炒饭
+1) 隔夜饭
+2) 待油温稍微高一点，左手一边倒入蛋液，右手一边持锅铲快速搅动
+3) 鸡蛋打散，搅匀，加一点盐,锅里放油，油不要太少
+4) 黄或者土黄的时候，倒入米饭翻炒最合适
+5) 如果你需要放火腿肠、虾仁、豌豆、玉米粒之类的，就趁倒入米饭之前加入
+6) 不要让米饭黏成疙瘩。调味料只需要盐
+7) 米饭上面冒白气
+**** boiling crab
+- 1大勺调料
+- 适量的水（盖过食料）
+- 放入蒜
+- （可以考虑放入butter）
+- 放入玉米，土豆
+- 再放入虾还有香肠
+- 煮2分钟，再等21分钟
+**** 四川面条
+- 下贡丸，鱼丸
+- 下包菜煮熟捞起
+- 下宽面条到菜汤煮熟捞起
+- 混合搅拌加入老干妈，香油，腐乳等
+**** 海南鸡饭
+1. 小鸡洗干净煮，水放到锅子一半
+2. 锅里放盐，糖，味精
+3. 煮开，再小伙慢炖5分钟，切碎
+4. 调料：姜，蒜弄碎  越南的souce(老抽or柠檬汁+鸡汤)  糖
+[[http://www.6eat.com/Baike/Cook/201211/421660.htm][海南鸡]]
+**** Tips
+- 家中常备意大利面和番茄酱，做法快捷简便，拥有百搭风格，作为军粮的意大利面还具有长时间保存的功能
+- 肉类普遍过一遍冷水，为了去除肉内的血水。特别是炖和炒
+- 炖肉时不要过早放盐，不然会导致肉不易烂
+- 西红柿去皮，可以提高美观
+- 炖汤煲时的配料，滋补：枸杞，山药        鲜味：香菇      肉类的好搭档：黄豆，冬瓜，萝卜，土豆
+**** 茶叶蛋
+1. 红茶+乌龙茶
+2. 煮沸 20分钟，放凉至手可以摸的温度
+3. 钝部敲3下
+4. 放入120cc酱油，黄冰糖2,3块，八角2个，桂皮1个，盐一茶勺，红茶+乌龙茶各一包（20个蛋的量）
+5. 煮沸20分钟，放凉20分钟，煮沸20分钟（次数越多越好）
+6. 放一晚上
+**** 辣炒年糕
+[[http://www.xinshipu.com/zuofa/70089][辣炒年糕]]
+** girlfriend                                                      :ARCHIVE:
+*** breakup advantage
+**** she is short, I could find a tall girl
+**** no need to bear her bad tempature
+**** I have chance to find new girls
+**** have more time to study
+**** have more chance to find the true love
+*** breakup disadvantage
+**** a girl who love me
+**** a girl who care about me
+**** hurt the girl, which I love and loving me
+**** waste time
+**** need long time to recover from this relationship
+**** may feel bad when I see her again
+*** the lesson I learn from this relationship
+**** What I need is respect, If my girlfriend do not respect me, I will feel headache and lose love
+**** The girl need love, they need love all the time
+**** Do not shout at girls, No matter how angry I was, be patience
+**** remember their important day: such as birthday
+**** buy some gifts for them, flower is good
+*** The lesson from the breaking up
+**** It is normal part of relationship. Most relationship ends with breaking up. it is for good reason to end this relationship
+**** no one begin a relationship with the goal of breaking up. It is the result of invidual different reqeust
+**** recover to normal life
+**** give myself a break
+**** forget the hope of recovering
+**** make a list of ex disadvantage
+**** make a list of being single
+**** summary of this relationship
+* Interest
+** GIT                                                             :ARCHIVE:
+*** 廖雪峰git教学
+**** class 1
+$mkdir zacharygit
+$cd zacharygit
+$git init
+**** class 2
+$git add file
+$git commit -m "edit info"
+**** class 3
+$git status
+$git diff
+**** class 4
+$git log     
+-pretty=online   #make log shorter
+$git reset -hard HEAD^ $HEAD^ is the last edition, HEAD^^ is the last last edition
+$git reset - 3628164  #the number could be any commit id
+$git reflow  #record any command typed, which could be used to recover
+**** class 5
+Stage -- git add
+Master -- git commit -m "edited info"   #easy for tracking
+**** class 6
+$git checkout - file
+$git reset HEAD file
+**** 远程仓库
+***** 远程仓库
+只要把每台电脑的Key都添加到GitHub，就可以在每台电脑上往GitHub推送了
+GitHub--SSH
+***** 添加远程库
+要关联一个远程库，使用命令git remote add origin git@server-name:path/repo-name.git；
+关联后，使用命令git push -u origin master第一次推送master分支的所有内容；
+此后，每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改；
+***** 从远程库克隆
+要克隆一个仓库，首先必须知道仓库的地址，然后使用git clone命令克隆。
+Git支持多种协议，包括https，但通过ssh支持的原生git协议速度最快。
+**** 分支管理
+***** 创建与合并分支
+查看分支：git branch
+创建分支：git branch <name>
+切换分支：git checkout <name>
+创建+切换分支：git checkout -b <name>
+合并某分支到当前分支：git merge <name>
+删除分支：git branch -d <name>
+*** online doc 
+[[http://www.cnblogs.com/findingsea/archive/2012/08/27/2654549.html][关于初学者上传文件到github的方法]]
+学习使用在windows上的github，有助于自己掌握了解git的用法
+** Python                                                          :ARCHIVE:
+*** Chapter 2: Your First Python Program
+**** 2.3 documenting functions
+triple quotes, most used when defining a doc string.  everything between quotes is the function’s doc string
+**** 2.4 everything is an object
+python library search path is in sys.path
+everything in Python, is an object
+all functions have built-in attribute__doc__
+The sys module has an attribute called path
+**** 2.6 Testing Modules
+import the module, then __name__ is the module’s file name
+run the module directly, then __name__ will be a special default value, __main__
+*** Chapter 3: Native Datatypes
+**** 3.1 Introducing Dictionaries
+Defines one-to-one relationships between keys and values
+Deleting Items from a Dictionary
+**** 3.2 Introducing List
+Negative list Indices
+Adding Elements to a list
+Searching a List
+Removing Elements from a List
+List Operators
+**** 3.3 Introducing Tuples
+no append, extend, remove, pop,index
+advantage
+Tuples VS List
+**** 3.4 Declaring Variables
+after backslash"\", indent in any mannner
+v = ('a','b','e');   (x,y,z) = v;    result: x ='a', y='b', z = 'c'
+**** 3.5 Formatting Strings
+ string formatting vs. Concatenating
+**** 3.6 Mapping List
+list comprehensions do not change the original list
+The Key,values and items Functions
+The keys method of a dictionary returns a list of all the keys. The list is not in the order in which the dictionary was defined
+The values method returns a list of all the values. The list is in the same order as the list returned by keys
+The items method returns a list of tuples of the form 
+**** 3.7 Joining Lists and Splitting Strings
+";".join
+.split(";")
+*** Chapter 4
+**** 4.1. Diving In
+**** 4.2. Using Optional and Named Arguments
+**** 4.3. Using type, str, dir, and Other Built-In Functions
+***** 4.3.1. The type Function
+***** 4.3.2. The str Function
+convert an integer to a string
+str works on any object of any type,such as "list"
+str also works on modules
+works on None
+***** 4.3.3. Built-In Functions
+imports all the “built-in” functions into the namespace so you can use them directly
+**** 4.4. Getting Object References With getattr
+***** 4.4.1. getattr with Modules
+***** 4.4.2. getattr As a Dispatcher
+**** 4.5. Filtering Lists
+** Linux                                                           :ARCHIVE:
+*** Linux文件权限和访问模式
+chmod 777
+chown user filelist     "change owner"
+chgrp group filelist    "change group"
+SUID   (Set User ID)
+SGID   (Set Group ID)
+*** Linux环境变量
+变量赋值时前面不能加 $ 符号，变量输出时必须要加 $ 前缀
+Shell会有一个初始化的过程，用来设置环境变量。Shell会读取 /etc/profile 和 .profile 
+**** .profile文件
+设置默认终端类型和外观样式；
+设置 Shell 命令查找路径，即PATH变量；
+设置命令提示符。
+**** 设置PATH变量
+$PATH=/bin:/usr/bin    多个路径使用冒号(:)分隔
+**** PS1和PS2变量
+PS1变量用来保存命令提示符, 默认的第二命令提示符是 >，保存在 PS2 变量
+*** Linux打印文件和发送邮件
+**** 文件打印
+***** pr命令
+pr 命令用来将文本文件转换成适合打印的格式，它可以把较大的文件分割成多个页面进行打印，并为每个页面添加标题。
+pr option(s) filename(s)
+***** lp和lpr命令
+lp 和 lpr 命令将文件传送到打印机进行打印。使用 pr 命令将文件格式化后就可以使用这两个命令来打印。
+****** 打印多份文件
+lp 的 -nNum 选项，或者 lpr 命令的 -Num 选项
+****** 选择打印机
+lp 命令的 -dprinter 选项，或者 lpr 命令的 -Pprinter 选项
+***** cancel 和 lprm 命令
+cancel 和 lprm 分别用来终止 lp 和 lpr 的打印请求。 需要指定ID（由 lp 或 lpq 返回）或打印机名称。
+***** lpstat 和 lpq 命令
+lpstat -o: 命令查看打印机中所有等待打印的文件
+**** 发送邮件
+***** 可以使用mail命令发送和接收邮件
+$mail [-s subject] [-c cc-addr] [-b bcc-addr] to-addr
+通过重定向操作符 < 来发送文件：
+$mail -s "Report 05/06/07" admin@yahoo.com < demo.txt
+*** Linux管道和过滤器
+**** 管道和过滤器
+可以把两个命令连起来使用，一个命令的输出作为另一个命令的输入，这就叫做管道
+为了建立管道，需要在两个命令之间使用竖线(|)连接
+连续使用竖线表示第一个命令的输出会作为第二个命令的输入，第二个命令的输出又会作为第三个命令的输入
+**** Grep
+$grep pattern file(s)
+**** sort命令
+它将文件中的各行按字母或数进行排序。
+-n	按照数字大小排序，例如，10会排在2后面；-n 选项会忽略空格或 tab缩进。
+-r	降序排序。sort 默认是升序排序。
+-f	不区分大小写。
++x	对第x列（从0开始）进行排序。
+**** pg和more命令
+pg 和 more 命令分页显示，每次只显示一屏。
+*** Linux进程管理
+**** General info
+Linux会为程序创建一个特殊的环境，该环境包含程序运行需要的所有资源,不受其他程序的干扰。这个特殊的环境就称为进程。
+系统通过一个五位数字跟踪程序的运行状态，这个数字称为 pid 或进程ID。每个进程都拥有唯一的 pid。
+**** 创建进程
+***** 前台进程
+默认情况下，用户创建的进程都是前台进程；前台进程从键盘读取数据，并把处理结果输出到显示器。
+***** 后台进程
+创建后台进程最简单的方式就是在命令的末尾加 &
+***** 查看正在运行的进程
+使用 ps 命令查看进程的运行状态
+结合 -f 选项查看更多信息，f 是 full 的缩写
+****** 每列的含义如下：
+列	描述
+UID	进程所属用户的ID，即哪个用户创建了该进程。
+PID	进程ID。
+PPID	父进程ID，创建该进程的进程称为父进程。
+C	CPU使用率。
+STIME	进程被创建的时间。
+TTY	与进程有关的终端类型。
+TIME	进程所使用的CPU时间。
+CMD	创建该进程的命令。
+***** 终止进程
+当进程运行在前台时，可以通过 kill 命令或 Ctrl+C 组合键来结束进程。
+如果进程运行在后台，那么首先要通过 ps 命令来获取进程ID，然后使用 kill 命令“杀死”进程
+如果进程忽略 kill 命令，那么可以通过 kill -9 来结束：
+*** Linux文件系统
+Linux的文件结构是单个的树状结构，根目录是“/”，其他目录都要位于根目录下。
+**** 每次安装系统的时候我们都会进行分区，Linux下磁盘分区和目录的关系如下：
+任何一个分区都必须对应到某个目录上，才能进行读写操作，称为“挂载”。
+被挂载的目录可以是根目录，也可以是其他二级、三级目录，任何目录都可以是挂载点。
+目录是逻辑上的区分。分区是物理上的区分。
+根目录是所有Linux的文件和目录所在的地方，需要挂载上一个磁盘分区。
+**** 为什么要分区，如何分区？
+可以把不同资料，分别放入不同分区中管理，降低风险。
+大硬盘搜索范围大，效率低。
+/home、/var、/usr/local 经常是单独分区，因为经常会操作，容易产生碎片。
+**** 为了便于定位和查找，Linux中的每个目录一般都存放特定类型的文件，下表列出了各种Linux发行版本的常见目录：
+***** 目录	说明
+/	根目录，只能包含目录，不能包含具体文件。
+/bin	存放可执行文件。很多命令就对应/bin目录下的某个程序，例如 ls、cp、mkdir。/bin目录对所有用户有效。
+/dev	硬件驱动程序。例如声卡、磁盘驱动等，还有如 /dev/null、/dev/console、/dev/zero、/dev/full 等文件。
+/etc	主要包含系统配置文件和用户、用户组配置文件。
+/lib	主要包含共享库文件，类似于Windows下的DLL；有时也会包含内核相关文件。
+/boot	系统启动文件，例如Linux内核、引导程序等。
+/home	用户工作目录（主目录），每个用户都会分配一个目录。
+/mnt	临时挂载文件系统。这个目录一般是用于存放挂载储存设备的挂载目录的，例如挂载CD-ROM的cdrom目录。
+/tmp	临时文件目录，系统重启后不会被保存。
+/usr	/user目下的文件比较混杂，包含了管理命令、共享文件、库文件等，可以被很多用户使用。
+/var	主要包含一些可变长度的文件，会经常对数据进行读写，例如日志文件和打印队列里的文件。
+/sbin	和 /bin 类似，主要包含可执行文件，不过一般是系统管理所需要的，不是所有用户都需要。
+/proc	操作系统运行时，进程（正在运行中的程序）信息及内核信息（比如cpu、硬盘分区、内存信息等）存放在这里。/proc目录伪装的文件系统proc的挂载目录，proc并不是真正的文件系统。
+**** 常用文件管理命令
+***** 你可以通过下面的命令来管理文件：
+Command	Description
+cat filename	查看文件内容。
+cd dirname	改变所在目录。
+cp file1 file2	复制文件或目录。
+file filename	查看文件类型(binary, text, etc)。
+find filename dir	搜索文件或目录。
+head filename	显示文件的开头，与tail命令相对。
+less filename	查看文件的全部内容，可以分页显示，比more命令要强大。
+ls dirname	遍历目录下的文件或目录。
+mkdir dirname	创建目录。
+more filename	查看文件的全部内容，可以分页显示。
+mv file1 file2	移动文件或重命名。
+pwd	显示用户当前所在目录。
+rm filename	删除文件。
+rmdir dirname	删除目录。
+tail filename	显示文件的结尾，与head命令相对。
+touch filename	文件不存在时创建一个空文件，存在时修改文件时间戳。
+whereis filename	查看文件所在位置。
+which filename	如果文件在环境变量PATH中有定义，那么显示文件位置。
+df命令
+***** 管理磁盘分区时经常会使用 df (disk free) 命令，df -k 命令可以用来查看磁盘空间的使用情况（以千字节计）
+****** 每一列的含义如下：
+列	说明
+Filesystem	代表文件系统对应的设备文件的路径名（一般是硬盘上的分区）。
+kbytes	分区包含的数据块（1024字节）的数目。
+used	已用空间。
+avail	可用空间。
+capacity	已用空间的百分比。
+Mounted on	文件系统挂载点。
+du 命令
+du (disk usage) 命令可以用来查看特定目录的空间使用情况。
+挂载文件系统
+挂载是指将一个硬件设备（例如硬盘、U盘、光盘等）对应到一个已存在的目录上。 若要访问设备中的文件，必须将文件挂载到一个已存在的目录上， 然后通过访问这个目录来访问存储设备。
+注意：挂载目录可以不为空，但挂载后这个目录下以前的内容将不可用。
+查看当前系统所挂载的硬件设备可以使用 mount 命令
+挂载需要确认Linux是否支持所要挂载的文件系统格式。
+用户和群组配额
+用户和群组配额可以让管理员为每个用户或群组分配固定的磁盘空间。
+下面的命令可以用来管理配额：
+命令	说明
+quota	显示磁盘使用情况以及每个用户组的配额。
+edquota	编辑用户和群组的配额。
+quotacheck	查看文件系统的磁盘使用情况，创建、检查并修复配额文件。
+setquota	设置配额。
+quotaon	开启用户或群组的配额功能。
+quotaoff	关闭用户或群组的配额功能。
+repquota	打印指定文件系统的配额。
+** Org-Mode                                                        :ARCHIVE:
+*** [[http://www.cnblogs.com/holbrook/archive/2012/04/12/2444992.html][org-mode: 最好的文档编辑利器，没有之一]]
+**** 1.2.1 折叠大纲
+***** S-TAB	循环切换整个文档的大纲状态（三种状态：折叠，打开下一级，打开全部）
+***** TAB	循环切换光标所在大纲的状态
+**** 1.2.2 在大纲之间移动
+| C-c C-n   | 下/上一标题                 |
+| C-c C-f/b | 下/上一标题（仅限同级标题） |
+| C-c C-u   | 跳到上一级标题              |
+| C-c C-j   | 切换到大纲浏览状态          |	 
+**** 1.2.3 基于大纲的编辑
+| M-RET          | 插入一个同级标题      |
+| M-S-RET        | 插入一个同级TODO 标题 |
+| M-LEFT/RIGHT   | 将当前标题升/降级     |
+| M-S-LEFT/RIGHT | 将子树升/降级         |
+| M-S-UP/DOWN    | 将子树上/下移         |
+| C-c *          | 将本行设为标题/正文   |	 
+**** 1.3 大纲的显示方式
+***** 默认的大纲显示没有缩进，显得有些乱。可以用 M-x org-indent-mode切换到另一种显示方式：
+如果想让某个文件默认用这种方式打开，可以在文件头部增加：
+#+STARTUP: indent
+如果希望打开所有org文件都默认用这种方式，可以在.emacs中配置：
+(setq org-startup-indented t)
+*** [[http://orgmode.org/worg/org-tutorials/orgtutorial_dto.html][David O'Toole Org tutorial]]
+**** C-c C-t   runs the command org-todo
+**** Links to other places
+***** [[link][description]]
+** Lotus                                                           :ARCHIVE:
+*** [[https://www.youtube.com/watch?v=p0bdOt1kUiM][copy document as a table]]
+** Shell
+[[http://c.biancheng.net/cpp/view/6996.html][Shell教程]]
+- [[http://c.biancheng.net/cpp/view/6997.html][什么时候使用shell]]
+- [[http://c.biancheng.net/cpp/view/6998.html][第一个shell脚本]]
+- [[http://c.biancheng.net/cpp/view/6999.html][Shell变量：Shell变量的定义、删除变量、只读变量、变量类型]]
+- [[http://c.biancheng.net/cpp/view/2739.html][Shell特殊变量：Shell $0, $#, $*, $@, $?, $$和命令行参数]]
+- [[http://c.biancheng.net/cpp/view/2737.html][Shell替换：Shell变量替换，命令替换，转义字符]]
+- [[http://c.biancheng.net/cpp/view/2736.html][Shell运算符：Shell算数运算符、关系运算符、布尔运算符、字符串运算符等]]
+- [[http://c.biancheng.net/cpp/view/7000.html][Shell注释]]
+- [[http://c.biancheng.net/cpp/view/7001.html][Shell字符串]]
+- [[http://c.biancheng.net/cpp/view/7002.html][Shell数组：shell数组的定义、数组长度]]
+- [[http://c.biancheng.net/cpp/view/7003.html][Shell echo命令]]
+- [[http://c.biancheng.net/cpp/view/1499.html][shell printf命令：格式化输出语句]]
+- [[http://c.biancheng.net/cpp/view/7005.html][Shell if else语句]]
+- [[http://c.biancheng.net/cpp/view/7006.html][Shell case esac语句]]
+- [[http://c.biancheng.net/cpp/view/7007.html][Shell for循环]]
+- [[http://c.biancheng.net/cpp/view/7008.html][Shell while循环]]
+- [[http://c.biancheng.net/cpp/view/7009.html][Shell until循环]]
+- [[http://c.biancheng.net/cpp/view/7010.html][Shell break和continue命令]]
+- [[http://c.biancheng.net/cpp/view/7011.html][Shell函数：Shell函数返回值、删除函数、在终端调用函数]]
+- [[http://c.biancheng.net/cpp/view/2491.html][Shell函数参数]]
+- [[http://c.biancheng.net/cpp/view/2738.html][Shell输入输出重定向：Shell Here Document，/dev/null文件]]
+- [[http://c.biancheng.net/cpp/view/2740.html][Shell文件包含]]
+** Windows                                                         :ARCHIVE:
+*** [[http://www.howtogeek.com/howto/windows-vista/disableenable-lock-workstation-functionality-windows-l/][Disable/Enable Lock Workstation Functionality]]
+- Open up regedit.exe through the start menu search box, and then browse down to the following key, creating it if it doesn’t exist:
+
+- HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System
+
+- On the right-hand side, create a new DWORD 32-bit value named DisableLockWorkstation and give it one of these values:
+
+1 – Disable Lock Workstation
+0 – Enable Lock Workstation
+** Autohotkey                                                      :ARCHIVE:
+*** [[https://segmentfault.com/a/1190000004611125][Win下最爱效率利器:AutoHotKey]]
+*** [[https://autohotkey.com/boards/viewtopic.php?t=1099][AutoHotkey 学习指南]]
+*** [[https://zhuanlan.zhihu.com/autohotkey][AutoHotkey 之美]]
+*** [[http://ahkcn.github.io/docs/scripts/][AutoHotkey 脚本展示]]
+*** Pulover's Macro Creator
+**** export to AHK
+**** if keyboard conflict, press ctrl+alt+delete
+*** [[http://apple.stackexchange.com/questions/153930/autohotkey-equivalent-for-os-x][autohotkey equivalent for OS X]] 
+** Total Commander
+*** [[https://xbeta.info/studytc/index.htm][study lots of excellent plugin]]
+*** TODO [[http://www.guyiren.com/archives/1647][详解total commander提高工作效率的5个特有功能]]
+*** TODO [[http://www.zhihu.com/question/23473928][Total Commander"性价比"较高的功能和插件有哪些？]]
+*** good plugins                                                  :ARCHIVE:
+F4Menu: 选择何种程序打开
+gsWlx: 快速浏览PDF文件（必须安装GhostScript 7.04或更高版本）
+SynPlus
+TreeCopy
+exif：可以读取出图片的属性，应用于相片的批量重命名中
+totalrsz：图片缩放插件
+Candy: 多样的文件打开方式啊，大大减少了Windows单一文件关联带来的麻烦
+** Double-entry bookkeeping                                        :ARCHIVE:
+[[https://www.zhihu.com/question/20718557][复式记账（复式簿记）的基本原理是什么？]]
+[[http://martin.kleppmann.com/2011/03/07/accounting-for-computer-scientists.html][Accounting for Computer Scientists]]
+[[http://money.stackexchange.com/questions/2746/comprehensive-tutorial-on-double-entry-personal-finance][Comprehensive tutorial on double-entry personal finance]]
+**** GNUcash+HomeBanks software
+***** HomeBank                                                  :ARCHIVE:
+[[https://www.zhihu.com/question/20117854][HomeBank]]--online software suggestion
+[[https://linuxtoy.org/archives/homebank.html][HomeBank：家庭理财软件]]
+***** GNUcash
+[[http://www.360doc.com/content/09/1103/15/61497_8330614.shtml][Gnucash入门使用教学]]
+[[https://www.youtube.com/watch?v=aqAaScYVeRQ][GnuCash Absolute Basics]]
+[[http://people.ubuntu.com/~happyaron/udc-cn/lucid-html/ch04s07.html][GnuCash 财务软件]]
+[[https://www.gnucash.org/docs/v2.6/C/gnucash-guide/basics-backup1.html][Backing Up and Recovering Data]]
+[[http://superuser.com/questions/201628/gnucash-delete-backup-and-log-files][delete-backup-and-log-files]]
+[[https://www.gnucash.org/docs/v2.6/C/gnucash-help/acct-types.html][Types of GnuCash Accounts, GNUcash ORG]]
+** Google.search                                                   :ARCHIVE:
+*** Study Google search skills
+[[http://www.zhihu.com/question/20161362][如何用好 Google 等搜索引擎？]]
+[[http://www.williamlong.info/archives/728.html][十大高明的Google搜索技巧]]
+[[http://orgmode.org/manual/Handling-links.html][Handling Link]]
+*** google search setting
+1. "space" equal to "+"
+2. exact search using "", or “”
+3. screen using "-"
+4. asterisk wildcard is * 
+5. searching inside website, using Tab behind site
+6. search similiar word, before word tying ~
+7. list similiar webpage       related:url
+8. inurl
+9. intitle
+   1. try Google Directory
+** Apps
+**** [[http://www.appinn.com/down-link-c/984/][专用下载链接转换工具]]
+** email English
+*** 常用的基本句型                                                :ARCHIVE:
+**** 称呼
+Dear Mr/Ms/Mrs?Professor
+Dear Mary
+**** 续前文 
+Thank you for your email of ...
+Further to your last email,
+**** 陈述理由
+I am writing in connection with ...
+I am writing with regard to...
+In reply to your email, here are ...
+Your name was given to me by...
+We would like to point out that...
+**** 提供信息
+I'm writing to let you know that...
+We are able to confirm that...
+I am delighted to tell yo that...
+We regret to inform you that...
+**** 添加附件
+Please find attached my report.
+I'm sending you...as a pdf file.
+**** 询问信息
+Could you give me some information about...
+I would like to know...
+I'm interested in receiving /finding out...
+**** 提出要求
+I'd be grateful if you could...
+I wonder if you could...
+Do you think I could have...?
+Thank you in advance for your help in this matter.
+**** 做出承诺
+I'll investigate the matter.
+I will contact you again shortly.
+**** 提供帮助
+Would you like me to...?
+If you wish, I would be happy to...
+Let me know whether you would like me to...
+**** 结束语
+Thank you for your help
+Do not hesitate to contact us again if you require any further information
+Please feel free to contact me if you ahve any question
+**** 问候和署名
+I'm looking forward to...(+ing)
+Give me regards to...
+Best Wishes
+Regards
+*** 实习工作申请                                                  :ARCHIVE:
+**** 陈述理由
+With reference to your advertisement on the...website, I am interested in applying for the post of...
+**** 自我介绍
+I am 26 years old and am currently studying for a degree in ...at... University.
+For the last two months, I have been working as a .. at ...
+**** 关于职位
+I am interested in the this job because...
+I feel that I would be well-suited for this job/have a lot of experience in...
+**** 添加简历
+I have attached my CV as a Word document. You will notice that I... as well as... You will also notice that...
+**** 结束语
+I would be grateful if you would consider my application.
+You will see from my CV that two people can be contacted as references, one is.. and the other is from...
+I am available for interview in.../by phone any weekday afternoon, and you can email me or telephone me on the number below.
+**** 问候
+I look forward to hearing from you soon. 
+Yours faithfully
+** organizing skills                                               :ARCHIVE:
+*** photos mamagement
+[[https://ramihaha.tw/blogger-photos/][整理照片的五大重要高效步驟，不再身陷爆炸資料中]]
+[[http://www.techbang.com/posts/4609-hard-drive-to-help-the-tens-of-thousands-of-photos-to-wheat-from-the-chaff?page=2][幫硬碟裡的幾萬張照片「去蕪存菁」]]
+** communication skills                                            :ARCHIVE:
+*** Don't multitask---Be present, be in that moment
+don't be half in it and half out of it
+*** Don't pontificate
+state out opinion without any opportunity for response or argument or pushback or growth,it is really boring
+You need to enter every conversation assuming that you have something to learn.
+True listening requires a setting aside of oneself.
+He said that sensing this acceptance, the speaker will become less and less vulnerable and more and more likely to open up the inner recesses
+Bill Nye: Everyone you will ever meet knows something that you don't
+*** use open-end questions
+start your questions with who, what, when, where, why or how. 
+they might have to stop for a moment and think about it, and get a much interesting response.
+*** grow with the flow
+that means thoughts will come into your mind, and you need to let them go out of your mind.
+*** if you don't know, say that you don't know
+talk should not be cheap
+*** don't equate your experience with theirs
+all experiences are individual, they never be the same
+*** Try not to repeat yourself.
+it is condescending and boring, such as keeping rephrasing one point over and over
+*** stay out of weeds
+Thay care about is you, what you have in common, 
+not year, people and others, so forget the detail.
+*** Listen
+*** Be Brief
+* Misc
+** administration
+*** TODO 吃买的排毒药品
+** Interest
+*** 魔方 
+**** [[https://www.youtube.com/watch?v=S4J44MoShiE&list=PLEYQbWd0Dn-KvSjufJFNFKzoAyPPtcfhi][魔方小站三阶魔方入门还原教程 第1步 对好底层十字]]
+**** 一面十字
+***** 中间层有目标色
+****** 顶层无目标色，中间层转一次
+****** 顶层有目标色，顶层让开中间层转一次
+***** 上下层有目标色
+****** 转动前/后面，把目标色转到中间层
+*** skateboards
+[[https://www.youtube.com/watch?v=p3NXd3DhH08][How to skateboard for beginners]]
+[[https://www.youtube.com/watch?v=p3NXd3DhH08][How to skateboard for beginniers 2]]
+[[file:c:\Users\Zac\Dropbox\Personal\Hobby&Entertainment\snowboard video\][sknow board video]]
+*** awesome video
+[[https://www.youtube.com/watch?v=kQbtmjcCCaA][烧饼 于谦 曹鹤阳《天天向上》官方版 德云社甲午封箱 20150214 北展剧场]]
+王牌贱谍：格林斯比
+**** download疑犯追踪

@@ -1,0 +1,1556 @@
+#+STARTUP: indent
+#+SEQ_TODO: TODO STARTED WAITING DONE
+* Java Programming and Software Engineering Fundamentals Specialization
+** Various Documentation
+*** Class(Duke Special Sources)
+**** FileResource
+FileResource fr new FileResource();
+***** .lines()	returns an Iterable that provides access to the contents of this opened file one line at a time	
+for (String line : fr.lines()) {
+    // process each line in turn}
+***** .words()	returns an Iterable that provides access to the contents of this opened file one word at a time	
+for (String word : fr.words()) {
+    // process each word in turn}
+***** .asString()	returns the entire contents of this opened file as one String	
+String contents = fr.asString();
+***** .getCSVParser()	returns a CSVParser object for this opened file, assuming it contains comma separated values with a header row	
+CSVParser parser = fr.getCSVParser();
+***** .getCSVParser(false)	returns a CSVParser object for this opened file, assuming it contains comma separated values without a header row
+CSVParser parser = fr.getCSVParser(false)
+**** URLResource
+URLResource ul = new URLResource("http:www//xxxxxx");
+***** .lines()	returns an Iterable that provides access to the contents of this opened web page one line at a time	
+for (String line : ur.lines()) {
+    // process each line in turn}
+***** .words()	returns an Iterable that provides access to the contents of this opened web page one word at a time	
+for (String word : ur.words()) {
+    // process each word in turn}
+***** .asString()	returns the entire contents of this opened web page as one String	
+String contents = ur.asString();
+***** .getCSVParser()	returns a CSVParser object for this opened web page, assuming it contains comma separated values with a header row	
+CSVParser parser = ur.getCSVParser();
+***** .getCSVParser(false)	returns a CSVParser object for this opened web page, assuming it contains comma separated values without a header row	
+CSVParser parser = ur.getCSVParser(false);
+**** DirectoryResource
+public void methodname(){
+DirectoryResource fr = new DirectoryResource();
+for (File f: fr.selectedFiles()){
+process each line in turn;}
+}}
+**** Pixel
+***** .getX()	returns the pixel's x-coordinate within <2016-11-09 Wed>the imag
+e	pix1.getX() is 100
+***** .getY()	returns the pixel's y-coordinate within the image	pix1.getY() is 200
+***** .getRed()	returns the value of the pixel's red component (always in the range 0-255)	pix1.getRed() is 0
+***** .getGreen()	returns the value of the pixel's green component (always in the range 0-255)	pix1.getGreen() is 26
+***** .getBlue()	returns the value of the pixel's blue component (always in the range 0-255)	pix1.getBlue() is 87
+***** .getAlpha()	returns the value of the pixel's alpha, or transparency, component (always in the range 0-255)	pix1.getAlpha() is 255
+***** .setRed(newR)	changes the value of the pixel's red component to newR (if newR is not in the range of 0-255 it is changed to be in that range)	pix1.setRed(255) changes the color to (255, 26, 87, 255) 
+***** .setGreen(newG)	changes the value of the pixel's green component to newG (if newG is not in the range of 0-255 it is changed to be in that range)	pix1.setGreen(255) changes the color to (0, 255, 87, 255) 
+***** .setBlue(newB)	changes the value of the pixel's blue component to newB (if newB is not in the range of 0-255 it is changed to be in that range)	pix1.setBlue(255) changes the color to (0, 26, 255, 255) 
+**** StorageResource
+public StorageResource methodname(){
+StorageResource name = new StorageResource();
+name.add();
+return name}
+***** Method
+****** .add(item)	adds the given item to the end of the list of strings	
+sr.add("first!");
+sr.add("next ...");
+****** .size()	returns the number of strings stored in this list	sr.size() is 2 (after the example above)
+sr.size() is 0 (immediately after clear() is called)
+****** .data()	returns an Iterable that provides access to each string in the list one at a time	
+for (String item : sr.data()) {
+    // process each string in turn
+}
+****** .contains(item)	returns true only if the given item is in the list	sr.contains("first!") is true
+sr.contains("last") is false
+****** .clear()	removes all strings from this list, making it empty	
+sr.clear();
+**** ImageResource
+public ImageResource methodname(ImageResource inImage){
+ImageResource outImage = new ImageResource(inImage.getWidth(),inImage.getHeight());
+for (Pixel pixel: outImage.pixels()){
+process each line in turn;}
+return outImage;}
+***** Method
+.getWidth()	returns the image's width, or number of pixels in the X direction	logo.getWidth() is 100
+.getHeight()	returns the image's height, or number of pixels in the Y direction	logo.getHeight() is 85
+.getPixel(x,y)	returns the pixel in this image at the coordinate (x, y)	logo.getPixel(0, 0) is the pixel (255, 255, 255, 255) 
+.setPixel(x,y,pixel)	copies the RGBA values from the given pixel into pixel at the (x,y) coordinates given	logo.setPixel(50, 42, pix2) changes the color to white 
+.pixels()	returns an Iterable that provides access to each of the pixels in the image, starting in the upper-left corner and moving down to the lower-right corner	
+     for (Pixel p : logo.pixels()) {
+          // process each pixel in turn}
+.draw()	draws the image in a separate window	logo.draw();
+.save()	saves the changes made to this image using its current file name	logo.save();
+.getFileName()	returns the current file name of this image, or the empty string, "", if it was created as an empty image	String name = logo.getFileName();
+.setFileName(newName)	changes the current file name of this image to the given name, useful when saving your changed image without modifying the original image on your computer	logo.setFileName("changed.jpg");
+*** Class(Apache Commons CSV Classes)
+**** CSVRecord
+This class provides methods for accessing individual data values in a line of data within a CSV formatted file. 
+it will be provided for you when you iterate using a CSVParser. Data values are always returned as a String
+***** .get(columnName)	returns a String, the data in this record corresponding to the column with the given columnName
+it is an error if the columnName does not exist in the header row (or does not have the same case)	
+rec.get("Name") is "Fred"
+rec.get("Food") is "Pizza"
+***** .get(columnIndex)	returns a String, the data in this record corresponding to the column at the given columnIndex
+note, the index of the first data value is 0	
+rec.get(0) is "Fred"
+rec.get(3) is "13"
+***** .size()	returns the number of values in this record	
+rec.size() is 4
+**** CSVParser
+Most likely you will not call any methods directly on a CSVParser object, but use it as an Iterable within your loop
+***** .getCurrentLineNumber()	returns the line number of the current record in the iteration
+*** Class(Standard Java)
+**** String
+***** .equals(other)	returns true only if this string has the same characters and in the same order as the other string	
+s.equals("Colorful") is true
+s.equals("colorful") is false
+***** .equalsIgnoreCase(other)	returns true only if this string has the same characters and in the same order as the other string, regardles of case	
+s.equalsIgnoreCase("Colorluf") is false
+s.equalsIgnoreCase("colorful") is true
+***** .length()	returns number of characters in this string	 
+s.length() is 8
+"".length() is 0
+***** .indexOf(str)	returns the index within this string of the first occurrence of the given string 
+note, indices returned start at 0, the first character in the string, and go to s.length()-1, the last character
+note, returns -1 if the given string is not in this string	s.indexOf("l") is 2
+s.indexOf("ful") is 5
+***** .indexOf(str, startIndex)	returns the index within this string of the first occurrence of the given string, starting at startIndex
+note, indices returned start at 0, the first character in the string, and go to s.length()-1, the last character
+note, returns -1 if the given string is not in this string	s.indexOf("l", 3) is 7
+s.indexOf("o", 1) is 1
+***** .substring(startIndex)	returns a string with the characters of this string, starting from startIndex and going to the end of this string
+note, indices given start at 0, the first character in the string, and go to s.length()-1, the last character	s.substring(1) is "olorful"
+s.substring(5) is "ful"
+***** .substring(startIndex, endIndex)	returns a string with the characters of this string, starting from startIndex and going up to, but not including, the character at endIndex
+note, indices given start at 0, the first character in the string, and go to s.length()-1, the last character	s.substring(1, 2) is "o"
+s.substring(1, 4) is "olo"
+***** .toLowerCase()	returns a string with the same characters as this string, but with all letters lowercased	s.toLowerCase() is "colorful"
+***** .toUpperCase()	returns a string with the same characters as this string, but with all letters uppercased	s.toUpperCase() is "COLORFUL"
+***** .startsWith(prefix)	returns true only if this string starts with given prefix	
+s.startswith("Color") is true
+s.startswith("cool") is false
+***** .endsWith(suffix)	returns true only if this string ends with given suffix	
+s.endswith("ful") is true
+s.endswith("fool") is false
+***** .charAt()    the same as Stringbuilder.charAt()
+**** math
+***** .max(num1, num2)	returns the larger of two given numbers	Math.max(a, b) is 25
+***** .min(num1, num2)	returns the smaller of two given numbers	Math.min(a, b) is -9
+***** .abs(num)	returns the absolute value of the given number	Math.abs(a) is 25  Math.abs(b) is 9
+***** .sqrt(num)	returns the positive square root of the given number	Math.sqrt(a) is 5  Math.sqrt(Math.abs(b)) is 3
+**** Character 
+| Method Name      | Functionality                    |
+|------------------+----------------------------------|
+| isLowerCase(ch)  | returns boolean if ch is 'a','b' |
+| isDigit(ch)      | returns boolean if ch is '1','2' |
+| toLowerCase(ch)  | returns lowercase version of ch  |
+| toUpperCase(ch)  | returns uppercase version of ch  |
+| isAlphabetic(ch) | returns boolean if ch is 'a','C' |
+**** File
+This class is Java's standard way to access a file on your computer
+***** .getCanonicalPath()	returns the unique name of this file, i.e., where it is on the computer
+***** .getName()	returns the name of this file, not including where it is on the computer
+***** .length()	returns the length of this file
+**** ArrayList
+ArrayList<String> list = new ArrayList<String>(); creates an empty collection
+***** .add(object)	adds the given object to the end of the collection	list.add("yes");
+list is now ["this", "is", "a", "list", "yes"]
+***** .get(int index)	returns the object at the given index
+remember that indexing starts at 0	list.get(0) is "this"
+***** .set(int index, object)	changes the element at the given index to the given object
+remember that indexing starts at 0	list.set(1, "was");
+list is now ["this", "was", "a", "list"]
+***** .contains(object)	returns whether or not the list has the given object in it	list.contains("this") is true
+***** .indexOf(object)	returns the index of the given object or -1 if the object is not in the list	list.indexOf("this") is 0
+***** .size()	returns the number of elements in the list	list.size() is 4
+***** .clear()	removes all the elements of the list	list.clear();
+list is now empty with a .size() of 0
+***** .remove(int index)	removes the element at the given index
+note that the indices of elements past index get shifted down	list.remove(1);
+list is now ["this", "a", "list"]
+***** .remove(object)	removes the given element from the list, if it is present	list.remove("is");
+list is now ["this", "a", "list"]
+***** Iterable	a list is Iterable, allowing access to each item one at a time	
+for (String s : list) {
+    // process each item in turn 
+}
+*** Standard Java Operators
+**** Converting Between Types
+***** Integer.parseInt(s)	turn the String s into an integer value
+note, this can fail, e.g., Integer.parseInt("abc") throws an exception	Integer.parseInt("123") is the number 123
+***** Double.parseDouble(s)	turn the String s into a real valued number
+note, this can fail, e.g., Double.parseDouble("abc") throws an exception	Double.parseDouble("2.46") is the number 2.46
+***** (int)x	turn x into an integer value by truncating the fractional part of the number	(int)123.6 is 123
+***** (double)x	turn x into a real valued number, for example if you wanted to calculate the average of several integer values	(double)123 is 123.0
+** Java Programming: Programming Foundations with javaScript, HTML and CSS
+*** Designing a Web Page with HTML and CSS
+**** Metadata Elements
+***** HTML    
+Contains all other elements
+SPecified using HTML standard
+***** head
+information about the page: title, scripts, CSS
+***** title
+Specifies page title
+Nested iside <head></head> tags
+**** Sectioning Elements
+***** body
+Contains all items seen on page
+***** h1
+Section header
+Also <h2>,<h3>....<h6>
+***** div
+Defines section of web page
+Useful for CSS
+**** Image and Multimedia tags
+Image Tags:
+<img src="http://xyzw--png" width = "75%" />
+No end tag, src required, width optional
+**** Linking Pages Together
+<a href = "https://developer.mozilla.org/en-US/Learn/HTML">
+a resource for learning
+</a> HTML.
+anchor tag 
+href attribute 
+clickable text!
+** Java Programming: Solving Programs with Software
+*** Week1_ITerables in Java                                       :ARCHIVE:
+**** Hello! around the world
+***** Using BlueJ to Program in Java
+Source Code---Human-readable
+Byte Code--- Machine-readable
+compile--- transfer Source Code to Byte Code
+***** Components of a Java Program
+****** What is an Iterable
+******* Processing data from many sources: text files, web pages, images, folders
+Building programs by re-using familiar ideas in new contexts
+******* Iterable: 
+Java construct for accwssing elements of a collection
+****** A Java Program Deconstructed
+******* import libraries
+******* public class
+******** public method
+******** variables
+******** control
+****** Java Iterable and Variables
+******* Using FileResource from edu.duke library
+******** Iterable is a standard java interface, can be used in a for each loop as shown
+******* Create variable: name, type, value
+******** fr, FileResource, specific file on computer
+******** line, String, each of the lines, in turn, from fr
+******* Modifying Iterables and Variables
+****** Summary
+******* Java programs ar created using classes
+******** code is in a method: written and called
+******** methods and classes interact together
+******* Iterables help with programs and programs
+******* Variables have names, types and values
+***** Summary
+****** Two Interables in edu.duke
+library: FileResource, URLResource
+****** Java Libraries
+******* java.lang
+******* edu.duke
+******* more later
+****** edu.duke.FileResource
+******* Construct an object using new
+******** From a File or a String that's name of a file
+******* Access contents of file via FileResource
+******** one line-at-a-time:lines()
+******** one word-at-a-time: words()
+******** entire file as a String: asString()
+**** Batch Grayscale Images
+***** Iterating Over Files: DirectoryResource
+****** Subtask: select and iterate over files
+******* Start simple:
+pick files & print their names
+****** New concept:
+******* Directory Resource: operate on a directory
+******** Technical name for "folder"
+***** Optional Review Videos on the Seven Step Approach
+[[https://www.coursera.org/learn/java-programming/supplement/ibfyU/optional-review-videos-on-the-seven-step-approach][Solving Problems: The Seven Step Approach & Finding Bugs in Code]]
+***** Seven Step Approach
+****** Domain Knowledge
+******* Gray
+******** Blue= Green = reD
+*** Java schedual[100%]
+**** DONE Week1[100%]                                            :ARCHIVE:
+CLOSED: [2016-10-24 Mon 11:14]
+***** DONE Welcome to Course
+CLOSED: [2016-10-07 Fri 12:35]
+***** DONE Iterables in Java
+CLOSED: [2016-10-07 Fri 12:35]
+***** DONE Quiz"Hello"
+CLOSED: [2016-10-07 Fri 15:53]
+***** DONE Batch Grayscale Images
+CLOSED: [2016-10-07 Fri 12:36]
+***** DONE Quiz_Grayscale
+CLOSED: [2016-10-07 Fri 16:10]
+***** DONE Assignment1 Batch Grayscale
+CLOSED: [2016-10-07 Fri 18:23]
+***** DONE Assignment2 image Inversion
+CLOSED: [2016-10-07 Fri 18:23]
+***** DONE Quiz: Iterables in Java
+CLOSED: [2016-10-07 Fri 18:23]
+**** DONE Week2[100%]                                            :ARCHIVE:
+CLOSED: [2016-10-24 Mon 11:14]
+***** DONE finding a Gene in DNA
+CLOSED: [2016-10-07 Fri 12:30]
+***** DONE Finding a Gene and Web Links Exercise Part1
+CLOSED: [2016-10-07 Fri 12:31]
+***** DONE Finding a Gene and Web Links Exercise Part2
+CLOSED: [2016-10-07 Fri 21:13]
+***** DONE Finding a Gene and Web Links Exercise Part3
+CLOSED: [2016-10-07 Fri 21:13]
+***** DONE Finding a Gene and Web Links Exercise Part4
+CLOSED: [2016-10-07 Fri 21:13]
+***** DONE Quiz1
+CLOSED: [2016-10-07 Fri 20:07]
+***** DONE Finding All Genes in DNA
+CLOSED: [2016-10-07 Fri 22:30]
+***** DONE Quiz2
+CLOSED: [2016-10-12 Wed 18:16]
+***** DONE Finding Many Genes Part1
+CLOSED: [2016-10-08 Sat 16:17]
+***** DONE Finding Many Genes Part2
+CLOSED: [2016-10-11 Tue 14:05]
+***** DONE Finding Many Genes Part3
+CLOSED: [2016-10-11 Tue 14:05]
+***** DONE Debugging Part1
+CLOSED: [2016-10-12 Wed 18:16]
+***** DONE Debugging Part2
+CLOSED: [2016-10-12 Wed 18:16]
+**** DONE Week3[100%]                                            :ARCHIVE:
+CLOSED: [2016-10-24 Mon 11:14]
+***** DONE Courses
+CLOSED: [2016-10-08 Sat 22:04]
+***** DONE Quiz1
+CLOSED: [2016-10-12 Wed 18:16]
+***** DONE assignment1_Part1
+CLOSED: [2016-10-11 Tue 15:23]
+***** DONE assignment1_Part2
+CLOSED: [2016-10-11 Tue 15:23]
+***** DONE assignment1_Part3
+CLOSED: [2016-10-11 Tue 15:23]
+***** DONE assignment1_Part4
+CLOSED: [2016-10-12 Wed 18:16]
+***** DONE assignment1_Part5
+CLOSED: [2016-10-12 Wed 18:16]
+***** DONE assignment2_Part1
+CLOSED: [2016-10-12 Wed 18:16]
+***** DONE assignment2_Part2
+CLOSED: [2016-10-12 Wed 22:28]
+***** DONE assignment2_Part3
+CLOSED: [2016-10-12 Wed 22:28]
+***** DONE assignment2_Part4
+CLOSED: [2016-10-12 Wed 22:28]
+***** DONE assignment2_Part5
+CLOSED: [2016-10-12 Wed 22:28]
+***** DONE assignment2_Part6
+CLOSED: [2016-10-12 Wed 22:28]
+***** DONE Quiz2
+CLOSED: [2016-10-12 Wed 22:28]
+**** Week4[100%]
+***** DONE Course
+CLOSED: [2016-10-08 Sat 22:36]
+***** Programming assignment1
+***** Quiz
+** Java Programming: Arrays, Lists, and Structured Data
+*** Course_Work
+**** Week1 Keeping information Secret
+***** implementing the Caesar Cipher
+****** Character Building
+| Method Name      | Functionality                    |
+|------------------+----------------------------------|
+| isLowerCase(ch)  | returns boolean if ch is 'a','b' |
+| isDigit(ch)      | returns boolean if ch is '1','2' |
+| toLowerCase(ch)  | returns lowercase version of ch  |
+| toUpperCase(ch)  | returns uppercase version of ch  |
+| isAlphabetic(ch) | returns boolean if ch is 'a','C' |
+***** Breaking the Caesar Cipher
+***** Object Oriented Caesar Cipher
+****** Object Oriented Concepts
+****** Encapsulation
+****** Fields(Instance Variables)
+****** Visibility(Public, Private)
+****** Constructors
+**** Week2 Stories from Templates
+***** Telling a Random Story
+***** Using and Improving Gladlibs
+**** Week3 Web Server Logs: From logs to Visits
+***** Reading Log Files
+***** Finding Unique IP Addresses
+***** Counting Website Visits
+**** Week4 Vigenere Cipher
+***** Breaking the Vigenere Cipher
+*** Course3 schedual[0%]
+**** Week1[100%]
+***** DONE Assignment1
+CLOSED: [2016-10-24 Mon 11:15]
+***** DONE Assignment2
+CLOSED: [2016-10-17 Mon 20:13]
+***** DONE Assignment3
+CLOSED: [2016-10-24 Mon 11:16]
+***** Assignment4
+***** Assignment5
+***** Assignment6
+***** Quiz1
+***** Quiz2
+***** Quiz3
+**** Week2[100%]
+***** DONE Assignment1
+CLOSED: [2016-10-18 Tue 23:32]
+***** DONE Assignment2
+CLOSED: [2016-10-18 Tue 23:32]
+***** DONE Assignment3
+CLOSED: [2016-10-24 Mon 11:16]
+***** DONE Assignment4
+CLOSED: [2016-10-24 Mon 11:16]
+***** Assignment5
+***** Quiz1
+***** Quiz2
+**** Week3[0%]
+***** Assignment1
+***** Assignment2
+***** Assignment3
+***** [#B] Quiz1
+***** Quiz2
+***** Quiz3
+**** Week4[0%]
+***** Assignment1
+***** Assignment2
+***** Assignment3
+***** Quiz1
+***** Quiz2
+** Java Programming: Principles of Software Design
+*** Week1: Programming and Interfaces
+**** Searching Earthquake Data
+**** Filtering Data
+*** Week2: Sorting Algorithms
+**** Implementing Selection Sort
+**** Sorting as Scale
+*** Week3: N-Grams: Predictive Text
+**** Generating Random Text
+**** Word N-Grams
+*** Week4: Tools and Libraries for Everyone
+**** Using Java Beyond BlueJ
+**** Mainstream Java
+* Object Oriented Java Programming: Data Structures and Beyond Specialization :ARCHIVE:
+** Data Structures and Perfromance
+*** Week1: Introduction to the Course and Working with Strings
+**** Working with Strings in Java
+**** Check your understanding
+*** Week2: Efficiency Analysis and Benchmarking
+**** Measuring Performance: Big O
+**** Measuring Performance: Benchmarking
+**** Check your Understanding
+*** Week3: Interfaces, Linked Lists vs. Arrays, and Correctness
+**** Abstraction, Inteerfacers, and LInked Lists
+**** Testing and Correctness
+**** Check your understanding Part 1
+**** Markov Processes and Probabilites
+**** Check your understanding Part 2
+*** Trees!(including Binary Search Trees and Tries)
+**** Trees
+**** Run Time Analysis of BSTs
+**** Tries
+**** Check your Understanding
+*** Hash Maps and Edit Distance
+**** Hash Maps(or Tables)
+**** Edit Distance
+**** Check Your Understanding
+* Python For Everyone :ARCHIVE:
+** Python for Everyone
+** Python Data Structures
+*** Chapter6: Strings
+*** Chapter7: Files
+**** hardware
+Input and Output Devices
+Secondary Memory
+***** Software inside
+Central Processing Unit
+Main Memory
+**** File Processing
+***** Opening a File
+****** open()
+******* Handle = open(filename,mode)
+mode could be r(default), or w(write)
+filename is a string
+******* example
+fhand = open('mbox.txt')
+print fhand
+<open file 'mbox.txt', mode 'r' at 0x1005088b0>
+****** The newline Character
+******* example
+stuff = 'Hello\nWorld'
+print stuff
+Hello 
+World!
+******* len
+stuff = 'X\nY'
+len(stuff) = 3
+****** File Handle as a Sequence
+******* A file handle open for read can be treated as a sequence of strings where each line in the file is a string in the sequence
+******* We can use the for statement to iterate through a sequence
+******* Remember- a sequence is an ordered set
+****** Reading the "whole" File
+******* example
+fhand = open('mbox-short.txt')
+inp = fhand.read()
+print len(inp)
+print inp[:20]
+****** Searching Trough a file
+fhand = open('mbox.txt')
+for line in fhand:
+    line = line.rstrip()
+    if line.startswith('From:'):
+        print line
+****** Skipping with continue
+if not line.startswith('From:'):
+    continue
+****** Using in to select lines
+if not '@uct.ac.za' in line:
+    continue
+print line
+****** try and except
+try: 
+    hand = open(fname)
+except:
+    print 'File cannot be opened:', fname
+    exit()
+*** Chapter8: Lists
+**** Collection
+ collection variaables can store multiple values in a single variable
+**** List Constrants
+A list element can be any Python object-even another list
+a list can be empty
+**** Lists are Mutable
+String are immutable
+Lists are mutable--we can change an element of a list using the index operator
+**** How long is a list
+len()
+**** Using the range function
+the range function returns a list of numbers that range from zero to one less than the parameter
+We can construct an index loop using for and an integer iterator
+**** A tale of two loops
+friends = ['Joseph','Glenn','Sally']
+for friend in friends:
+    print'Happy New year:',friend
+
+for i in range(len(friends)):
+    friend = friends[i]
+    print 'Happy New Year:',friend
+**** Concatenating lists using +
+a = [1,2,3]
+b = [4,5,6]
+c = a + b
+print c
+c = [1,2,3,4,5,6]
+**** List Methods
+type()
+dir()    what can we do fir this parameter
+append    stuff.append(x)
+max(nums)
+min(nums)
+sum(nums)
+**** Is something in a List?
+some= [1,9,21,10,16]
+9 in some
+Ture
+**** A list is an Ordered Sequence
+friends.sort()
+**** example
+numlist = list()
+while Ture:
+   inp = raw_input('Enter a number:')
+   if inp = 'done':break
+   value = float(inp)
+   numlist.append(value)
+average = sum(numlist)/len(numlist)
+*** Chapter9: Dictionaires
+**** Comparing Lists and Dictionaries
+Dictionaries are like Lists excpet that they use keys instead of numbers to look up value
+**** When we see a new name
+counts = dict()
+names = ['csev','cwen','csav','zqian',cwen']
+for name in names:
+   if name not in counts:
+      counts[name] = 1
+   else:
+      counts[name] = counts[name] + 1
+print counts
+**** The get method for dictionary
+print counts.get(name,0)
+0 is the Default value if key does not exist(and no Traceback).
+
+equal to the following:
+if name in counts:
+   print counts[name]
+else:
+   print 0
+**** Simplified counting with get()
+for name in names:
+    counts[name] = counts.get(name,0) + 1
+print counts
+**** Definite loops and Dicgtionaries
+we can write a for loop that goes through all of the keys in the dictionary and looks up the values
+***** example
+counts = {'chuck':1, 'fred' :42, 'jan': 100}
+for key in coutns
+    print key, counts[keys]
+**** Retrieving lists of keys and values
+jjj = {'chuck':1,'fred':42,'jan':100}
+print list(jjj),   ['jan','chuck','fred']
+print jjj.keys()
+print jjj.values()
+print jjj.items()    return as a list with tuple inside, [('jan',100)...]
+**** Bonus: Two Iteration Variables
+for aaa,bbb in counts.items():
+    print aaa,bbb
+*** Chapter10: Tuples
+**** Tuples are "immutable"
+**** Tuples are more efficient
+***** no need to build tuple structures
+***** prefer tuples over lists on making "temporary variables"
+***** Tuples and Assignment
+****** Put a tuple on the left hand side of an assignment statement
+****** even omit the parenthesis
+***** Tuples and Dictionaries
+d = dict()
+d['csev'] = 2
+d['cwen'] = 4
+for (k,v) in d.items():
+    print k,v
+
+tups = d.items()
+print tups
+[('csev',2),('cwen',4)]
+**** Tuples are Comparable
+Comparision operators work with tuples, If the first item is equal, Python goes on to the next element
+(0,1,2) < (5, 1 ,2)
+true
+('Johes', 'Sally') > ('Adams','Sam')
+true
+**** Sorting Lists of Tuples
+d = {'a':10, 'b':1, 'c':22}
+t = d.items()
+print t
+t.sort()
+print t
+**** Using sorted()
+for k,v in sorted(d.items()):
+    print k,v
+
+tmp = list()
+for k,v in d.items():
+    tmp.append((v,k))
+tmp.sort(reverse=True)
+print tmp
+**** the top 10 most common words
+lst = list()
+for key, val in counts.item():
+    lst.append((val,key))
+lst.sort(reverse=True)
+for val,key in lst[:10]:
+    print key, val
+**** Even Shorter Version(adv)
+print sorted([(v,k) for k,v in d.items()])
+[[https://www.coursera.org/learn/python-data/supplement/iDHXm/lecture-slides][Lecture Slides]]
+** Using Python to Access Web Data
+[[https://www.coursera.org/learn/python-network-data/home/welcome][Coursera]]
+*** Chapter 11-Regular Expressions
+**** python settting practice experience                         :ARCHIVE:
+***** import experience 
+1. move module to C:\python 
+2. run python, import module
+3. works
+4. run ipython, import module
+5. fail
+
+6. delete module in C:\python
+7. run python, import module
+8. fail
+
+9. move module in C:Anaconda2
+10. run ipyhon, import module
+11. successful
+
+12. move module and file.py in the same folder
+13. using command line to open python
+14. works
+***** python notepad++ experience 
+1. open command line
+2. going to file dir
+cd(change dir), dir(list dir), changing drive(C:/D:/E:) 
+3. python+filename.py
+***** using python to open file
+1. move py.file and openfile in the same folder
+2. using command line to open python
+3. works 
+
+***** ipython and python IDE
+1. ipython IDE support linux command  VS   cpython IDE fail
+2. using python/ipython file.py in ipython IDE, showing invalid syntax
+3. command: # '''  """
+**** symbol tables
+|---------------+----------------------------------------------------|
+| "^"           | matches the beginning of a line                    |
+| "$"           | Matches the end of the line                        |
+| .(dot,period) | Matches any character(wild card)                   |
+| \s            | Mathces whitespace                                 |
+| \S            | Matches any non-whitespace character               |
+| "*"           | Repeats a character zero or more times             |
+| *?            | Repeats a character zero or more times(non-greedy) |
+| +             | Repeats a character one or more times              |
+| +?            | Repeats a character one or more times(non-greedy)  |
+| [aeiou]       | Matches a single character in the listed set       |
+| [a-z0-9]      | The set of characters can include a range          |
+| (             | Indicates where string extraction is to start      |
+| )             | INdicates where string extraction is to end        |
+|---------------+----------------------------------------------------|
+**** The Regular Expression Modules
+import the library using "import re"
+use re.search() to see if a string matches a regular exprssion, similar to using find() for strings
+use re.findall() extract portions of a string that match your regular expression similar to a combination of ind() and slicing: var[5:10]
+**** Wild-Card Characters
+The dot character matches any character
+If you add the asterisk character, the character is "any number of times"
+**** Matching and Extracting Data
+The re.search() returns a True/False depending on whether the string matches the regular expression
+If we actually want the matching strings to be extracted, we use re.findall()
+**** Warning: Greedy Matching
+The repeat (* and +) push outward in both directions(greedy) to match the largest possible string
+**** Fine-Tuning String Extraction
+'\S+@\S+'
+^From (\S+@\S+)
+Parentheses are not part of the match - but they tell where to start and stop what string to exact
+**** The Double Split Pattern
+Sometimes we split a line one way, and then grab one of the pieces of the line and split that piece again
+***** ex. 
+line = From stephen.marquard@uct.ac.za Sat Jan 5 .....
+words = line.split()
+email = words[1]
+pieces = email.split('@')
+print pieces[1]   ;;'uct.ac.za'
+
+or line = From stephen.marquard@uct.ac.za Sat Jan 5 .....
+y = re.findall('@([^ ]*)',line)   ;;'uct.ac.za'        insides[], ^ means not, [^ ]means non blank character
+**** Spam Confidence
+re.findall return as a string
+**** Escape Character
+want a special regular expression behave normally, prefix it with'\'
+*** Chapter 12 Networks and Sockets
+**** Networked Programs
+Client: HTML JavaScrtipt, AJAX,CSS
+INternet: HTTP, Request, Response, GET, socket, POST
+SErver: PHP, MYSql, Templates
+***** Common TCP Ports
+Telnet(23) Login
+SSH(22) Secure Login
+HTTP(80)
+HTTPS(443)
+SMTP(25)(Mail)
+8085 mean ports other than 80
+***** Sockets in Python
+import socket
+mysock = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+mysock.connect(('www.py4inf.com',80))
+[[http://xkcd.com/353/][python 动漫]]
+**** From Sockets to Applications
+***** HTTP
+HTTP is the set of rules to allow browers to retrieve web documents from servers over the Internet
+http://www.dr-chuck.com/page1.htm
+protocol    host         document
+***** Getting Data From THe Server
+Each Time the users click on an anchor tag with an href= value to switch to a new page, the browser makes a connection to the web
+server and issue a "GET" request - to GET the content of the page at the specified URL
+
+The server returns the HTML document to the browser,which formats and display the document to the user
+**** Let's write a Browser
+***** An HTTP Request in Python
+***** Using urllib in Python
+since HTTP is so common, we have a library that does all the socket work for us and makes web pages look like a file
+[[http://www.net-intro.com/][Introduction to Networking]]
+*** Chapter 12 Programs that Surf the Web 
+**** Beautiful Soup
+***** [[https://www.crummy.com/software/BeautifulSoup/bs4/doc.zh/][Beautiful Soup中文教材]]
+**** XML&HTML
+[[http://blog.163.com/txl129_2006@126/blog/static/1851087820103218453645/][HTML与XML的区别(转)]] 
+[[http://www.w3schools.com/html/html_attributes.asp][HTML Attributes]]
+***** XML
+1. 信息交换的标准和简易方式，标记灵活多变
+2. Extentsible Markup Language,没有(tag set),没有(grammatical rule),有(syntax rule),必须是(well-formed)
+3. 符合一个模式(schema),就是有效的(schema valid),但不是强制的
+4. XML是被设计用来描述数据的，重点是:什么是数据，如何存放数据。
+***** HTML
+1. 用于web,自定义是不行的
+2. HTML命令可以说明文字、图形、动画、声音、表格、链接等。HTML的结构包括头部(Head)、主体(Body)两大部分，其中头部描述浏览器所需的信息，而主体则包含所要说明的具体内容。
+3. HTML是被设计用来显示数据的，重点是:显示数据以及如何显示数据更好上面。
+4. 在HTML中，括号内所定义的都是版面(Layout)等信息
+5. 而XML则同时定义了数据的属性
+**** homework
+[[http://www.tutorialspoint.com/python/python_lists.htm][python list function]]
+*** Chapter 13 Web Services and XML
+**** Web Services Overview
+1. With the HTTP Request/Response well understood and well supported, there was a natural move toward 
+exchanging data between programs using these protocols
+2. we needed to come up with an agreed way to represent data going between applications and across network
+3. There are two commonlyused formats: XML and JSON
+**** parsing XML in Python
+***** string could be execute by find function, regular expression and xml.etree
+**** eXtensible Markup Language-XML
+***** XML Basic
+****** Simple Element vs Complex Element
+****** Start Tag,End Tag, Text Content, Attribute, Self Closing Tag
+attributes-Keyword/value pairs on the opening tag of XML
+****** XML as a tree
+****** XML as Paths
+***** XML Schema
+xs:element
+xs:sequence
+xs:complexType
+2002-05-30T09:30:10Z
+***** Parsing XML in Python 
+[[http://www.pythonlearn.com/code.zip][download sample Python code]] or [[http://www.pythonlearn.com/code][individual files]]  
+tree = ET.fromstring(data)    ----  Parsing(the same with deserialize)
+*** Chapter 13 JSON and the REST Architecture
+**** JavaScript Object Notation(JSON)
+***** compared to XML
+disadvantage on infinitely set of thing(XML is better)
+little self describing
+does not attributes(XML has)
+JSON(easy to work with)  VS   XML(harder but more expressive)
+***** two basic struction:
+array(like list)
+object(like dictionary)  key:value
+***** JSON in python
+分解deserialize to dictionary(with { } bracket)
+分解deserialize to list(with [ ] bracket)
+java, hashmap and array
+**** [[http://www.youtube.com/watch?v=mj-kCFzF0ME][Service Oriented Architectures]]
+**** Accessing APIs in Python
+API--Apilication Program Interface(define set of rules)
+REST--Representational State Transfer(resource focused)
+[[https://developers.google.com/maps/documentation/geocoding/][The Google Geocoding API]]
+** Using Databases with Python
+*** Chapter 14-Object Oriented Python
+**** Object Oriented Python
+***** Object Oriented
+A program is made up of many cooperating objects
+instead of being the"whole program" - each object is a little"island" within the program and cooperatively working with other objects.
+A program is made up of one or more objects working together - objects make use of each other's capabilities
+***** Object
+An Object is a bit of self-contained Code and Data
+A key aspect of the Object approach is to break the problem into smaller understandable parts(divide and conquer)
+Objects have boundaries that allow to ignore unneeded detail
+We have been using objects all alone: String Objects, Integer Objects,Dictionary Objects, List Objects...
+
+objects hide detail---they allow us to ignore the detail of the"rest of the program"
+Objects are bits of code and data
+**** Terminology
+***** Class-a template- Dog
+***** Method or Message - A defined capability of a class-bark()
+***** Field or attribute - A bit of data in a class- length
+***** Object or Instance- A particular instance of a class - Lassie
+
+***** example
+x = list()
+list is an class
+x is an object
+'append' is a method
+**** Object Lifecycle
+***** Constructor
+set up some instance variables to have the proper initial values when the object is created
+**** Inheritance
+When we make a new class- we can resue an existing class and inherit all the capabilities of an existing class and then add our own little bit to make our new class
+Another form of store and reuse
+Write once-reuse many times
+The new class(child) has all the capabilities of the old class(parent)-and then some more
+*** Chapter 15-1 Basic Structured Query Language
+**** Database Instroduction
+python deal with unstruct data
+SQL deal with struct data
+**** Using Database
+large project is used for website
+*** Chapter 15-2 Data Models and Relational SQL
+**** Designing a Data Model
+***** Database design is an art form
+***** Database design starts with a picture
+picture of the data objects for our application and then figuring out how to represent the objects and their relationships
+***** Basic Rule:
+Don't put the same string data in twice-use a relationships instead
+***** When there is one thing in the "real world" there should be one copy of that thing in the database
+***** For each 'piece of info'
+****** Is the column an object or an attribute of another object?
+****** Once we define objects, we need to define the relationships between objects
+**** Representing a Data Model in Tables
+**** inserting Relational Data
+**** Reconstructing data with JOIN
+***** Relational Power
+****** By removing the replicated data and 
+******* replacing it with references to a single copy of each bit of data we build a "web" of information that the relational databsae can read through very quickly-even for every large amounts of data
+******* often when you want some data it comes from a number of tables linked by these foreign keys
+***** The JOIN Operation
+****** The JOIN operation links across several tables as part of a select operation
+****** you must tell the JOIN how to use the keys that make the connection between the tables using an ON clause
+***** It can get complex....
+select Track.title, Artist.name, Album.title, Genre.name from Track join Genre join Album join Artist on 
+Track.genre_id= Genre.id and Track.album_id = Album.id and Album.artist_id = Artist.id
+*** Chapter 15-3 Many-to-Many Relationships in SQL
+*** Chapter 15-4 Databases and Visualization
+**** Geocoding
+***** Data Mining Technologies
+https://hadoop.apache.org/
+http://spark.apache.org/
+https://aws.amazon.com/redshift/
+http://community.pentaho.com/
+***** this class is "personal data mining"
+***** geodata
+****** makes a google map from user entered data
+****** uses the google geodata api
+****** caches data in a database to avoid rate limiting and allow restarting
+****** Visualized in a browser using the Google Maps API
+**** page rank and web searching
+***** web crawler
+A web crawler is a computer program that browsers the World Wide Web in a methodical, automated manner. Web crawlers are mainly used to create a copy of all the visited pages for later processing by a search engine that will index the downloaded pages to provide fast searches.
+***** Web Crawling Policy
+****** a selection policy that states which pages to download
+****** a revisit policy that states when to check for changes to the pages
+****** a politeness policy that states how to avoid overloading Web sites
+****** a parallelization policy that states how to coordinate distributed Web Crawlers
+***** Search Indexing
+Search engine indexing collects, parses, and stores data to facilitate fast and accurate information retrieval. The purpose of storing an index
+is to optimize speed and performance in finding relevant documents for a search query. Without an index, the search engine would scan every document 
+in the corpus, which would require considerable time and computing power.
+**** Gmane-Mailing Lists
+***** Mainling List-Gmane
+****** Crawl the archive of a mailing list
+****** Do some analysis/cleanup
+****** Visualize the data as word cloud and lines
+**** Geocoding API Demo
+** Python Capstone
+*** Capstone schedual
+**** W2 Building a Search Engine[0%]
+***** TODO Page Rank Introduction
+***** TODO Page Rank Spidering
+***** TODO Computing Page Rank
+***** TODO Page Rank-Visualization
+***** TODO Peer-Graded Assignments
+**** W4 Spidering and Modeling Email Data[0%]
+***** TODO Gmane Introduction
+***** TODO Gmane Loading from the Web
+***** TODO Gmane Data Cleanup/Modeling
+***** TODO Gmane Looking at Modeled Data
+***** TODO Peer-Graded Assignments
+**** W6 Visualizing Email Data[0%]
+***** TODO Gmane Basic Statistics and Word Cloud
+***** TODO Gmane Visualizing Line
+***** TODO Peer-Graded Assignments
+* Ruby on Rails Web Development SPecialization
+** Course1.An Introduction
+*** Git
+|        | concept               | detail                                                                                             |
+|--------+-----------------------+----------------------------------------------------------------------------------------------------|
+| VCS    | VCS                   | Version Control System, keeping track of changes made to files, known as SCM                       |
+|        | Centralized VCS       | Reop resides on some central server, Client only has one version of trunk or branch                |
+|        | Distributed VCS       | full reop resides locally, contains full history, server not involved, push and pull between repos |
+|        | Back ups              | trivial and readily available                                                                      |
+|--------+-----------------------+----------------------------------------------------------------------------------------------------|
+| Basics | define                | lets you snapshot changes to your code                                                             |
+|        | .git                  | only one .git directory at the top level                                                           |
+|        | create, clone         | empty create, existing clone repo                                                                  |
+|        | Add                   | Add changes to staging area                                                                        |
+|        | staging area          | ready for commit                                                                                   |
+|        | Commit                | Commit changes(from staging area to local repo)                                                    |
+|        | Push                  | Push changes from local to remote repo                                                             |
+|--------+-----------------------+----------------------------------------------------------------------------------------------------|
+| Repo   | globally              | $git config --- global user.name "xxxxx"                                                           |
+|        | globally              | $git config --- global user.email xxx@xxx.com                                                      |
+|        | verify                | $git config <option>                                                                               |
+|        | help                  | $git help <command>                                                                                |
+|        | Initializing          | cd working_dir ; git init ; (possibly create a .gitignore file) ;                                  |
+|        | Initializing          | git add .(.Adds the entire current directory with subdirectories)                                  |
+|        | Initializing          | git commit -m "Initial commit"                                                                     |
+|        | Cloning               | git clone https://repourl.git                                                                      |
+|        | Cloning               | Many transfer protocols available, such as https:   ,   git:                                       |
+|        | git status            | Provides the current status of your repo                                                           |
+|        | git add<file/dir>     | Add untracked files to be tracked or add a modified tracked file to the staging area               |
+|        | git diff              | shows the difference between staging and working directory                                         |
+|        | git diff --staged     | shows the changes between HEAD(latest commit on current branch) and staging directory              |
+|        | git diff HEAD         | shows the deltas between HEAD and working dir                                                      |
+|        | git commit            | commits your changes to the repo                                                                   |
+|        | git commit -m         | use the -m(message) option                                                                         |
+|        | -a -m or -am          | skip the staging area using -a flag, after initially adding the file                               |
+|        | git checkout          | re-checkout all tracked files overwrriting local changes                                           |
+|        | git checkout --<file> | Re-checkout just one specific file                                                                 |
+|        | git revert HEAD       | Reverts the most recent commit, after committing                                                   |
+|--------+-----------------------+----------------------------------------------------------------------------------------------------|
+| GitHub | Remote Repos set up   | git remote add alias remote_url                                                                    |
+|        | origin                | default alias for a cloned repo                                                                    |
+|        | Remote Repos Push     | git push alias branch_name    Push changes to your branch out                                      |
+*** Ruby basic knowledge
+|              | concept                  | detail                                                                                             |
+|--------------+--------------------------+----------------------------------------------------------------------------------------------------|
+| Basics       | indentation              | 2 space indentation is encouraged                                                                  |
+|              | comments                 | use #, however, use comments in moderation                                                         |
+|              | puts                     | put strings to console----similar to System.out.println()                                          |
+|              | p                        | prints out internal representation of an object                                                    |
+|              | Variables                | Lowercase or snake_case                                                                            |
+|              | Constants                | ALL_CAPS or FirstCap                                                                               |
+|              | Classes(and Modules)     | CamelCase                                                                                          |
+|              | Semicolons :             | cram several statements, usually highly discouraged                                                |
+|              | IRB                      | interactive ruby                                                                                   |
+|--------------+--------------------------+----------------------------------------------------------------------------------------------------|
+| Control Flow | if, unless, elsif, else  | No parentheses or curly braces, use end to close flow control block                                |
+|              | while, until             | until, oppsite of while                                                                            |
+|              | case                     | similar to a serial of "if", specify a target next to case, each when clause is compared to target |
+|              | for                      | hard to used, each/times perferred                                                                 |
+|              | modifier form            | on the same line as the statement                                                                  |
+|              | True/Falue               | false and nil objects are false                                                                    |
+|              | '==='                    | delegates to a double equals, super set of a double equals                                         |
+|--------------+--------------------------+----------------------------------------------------------------------------------------------------|
+| function     | Parentheses              | optional both when defining and calling a method                                                   |
+|              | return                   | return whatever, return keyword is optional(last executed line returned)                           |
+|              | parameters               | no need to declare parameters type                                                                 |
+|              | predicate method ?       | method names end with '?'                                                                          |
+|              | default arguments        | if a value is passed in, use that value, otherwise use the default value                           |
+|              | Splat                    | prefixes parameter inside method definition                                                        |
+|--------------+--------------------------+----------------------------------------------------------------------------------------------------|
+| Blocks       | Chucks of code           | enclosed between {}, or the keywords do and end, often used as Iterables                           |
+|              | last "parameter"         | passed to methods as last parameters                                                               |
+|              | { }                      | when block content is a single line                                                                |
+|              | do and end               | when block content spans multiple lines                                                            |
+|              | II                       | parameters between two II, used for loop                                                           |
+|              | Implicit                 | use block_given? to see if blcok was passed in, use yield to "call" the block                     |
+|              | Explicit                 | Use & in front of the last "parameters", use call method to call the block                         |
+|--------------+--------------------------+----------------------------------------------------------------------------------------------------|
+| Files        | File.foreach('xxx.txt')  | reach files (parameter defines in the following blocks)                                            |
+|              | Handling Exceptions      | rescue Exception => e, puts e.message                                                              |
+|              | Alternative to Exception | if File.exist? 'xxx.txt'                                                                           |
+|              | File.open("xxx.txt","w") | write info to file("xxx.txt")                                                                      |
+|              | Environment Variables    | puts ENV["EDITOR"]                                                                                 |
+|              | closed                   | automatically closed at the end of the block                                                       |
+*** Ruby classic method
+|         | function                  | detail                                                                            |
+|---------+---------------------------+-----------------------------------------------------------------------------------|
+| String  | single-quote' '           | allow escaping of ' with \, show(almost) everthing                                |
+|         | double-quote" "           | interpret special characters(\n,\t), Allow string interpolation                   |
+|         | !                         | String methods ends with ! modify the existing string                             |
+|         | %Q{long multiline string} |                                                                                   |
+|         | .rstrip                   | remove trailing whitespace from str                                               |
+|         | .split('c')               | split words by 'c'                                                                |
+|         | .chomp                    | chops off newline character                                                       |
+|         | .index('xxx')             | return index of xxx in String                                                     |
+|         | [index] =                 | Set(method)                                                                       |
+|         | .sub 'abc', 'xyz'         | substitute 'abc' with 'xyz'                                                       |
+|         | #{}                       | embed variables inside a string                                                   |
+| Symbols | symbols :foo              | highly optimized string, "stands for something" string type, unique and immutable |
+|         | to_s                      | convert to a String                                                               |
+|         | to_sym                    | convert String to Symbol                                                          |
+|         | API                       | [[http://ruby-doc.org/core-2.2.0/String.html][String API]]                                                                        |
+|---------+---------------------------+-----------------------------------------------------------------------------------|
+| Arrays  | [index]                   | return element locating index                                                     |
+|         | [index, range]            | return new arrays beginning wth element(given index) with given range             |
+|         | %w {str1 str2}            | string array creation                                                             |
+|         | .join('x')                | join elements in Arrays with x(any character)                                     |
+|         | .push or <<               | append element                                                                    |
+|         | .pop or shift             | remove element                                                                    |
+|         | [index] =                 | Set (method)                                                                      |
+|         | sample(size)              | randomly pull elements(size) out                                                  |
+|         | sort!                     | modify the array in place by sort                                                 |
+|         | reverse!                  | modify the array in place by reverse                                              |
+|         | .each                     | loop through array                                                                |
+|         | .select                   | filter array by selecting                                                         |
+|         | .reject                   | filter array by rejecting                                                         |
+|         | .map                      | modify each element in the array                                                  |
+|         | API                       | [[http://ruby-doc.org/core-2.2.0/Array.html][Array API]]                                                                         |
+|---------+---------------------------+-----------------------------------------------------------------------------------|
+| Ranges  | defination                | express natural consecutive sequences                                             |
+|         | popular conditon          | used for conditions and intervals                                                 |
+|         | dots rules                | More dots, Less have at the end. ex. Two dots---all inclusive                     |
+|         | to_a                      | converted to an array                                                             |
+|         | API                       | [[http://ruby-doc.org/core-2.2.0/Range.html][Range API]]                                                                         |
+|---------+---------------------------+-----------------------------------------------------------------------------------|
+| Hashes  | indexed collections       | of object references, created with { } or Hash.new                                |
+|         | [key]                     | Accessed to the value matched to this key                                         |
+|         | "=>"                      | Values set, (creation)                                                            |
+|         | Hash.new(0)               | default value(0, am example) return, when accessing sth does not exists           |
+|         | Hashes API                | [[http://ruby-doc.org/core-2.2.0/Hash.html][Hashes API]]                                                                        |
+|         | symbols as key            | symbol: syntax                                                                    |
+|         | { } are optional          | if Hash is the last argument                                                      |
+
+*** Object Oriented Programming in Ruby
+|                | concept                 | detail                                                                             |
+|----------------+-------------------------+------------------------------------------------------------------------------------|
+| Classes        | defination              | things(blueprints), containers of methods, close with "end"                        |
+|                | Objects                 | instances of those things                                                          |
+|                | Object.new              | constructor of Object, create new variable of such class                           |
+|                | instance variables      | (state) are like properties, contained inside Objects                              |
+|                | instance variables      | begin with @, Not declared, available to all instance methods                      |
+|                | initialized             | Object's state, initialized inside the initialized method, "constructor"           |
+|                | Accessing               | Instance variables are private, not be accessed from outside class                 |
+|                | Accessing               | public access by default, "getter"/"setter" methods to access ins_var              |
+|                | attr_accessor           | getter and setter                                                                  |
+|                | attr_reader             | getter only                                                                        |
+|                | attr_writer             | setter only                                                                        |
+|                | self                    | inside instance method, self refers to object itself                               |
+|                | self                    | outside instance method definition, self refers to the class inself                |
+|                | self                    | can be used to call other methods of the same instance                             |
+|----------------+-------------------------+------------------------------------------------------------------------------------|
+| Inheritance    | ll operator             | evaluates the left side, if ture--returns it, else--returns the right side         |
+|                | Class variable begin @@ | class << self, def methodx; @@ methodx ....;  end                                  |
+|                | <                       | Denotes inheritance                                                                |
+|----------------+-------------------------+------------------------------------------------------------------------------------|
+| Modules        | definition              | Container for classes, methods and constants or other modules                      |
+|                | definition              | like a class, but not be instantiated. Class inherits from Module and adds new     |
+|                | Namespace               | the use of :: operator                                                             |
+|                | Contact                 | Contract--define what a class "could" do, interfaces in OO                         |
+|                | Mix-in                  | share(mix-in) ready code among multiple classes                                    |
+|                | Enumberable Module      | Provide an implementation for each method                                          |
+|                | require_relative        | allows importing other.rb files!!!                                                 |
+|----------------+-------------------------+------------------------------------------------------------------------------------|
+| Scope          | Variables               | methods and classes begin new scope for variables                                  |
+|                | Variables               | Outer scope variables not carried over inner scope                                 |
+|                | local_variables         | method to see which variables are in the current scope                             |
+|                | Constants               | any reference begin with uppercase, including classes and modules                  |
+|                | Constants               | Constants scope rules are different with variable scope rules                      |
+|                | Constants               | inner scope can see constants defined in outer scope, can override outer constants |
+|                | Constants               | Value remains unchanged outside                                                    |
+|                | Block                   | inherit outer scope, block is a closure                                            |
+|                | Block                   | variable created inside the block only available to the block                      |
+|                | Block                   | Paramether to the block are always local to the block                              |
+|                | Block                   | can explicitly declare block-local variables after ; in the block parameter list   |
+|----------------+-------------------------+------------------------------------------------------------------------------------|
+| Access Control | Encapsulation           | hide internal representation of the object, so you can change it later             |
+|                | way--1                  | specify public, protected or private                                               |
+|                | way--1                  | everything will at that control level, until next access control keyward           |
+|                | way--2                  | define the methods and specify public,private, protected                           |
+|                | way--2                  | list the comma-separated methods under those levels using method symbols           |
+|                | public                  | no access control is enforced                                                      |
+|                | protected               | invoked by the objects of the defining class or its subclasses                     |
+|                | private                 | cannot be invoked with an explicit receiver                                        |
+|                | private                 | exception, when you're trying to set a variable value(setter method)               |
+*** Ruby on Rails
+|                 |                                                                                                                 |                            |
+|-----------------+-----------------------------------------------------------------------------------------------------------------+----------------------------|
+| Rails           | (Convention Over Configuration)Less Code to write,Learn it once                                                 | COC                        |
+|                 | No need to dal with low-level DB details, no more SQL                                                           | Database Abstraction Layer |
+|                 | Object-Relational Mapping: Mapping your database to your Ruby Classes                                           | ORM                        |
+|                 | Agile-friendly, DRY principle, CrossPlatfrom, OpernSource, Rapid prototyping                                    | advantage                  |
+|                 | Modular: swap out different(interchangeable) components                                                         | advantage                  |
+|                 | well-established sw pattern, think less and do more                                                             | MVC: Model View Controller |
+|                 | represents the data the application is working with                                                             | MVC--Model                 |
+|                 | representation of that data                                                                                     | MVC--View                  |
+|                 | orchestrates interaction between the model and the view                                                         | MVC--Controller            |
+|-----------------+-----------------------------------------------------------------------------------------------------------------+----------------------------|
+| creat and run   | rails new name_application (rails new -h for more options)                                                      | Creating app               |
+|                 | gems manager, solve different version of components conflict                                                    | Bundle                     |
+|                 | cd my_first_app; git init; git add .; git commit -m "Initial commit"                                            | Version Control            |
+|                 | Git repo should be INSIDE my_first_app                                                                          | Version Control            |
+|                 | no need to restart the server, when doing changes                                                               | web server                 |
+|                 | built-in web server, run rails server(or rails s)                                                               | web server                 |
+|                 | deafault is 3000, open on brower, Useful Resources(page right)                                                  | localhost:3000             |
+| Directory(CoC)  | this directory has the controller, the views, the models, helper                                                | app                        |
+|                 | this directory has configuration files, such as username, password                                              | config                     |
+|                 | this directory has migration scripts, SQI database stored in db directory                                       | DB                         |
+|                 | this directory has the static files, such as static web page                                                    | public                     |
+|                 | the files used by Bundler, specify the dependencies and interaction                                             | Gemfile, Gemfile.lock      |
+|                 | Server looks into public directory before looking anywhere else                                                 | public/hello_static.html   |
+|-----------------+-----------------------------------------------------------------------------------------------------------------+----------------------------|
+| dynamic content | contain actions(Ruby methods) and orchestrate web requests                                                      | Controller                 |
+|                 | quickly generate controller, 0 or more actions with associated views                                            | Controller                 |
+|                 | rails generate(g) controller controller_name[action1 action2]                                                   | Controller                 |
+|                 | templating library, lets you embed Ruby into your HTML                                                          | ERB                        |
+|                 | tag patterns, evaluate Ruby code                                                                                | <%...ruby code...%>        |
+|                 | tag patterns, output evaluated Ruby code                                                                        | <%= ...ruby code...%>      |
+|-----------------+-----------------------------------------------------------------------------------------------------------------+----------------------------|
+| Route           | web request need to get routed to controller, before controller orchestrate where the web request goes          | Routing                    |
+|                 | routes need to be specified in the config/routes.rb file                                                        | routes.rb                  |
+|                 | ex. get'greeter/hello' => "greeter#hello"       greeter(controller), hello(Action)                              | map                        |
+|                 | Ruby's make, automate app-related tasks(database, running tests),Rake --tasks, rake --describe task_name        | Rake                       |
+|                 | explains your currently defined routes(such as type this command in first_app)                                  | rake routes                |
+|-----------------+-----------------------------------------------------------------------------------------------------------------+----------------------------|
+| Deeper          | proper route defined, properly named view file/template, action no need there, Rails will find correct template | actions inside controller  |
+|                 | view should have as little Ruby code logic as possible                                                          | view                       |
+|                 | every new request is goint to create a new instance veriables                                                   | Instance Variables         |
+|-----------------+-----------------------------------------------------------------------------------------------------------------+----------------------------|
+| Helpers         | the methods inside helpers are available to any view                                                            | Helpers                    |
+|                 | Hyperlink generator that displays the name and links to the path                                                | link_to name, path         |
+|                 | link_to "Google", "http://www.google.com"                                                                       | link_to                    |
+|                 | either be a regular string or a route defined in the routes.rb file with_url(full path) or _path(relative path) | Path                       |
+|                 | link_to "Goodbye", greet_goodbye_path              _path is the endding                                         | Path                       |
+|-----------------+-----------------------------------------------------------------------------------------------------------------+----------------------------|
+| HTTPParty       | RubyGems is a sophisticated package manager for Ruby                                                            | RubyGems                   |
+|                 | Simple web services implemented using HTTP(and principles of REST)                                              | Restful Web Services       |
+|                 | Have a base URI, support a data exchange format(XML, JSON),Support a aset of HTTP operations(GET, POST etc.)    | Restful Web Services       |
+|                 | Restful web services client, automatically parsing JSON and XML into Ruby hashes                                | HTTParty GEM               |
+|                 | support for Basic http authentication, default request query parameters                                         | HTTParty GEM               |
+|                 | www.programmableweb.com/apis                                                                                    | Restful APIs               |
+|                 | include HTTParty module,  specify base_rui for your request,                                                    | Usage                      |
+|                 | default_params(API developer key for example),                                                                  | Usage                      |
+|                 | format(tell which format the data is in)                                                                        | Usage                      |
+|                 | JSONView Browser Plugin(Chrome, Firefox)                                                                        | Coursera Restful APIs      |
+|-----------------+-----------------------------------------------------------------------------------------------------------------+----------------------------|
+| Bundler         | Bundler provides a consistent environment for Ruby projects by tracking and installing gems and versions        | Bundler                    |
+|                 | gem 'rails' '4.3.2'  run bundle update                                                                          | Gemfile                    |
+|                 | contains the actual gem versions                                                                                | Gemfile.lock               |
+|                 | exec runs a command, providing it access to the gems in the bundle                                              | Bundle exec                |
+|-----------------+-----------------------------------------------------------------------------------------------------------------+----------------------------|
+| Integration     | restart the server after running bundler for changes to take effect, bundle(or bundle install)                  | update bundle              |
+|                 | related to one row in the DB, controller related to all row in database                                         | Model                      |
+|-----------------+-----------------------------------------------------------------------------------------------------------------+----------------------------|
+| Heroku          | bundle (git add .    ,        git commit -m'message')                                                           | step of deploying          |
+|                 | heroku create search-coursera-firethorn                                                                         |                            |
+|                 | git push heroku master                                                                                          |                            |
+|                 | heroku open                                                                                                     |                            |
+|                 | git remote rm heroku                                                                                            | change Git remote          |
+|                 | heroku git:remote -a apapname                                                                                   |                            |
+*** Unit Testing with RSpec
+** Course4 HTML,CSS, and Javascript for Web Developers
+*** Environment Setup & HTML Basics
+|                   | define                                       | detail                                                     |
+|-------------------+----------------------------------------------+------------------------------------------------------------|
+| environment       | borswer-sync                                 | browser-sync start --server --directory --file "*"         |
+|-------------------+----------------------------------------------+------------------------------------------------------------|
+| HTML tags         | <p>                                          | closing tag </p>                                           |
+|                   | <br>                                         | Line Break, no closing tag                                 |
+|                   | <hr>                                         | Horizontal Rule, no closing tag                            |
+|                   | quotes                                       | single or double quotes don't matter                       |
+|                   | Attribute name                               | id                                                         |
+|                   | Attribute value                              | "myId"                                                     |
+|                   | id                                           | not be identical, otherwise invalid HTML                   |
+|                   | space                                        | no space allowed in opening&closing tag                    |
+|                   | space                                        | space exist after opening tag, ex. <p xx>                  |
+|-------------------+----------------------------------------------+------------------------------------------------------------|
+| Structure         | begin with                                   | <!doctype html> case does not matter                       |
+|                   | <html>                                       | </html>                                                    |
+|                   | <head>                                       | </head>                                                    |
+|                   | <meta>                                       | <meta charset="utf-8">                                     |
+|                   | <title>                                      | <title>Coursera is Cool!</title> must have it              |
+|                   | <body>                                       | <body> xxxx </body>                                        |
+|-------------------+----------------------------------------------+------------------------------------------------------------|
+| Content Models    | Block-Level Elements                         | Render to begin on a new line(default)                     |
+|                   | Block-Level Elements                         | May contain inline or other block-level elements           |
+|                   | Block-Level Elements                         | Roughly Flow Content(HTML5 category)                       |
+|                   | Inline Elements                              | Render on the same line(default)                           |
+|                   | Inline Elements                              | May only contain other inline elements                     |
+|                   | Inline Elements                              | Roughly Phrasing Content(HTML5 category)                   |
+|                   | <div>                                        | roughly Block-Level Elements                               |
+|                   | <span>                                       | roughly Inline Elements                                    |
+|-------------------+----------------------------------------------+------------------------------------------------------------|
+| Heading Elements  | semantic                                     | Relating to meaning in language or logic                   |
+|                   | semantic html element                        | Element that implies some meaning to the content           |
+|-------------------+----------------------------------------------+------------------------------------------------------------|
+| Lists             | <ul> </ul>                                   | unordered list                                             |
+|                   | <li> </li>                                   | each list starts with <li> tag                             |
+|-------------------+----------------------------------------------+------------------------------------------------------------|
+| Entity References | <                                            | &lt;                                                       |
+|                   | >                                            | &gt;                                                       |
+|                   | &                                            | &amp;                                                      |
+|                   | "                                            | &quot;                                                     |
+|                   | copy symbol                                  | &copy;                                                     |
+|                   | none breaking space                          | &nbsp;                                                     |
+|-------------------+----------------------------------------------+------------------------------------------------------------|
+| links             | Internal linking to other pages in the sites | <a href="xxx" title = "xxx"> same directory                |
+|                   | External Linking to other web sites          | target = "_blank" open in new tag/windows                  |
+|                   | linking to sections of a document            | section name does not contain # sign                       |
+|                   | linking to sections of a document            | the link to section contain # sign                         |
+|                   | <a> elements                                 | Flow content, Phrasing content                             |
+|-------------------+----------------------------------------------+------------------------------------------------------------|
+| images            | image tags                                   | <img scr=" xxx " width="400" height="" alt="xxx">          |
+|                   | alt tags                                     | used by screen readers, help people with visual impairment |
+|                   | comments                                     | <!--  xxxx   -->                                           |
+*** Cascading Style Sheets(CSS) Basics
+|                        | difine              | detail                                                   |
+|------------------------+---------------------+----------------------------------------------------------|
+| CSS Rules              | CSS Rule            | Selector, Declaration(Property, Value)                   |
+|                        | Declaration         | seperated by :  terminated by ;                          |
+|------------------------+---------------------+----------------------------------------------------------|
+| Selector               | Element             | such as <p xxx >                                         |
+|                        | Class               | .blue, attribute class equal to the class name           |
+|                        | id                  | #name, id equal to the id value                          |
+|                        | Grouping Selectors  | Separate selectors with commas                           |
+|------------------------+---------------------+----------------------------------------------------------|
+| Combining Selector     | Class Selector      | target every p element with attribute class equal to big |
+|                        | child Selector      | article > p, every p is a direct child of article        |
+|                        | descendant Selector | article p, every p inside of article                     |
+|------------------------+---------------------+----------------------------------------------------------|
+| Pseudo-Class Selectors | target              | not by simple combinations of regular slectors           |
+|                        | target              | based on user interaction with the page                  |
+|                        | way                 | selector:pseduo-class                                    |
+|                        | cover               | :link, :visited, :hover, :active, :nth-child(...)        |
+|                        | readable            | Simple/Readable > Complicated/Tricky                     |
+*** Style Placement
+|                       | define               | detail                                                                                    |
+|-----------------------+----------------------+-------------------------------------------------------------------------------------------|
+| Style                 | stylesheet           | <link rel="stylesheet" href="style.css">                                                  |
+|                       | real-world           | styles be external to HTML page                                                           |
+|                       | styles inline        | avoid, only great for quick testing                                                       |
+|-----------------------+----------------------+-------------------------------------------------------------------------------------------|
+| Conflict              | Cascading            | combine importance, origin, specificity and source order of applicable style declarations |
+| Resolution            | origin               | Last Declaration wins, HTML process sequentially                                          |
+|                       | merge                | Declarations Merge                                                                        |
+|                       | inheritance          | DOM Tree                                                                                  |
+|                       | specificity          | Most Specific Selector Combination Wins                                                   |
+|                       | specificity          | style="..."     ID     Class, pseudo-class,attribute     # of Elements                    |
+|                       | score                | [ ]             [ ]    [ ]                               [ ]                              |
+|                       | !important           | overide everything                                                                        |
+|-----------------------+----------------------+-------------------------------------------------------------------------------------------|
+| Sytling Text          | .style               | font-family:  color:  font-style:  font-weight:  font-size:  ttext-transfrom: text-align: |
+|                       | body                 | font-size:                                                                                |
+|                       | 2em/0.5em;           | m is a unit of measurement, equivalent to the width of the letter(m)                      |
+|-----------------------+----------------------+-------------------------------------------------------------------------------------------|
+| Box Model             | conponent            | Content, padding, border, margin          width, height                                   |
+|                       | body                 | margin:   padding:   background-color:                                                    |
+|                       | box                  | padding:   background-color:   boarder:   margin:   width:                                |
+|                       | box-sizing:          | box-sizing: border-box;  or content-box; not inherited                                    |
+|                       | start-selectors      | select every element and apply these particular CSS properties to them                    |
+|                       | cumulative margins   | horizontal(cumulative), vertical(larger win)                                              |
+|                       | overflow:            | overflow: visible;  or hidden;   or auto;  or scroll;                                     |
+|-----------------------+----------------------+-------------------------------------------------------------------------------------------|
+| background            | background-color:    | blue;                                                                                     |
+|                       | background-image:    | url("yaakov.png")                                                                         |
+|                       | background-repeat:   | repeat-y, no-repeat;                                                                      |
+|                       | background-position: | top right;                                                                                |
+|                       | combine background:  | override others;  ex. url() no-repeat right center;                                       |
+|-----------------------+----------------------+-------------------------------------------------------------------------------------------|
+| Float                 | float element move   | browsers take them out of regular document flow                                           |
+| Position Elements     | margin collapse      | when it is touching the another element margin, it collapse                               |
+|                       | margin collapse      | margins of floated elements never collapse after move                                     |
+|                       | margin collapse      | New element collapse and hide, surround the last section element                          |
+|                       | clear                | resume the regular document flow   ex. clear: left;                                       |
+|                       | clear                | left, right, both                                                                         |
+|-----------------------+----------------------+-------------------------------------------------------------------------------------------|
+| Relative and Absolute | Static Positioning   | Normal document flow, default setting for all elements, except html                       |
+| Element Positioning   | Static Positioning   | position property is set to static, the offsets are just ignored                          |
+|                       | Relative Positioning | Element is positioned relative to its position in normal document flow                    |
+|                       | Relative Positioning | positioning CSS offset properties: top, bottom, left and right                            |
+|                       | Relative Positioning | Element is NOT taken out of normal document flow                                          |
+|                       | Absolute Positioning | remain in the place where it was without any other offsets                                |
+|                       | Absolute Positioning | position: relative;                                                                       |
+*** Responsive Design
+|                   | define                | detail                                                                                                 |                   |
+|-------------------+-----------------------+--------------------------------------------------------------------------------------------------------+-------------------|
+| Media Queries     | Syntax                | @media(max-width: 767px){...}                                                                          |                   |
+|                   | Syntax                | Media Feature(resolves to true or false), if TRUE, styles within curly braces apply                    |                   |
+|                   | max-width: 800px      | {...}                                                                                                  |                   |
+|                   | min-width: 800px      | {...}                                                                                                  |                   |
+|                   | orientation: portrait | {...}                                                                                                  |                   |
+|                   | screen                | {...}                                                                                                  |                   |
+|                   | print                 | {...}                                                                                                  |                   |
+|                   | within a range        | @media(min-width: 768px) and (max-width: 991px){...}                                                   |                   |
+|                   | Comma = OR            | @media(max-width: 767px) , (min-width: 992px){...}                                                     |                   |
+|-------------------+-----------------------+--------------------------------------------------------------------------------------------------------+-------------------|
+| Responsive Design | Responsive Design     | fluid, proportion-based grids, flexible images, CSS3 media queries                                     | ***study again*** |
+|                   | Layout                | 12-Column Grid Responsive Layout                                                                       |                   |
+|                   | viewport              | content= "width=device-width, initial-scale=1"                                                         |                   |
+|-------------------+-----------------------+--------------------------------------------------------------------------------------------------------+-------------------|
+| Twitter Bootstrap | history               | CSS framwork made by engineer in Twitter                                                               |                   |
+|                   | define                | the most popular HTML, CSS and JS framework for developing responsive, mobile first project            |                   |
+|                   | define                | pre-defines lots of CSS classes                                                                        |                   |
+|                   | define                | JavaScript framework based on J Query APIs and plugin acrhitecture                                     |                   |
+|                   | Mobile First          | PLAN mobile from the start, CSS Framework is mobile ready                                              |                   |
+|                   | complaint             | too big & too bloated                                                                                  |                   |
+|                   | minified version      | spaces taken out, certain veriables are renamed                                                        |                   |
+|-------------------+-----------------------+--------------------------------------------------------------------------------------------------------+-------------------|
+| Grid System       | container             | <div class="container"> must be inside container(or container-fluid)                                   |                   |
+|                   | container-fuild       | stretches layout the full width of the browser and provides consistent padding around grid and content |                   |
+|                   | container-fuild       | other content go into the container, not just the grid                                                 |                   |
+|                   | container             | has fixed width based on the width of the browser                                                      |                   |
+|                   | row                   | <div class = "row">                                                                                    |                   |
+|                   | SIZE identifier       | identifies at breakpoint specified column spans ignored and elements collapse                          |                   |
+*** Design Overview
+browser-sync start --server --directory --file "**/*"
+|   | define       | detail                                            |
+|---+--------------+---------------------------------------------------|
+|   | Balsamiq     | great interfaces, software, website, mobiles apps |
+|   | ground rules |                                                   |
+|   | 3000         | localhost: browser                                |
+|   | 3001         | localhost: UI                                     |
+|   | vw           | 1vw = 1% of viewport width, font-size: 5vw        |
+|   |              |                                                   |
+
+* 廖雪峰Git教程
+|                    | define                    | detail                                                          |
+|--------------------+---------------------------+-----------------------------------------------------------------|
+| git basic          | git init                  | initialized empty Git repository, (.git ,gitignore)             |
+|                    | git status                | commit status, modified status, untracked files                 |
+|                    | git diff                  | question: which location of files which is compared             |
+|                    | git add                   | add stuff from working directory to stage                       |
+|                    | git commit                | commit stuff from stage to master                               |
+|--------------------+---------------------------+-----------------------------------------------------------------|
+| edition control    | git log                   | showing log from the latest to the earliest                     |
+|                    | git log --pretty=oneline  | showing commit id                                               |
+|                    | git reset HEAD^           | HEAD^ is the last edition                                       |
+|                    | git reset --hard commitid | recover to future edition(commitid)                             |
+|                    | git reflog                | record every command                                            |
+|                    | git checkout --file       | recover latest edition before add OR commit                     |
+|                    | git checkout              | replace the edition from working directory OR Repository        |
+|                    | git rm                    | delete file in Repository(command in need: git commit)          |
+|--------------------+---------------------------+-----------------------------------------------------------------|
+| remoted Repository | create on GitHub          | click "Create a new repo" on top right corner                   |
+|                    | local Repository          | git remote add origin git@github.com:githubaccount/filename.git |
+|                    | origin                    | remote remoted Repository name                                  |
+|                    | git push origin master    | push master to remote Repository                                |
+|                    | git push -u origin master | -u push & connect local master with origin master               |
+|                    | git clone                 | clone Repository from github                                    |
+|--------------------+---------------------------+-----------------------------------------------------------------|
+| branch management  | git branch                | check branch                                                    |
+|                    | git branch <name>         | create branch                                                   |
+|                    | git checkout <name>       | change branch                                                   |
+|                    | git checkout -b <name>    | create and change branch                                        |
+|                    | git merge <name>          | merge branch<name> to current branch                            |
+|                    | git branch -d <name>      | delete branch                                                   |
+|                    | git log --graph           | check graph of merging status                                   |
+|                    | --pretty=oneline          | make it pretty      tag:guess                                   |
+|                    | --abbrev-commit           | make it pretty      tag:guess                                   |
+
+* Spacemacs Rock
+|          | define                    | detail                                         |
+|----------+---------------------------+------------------------------------------------|
+|          | setq                      | sets local value in crrent buffer              |
+|          | setq-default              | set the global default value                   |
+|          | variable not buffer-local | setq = setq-default                            |
+|          | C-h-f                     | check defination                               |
+|          | require('name)            | input function('name)                          |
+|          | open the mode             | 1 = t                                          |
+|          | eval-buffer               | compile the whole buffer                       |
+|          | add-hook 'name            | open the file, it will call 'name              |
+|----------+---------------------------+------------------------------------------------|
+| org mode | tags "name"               | shows list of tag "name", include everything   |
+|          | tags-todo "name"          | shows list of tag "name", when tags has status |
+|          | tags "-name"              | -name will show everything. Question????       |
+|          | org-agenda.el             | defcustom org-agenda-start-on-weekday 1        |
+|          |                           |                                                |
+
+* Misc Summary
+** name method
+*** class  CaesarCipher
+*** public String encryptCaesarCipher
+** Java Summary
+| Duke Class        | function         | detail                                                |
+|-------------------+------------------+-------------------------------------------------------|
+| FileResource      | .lines()         | Return as Iterable line by line                       |
+| URLResource       | .words()         | Return as Iterable word by word                       |
+|                   | .asString        | Return as entire content as One String                |
+|                   | .getCSVParser    | Return as CSVParser object for this file              |
+|-------------------+------------------+-------------------------------------------------------|
+| DirectoryResource | .selectedFiles() | Return as File file by file                           |
+|-------------------+------------------+-------------------------------------------------------|
+| StorageResource   | .add(item)       | adds the given item to the end of the list of strings |
+|                   | .size()          | return as Int of Strings stored                       |
+|                   | .data()          | Return as Iterable String by String in SR             |
+|                   | .contains(item)  | Return as boolean                                     |
+|                   | .clear()         | removes all strings, then .size() is 0                |
+|-------------------+------------------+-------------------------------------------------------|
+| Pixel             | referable        | referable                                             |
+|-------------------+------------------+-------------------------------------------------------|
+| ImageResource     | referable        | referable                                             |
+
+| Standard Java | function                        | detail                                                                |
+|---------------+---------------------------------+-----------------------------------------------------------------------|
+| String        | .equals(other)                  | return true only if same characters and same order                    |
+|               | .equalsIgnoreCase(other)        | return true only if same characters and same order,regardless of case |
+|               | .length()                       | return characters number                                              |
+|               | .indexOf(str)                   | return index of first occurrence of fiven str                         |
+|               | .indexOf(str, startIndex)       | return index of first occurrence of fiven str, after startIndex       |
+|               | .substring(startIndex)          | return a string, starting from startIndex to the end                  |
+|               | .substring(startIndex,endIndex) | return a string, starting from startIndex to endIndex                 |
+|               | .toLowerCase()                  | return String with lower case characters                              |
+|               | .toUpperCase()                  | return String with upper case characters                              |
+|               | .startsWith(prefix)             | return true only if string startsWith given prefix                    |
+|               | .endsWith(prefix)               | return true only if string endsWith given prefix                      |
+|               | .charAt()                       | refer to Stringbuilder.charAt()                                       |
+|---------------+---------------------------------+-----------------------------------------------------------------------|
+| math          | .max(num1,num2)                 | return the larger of given nums                                       |
+|               | .min(num1,num2)                 | return the smaller of given nums                                      |
+|               | .abs(num)                       | return the absolute value of given num                                |
+|               | .sqrt(num)                      | retrun the positive square root of given num                          |
+|---------------+---------------------------------+-----------------------------------------------------------------------|
+| Characters    | isLowerCase(ch)                 | returns boolean if ch is 'a','b'                                      |
+|               | isDigit(ch)                     | returns boolean if ch is '1','2'                                      |
+|               | toLowerCase(ch)                 | returns lowercase version of ch                                       |
+|               | toUpperCase(ch)                 | returns uppercase version of ch                                       |
+|               | isAlphabetic(ch)                | returns boolean if ch is 'a','C'                                      |
+|---------------+---------------------------------+-----------------------------------------------------------------------|
+| File          | .getName()                      | returns the name of this file                                         |
+|               | .length()                       | returns the length of this file                                       |
+|---------------+---------------------------------+-----------------------------------------------------------------------|
+| ArrayList     | .add(object)                    | add object to the Arraylist                                           |
+|               | .get(index)                     | return the object at the given index                                  |
+|               | .set(index, object)             | change the element at given index to the object                       |
+|               | .contains(object)               | return boolean, if array has the given object                         |
+|               | .indexOf(object)                | return the index of object, if not found, return "-1"                 |
+|               | .size()                         | return elements size in this ArrayList                                |
+|               | .clear()                        | remove all elements                                                   |
+|               | .remove(index)                  | remove the element at given index                                     |
+|               | .remove(object)                 | remove the object from the list                                       |
+|               |                                 |                                                                       |
+
+** Python Summary
+|            | function                     | detail                                                     |
+|------------+------------------------------+------------------------------------------------------------|
+| String     | String[index]                | return character at index location of String               |
+|            | String[index_a:index_b]      | return new String sliced from String(a to b)               |
+|            | String_a + String_b          | return new String(String_a+String_b)                       |
+|            | .lower()                     | return String with lower case character                    |
+|            | .lstrip()                    | return String without left whitespace                      |
+|            | .rstrip()                    | return String without right whitespace                     |
+|            | .find('variable')            | return int that position of variable in String             |
+|            | .find('variable',int_x)      | return int that position of variable in String after int_x |
+|------------+------------------------------+------------------------------------------------------------|
+| list       |                              | list(int, list, string)                                    |
+|            | list[index_a:index_b]        | return list sliced from list(a to b)                       |
+|            | list[index]                  | return list at location index                              |
+|            | list_a + list_b              | return new list(list_a + list_b)                           |
+|            | max(variable)                | return max in variable(list[int....])                      |
+|            | min(variable)                | return min in variable(list[int....])                      |
+|            | sum(variable)                | return sum in variable(list[int....])                      |
+|            | .append(variable)            | add variable at the end of list                            |
+|            | .sort() / sorted([list])     | sort first character from small to big                     |
+|            | .sort(reverse=True)          | sort first character from big to small                     |
+|            | .split('variable')           | split list by variable, whitespace is default              |
+|------------+------------------------------+------------------------------------------------------------|
+| for        | for letter in String:        | loop every word in String                                  |
+|            | for i in range(len(String)): | loop every word in String(second way)                      |
+|            | for line in file:            | loop every line in file                                    |
+|            | for key in Dictionary:       | loop every key in Dictionary                               |
+|            | for a,b in D.items():        | loop every key and value in Dictionary                     |
+|------------+------------------------------+------------------------------------------------------------|
+| Misc       | len(variable)                | return int about variable length (string, list)            |
+|            | dir(variable)                |                                                            |
+|            | type(variable)               | return variable type                                       |
+|------------+------------------------------+------------------------------------------------------------|
+| Dictionary | print Dictionary.keys()      | return as a list with keys(guess)                          |
+|            | print Dictionary.value()     | return as a list with value(guess)                         |
+|            | print Dictionary.items()     | return as a list with tuple inside, [('jan',100)...]       |
+|------------+------------------------------+------------------------------------------------------------|
+| Tuples     |                              | comparable, sortable                                       |
+
+| package       |                                                                                 |   |
+|---------------+---------------------------------------------------------------------------------+---|
+| import urllib | html = urllib.urlopen(url).read()                                               |   |
+|               | soup = BeautifulSoup(html)                                                      |   |
+|---------------+---------------------------------------------------------------------------------+---|
+| import socket | mysock = socket.socket(socket.AF_INET,socket.SOCK_STREAM)                       |   |
+|               | mysock.connect(('www.pythonlearn.com',80))                                      |   |
+|               | mysock.send('GET http://www.pythonlearn.com/code/intro-short.txt HTTP/1.0\n\n') |   |
+|               | mysock.close()                                                                  |   |
+|---------------+---------------------------------------------------------------------------------+---|
+| database      | conn = sqlite3.connect('emaildb.sqlite')                                        |   |
+|               | cur = conn.cursor()                                                             |   |
+|               | cur.execute('''DROP TABLE IF EXISTS Counts''')                                  |   |
+|               | cur.execute('''CREATE TABLE Counts (org TEXT, count INTEGER)''')                |   |
+|               | conn.commit()                                                                   |   |
+
+** Python vs Java
+|          | Python    | Java               |
+|----------+-----------+--------------------|
+| String   | .lstrip() | .startWith(prefix) |
+|          | .rstrip() | .endWith(prefix)   |
+|----------+-----------+--------------------|
+| list(P)  |           |                    |
+| array(J) |           |                    |

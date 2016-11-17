@@ -1,0 +1,520 @@
+#+STARTUP: indent
+#+SEQ_TODO: TODO STARTED WAITING DONE
+* NSG
+** Shipment info
+*** June shipment                                                 :ARCHIVE:
+| shipment# | D.P.  | Sender   | Receiver | Carrier | account   | logistics | beginning        | ending           | comment |
+|-----------+-------+----------+----------+---------+-----------+-----------+------------------+------------------+---------|
+| #1173     | SAVBU | David D  | Carrie F | KWE     | FSJ       | ella      | <2016-06-03 Fri> | <2016-06-10 Fri> |         |
+| #1174     | WNBU  | Jas T    | Kenneth  | KWE     | FSJ       | nancy     | <2016-06-13 Mon> | <2016-06-17 Fri> |         |
+| #1176     | ECBU  | Stanley  | Yulian   | Fedex   | FSJ       | ella      | <2016-06-06 Mon> | <2016-06-07 Tue> |         |
+| #1177     | RCFA  | Wilson   | Kenneth  | KWE     | FSJ       | nancy     | <2016-06-17 Fri> | <2016-06-17 Fri> |         |
+| #1178     | ERBU  | Fong     | Jimmy    | Fedex   | FSJ       | ella      | <2016-06-17 Fri> | <2016-06-21 Tue> |         |
+| #1179     | RCFA  | Jagdish  | Kenneth  | KWE     | FSJ       | nancy     | <2016-06-17 Fri> | <2016-07-05 Tue> |         |
+| #1166     | AllBU | Yiu-Kwan | Dennis   | GIT     | FSJ       | n/a       | <2016-06-02 Thu> | <2016-06-16 Thu> |         |
+| #1180     | Flex  | Tim Z    | Summy    | KWE     | FSJ       | Summy     | <2016-06-27 Mon> | <2016-07-05 Tue> |         |
+| #1181     | SAVBU | Thou S   | Nelson   | Fedex   | 405879662 | n/a       | <2016-06-22 Wed> | <2016-06-23 Thu> |         |
+| #1182     | ECBU  | Stanley  | Carrie F | Fedex   | FSJ       | susan     | <2016-06-22 Wed> | <2016-06-22 Wed> | 1_day   |
+| #1183     | RCFA  | Wilson   | Kenneth  | KWE     | FSJ       | nancy     | <2016-06-13 Mon> | <2016-07-11 Mon> |         |
+| #1184     | IOUBU | Celeste  | Macou    | Fedex   | FSJ       | ella      | <2016-06-28 Tue> | <2016-06-29 Wed> |         |
+| #1185     | RCFA  | Khalid   | Kenneth  | KWE     | FSJ       | nancy     | <2016-06-30 Thu> | <2016-07-07 Thu> |         |
+|-----------+-------+----------+----------+---------+-----------+-----------+------------------+------------------+---------|
+| #20       | Pure  | K.C.     | Panda    | Fedex   | 170239903 | n/a       | <2016-06-09 Thu> | <2016-06-10 Fri> |         |
+| #21       | Pure  | K.C.     | Panda    | Fedex   | 170239903 | n/a       | <2016-06-10 Fri> | <2016-06-14 Tue> |         |
+|-----------+-------+----------+----------+---------+-----------+-----------+------------------+------------------+---------|
+*** July shipemnt                                                 :ARCHIVE:
+| Num | shipment# | D.P.  | Sender  | Receiver  | Carrier | account   | logistics | beginning        | ending           | F | N | comment          |
+|-----+-----------+-------+---------+-----------+---------+-----------+-----------+------------------+------------------+---+---+------------------|
+|   1 | #1186     | MKD   | Frank   | Xiaoqin   | KWE     | FSJ       | Merry     | <2016-07-01 Fri> | <2016-07-07 Thu> | y | y |                  |
+|   2 | #1187     | RCFA  | Jagdish | Kenneth   | Fedex   | FSJ       | Nancy     | <2016-07-13 Wed> | <2016-07-27 Wed> | y | y |                  |
+|   3 | #1188     | ERBU  | parker  | Fang He   | Fedex   | 405877848 | Candy     | <2016-07-11 Mon> | <2016-07-12 Tue> | y | y |                  |
+|   4 | #1189     | ECBU  | Stanley | Carrier F | Fedex   | 405879662 | Ella      | <2016-07-08 Fri> | <2016-07-11 Mon> | y | y |                  |
+|   5 | #1191     | EBBU  | Kevin.Z | Yong.F    | KWE     | FSJ       | Ella      | <2016-07-20 Wed> | <2016-07-22 Fri> | y | y |                  |
+|   6 | #1193     | RCFA  | Jagdish | Kenneth   | KWE     | FSJ       | Nancy     | <2016-07-15 Fri> | <2016-07-29 Fri> | y | y |                  |
+|   7 | #1194     | WNBU  | Gary.W  | Ella.H    | KWE     | 405880725 | Ella      | <2016-07-22 Fri> | <2016-07-26 Tue> | y | y |                  |
+|   8 | #1195     | IoTBU | Celeste | Macou.W   | Fedex   | FSJ       | Ella      | <2016-07-20 Wed> | <2016-07-22 Fri> | y | y | no acct provided |
+|   9 | #1196     | RCFA  | Jagdish | Kenneth   | KWE     | FSJ       | Nancy     | <2016-07-20 Wed> | <2016-07-22 Fri> | y | y |                  |
+|  10 | #1197     | RCFA  | Jagdish | Kenneth   | KWE     | FSJ       | Nancy     | <2016-07-20 Wed> | <2016-08-01 Mon> | y | y |                  |
+|  11 | #1198     | SAVBU | Daniel  | Cobe.Z    | Fedex   | 405879662 | Nancy     | <2016-07-22 Fri> | <2016-08-01 Mon> | y | y | 925-548-8025     |
+|  12 | #1200     | RCFA  | Jagdish | Kenneth   | KWE     | FSJ       | Nancy     | <2016-07-30 Sat> | <2016-08-05 Fri> | y | y |                  |
+|  13 | #1201     | WNBU  | Gary.W  | Ella.H    | KWE     | FSJ       | Ella      | <2016-07-30 Sat> | <2016-08-10 Wed> | y | y | 23 UCS Servers   |
+|-----+-----------+-------+---------+-----------+---------+-----------+-----------+------------------+------------------+---+---+------------------|
+|  14 | #22       | pure  | Kok.C   | Panda     | Fedex   | 170239903 | Panda     | <2016-07-20 Wed> | <2016-07-20 Wed> | y | y |                  |
+|  15 | #23       | pure  | Kok.C   | Vladislav | Fedex   | 170239903 | Vladislav | <2016-07-29 Fri> | <2016-08-02 Tue> | y | y |                  |
+|-----+-----------+-------+---------+-----------+---------+-----------+-----------+------------------+------------------+---+---+------------------|
+*** Aug shipment                                                  :ARCHIVE:
+| Num | shipment# | D.P.     | Sender       | Receiver | Carrier | account   | logistics | beginning        | ending           | F | N | comment   |
+|-----+-----------+----------+--------------+----------+---------+-----------+-----------+------------------+------------------+---+---+-----------|
+|   1 | #1199     | FXG      | Vamsi        | Penny.C  |         |           |           | <2016-08-08 Mon> |                  |   |   | 5 PCs     |
+|   2 | #1203     | SAVBU    | Gerald.Y     | Danny.L  | KWE     | FSJ       | Nancy     | <2016-08-01 Mon> | <2016-08-10 Wed> | y | y | 10 UCS    |
+|   3 | #1204     | MLBU     | Tim.Z/Mylien | Zeng.X   | KWE     | FSJ       | Zeng.X    | <2016-08-04 Thu> | <2016-08-19 Fri> | y | y | 3 PCs     |
+|   4 | #1205     | NWE      | Tim.Z        | Steven.L | KWE     | FSJ       | Steven.L  | <2016-08-04 Thu> | <2016-08-24 Wed> | y | y | 19PCs     |
+|   5 | #1206     | AutoTest | George.Y     | Summer   | Fedex   | FSJ       | Ella      | <2016-08-08 Mon> | <2016-08-11 Thu> | y | y |           |
+|   6 | #1207     | ERBU     | Fong.K       | Jimmy    | Fedex   | 420758324 | Ella      | <2016-08-10 Wed> | <2016-08-15 Mon> | y | y |           |
+|   7 | #1209     | UCEBU    | Wei Chin     | Jimmy.C  | KWE     | FSJ       | Candy     | <2016-08-24 Wed> | <2016-09-09 Fri> | y | y | 3 pallet  |
+|   8 | #1210     | SRGBU    | Kam.T        | Jane.L   | Fedex   | 405877724 | Merry.Z   | <2016-08-18 Thu> | <2016-08-22 Mon> | y | y |           |
+|   9 | #1211     | RCFA     | Wilson       | Kenneth  | KWE     | FSJ       | Nancy     | <2016-08-22 Mon> | <2016-09-02 Fri> | y | y |           |
+|  10 | #1212     | UCEBU    | Chooi        | Shoulder | Fedex   | 405879387 | Candy     | <2016-08-24 Wed> | <2016-08-30 Tue> | y | y | 2 cartons |
+|  11 | #1213     | IoTBU    | Celeste      | Macou.W  | Fedex   | FSJ       | Ella      | <2016-08-29 Mon> | <2016-09-12 Mon> | y | y |           |
+|-----+-----------+----------+--------------+----------+---------+-----------+-----------+------------------+------------------+---+---+-----------|
+Tim.Z fedex account: FedEx# 468468247
+*** Sep shipment                                                  :ARCHIVE:
+| Num | shipment# | D.P.  | Sender   | Receiver   | Carrier    | account    | lgstcs | beginning        | ending           | F | N | comment    |
+|-----+-----------+-------+----------+------------+------------+------------+--------+------------------+------------------+---+---+------------|
+|   1 | #1214     | n/a   | n/a      | suspending | suspending | suspending | n/a    | suspending       | suspending       |   |   | suspending |
+|   2 | #1215     | CVTG  | Mylien   | Johnny.S   | Fedex      | 405879387  | Candy  | <2016-09-12 Mon> | <2016-09-22 Thu> | y | y |            |
+|   3 | #1216     | ECBU  | Ziyi     | Chau-Chong | Expeditor  | 5550715493 | Flex   | <2016-09-19 Mon> | <2016-10-24 Mon> | y | y |            |
+|   4 | #1217     | IoTBU | Celeste  | Macou.W    | Fedex      | FSJ        | Ella   | <2016-09-07 Wed> | <2016-09-08 Thu> | y | y |            |
+|   5 | #1218     | n/a   | n/a      | suspending | suspending | suspending | n/a    | suspending       | suspending       |   |   | suspending |
+|   6 | #1219     | ERBU  | Wei Chin | Jimmy.C    | KWE        | FSJ        | Candy  | <2016-09-08 Thu> | <2016-09-09 Fri> | y | y |            |
+|   7 | #1220     | IOTBU | Ziyi     | Macou      | Fedex      | FSJ        | Ella   | <2016-09-19 Mon> | <2016-09-22 Thu> | y | y |            |
+|   8 | #1221     | CVTG  | Robert.M | Johnny.S   | Fedex      | 405879387  | Candy  | <2016-09-14 Wed> | <2016-09-22 Thu> | y | y |            |
+|   9 | #1222     | RCFA  | Wilson   | Kenneth    | KWE        | FSJ        | Nancy  | <2016-09-20 Tue> | <2016-10-19 Wed> | y | y |            |
+|  10 | #1223     | UCEBU | Mylien   | shoulder   | Fedex      | 405877368  | Candy  | <2016-09-22 Thu> | <2016-09-27 Tue> | y | y |            |
+|  11 | #1224     | RCFA  | Jagdish  | Kenneth    | KWE        | FSJ        | Nancy  | <2016-09-19 Mon> | <2016-10-12 Wed> | y | y |            |
+|  12 | #1225     | RCFA  | Jas      | Kenneth    | KWE        | FSJ        | Nancy  | <2016-09-19 Mon> | <2016-10-28 Fri> | y | y |            |
+|  13 | #1226     | ERBU  | Wei Chin | Jimmy.C    | Fedex      | FSJ        | Candy  | <2016-09-22 Thu> | <2016-09-27 Tue> | y | y |            |
+|  14 | #1227     | IoTBU | Andy     | Macou      | Fedex      | FSJ        | Ella   | <2016-10-04 Tue> | <2016-10-06 Thu> | y | y |            |
+|  15 | #1228     | ERBU  | Guten    | Jimmy.C    | Fedex      | FSJ        | Candy  | <2016-09-30 Fri> | <2016-10-06 Thu> | y | y |            |
+|-----+-----------+-------+----------+------------+------------+------------+--------+------------------+------------------+---+---+------------|
+*** Oct shipment                                                  :ARCHIVE:
+| Num | shipment# | D.P.  | Sender  | Receiver  | Carrier | account   | lgstcs | beginning        | ending           | F | N | comment |
+|-----+-----------+-------+---------+-----------+---------+-----------+--------+------------------+------------------+---+---+---------|
+|   1 | #1229     | UABU  | Tim.Z   | Runk Dong | KWE     | FSJ       | Sally  | <2016-10-14 Fri> | <2016-10-26 Wed> | y | y |         |
+|   2 | #1230     | ERBU  | Hai     | Ting      | KWE     | FSJ       | Candy  | <2016-10-07 Fri> | <2016-10-12 Wed> | y | y |         |
+|   3 | #1231     | RCFA  | Jagdish | Kenneth   | KWE     | FSJ       | Nancy  | <2016-10-05 Wed> | <2016-10-12 Wed> | y | y |         |
+|   4 | #1232     | CVEBU | Alex    | Johnny    | KWE     | FSJ       | Candy  | <2016-10-14 Fri> | <2016-10-26 Wed> | y | y |         |
+|   5 | #1233     | RCFA  | Wilson  | Kenneth   | KWE     | FSJ       | Nancy  | <2016-10-14 Fri> | <2016-10-26 Wed> | y | y |         |
+|   5 | #1234     | EBBU  | Jim     | Yong      | KWE     | FSJ       | Sally  | <2016-10-14 Fri> | <2016-10-21 Fri> | y | y |         |
+|   6 | #1235     | ERBU  | Fong    | Jimmy     | Fedex   | 420758324 | Candy  | <2016-10-25 Tue> | <2016-10-27 Thu> | y | y |         |
+|   7 | #1236     | ISDI  | Bikram  | Ying Kit  | Fedex   | FSJ       |        | <2016-10-26 Wed> |                  |   |   |         |
+|   8 | #1237     | IoTBU | Celeste | Henry C   | Fedex   | FSJ       | Nancy  | <2016-10-27 Thu> | <2016-11-01 Tue> | y | y |         |
+|   9 | #1238     | RCFA  | Wilson  | Kenn      | KWE     | FSJ       | Nancy  | <2016-10-26 Wed> | <2016-10-28 Fri> | y | y |         |
+|  10 | #1239     | ERBU  | Jackie  | Ting Li   | Fedex   | FSJ       | Candy  | <2016-10-28 Fri> | <2016-11-01 Tue> | y | y |         |
+|-----+-----------+-------+---------+-----------+---------+-----------+--------+------------------+------------------+---+---+---------|
+*** Nov shipment
+| Num | shipment# | D.P.  | Sender | Receiver | Carrier | account | lgstcs | beginning        | ending           | F | N | comment       |
+|-----+-----------+-------+--------+----------+---------+---------+--------+------------------+------------------+---+---+---------------|
+| #1  | #1240     | WNBU  | Gary.W | Ella.W   | KWE     | FSJ     | Ella   | <2016-11-02 Wed> | <2016-11-11 Fri> | Y | Y | ready to ship |
+| #2  | #1241     | ERBU  | Jackie | Ting Li  | Fedex   | FSJ     | Candy  | <2016-11-03 Thu> | <2016-11-11 Fri> | Y | Y | ready to ship |
+| #3  | #1242     | IoTBU | Andy   | Macou    | Fedex   | FSJ     | Sally  | <2016-11-09 Wed> | <2016-11-11 Fri> | Y | Y | ready to ship |
+| #4  | #1243     | ERBU  | Jackie | Ting Li  | KWE     | FSJ     |        |                  |                  |   |   |               |
+| #5  | #1244     | CVEBU | Alex J | Johnny   |         |         |        |                  |                  |   |   |               |
+| #6  | #1245     | ERBU  | Sen    |          |         |         |        |                  |                  |   |   |               |
+|-----+-----------+-------+--------+----------+---------+---------+--------+------------------+------------------+---+---+---------------|
+** Quote
+*** Cisco RCFA invoice info
+|  # | FSJ#  | contactor |  Carrier inv | FSJ inv   | org prc |  p*1.03 | Send.Quote       | Receive.PO       | Send.PO          | comment     |
+|----+-------+-----------+--------------+-----------+---------+---------+------------------+------------------+------------------+-------------|
+|  1 | #1177 | Wilson    |  34051458980 | NSG114145 |  253.56 |  261.17 | <2016-08-15 Mon> | <2016-08-15 Mon> | <2016-08-15 Mon> |             |
+|  2 | #1187 | Jagdish   |    664231508 | NSG114259 | 1041.40 | 1072.65 | <2016-08-24 Wed> | <2016-09-14 Wed> | <2016-09-14 Wed> |             |
+|  3 | #1200 | Jagdish   |  34051464329 | NSG114300 |  363.27 |  374.17 | <2016-08-24 Wed> | <2016-09-14 Wed> | <2016-09-14 Wed> |             |
+|  4 | #1196 | Jagdish   |  34051462592 | NSG114258 |  207.92 |  214.16 | <2016-09-09 Fri> | <2016-09-21 Wed> | <2016-09-21 Wed> |             |
+|  5 | #1193 | Jagdish   |  34051463437 | NSG114281 |  410.88 |  423.20 | <2016-09-09 Fri> | <2016-09-21 Wed> | <2016-09-21 Wed> |             |
+|  6 | #1211 | Wilson    |  34051468068 | NSG114375 |  314.64 |  324.07 | <2016-09-12 Mon> | <2016-10-20 Thu> | <2016-10-20 Thu> |             |
+|  7 | #1183 | Wilson    |  34051467268 | NSG114205 |  211.86 |  218.22 | <2016-09-12 Mon> | <2016-09-21 Wed> | <2016-09-21 Wed> |             |
+|  8 | #1224 | Jagdish   |  34051473139 | NSG114475 |  673.80 |  694.01 | <2016-10-19 Wed> | <2016-11-16 Wed> | <2016-11-16 Wed> |             |
+|  9 | #1222 | Wilson    | 340514744142 | NSG114463 | 1450.66 |  1494.2 | <2016-11-03 Thu> | <2016-11-16 Wed> | <2016-11-16 Wed> |             |
+| 10 | #1231 | Jagdish   |    666843163 | NSG114460 |   56.77 |   57.68 | <2016-11-03 Thu> | <2016-11-16 Wed> | <2016-11-16 Wed> |             |
+| 11 | #1225 | Jas       | 340514755518 | NSG114524 |  682.48 |  702.95 | <2016-11-08 Tue> |                  |                  |             |
+| 12 | #1233 | Wilson    | 340514755519 | NSG114530 |  498.43 |  513.38 |                  |                  |                  | check price |
+
+| BU    | PM_collect_PO |
+|-------+---------------|
+| WNBU  | Manchi        |
+| SAVBU | Manchi        |
+| UABU  | Kok Choo      |
+*** Cisco invoice
+| # | FSJ#  | BU    | PM    | sender   |   price | Carrier's inv | FSJ invoice | sending date     |
+|---+-------+-------+-------+----------+---------+---------------+-------------+------------------|
+| 1 | #1205 | UABU  | KC    | Tim.Z    | 1028.46 |   34051466696 | NSG114342   | <2016-09-12 Mon> |
+| 2 | #1159 | UABU  | KC    | Tim.Z    |  359.63 |   34051466609 | NSG114014   | <2016-09-12 Mon> |
+| 3 | #1180 | UABU  | KC    | Tim.Z    |  285.11 |   34051467267 | NSG114188   | <2016-09-13 Tue> |
+| 4 | #1219 | ERBU  | Kevin | Wei Chin | 1039.43 |   34051468858 | NSG114398   | <2016-09-20 Tue> |
+| 5 | #1209 | ERBU  | Kevin | Wei Chin | 1214.13 |   34051468859 | NSG114396   | <2016-09-20 Tue> |
+| 6 | #1213 | IoTBU | Kevin | Celeste  |  154.76 |   34051469380 | NSG114393   | <2016-09-26 Mon> |
+*** Agus and Phoo Invoice
+| # | PM   | Carrier's inv | sending date     |
+|---+------+---------------+------------------|
+| 1 | Agus |   34051467261 | <2016-09-13 Tue> |
+| 2 | Agus |    5041467265 | <2016-09-13 Tue> |
+| 3 | Agus |  340512633142 | <2016-09-20 Tue> |
+** Arista                                                          :ARCHIVE:
+*** [#B] Arista Project [100%]                                         :Work:
+| Product         | Top Level    | PCA Level    | Phase  | Qty. | CPLD | FVT-C | FVT |
+|-----------------+--------------+--------------+--------+------+------+-------+-----|
+| MANZANITA       | ASY-01260-05 | PCA-00319-03 | Prod-A |   40 | *    | *     | *   |
+| Bean Creek      | ASY-01405-01 | PCA-00485-01 | Prod-A |   28 | *    | *     | *   |
+| Zayante Creek   | ASY-01406-01 | PCA-00465-01 | Prod-A |   40 | *    | *     | *   |
+| Pronghorn-MPT   | ASY-01666-02 | PCA-00706-02 | Prod-A |   48 |      | *     | *   |
+| Black Butte(TC) | SAY-01508-02 | PCA-00638-02 | Prod-A |   36 |      | *     | *   |
+**** DONE [#A] testing Bean Creek
+CLOSED: [2016-08-30 Tue 18:12] SCHEDULED: <2016-08-26 Fri>
+**** DONE [#A] testing MANZANITA 14 pcs
+CLOSED: [2016-08-30 Tue 18:07] SCHEDULED: <2016-08-30 Tue>
+**** DONE [#A] testing Pronghorn                               :debugging:
+CLOSED: [2016-08-31 Wed 15:34] SCHEDULED: <2016-08-31 Wed>
+**** DONE [#A] Testing Zayante Creek                           :debugging:
+CLOSED: [2016-08-31 Wed 15:34] SCHEDULED: <2016-08-31 Wed>
+**** DONE [#C] Black Butte(TC)
+CLOSED: [2016-09-07 Wed 15:05] SCHEDULED: <2016-09-01 Thu>
+**** DONE testing MANZANITA more pcs
+CLOSED: [2016-09-09 Fri 17:42]
+**** DONE testing Bison
+CLOSED: [2016-09-16 Fri 15:27]
+*** Arista Debug
+| Product      | WIP | S/N         | debug suggestion                                                                                    |   |
+|--------------+-----+-------------+-----------------------------------------------------------------------------------------------------+---|
+| ZayanteCreek |   3 | HSJ16260059 | Diode Fault on the sensor. Verify or replace the sensor0                                            |   |
+|              |     | HSJ16260052 | Diode Fault on the sensor. Verify and replace sensor2                                               |   |
+|              |     | HSJ16260066 |                                                                                                     |   |
+| BeanCreek    |   3 | HSJ16260032 | Re-program the CPLD then re-test otherwise check to see if 3.3V_STBT is up                          | P |
+|              |     | HSJ16260039 | Re-program the CPLD then re-test otherwise check to see if 3.3V_STBT is up                          | P |
+|              |     | HSH16260034 | check the burn resistor or replace it/FET                                                           | W |
+| Manzanita    |   1 | HSJ16260103 |                                                                                                     |   |
+| ELK          |   2 | HSJ16300072 |                                                                                                     |   |
+|              |     | HSJ16300043 |                                                                                                     |   |
+| Elk(by Don)  |   2 | HSJ16260032 | Check 3V3_STDBY power level  supplying the mux is good, smbus pull ups, and card inserted circuitry |   |
+|              |     | HSJ16260039 | check that it's programmed                                                                          |   |
+** working list                                                    :ARCHIVE:
+*** week36 (9/5-9/9)
+**** 9/7 working list[100%]                                      :ARCHIVE:
+SCHEDULED: <2016-09-07 Wed>
+***** DONE reply email about #1212
+CLOSED: [2016-09-09 Fri 17:44]
+***** DONE follow #1209
+CLOSED: [2016-09-07 Wed 15:01]
+clean the surface
+***** DONE send email to Arista
+CLOSED: [2016-09-07 Wed 13:31]
+***** DONE taking photo of another box of Celeste
+CLOSED: [2016-09-07 Wed 13:31]
+***** DONE following debugging station of Mendocino
+CLOSED: [2016-09-07 Wed 17:11]
+***** DONE ask questions for #1212 with other cables insides
+CLOSED: [2016-09-08 Thu 08:19]
+**** 9/8 working list[100%]                                      :ARCHIVE:
+SCHEDULED: <2016-09-08 Thu>
+***** DONE follow 
+***** DONE shipped additional box for #1212
+CLOSED: [2016-09-08 Thu 17:35]
+***** DONE [#B] #1213
+CLOSED: [2016-09-08 Thu 13:30]
+prepare docs
+***** DONE send arista testing status
+CLOSED: [2016-09-08 Thu 17:35]
+***** DONE send related info to Customer and China of #1219, which is the large carton
+CLOSED: [2016-09-08 Thu 18:26]
+***** DONE ship #1217
+CLOSED: [2016-09-08 Thu 17:47]
+***** DONE relay Jane's email
+CLOSED: [2016-09-08 Thu 17:52]
+***** DONE check Nha or Arista for testing Bison
+CLOSED: [2016-09-08 Thu 17:35]
+**** 9/9 working list[100%]                                      :ARCHIVE:
+***** DONE wait for notice from John about #1209 and #1213
+CLOSED: [2016-09-09 Fri 17:44]
+***** DONE check package in the recieving area for Jane
+CLOSED: [2016-09-09 Fri 17:44]
+***** DONE testing Manzanita
+CLOSED: [2016-09-09 Fri 17:44]
+***** DONE testing Pronghorn
+CLOSED: [2016-09-09 Fri 17:44]
+*** week37 (9/12-9/16)
+**** 9/12 working list[100%]                                     :ARCHIVE:
+SCHEDULED: <2016-09-12 Mon>
+|          | detail             |   |
+|----------+--------------------+---|
+| shipment | #1199              |   |
+|          | #1213              |   |
+| quotes   | 2 invoice to Kevin |   |
+|          | 3 invoice to PM    |   |
+| Arista   | Bison              |   |
+
+***** DONE check Jackson about #1213
+CLOSED: [2016-09-12 Mon 17:55]
+***** DONE debug Elk
+CLOSED: [2016-09-12 Mon 17:27]
+***** DONE following Bison status
+CLOSED: [2016-09-12 Mon 15:54]
+**** 9/13 working list[100%]                                     :ARCHIVE:
+***** DONE debuging Arista Units
+CLOSED: [2016-09-14 Wed 10:10]
+**** 9/14 working list[100%]                                     :ARCHIVE:
+***** DONE clean the box behind SID
+CLOSED: [2016-09-14 Wed 15:53]
+***** DONE waiting Edison reply                                :Delegate:
+CLOSED: [2016-09-14 Wed 15:53]
+***** DONE deal with 2 invoices to KC                          :Delegate:
+CLOSED: [2016-09-14 Wed 18:15]
+**** 9/15 working list[100%]                                     :ARCHIVE:
+***** DONE doing Arista slides
+CLOSED: [2016-09-16 Fri 15:28]
+***** DONE Taking photo of Jordon's shipment       
+CLOSED: [2016-09-16 Fri 15:24]
+:LOGBOOK:
+CLOCK: [2016-09-12 Mon 21:48]--[2016-09-19 Mon 10:48] => 157:00
+:END:
+**** 9/16 working list[%]                                        :ARCHIVE:
+*** working list(week 38)
+#+BEGIN: clocktable :maxlevel 2 :scope subtree
+#+CAPTION: Clock summary at [2016-09-23 Fri 10:29]
+| Headline                        | Time    |      |
+|---------------------------------+---------+------|
+| *Total time*                    | *11:34* |      |
+|---------------------------------+---------+------|
+| working list[50%]               | 11:34   |      |
+| \_  WAITING work administration |         | 6:50 |
+| \_  waiting list                |         | 0:25 |
+| \_  DONE working                |         | 4:19 |
+#+END:
+#+BEGIN: clocktable :maxlevel 2 :scope subtree
+#+CAPTION: Clock summary at [2016-09-20 Tue 18:37]
+| Headline                     | Time   |      |
+|------------------------------+--------+------|
+| *Total time*                 | *6:20* |      |
+|------------------------------+--------+------|
+| working list[50%]            | 6:20   |      |
+| \_  DONE work administration |        | 1:36 |
+| \_  waiting list             |        | 0:25 |
+| \_  WAITING working          |        | 4:19 |
+#+END:
+#+BEGIN: clocktable :maxlevel 2 :scope subtree
+#+CAPTION: Clock summary at [2016-09-19 Mon 17:15]
+| Headline                        | Time   |      |
+|---------------------------------+--------+------|
+| *Total time*                    | *1:51* |      |
+|---------------------------------+--------+------|
+| working list[0%]                | 1:51   |      |
+| \_  WAITING [#A] #1221          |        | 0:18 |
+| \_  WAITING work administration |        | 1:26 |
+| \_  WAITING #1215               |        | 0:07 |
+#+END:
+**** [#A] work administration
+:LOGBOOK:
+CLOCK: [2016-09-22 Thu 15:00]--[2016-09-22 Thu 18:05] =>  3:05
+CLOCK: [2016-09-22 Thu 14:11]--[2016-09-22 Thu 15:00] =>  0:49
+CLOCK: [2016-09-22 Thu 10:24]--[2016-09-22 Thu 11:44] =>  1:20
+CLOCK: [2016-09-20 Tue 18:36]--[2016-09-20 Tue 18:36] =>  0:00
+CLOCK: [2016-09-20 Tue 10:42]--[2016-09-20 Tue 10:52] =>  0:10
+CLOCK: [2016-09-19 Mon 16:09]--[2016-09-19 Mon 17:15] =>  1:06
+CLOCK: [2016-09-19 Mon 14:52]--[2016-09-19 Mon 15:01] =>  0:09
+CLOCK: [2016-09-19 Mon 14:04]--[2016-09-19 Mon 14:15] =>  0:11
+:END:
+**** waiting list
+***** DONE [#A] #1221
+CLOSED: [2016-09-26 Mon 10:51]
+:LOGBOOK:
+CLOCK: [2016-09-26 Mon 10:51]--[2016-09-26 Mon 10:51] =>  0:00
+CLOCK: [2016-09-19 Mon 14:21]--[2016-09-19 Mon 14:39] =>  0:18
+:END:
+**** DONE working
+CLOSED: [2016-09-20 Tue 18:38] SCHEDULED: <2016-09-20 Tue>
+:LOGBOOK:
+CLOCK: [2016-09-20 Tue 11:14]--[2016-09-20 Tue 11:32] =>  0:18
+CLOCK: [2016-09-20 Tue 14:48]--[2016-09-20 Tue 18:36] =>  3:48
+:END:
+***** DONE [#A] #1220
+CLOSED: [2016-09-26 Mon 10:51]
+:LOGBOOK:
+CLOCK: [2016-09-26 Mon 10:51]--[2016-09-26 Mon 10:51] =>  0:00
+CLOCK: [2016-09-20 Tue 13:43]--[2016-09-20 Tue 13:56] =>  0:13
+:END:
+***** DONE [#A] copy file for Pure Platinum
+CLOSED: [2016-09-26 Mon 10:49]
+:LOGBOOK:
+CLOCK: [2016-09-26 Mon 10:49]--[2016-09-26 Mon 10:49] =>  0:00
+:END:
+***** DONE [#B] #1199                                                    
+CLOSED: [2016-09-26 Mon 10:51]
+:LOGBOOK:
+CLOCK: [2016-09-26 Mon 10:51]--[2016-09-26 Mon 10:51] =>  0:00
+:END:
+doing document
+wait for network modules and ship together
+*** working list(week 39)
+**** working
+***** DONE check bang about arista debug
+CLOSED: [2016-09-30 Fri 10:12]
+***** DONE [#A] Arista Debug
+CLOSED: [2016-09-30 Fri 15:19]
+***** DONE [#A] Pure Report
+CLOSED: [2016-09-30 Fri 17:01]
+***** DONE [#A] check PR tracking#
+CLOSED: [2016-09-30 Fri 16:18]
+***** DONE [#A] submit weekly report
+CLOSED: [2016-09-30 Fri 16:18] SCHEDULED: <2016-09-30 Fri>
+***** [#B] #1199                                                    
+doing document
+wait for network modules and ship together
+*** working list(week 40)
+**** working
+***** DONE [#A] Arista Debug, help Bang send email
+CLOSED: [2016-10-03 Mon 16:03]
+***** DONE [#A] check PR tracking#
+CLOSED: [2016-10-04 Tue 12:48]
+***** DONE [#B] shipment
+CLOSED: [2016-10-04 Tue 15:36]
+****** making photo of 6 pallets
+***** DONE pick up invoices
+CLOSED: [2016-10-04 Tue 15:36]
+***** DONE wait for Jas call
+CLOSED: [2016-10-03 Mon 16:04]
+***** DONE [#A] #1227
+CLOSED: [2016-10-04 Tue 16:29]
+***** DONE [#A] Pure Report
+CLOSED: [2016-10-04 Tue 17:07]
+***** DONE reply Mylien email
+CLOSED: [2016-10-03 Mon 16:03]
+***** DONE One m20 board for BFA testing
+CLOSED: [2016-10-06 Thu 18:40] SCHEDULED: <2016-10-06 Thu>
+:LOGBOOK:
+:END:
+***** DONE Arista Units retesting
+CLOSED: [2016-10-06 Thu 18:40] SCHEDULED: <2016-10-06 Thu>
+****** TODO Manzanita
+****** ELK
+****** ZayanteCreek
+****** Bean Creek
+***** DONE shipped out #1228
+CLOSED: [2016-10-06 Thu 16:08]
+***** DONE shipped out #1227
+CLOSED: [2016-10-06 Thu 16:07]
+***** DONE meet with Jas
+CLOSED: [2016-10-06 Thu 16:08]
+***** DONE [#A] move #1231 to shipping area
+***** DONE [#A] move #1224 to shipping area
+***** DONE [#A] follow PR
+CLOSED: [2016-10-07 Fri 15:35]
+***** DONE ask China for KWE account
+CLOSED: [2016-10-06 Thu 18:40]
+***** DONE [#B] show Doris about QP testing status
+CLOSED: [2016-10-07 Fri 14:52]
+***** DONE reply Simon PMI email
+CLOSED: [2016-10-03 Mon 16:03]
+***** DONE [#A] submit weekly report using ppt(Arista)
+CLOSED: [2016-10-07 Fri 15:07] SCHEDULED: <2016-10-07 Fri>
+***** DONE [#A] work with Arista Team and Bang about Arista Failed Units
+CLOSED: [2016-10-07 Fri 15:08]
+*** working list(week 41)
+***** DONE [#A] install M20 QP and CPU
+CLOSED: [2016-10-13 Thu 15:15]
+***** DONE [#A] Arista retest
+CLOSED: [2016-10-13 Thu 15:15]
+***** DONE [#A] print QP address
+CLOSED: [2016-10-13 Thu 15:16]
+***** DONE [#B] #1230
+CLOSED: [2016-10-12 Wed 17:42]
+***** DONE [#A] ship #1231
+CLOSED: [2016-10-12 Wed 17:41]
+***** DONE [#A] #1224
+CLOSED: [2016-10-12 Wed 17:41]
+***** DONE [#B] follow Doris Insturction about QP Mac Address
+CLOSED: [2016-10-10 Mon 18:33]
+***** DONE [#A] summit two invoice
+CLOSED: [2016-10-10 Mon 18:07]
+*** working list(week 42)
+***** DONE [#A] inventory of QP, MB
+CLOSED: [2016-10-23 Sun 00:48]
+***** DONE [#A] test Arista Units
+CLOSED: [2016-10-23 Sun 00:48]
+***** DONE inform Simon about the one PO detail
+CLOSED: [2016-10-21 Fri 12:10]
+***** DONE [#A] #1222, shipped. But Wait for China approval, and need Notice Customer 
+CLOSED: [2016-10-20 Thu 18:01]
+***** DONE pick up one invoice
+CLOSED: [2016-10-17 Mon 11:48]
+***** DONE pick up another invoice
+CLOSED: [2016-10-19 Wed 17:09]
+*** working list(week 43)                                         :ARCHIVE:
+***** TODO [#A] #1237 wait for China reply
+***** #1236 wait for Cisco
+***** DONE #1239 photo cases
+CLOSED: [2016-10-31 Mon 15:02]
+***** WAITING [#C] work with Jackie and chen for QP station debugging
+***** WAITING [#C] transfer another 3 invoice to PM
+***** DONE [#A] #1238 ready to ship
+CLOSED: [2016-10-31 Mon 14:58]
+****** DONE pack it
+CLOSED: [2016-10-27 Thu 17:19]
+:LOGBOOK:
+CLOCK: [2016-10-27 Thu 17:19]--[2016-10-27 Thu 17:19] =>  0:00
+CLOCK: [2016-10-27 Thu 17:19]--[2016-10-27 Thu 17:19] =>  0:00
+:END:
+****** DONE doing doc
+CLOSED: [2016-10-27 Thu 17:19]
+:LOGBOOK:
+CLOCK: [2016-10-27 Thu 17:19]--[2016-10-27 Thu 17:19] =>  0:00
+:END:
+***** DONE [#A] #1225 ready to ship
+CLOSED: [2016-10-31 Mon 14:58]
+****** DONE pack it
+CLOSED: [2016-10-27 Thu 15:37]
+****** DONE doing doc
+CLOSED: [2016-10-27 Thu 15:37]
+***** DONE [#A] begin #1235
+CLOSED: [2016-10-27 Thu 14:52]
+***** DONE check Mac Address status
+CLOSED: [2016-10-26 Wed 18:08]
+***** DONE [#A] #1234 
+CLOSED: [2016-10-24 Mon 14:38]
+***** DONE [#A] #1216 wait Jackson
+CLOSED: [2016-10-24 Mon 14:37]
+***** DONE #1229, ready to ship
+CLOSED: [2016-10-26 Wed 17:55]
+***** DONE #1232, ready to ship
+CLOSED: [2016-10-26 Wed 17:55]
+***** DONE [#B] #1233, ready to ship
+CLOSED: [2016-10-26 Wed 17:56]
+**** waiting list                                                :ARCHIVE:
+***** [#C] unknown shipment 
+5 cartons(cisco 2900) without any notic
+***** [#C] added Joe into email list
+***** [#A] submit PMI using ppt(shipment)
+SCHEDULED: <2016-10-28 Fri>
+*** working list(week 45)
+***** DONE [#A] #1241 ready to ship
+***** DONE [#B] #1242 ready to ship
+***** DONE [#A] #1240 ready to ship
+***** DONE [#C] transfer another 4 invoice to PM
+CLOSED: [2016-11-04 Fri 15:54]
+***** DONE create two RCFA Quote
+CLOSED: [2016-11-03 Thu 16:55]
+***** DONE check another RCFA Quote
+CLOSED: [2016-11-03 Thu 16:55]
+**** waiting list                                                :ARCHIVE:
+***** [#C] 1199
+***** [#C] unknown shipment 5 cartons(cisco 2900) without any notic
+***** [#C] added Joe into email list
+***** [#A] submit PMI using ppt(shipment)
+SCHEDULED: <2016-12-01 Thu>
+* working list(week 46)                                                :Work:
+*** wait China reply about #1236
+*** DONE [#A] #1236 ready to ship
+CLOSED: [2016-11-16 Wed 15:57]
+:LOGBOOK:
+CLOCK: [2016-11-16 Wed 15:57]--[2016-11-16 Wed 15:57] =>  0:00
+CLOCK: [2016-11-15 Tue 16:42]--[2016-11-15 Tue 16:42] =>  0:00
+:END:
+*** DONE doing #1243 document
+CLOSED: [2016-11-16 Wed 15:54]
+:LOGBOOK:
+CLOCK: [2016-11-16 Wed 15:54]--[2016-11-16 Wed 15:54] =>  0:00
+:END:
+*** DONE [#A] one more invoices                  
+CLOSED: [2016-11-15 Tue 16:42]
+:LOGBOOK:
+CLOCK: [2016-11-15 Tue 16:42]--[2016-11-15 Tue 16:42] =>  0:00
+:END:
+*** DONE doing #1244 document
+CLOSED: [2016-11-15 Tue 16:43]
+:LOGBOOK:
+CLOCK: [2016-11-15 Tue 16:43]--[2016-11-15 Tue 16:43] =>  0:00
+:END:
+** waiting list                                                     :Career:
+*** [#A] submit PMI using ppt(shipment)
+SCHEDULED: <2016-11-30 Wed>
+*** [#C] 1199
+*** WAITING [#C] work with Jackie and chen for QP station debugging
+*** [#C] unknown shipment 5 cartons(cisco 2900) without any notice
+*** [#C] added Joe into email list

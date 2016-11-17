@@ -1,0 +1,2053 @@
+#+STARTUP: indent
+#+SEQ_TODO: TODO STARTED WAITING DONE
+* D. proructivity& W. management & T. Management                    :ARCHIVE:
+** weekly management                                               :ARCHIVE:
+*** W31 management                                                :ARCHIVE:
+*** W32 management                                                :ARCHIVE:
+**** Technology & job-hopping
+***** DONE [#A] finish python week class XML
+CLOSED: [2016-08-08 Mon 11:18] SCHEDULED: <2016-08-07 Sun>
+***** DONE [#A] finish vim level 12
+CLOSED: [2016-08-09 Tue 00:36] SCHEDULED: <2016-08-08 Mon>
+***** DONE [#B] submit 3 resumes
+CLOSED: [2016-08-13 Sat 09:45] SCHEDULED: <2016-08-18 Thu>
+**** church
+***** DONE [#C] cooking tea egg
+CLOSED: [2016-08-11 Thu 13:26] SCHEDULED: <2016-08-11 Thu>
+**** administration
+***** DONE [#B] install vechile low beam
+CLOSED: [2016-08-08 Mon 11:19] SCHEDULED: <2016-08-07 Sun>
+***** DONE [#C] check discover
+CLOSED: [2016-08-11 Thu 12:27] SCHEDULED: <2016-08-06 Sat>
+***** TODO [#C] check chase 蓝宝石
+SCHEDULED: [2016-08-06 Sat]
+***** DONE [#A] check police about my ticket
+CLOSED: [2016-08-09 Tue 19:20] SCHEDULED: <2016-08-10 Wed>
+**** Soul Mate
+***** DONE [#A] deal with relationships
+CLOSED: [2016-08-08 Mon 11:19] SCHEDULED: <2016-08-07 Sun>
+*** W33 management                                                :ARCHIVE:
+**** DONE Technology & job-hopping
+CLOSED: [2016-08-30 Tue 16:10]
+***** DONE make summary for my last two weeks
+CLOSED: [2016-08-13 Sat 23:27] SCHEDULED: <2016-08-13 Sat>
+***** DONE study Python for Data Analysis
+CLOSED: [2016-08-16 Tue 23:38] SCHEDULED: <2016-08-16 Tue>
+**** DONE administration
+CLOSED: [2016-08-30 Tue 16:10]
+***** DONE find my $300 
+CLOSED: [2016-08-15 Mon 09:44] SCHEDULED: <2016-08-14 Sun>
+***** DONE manage photos
+CLOSED: [2016-08-19 Fri 15:08] SCHEDULED: <2016-08-19 Fri>
+***** DONE Soul Mate
+CLOSED: [2016-08-30 Tue 16:09]
+****** DONE fix computer and install WPS+mac words
+CLOSED: [2016-08-16 Tue 23:39] SCHEDULED: <2016-08-16 Tue>
+****** DONE buy flower 
+CLOSED: [2016-08-19 Fri 17:26] SCHEDULED: <2016<2016-11-09 Wed>-08-21 Sun>
+****** DONE talk with Lin about the friday night's plan 
+CLOSED: [2016-08-18 Thu 14:35] SCHEDULED: <2016-08-18 Thu>
+****** DONE check with Lin about her lecture
+CLOSED: [2016-08-18 Thu 14:35] SCHEDULED: <2016-08-18 Thu>
+****** DONE inform Eason to cancel the shopping activity 
+CLOSED: [2016-08-18 Thu 15:08] SCHEDULED: <2016-08-18 Thu>
+****** DONE check with SP4
+CLOSED: [2016-08-17 Wed 19:37] SCHEDULED: <2016-08-17 Wed>
+***** DONE help Wolf buy watch
+CLOSED: [2016-08-13 Sat 23:43] SCHEDULED: <2016-08-13 Sat>
+***** DONE return Wolf watch
+CLOSED: [2016-08-15 Mon 10:49] SCHEDULED: <2016-08-15 Mon>
+***** DONE show 跳步视频
+CLOSED: [2016-08-30 Tue 16:10] SCHEDULED: <2016-09-03 Sat>
+**** DONE review python databases
+CLOSED: [2016-08-30 Tue 16:09]
+***** DONE review objects knowledge                               :Study:
+CLOSED: [2016-08-25 Thu 17:54] SCHEDULED: <2016-08-23 Tue>
+***** DONE install database
+CLOSED: [2016-08-17 Wed 20:21] SCHEDULED: <2016-08-17 Wed>
+***** DONE study database                                         :study:
+CLOSED: [2016-08-21 Sun 18:13] SCHEDULED: <2016-08-21 Sun>
+**** DONE python webdata
+CLOSED: [2016-08-30 Tue 16:09]
+***** DONE study XML and JSON project                             :study:
+CLOSED: [2016-08-21 Sun 19:07] SCHEDULED: <2016-08-21 Sun>
+***** DONE Study REST                                             :Study:
+CLOSED: [2016-08-25 Thu 17:54] SCHEDULED: <2016-08-23 Tue>
+***** search XML and JSON work
+**** DONE study Web Class                                          :Study:
+CLOSED: [2016-08-21 Sun 18:13] SCHEDULED: <2016-08-21 Sun>
+**** DONE software skills
+CLOSED: [2016-08-30 Tue 16:15]
+***** DONE review VIM, organize the shortcut Table                :Study:
+CLOSED: [2016-08-24 Wed 08:45] SCHEDULED: <2016-08-23 Tue>
+:LOGBOOK:
+CLOCK: [2016-08-18 Thu 13:49]--[2016-08-18 Thu 14:34] =>  0:45
+:END:
+***** DONE cancel Evernote membership
+CLOSED: [2016-08-30 Tue 16:15] SCHEDULED: <2016-09-30 Fri>
+*** W34 management                                                :ARCHIVE:
+I am stuck on the following:
+web develop, database, job hopping, even on the relationship with Lin
+I have to be very patient about everything. no be worried and anxious, that is still the most important thing. 
+
+
+Next week, I could begin to study to play Guitar, which will be helpful for calming down. 
+I also need to read books. Do not forget to keep reading. From reading, I could see how others guys jump out of the problems.
+Be patient and keep curious about other guys and other knowledge or I could just practice writing words handly. 
+
+Another thing is about my Lin. If I feel bad, just stop be good to her. I always have to keep myself independent. 
+If she lose her temp. I have no need to bear it. just break up. 
+**** TODO study Guitar                                           :ARCHIVE:
+SCHEDULED: <2016-08-23 Tue>
+**** preactice handly writing                                    :ARCHIVE:
+SCHEDULED: <2016-08-23 Tue>
+**** DONE reading books
+CLOSED: [2016-08-25 Thu 17:54] SCHEDULED: <2016-08-23 Tue>
+*** W35 management                                                :ARCHIVE:
+***** DONE [#C] install Parallels Desktop and windows 7 [100%]  :ARCHIVE:
+CLOSED: [2016-08-30 Tue 16:09]
+****** DONE clean macbook pro
+CLOSED: [2016-08-27 Sat 17:16]
+****** DONE buy software on taobao [100%]
+CLOSED: [2016-08-30 Tue 16:08]
+******* DONE wait for taobao password reset after 2 hours
+CLOSED: [2016-08-30 Tue 16:08]
+******* DONE check with [[https://world.tmall.com/item/529583571941.htm?spm=a312a.7700714.0.0.TqVo6u&sku_properties=14829532:72110507][Parallels sold on taobao]]
+CLOSED: [2016-08-30 Tue 16:08]
+****** DONE install windows
+CLOSED: [2016-08-30 Tue 16:09]
+****** DONE install office
+CLOSED: [2016-08-30 Tue 16:09]
+***** DONE think about Xmind 7, intall imapmind                 :ARCHIVE:
+CLOSED: [2016-09-09 Fri 15:57]
+***** DONE install second floor computer with spacemacs         :ARCHIVE:
+CLOSED: [2016-09-09 Fri 15:58]
+*** W36 management                                                :ARCHIVE:
+**** study(when I have time)                                     :ARCHIVE:
+***** WAITING [#C] markdown
+***** WAITING [#C] finish org-mode 中文对齐
+***** WAITING create my own website with my daily knowledge
+***** [#C] study 五笔输入法
+**** DONE keep studying, although it takes time, feedback slowly but just keep doing that, without thinking too much
+CLOSED: [2016-09-09 Fri 15:58]
+*** W37 management                                                :ARCHIVE:
+SCHEDULED: <2016-09-12 Mon>
+**** DONE [#A] modify the resume by adding more network info on it
+CLOSED: [2016-09-15 Thu 17:13]
+**** DONE [#A] get the database certification
+CLOSED: [2016-09-15 Thu 11:01]
+**** DONE [#A] buy gifts for my girlfriend, such as zachary bags and backbags
+CLOSED: [2016-09-17 Sat 16:42]
+**** DONE [#B] keep chat with friends(control frequency 1 time per month)
+CLOSED: [2016-09-15 Thu 11:01] SCHEDULED: <2016-09-08 Thu>
+**** DONE small cases[%]
+CLOSED: [2016-09-17 Sat 22:57]
+***** DONE add TODO in the tables
+CLOSED: [2016-09-13 Tue 16:41]
+**** DONE modify resume(delete unnecssary info (school or previous work exp) on software engineer, or add more study in current school)
+CLOSED: [2016-09-17 Sat 16:42]
+*** W38 management                                                :ARCHIVE:
+***** WAITING W38 administration
+#+BEGIN: clocktable :maxlevel 2 :scope subtree
+#+CAPTION: Clock summary at [2016-09-26 Mon 08:47]
+| Headline     | Time   |
+|--------------+--------|
+| *Total time* | *4:09* |
+|--------------+--------|
+#+END:
+
+#+BEGIN: clocktable :maxlevel 2 :scope subtree
+#+CAPTION: Clock summary at [2016-09-25 Sun 10:41]
+| Headline     | Time   |
+|--------------+--------|
+| *Total time* | *3:28* |
+|--------------+--------|
+#+END:
+#+BEGIN: clocktable :maxlevel 2 :scope subtree
+#+CAPTION: Clock summary at [2016-09-23 Fri 10:32]
+| Headline     | Time   |
+|--------------+--------|
+| *Total time* | *1:47* |
+|--------------+--------|
+#+END:
+#+BEGIN: clocktable :maxlevel 2 :scope subtree
+#+CAPTION: Clock summary at [2016-09-22 Thu 00:34]
+| Headline     | Time   |
+|--------------+--------|
+| *Total time* | *1:47* |
+|--------------+--------|
+#+END:
+#+BEGIN: clocktable :maxlevel 2 :scope subtree
+#+CAPTION: Clock summary at [2016-09-21 Wed 08:58]
+| Headline     | Time   |
+|--------------+--------|
+| *Total time* | *1:01* |
+|--------------+--------|
+#+END:
+SCHEDULED: <2016-09-25 Sun>
+:LOGBOOK:
+CLOCK: [2016-09-25 Sun 11:14]--[2016-09-25 Sun 11:22] =>  0:08
+CLOCK: [2016-09-25 Sun 10:40]--[2016-09-25 Sun 11:13] =>  0:33
+CLOCK: [2016-09-24 Sat 17:27]--[2016-09-24 Sat 18:35] =>  1:08
+CLOCK: [2016-09-23 Fri 10:44]--[2016-09-23 Fri 11:17] =>  0:33
+CLOCK: [2016-09-22 Thu 00:21]--[2016-09-22 Thu 00:28] =>  0:07
+CLOCK: [2016-09-21 Wed 09:22]--[2016-09-21 Wed 09:51] =>  0:29
+CLOCK: [2016-09-21 Wed 09:14]--[2016-09-21 Wed 09:21] =>  0:07
+CLOCK: [2016-09-21 Wed 09:10]--[2016-09-21 Wed 09:13] =>  0:03
+CLOCK: [2016-09-21 Wed 08:46]--[2016-09-21 Wed 08:58] =>  0:12
+CLOCK: [2016-09-20 Tue 14:47]--[2016-09-20 Tue 14:48] =>  0:01
+CLOCK: [2016-09-20 Tue 10:52]--[2016-09-20 Tue 11:11] =>  0:19
+CLOCK: [2016-09-19 Mon 17:15]--[2016-09-19 Mon 17:19] =>  0:04
+CLOCK: [2016-09-19 Mon 15:49]--[2016-09-19 Mon 16:08] =>  0:19
+CLOCK: [2016-09-19 Mon 11:16]--[2016-09-19 Mon 11:22] =>  0:06
+:END:
+****** TODO [#C] using Nike Factory Store $50
+***** DONE Job-Hopping
+CLOSED: [2016-09-25 Sun 11:06]
+:LOGBOOK:
+CLOCK: [2016-09-25 Sun 11:06]--[2016-09-25 Sun 11:06] =>  0:00
+:END:
+#+BEGIN: clocktable :maxlevel 2 :scope subtree
+#+CAPTION: Clock summary at [2016-09-25 Sun 10:41]
+| Headline     | Time   |
+|--------------+--------|
+| *Total time* | *0:36* |
+|--------------+--------|
+#+END:
+#+BEGIN: clocktable :maxlevel 2 :scope subtree
+#+CAPTION: Clock summary at [2016-09-24 Sat 11:16]
+| Headline     | Time   |
+|--------------+--------|
+| *Total time* | *0:36* |
+|--------------+--------|
+#+END:
+#+BEGIN: clocktable :maxlevel 2 :scope subtree
+#+CAPTION: Clock summary at [2016-09-22 Thu 00:34]
+| Headline     | Time   |
+|--------------+--------|
+| *Total time* | *0:10* |
+|--------------+--------|
+#+END:
+****** WAITING submit 10 resume
+SCHEDULED: <2016-09-25 Sun>
+:LOGBOOK:
+CLOCK: [2016-09-23 Fri 11:17]--[2016-09-23 Fri 11:43] =>  0:26
+CLOCK: [2016-09-21 Wed 08:58]--[2016-09-21 Wed 09:08] =>  0:10
+:END:
+***** WAITING W38 Technology
+#+BEGIN: clocktable :maxlevel 2 :scope subtree
+#+CAPTION: Clock summary at [2016-09-26 Mon 08:47]
+| Headline     | Time   |
+|--------------+--------|
+| *Total time* | *7:52* |
+|--------------+--------|
+#+END:
+
+SCHEDULED: <2016-09-25 Sun>
+#+BEGIN: clocktable :maxlevel 2 :scope subtree
+#+CAPTION: Clock summary at [2016-09-25 Sun 10:39]
+| Headline     | Time   |
+|--------------+--------|
+| *Total time* | *8:52* |
+|--------------+--------|
+#+END:
+#+BEGIN: clocktable :maxlevel 2 :scope subtree
+#+CAPTION: Clock summary at [2016-09-23 Fri 18:19]
+| Headline     | Time   |
+|--------------+--------|
+| *Total time* | *6:27* |
+|--------------+--------|
+#+END:
+#+BEGIN: clocktable :maxlevel 2 :scope subtree
+#+CAPTION: Clock summary at [2016-09-23 Fri 10:33]
+| Headline     | Time   |
+|--------------+--------|
+| *Total time* | *5:29* |
+|--------------+--------|
+#+END:
+#+BEGIN: clocktable :maxlevel 2 :scope subtree
+#+CAPTION: Clock summary at [2016-09-22 Thu 00:33]
+| Headline     | Time   |
+|--------------+--------|
+| *Total time* | *5:29* |
+|--------------+--------|
+#+END:
+#+BEGIN: clocktable :maxlevel 2 :scope subtree
+#+CAPTION: Clock summary at [2016-09-21 Wed 08:46]
+| Headline     | Time   |
+|--------------+--------|
+| *Total time* | *2:12* |
+|--------------+--------|
+#+END:
+#+BEGIN: clocktable :maxlevel 2 :scope subtree
+#+CAPTION: Clock summary at [2016-09-20 Tue 10:57]
+| Headline     | Time   |
+|--------------+--------|
+| *Total time* | *1:28* |
+|--------------+--------|
+#+END:
+:LOGBOOK:
+CLOCK: [2016-09-25 Sun 12:27]--[2016-09-25 Sun 12:50] =>  0:23
+CLOCK: [2016-09-25 Sun 11:44]--[2016-09-25 Sun 11:44] =>  0:00
+CLOCK: [2016-09-25 Sun 11:23]--[2016-09-25 Sun 11:44] =>  0:21
+CLOCK: [2016-09-19 Mon 11:04]--[2016-09-19 Mon 11:34] =>  0:30
+:END:
+****** DONE finish Python Data Structures
+CLOSED: [2016-09-24 Sat 17:22] SCHEDULED: <2016-09-24 Sat>
+:LOGBOOK:
+CLOCK: [2016-09-24 Sat 15:49]--[2016-09-24 Sat 16:04] =>  0:15
+CLOCK: [2016-09-24 Sat 14:19]--[2016-09-24 Sat 14:49] =>  1:30
+CLOCK: [2016-09-24 Sat 12:06]--[2016-09-24 Sat 13:00] =>  0:54
+CLOCK: [2016-09-23 Fri 11:46]--[2016-09-23 Fri 12:44] =>  0:58
+CLOCK: [2016-09-21 Wed 23:46]--[2016-09-22 Thu 00:21] =>  0:35
+CLOCK: [2016-09-21 Wed 22:35]--[2016-09-21 Wed 23:45] =>  1:10
+CLOCK: [2016-09-21 Wed 19:25]--[2016-09-21 Wed 19:34] =>  0:09
+CLOCK: [2016-09-21 Wed 18:04]--[2016-09-21 Wed 19:25] =>  1:21
+CLOCK: [2016-09-21 Wed 18:02]--[2016-09-21 Wed 18:02] =>  0:00
+CLOCK: [2016-09-21 Wed 17:59]--[2016-09-21 Wed 18:01] =>  0:02
+CLOCK: [2016-09-20 Tue 14:04]--[2016-09-20 Tue 14:46] =>  0:42
+CLOCK: [2016-09-20 Tue 14:02]--[2016-09-20 Tue 14:04] =>  0:02
+:END:
+*** W39 management                                                :ARCHIVE:
+**** WAITING [#A] W39 administration
+SCHEDULED: <2016-10-02 Sun>
+:LOGBOOK:
+CLOCK: [2016-10-02 Sun 08:41]--[2016-10-02 Sun 08:42] =>  0:01
+CLOCK: [2016-10-02 Sun 08:35]--[2016-10-02 Sun 08:41] =>  0:06
+:END:
+**** WAITING [#A] W39 work 
+SCHEDULED: <2016-10-02 Sun>
+**** WAITING [#A] W39 J-Hopping
+SCHEDULED: <2016-10-02 Sun>
+:LOGBOOK:
+CLOCK: [2016-10-02 Sun 13:05]--[2016-10-02 Sun 14:06] =>  1:01
+:END:
+**** WAITING [#A] W39 Technology
+SCHEDULED: <2016-10-02 Sun>
+:LOGBOOK:
+CLOCK: [2016-10-03 Mon 08:01]--[2016-10-03 Mon 08:01] =>  0:00
+CLOCK: [2016-10-02 Sun 15:17]--[2016-10-02 Sun 15:27] =>  0:10
+CLOCK: [2016-10-02 Sun 14:57]--[2016-10-02 Sun 15:01] =>  0:04
+CLOCK: [2016-10-02 Sun 14:11]--[2016-10-02 Sun 14:44] =>  0:33
+CLOCK: [2016-10-02 Sun 09:01]--[2016-10-02 Sun 09:49] =>  0:48
+:END:
+**** W39 Tech
+***** study The Raspberry Pi on Coursera
+***** study Java Programming: Solving Programs with Software
+***** DONE finish Getting start with Python
+CLOSED: [2016-10-02 Sun 08:42]
+:LOGBOOK:
+CLOCK: [2016-10-02 Sun 08:42]--[2016-10-02 Sun 08:42] =>  0:00
+:END:
+***** Emacs study
+****** [#A] using latex in sapcemacs
+****** DONE try install time management in orgmode             :ARCHIVE:
+CLOSED: [2016-09-19 Mon 11:01]
+***** DONE shuati
+CLOSED: [2016-10-02 Sun 08:42]
+:LOGBOOK:
+CLOCK: [2016-10-02 Sun 08:42]--[2016-10-02 Sun 08:42] =>  0:00
+:END:
+**** weekly summary                                              :ARCHIVE:
+|                | monday | Tuesday | wednesday | Thursday | Friday         | Saturday       | Sunday     |
+|----------------+--------+---------+-----------+----------+----------------+----------------+------------|
+| Friends&GOD    |        |         |           |          | Fellowship     |                | workship   |
+| administration |        |         | pictures  |          | Weekly Summary | administration |            |
+| exercise       |        | Fitness |           | Fitness  |                | Fitness        | basketball |
+| study          | python |         |           |          |                |                |            |
+| resume         |        | search  |           | submit   |                | search         |            |
+| family         |        |         |           |          |                | phone call     |            |
+| sleep          |        |         |           |          |                |                |            |
+*** W40 management                                                :ARCHIVE:
+**** WAITING [#B] W40 administration
+SCHEDULED: <2016-10-08 Sat>
+:LOGBOOK:
+CLOCK: [2016-10-08 Sat 09:24]--[2016-10-08 Sat 09:27] =>  0:03
+:END:
+**** WAITING [#A] W40 work 
+SCHEDULED: <2016-10-08 Sat>
+:LOGBOOK:
+:END:
+**** WAITING [#A] W40 J-Hopping
+SCHEDULED: <2016-10-08 Sat>
+**** WAITING [#A] W40 Technology
+SCHEDULED: <2016-10-08 Sat>
+:LOGBOOK:
+CLOCK: [2016-10-08 Sat 23:49]--[2016-10-09 Sun 00:20] =>  0:31
+CLOCK: [2016-10-08 Sat 21:52]--[2016-10-08 Sat 22:04] =>  0:12
+CLOCK: [2016-10-08 Sat 20:18]--[2016-10-08 Sat 20:21] =>  0:03
+CLOCK: [2016-10-08 Sat 19:05]--[2016-10-08 Sat 20:16] =>  1:11
+CLOCK: [2016-10-08 Sat 17:57]--[2016-10-08 Sat 18:24] =>  0:27
+CLOCK: [2016-10-08 Sat 15:55]--[2016-10-08 Sat 16:51] =>  0:22
+CLOCK: [2016-10-08 Sat 09:27]--[2016-10-08 Sat 11:07] =>  1:40
+:END:
+**** WAITING [#B] W40 reading
+***** SCHEDULED: <2016-10-08 Sat>
+**** W40 Tech
+***** study The Raspberry Pi on Coursera
+***** DONE study Java Programming: Solving Programs with Software
+CLOSED: [2016-10-10 Mon 09:34]
+***** Emacs study
+****** [#A] using latex in sapcemacs
+****** DONE try install time management in orgmode             :ARCHIVE:
+***** shuati
+**** weekly summary                                              :ARCHIVE:
+|                | monday | Tuesday | wednesday | Thursday | Friday         | Saturday       | Sunday     |
+|----------------+--------+---------+-----------+----------+----------------+----------------+------------|
+| Friends&GOD    |        |         |           |          | Fellowship     |                | workship   |
+| administration |        |         | pictures  |          | Weekly Summary | administration |            |
+| exercise       |        | Fitness |           | Fitness  |                | Fitness        | basketball |
+| study          | python |         |           |          |                |                |            |
+| resume         |        | search  |           | submit   |                | search         |            |
+| family         |        |         |           |          |                | phone call     |            |
+| sleep          |        |         |           |          |                |                |            |
+*** W41 management                                                :ARCHIVE:
+**** WAITING [#B] W41 administration
+SCHEDULED: <2016-10-16 Sun>
+:LOGBOOK:
+CLOCK: [2016-10-15 Sat 21:38]--[2016-10-15 Sat 21:43] =>  0:05
+CLOCK: [2016-10-15 Sat 19:23]--[2016-10-15 Sat 19:25] =>  0:02
+CLOCK: [2016-10-15 Sat 18:49]--[2016-10-15 Sat 19:23] =>  0:34
+CLOCK: [2016-10-14 Fri 10:31]--[2016-10-14 Fri 11:14] =>  0:43
+CLOCK: [2016-10-13 Thu 10:31]--[2016-10-13 Thu 10:51] =>  0:20
+:END:
+**** WAITING [#A] W41 work 
+SCHEDULED: <2016-10-16 Sun>
+:LOGBOOK:
+CLOCK: [2016-10-14 Fri 15:28]--[2016-10-14 Fri 15:41] =>  0:13
+CLOCK: [2016-10-14 Fri 14:04]--[2016-10-14 Fri 15:28] =>  1:24
+CLOCK: [2016-10-14 Fri 11:15]--[2016-10-14 Fri 12:01] =>  0:46
+CLOCK: [2016-10-13 Thu 17:40]--[2016-10-13 Thu 17:53] =>  0:13
+CLOCK: [2016-10-13 Thu 15:25]--[2016-10-13 Thu 17:32] =>  2:07
+CLOCK: [2016-10-13 Thu 15:08]--[2016-10-13 Thu 15:25] =>  0:17
+:END:
+**** WAITING [#A] W41 J-Hopping
+SCHEDULED: <2016-10-16 Sun>
+:LOGBOOK:
+CLOCK: [2016-10-16 Sun 17:04]--[2016-10-16 Sun 17:28] =>  0:24
+:END:
+**** WAITING [#A] W41 Technology
+SCHEDULED: <2016-10-16 Sun>
+:LOGBOOK:
+CLOCK: [2016-10-16 Sun 22:16]--[2016-10-16 Sun 23:23] =>  1:07
+CLOCK: [2016-10-16 Sun 12:56]--[2016-10-16 Sun 13:59] =>  1:03
+CLOCK: [2016-10-16 Sun 10:10]--[2016-10-16 Sun 11:00] =>  0:50
+CLOCK: [2016-10-16 Sun 09:32]--[2016-10-16 Sun 10:06] =>  0:34
+CLOCK: [2016-10-15 Sat 22:39]--[2016-10-15 Sat 22:49] =>  0:10
+CLOCK: [2016-10-15 Sat 21:03]--[2016-10-15 Sat 21:36] =>  0:33
+CLOCK: [2016-10-15 Sat 20:18]--[2016-10-15 Sat 20:20] =>  0:02
+CLOCK: [2016-10-15 Sat 19:26]--[2016-10-15 Sat 19:45] =>  0:19
+CLOCK: [2016-10-14 Fri 21:32]--[2016-10-14 Fri 21:54] =>  0:22
+CLOCK: [2016-10-14 Fri 20:59]--[2016-10-14 Fri 21:21] =>  0:22
+CLOCK: [2016-10-14 Fri 17:15]--[2016-10-14 Fri 17:23] =>  0:08
+CLOCK: [2016-10-14 Fri 15:43]--[2016-10-14 Fri 17:12] =>  1:29
+CLOCK: [2016-10-13 Thu 20:15]--[2016-10-13 Thu 20:41] =>  0:26
+CLOCK: [2016-10-13 Thu 17:35]--[2016-10-13 Thu 17:39] =>  0:04
+CLOCK: [2016-10-13 Thu 11:16]--[2016-10-13 Thu 11:34] =>  0:18
+:END:
+**** WAITING [#B] W41 reading
+SCHEDULED: <2016-10-16 Sun>
+**** W41 Tech
+***** study The Raspberry Pi on Coursera
+***** Emacs study
+****** [#A] using latex in sapcemacs
+****** DONE try install time management in orgmode             :ARCHIVE:
+***** study Coursera Algorithms class
+***** study Algorithms
+***** study Coursera Data Structure class
+**** weekly summary                                              :ARCHIVE:
+|                | monday | Tuesday | wednesday | Thursday | Friday         | Saturday           | Sunday     |
+|----------------+--------+---------+-----------+----------+----------------+--------------------+------------|
+| Friends&GOD    |        |         |           |          | Fellowship     | fellowship meeting | workship   |
+| administration |        |         | pictures  |          | Weekly Summary | administration     |            |
+| exercise       |        | Fitness |           | Fitness  |                | Fitness            | basketball |
+| study          | python |         |           |          |                |                    |            |
+| resume         |        | search  |           | submit   |                | search             |            |
+| family         |        |         |           |          |                | phone call         |            |
+| sleep          |        |         |           |          |                |                    |            |
+*** W42 management                                                :ARCHIVE:
+**** WAITING [#B] W42 administration
+SCHEDULED: <2016-10-24 Mon>
+:LOGBOOK:
+CLOCK: [2016-10-24 Mon 09:38]--[2016-10-24 Mon 09:38] =>  0:00
+CLOCK: [2016-10-23 Sun 01:01]--[2016-10-23 Sun 01:18] =>  0:17
+CLOCK: [2016-10-23 Sun 00:43]--[2016-10-23 Sun 01:01] =>  0:18
+CLOCK: [2016-10-23 Sun 00:27]--[2016-10-23 Sun 00:43] =>  0:16
+CLOCK: [2016-10-23 Sun 00:22]--[2016-10-23 Sun 00:26] =>  0:04
+CLOCK: [2016-10-23 Sun 00:22]--[2016-10-23 Sun 00:22] =>  0:00
+CLOCK: [2016-10-21 Fri 15:38]--[2016-10-21 Fri 15:56] =>  0:18
+CLOCK: [2016-10-21 Fri 12:15]--[2016-10-21 Fri 13:01] =>  0:46
+CLOCK: [2016-10-21 Fri 09:06]--[2016-10-21 Fri 09:30] =>  0:24
+CLOCK: [2016-10-20 Thu 10:59]--[2016-10-20 Thu 10:59] =>  0:00
+CLOCK: [2016-10-20 Thu 09:39]--[2016-10-20 Thu 10:59] =>  1:20
+CLOCK: [2016-10-17 Mon 09:07]--[2016-10-17 Mon 10:00] =>  0:53
+CLOCK: [2016-10-17 Mon 08:37]--[2016-10-17 Mon 08:51] =>  0:14
+:END:
+**** WAITING [#B] W42 work 
+SCHEDULED: <2016-10-24 Mon>
+:LOGBOOK:
+CLOCK: [2016-10-21 Fri 15:23]--[2016-10-21 Fri 15:35] =>  0:12
+CLOCK: [2016-10-21 Fri 14:29]--[2016-10-21 Fri 15:17] =>  0:48
+CLOCK: [2016-10-21 Fri 12:10]--[2016-10-21 Fri 12:15] =>  0:05
+CLOCK: [2016-10-21 Fri 10:52]--[2016-10-21 Fri 12:00] =>  1:08
+CLOCK: [2016-10-20 Thu 15:22]--[2016-10-20 Thu 18:04] =>  4:12
+CLOCK: [2016-10-19 Wed 13:50]--[2016-10-19 Wed 17:09] =>  3:19
+CLOCK: [2016-10-18 Tue 14:04]--[2016-10-18 Tue 15:19] =>  1:15
+CLOCK: [2016-10-18 Tue 11:58]--[2016-10-18 Tue 12:54] =>  0:56
+CLOCK: [2016-10-18 Tue 08:29]--[2016-10-18 Tue 08:29] =>  0:00
+CLOCK: [2016-10-17 Mon 13:47]--[2016-10-17 Mon 15:39] =>  1:52
+CLOCK: [2016-10-17 Mon 11:58]--[2016-10-17 Mon 12:04] =>  0:06
+CLOCK: [2016-10-17 Mon 11:26]--[2016-10-17 Mon 11:57] =>  0:31
+CLOCK: [2016-10-17 Mon 10:55]--[2016-10-17 Mon 11:22] =>  0:27
+:END:
+**** WAITING [#A] W42 J-Hopping 
+SCHEDULED: <2016-10-24 Mon>
+**** WAITING [#A] W42 Technology
+SCHEDULED: <2016-10-24 Mon>
+:LOGBOOK:
+CLOCK: [2016-10-23 Sun 14:14]--[2016-10-23 Sun 14:36] =>  0:22
+CLOCK: [2016-10-23 Sun 14:14]--[2016-10-23 Sun 14:14] =>  0:00
+CLOCK: [2016-10-21 Fri 17:53]--[2016-10-21 Fri 19:26] =>  1:33
+CLOCK: [2016-10-20 Thu 23:09]--[2016-10-20 Thu 23:54] =>  0:45
+CLOCK: [2016-10-19 Wed 23:10]--[2016-10-20 Thu 01:43] =>  2:33
+CLOCK: [2016-10-19 Wed 20:11]--[2016-10-19 Wed 21:00] =>  0:49
+CLOCK: [2016-10-19 Wed 18:11]--[2016-10-19 Wed 18:21] =>  0:10
+CLOCK: [2016-10-19 Wed 00:04]--[2016-10-19 Wed 00:07] =>  0:03
+CLOCK: [2016-10-18 Tue 21:02]--[2016-10-18 Tue 23:32] =>  2:30
+CLOCK: [2016-10-18 Tue 15:19]--[2016-10-18 Tue 15:20] =>  0:01
+CLOCK: [2016-10-18 Tue 09:44]--[2016-10-18 Tue 09:55] =>  0:00
+CLOCK: [2016-10-18 Tue 08:29]--[2016-10-18 Tue 09:44] =>  1:15
+CLOCK: [2016-10-17 Mon 22:47]--[2016-10-17 Mon 23:08] =>  0:21
+CLOCK: [2016-10-17 Mon 22:02]--[2016-10-17 Mon 22:45] =>  0:43
+CLOCK: [2016-10-17 Mon 21:15]--[2016-10-17 Mon 21:46] =>  0:31
+CLOCK: [2016-10-17 Mon 19:51]--[2016-10-17 Mon 20:17] =>  0:26
+CLOCK: [2016-10-17 Mon 19:17]--[2016-10-17 Mon 19:51] =>  0:34
+:END:
+**** W42 Tech
+***** study The Raspberry Pi on Coursera
+***** Emacs study
+****** [#A] using latex in sapcemacs
+****** DONE try install time management in orgmode             :ARCHIVE:
+***** study Coursera Algorithms class
+***** study Algorithms
+***** study Coursera Data Structure class
+***** Help Sam for updating Church Website
+***** do summary about python basic programming
+**** weekly summary                                              :ARCHIVE:
+|                | monday | Tuesday | wednesday | Thursday | Friday         | Saturday           | Sunday     |
+|----------------+--------+---------+-----------+----------+----------------+--------------------+------------|
+| Friends&GOD    |        |         |           |          | Fellowship     | fellowship meeting | workship   |
+| administration |        |         | pictures  |          | Weekly Summary | administration     |            |
+| exercise       |        | Fitness |           | Fitness  |                | Fitness            | basketball |
+| study          | python |         |           |          |                |                    |            |
+| resume         |        | search  |           | submit   |                | search             |            |
+| family         |        |         |           |          |                | phone call         |            |
+| sleep          |        |         |           |          |                |                    |            |
+*** W43 management                                                :ARCHIVE:
+**** WAITING W43 administration
+SCHEDULED: <2016-10-30 Sun>
+:LOGBOOK:
+CLOCK: [2016-10-30 Sun 21:40]--[2016-10-30 Sun 22:23] =>  0:43
+CLOCK: [2016-10-30 Sun 20:57]--[2016-10-30 Sun 21:16] =>  0:19
+CLOCK: [2016-10-30 Sun 20:13]--[2016-10-30 Sun 20:32] =>  0:19
+CLOCK: [2016-10-29 Sat 08:22]--[2016-10-29 Sat 08:28] =>  0:06
+CLOCK: [2016-10-28 Fri 14:34]--[2016-10-28 Fri 15:05] =>  0:31
+CLOCK: [2016-10-27 Thu 10:22]--[2016-10-27 Thu 10:22] =>  0:00
+CLOCK: [2016-10-26 Wed 09:57]--[2016-10-26 Wed 10:44] =>  0:47
+CLOCK: [2016-10-25 Tue 16:21]--[2016-10-25 Tue 16:37] =>  0:16
+CLOCK: [2016-10-25 Tue 11:12]--[2016-10-25 Tue 11:13] =>  0:01
+CLOCK: [2016-10-24 Mon 21:11]--[2016-10-24 Mon 22:08] =>  0:57
+CLOCK: [2016-10-24 Mon 09:33]--[2016-10-24 Mon 10:53] =>  1:20
+:END:
+**** WAITING W43 work 
+SCHEDULED: <2016-10-30 Sun>
+:LOGBOOK:
+CLOCK: [2016-10-28 Fri 17:00]--[2016-10-28 Fri 17:08] =>  0:08
+CLOCK: [2016-10-28 Fri 16:42]--[2016-10-28 Fri 16:52] =>  0:10
+CLOCK: [2016-10-28 Fri 16:37]--[2016-10-28 Fri 16:41] =>  0:04
+CLOCK: [2016-10-28 Fri 15:05]--[2016-10-28 Fri 15:35] =>  0:30
+CLOCK: [2016-10-28 Fri 14:00]--[2016-10-28 Fri 14:30] =>  0:30
+CLOCK: [2016-10-28 Fri 11:23]--[2016-10-28 Fri 11:35] =>  0:12
+CLOCK: [2016-10-28 Fri 11:15]--[2016-10-28 Fri 11:21] =>  0:06
+CLOCK: [2016-10-27 Thu 13:37]--[2016-10-27 Thu 17:19] =>  3:42
+CLOCK: [2016-10-26 Wed 17:17]--[2016-10-26 Wed 18:23] =>  0:38
+CLOCK: [2016-10-26 Wed 13:57]--[2016-10-26 Wed 16:16] =>  2:19
+CLOCK: [2016-10-25 Tue 19:15]--[2016-10-25 Tue 19:42] =>  0:27
+CLOCK: [2016-10-25 Tue 16:37]--[2016-10-25 Tue 18:26] =>  1:49
+CLOCK: [2016-10-25 Tue 14:18]--[2016-10-25 Tue 16:01] =>  1:43
+CLOCK: [2016-10-25 Tue 11:20]--[2016-10-25 Tue 12:11] =>  0:51
+CLOCK: [2016-10-25 Tue 11:08]--[2016-10-25 Tue 11:11] =>  0:03
+CLOCK: [2016-10-24 Mon 15:19]--[2016-10-24 Mon 16:25] =>  1:06
+CLOCK: [2016-10-24 Mon 13:30]--[2016-10-24 Mon 14:43] =>  1:13
+:END:
+**** WAITING W43 J-Hopping 
+SCHEDULED: <2016-10-30 Sun>
+**** WAITING W43 Technology
+SCHEDULED: <2016-10-30 Sun>
+:LOGBOOK:
+CLOCK: [2016-10-29 Sat 23:03]--[2016-10-29 Sat 23:49] =>  0:46
+CLOCK: [2016-10-29 Sat 21:06]--[2016-10-29 Sat 21:52] =>  0:46
+CLOCK: [2016-10-29 Sat 17:07]--[2016-10-29 Sat 18:53] =>  1:46
+CLOCK: [2016-10-29 Sat 14:45]--[2016-10-29 Sat 15:44] =>  0:59
+CLOCK: [2016-10-29 Sat 12:27]--[2016-10-29 Sat 12:46] =>  0:19
+CLOCK: [2016-10-29 Sat 11:54]--[2016-10-29 Sat 12:04] =>  0:10
+CLOCK: [2016-10-29 Sat 09:58]--[2016-10-29 Sat 11:04] =>  1:06
+CLOCK: [2016-10-29 Sat 08:28]--[2016-10-29 Sat 09:33] =>  1:05
+CLOCK: [2016-10-29 Sat 00:11]--[2016-10-29 Sat 00:56] =>  0:45
+CLOCK: [2016-10-28 Fri 22:47]--[2016-10-28 Fri 23:52] =>  1:05
+CLOCK: [2016-10-28 Fri 20:00]--[2016-10-28 Fri 22:47] =>  2:47
+CLOCK: [2016-10-28 Fri 17:42]--[2016-10-28 Fri 18:57] =>  1:15
+CLOCK: [2016-10-28 Fri 15:36]--[2016-10-28 Fri 16:00] =>  0:24
+CLOCK: [2016-10-28 Fri 08:21]--[2016-10-28 Fri 10:51] =>  2:30
+CLOCK: [2016-10-27 Thu 11:46]--[2016-10-27 Thu 12:35] =>  0:49
+CLOCK: [2016-10-27 Thu 08:52]--[2016-10-27 Thu 10:22] =>  1:30
+CLOCK: [2016-10-26 Wed 20:53]--[2016-10-26 Wed 23:42] =>  2:49
+CLOCK: [2016-10-26 Wed 19:29]--[2016-10-26 Wed 19:40] =>  0:11
+CLOCK: [2016-10-26 Wed 13:17]--[2016-10-26 Wed 13:38] =>  0:21
+CLOCK: [2016-10-26 Wed 11:15]--[2016-10-26 Wed 11:30] =>  0:15
+CLOCK: [2016-10-25 Tue 23:05]--[2016-10-25 Tue 23:11] =>  0:06
+CLOCK: [2016-10-25 Tue 22:41]--[2016-10-25 Tue 23:05] =>  0:24
+CLOCK: [2016-10-25 Tue 20:38]--[2016-10-25 Tue 21:27] =>  0:49
+CLOCK: [2016-10-24 Mon 22:21]--[2016-10-24 Mon 23:21] =>  1:00
+CLOCK: [2016-10-24 Mon 19:47]--[2016-10-24 Mon 20:41] =>  0:54
+CLOCK: [2016-10-24 Mon 16:27]--[2016-10-24 Mon 17:06] =>  0:39
+CLOCK: [2016-10-24 Mon 11:26]--[2016-10-24 Mon 12:04] =>  0:38
+CLOCK: [2016-10-24 Mon 10:53]--[2016-10-24 Mon 11:14] =>  0:21
+CLOCK: [2016-10-24 Mon 10:53]--[2016-10-24 Mon 10:53] =>  0:00
+:END:
+**** W43 Tech
+***** [#A] finish Java final project
+***** [#A] summary java class
+***** [#A] modify resume
+****** enrich python project
+****** add java project inside
+***** [#B] create personal website
+****** write HTML on emacs
+****** bought personal website url
+***** [#B] summary python class
+***** [#C] Help Sam for updating Church Website
+**** weekly summary                                              :ARCHIVE:
+|                | monday | Tuesday | wednesday | Thursday | Friday         | Saturday           | Sunday     |
+|----------------+--------+---------+-----------+----------+----------------+--------------------+------------|
+| Friends&GOD    |        |         |           |          | Fellowship     | fellowship meeting | workship   |
+| administration |        |         | pictures  |          | Weekly Summary | administration     |            |
+| exercise       |        | Fitness |           | Fitness  |                | Fitness            | basketball |
+| study          | python |         |           |          |                |                    |            |
+| resume         |        | search  |           | submit   |                | search             |            |
+| family         |        |         |           |          |                | phone call         |            |
+| sleep          |        |         |           |          |                |                    |            |
+*** W44 management                                                :ARCHIVE:
+**** WAITING W44 administration
+SCHEDULED: <2016-11-06 Sun>
+:LOGBOOK:
+CLOCK: [2016-11-06 Sun 09:54]--[2016-11-06 Sun 10:00] =>  0:06
+CLOCK: [2016-11-06 Sun 09:39]--[2016-11-06 Sun 09:54] =>  0:15
+CLOCK: [2016-11-04 Fri 13:49]--[2016-11-04 Fri 14:33] =>  1:04
+CLOCK: [2016-11-04 Fri 08:02]--[2016-11-04 Fri 08:22] =>  0:20
+CLOCK: [2016-11-03 Thu 22:25]--[2016-11-03 Thu 22:55] =>  0:30
+CLOCK: [2016-11-03 Thu 16:58]--[2016-11-03 Thu 17:16] =>  0:18
+CLOCK: [2016-11-03 Thu 13:52]--[2016-11-03 Thu 14:39] =>  0:47
+CLOCK: [2016-11-03 Thu 12:14]--[2016-11-03 Thu 12:20] =>  0:06
+CLOCK: [2016-11-03 Thu 11:33]--[2016-11-03 Thu 11:47] =>  0:14
+CLOCK: [2016-11-02 Wed 14:55]--[2016-11-02 Wed 15:19] =>  0:24
+CLOCK: [2016-11-01 Tue 10:26]--[2016-11-01 Tue 10:59] =>  0:23
+CLOCK: [2016-11-01 Tue 10:26]--[2016-11-01 Tue 10:26] =>  0:00
+CLOCK: [2016-10-31 Mon 09:08]--[2016-10-31 Mon 09:35] =>  0:27
+:END:
+**** WAITING W44 work 
+SCHEDULED: <2016-11-06 Sun>
+:LOGBOOK:
+CLOCK: [2016-11-04 Fri 17:20]--[2016-11-04 Fri 17:22] =>  0:02
+CLOCK: [2016-11-04 Fri 15:44]--[2016-11-04 Fri 16:00] =>  0:16
+CLOCK: [2016-11-04 Fri 14:58]--[2016-11-04 Fri 15:32] =>  0:34
+CLOCK: [2016-11-04 Fri 14:34]--[2016-11-04 Fri 14:54] =>  0:20
+CLOCK: [2016-11-03 Thu 16:13]--[2016-11-03 Thu 16:55] =>  0:42
+CLOCK: [2016-11-03 Thu 15:11]--[2016-11-03 Thu 15:39] =>  0:28
+CLOCK: [2016-11-02 Wed 16:23]--[2016-11-02 Wed 17:00] =>  0:37
+CLOCK: [2016-11-01 Tue 13:58]--[2016-11-01 Tue 14:51] =>  0:53
+CLOCK: [2016-10-31 Mon 15:32]--[2016-10-31 Mon 16:05] =>  0:33
+CLOCK: [2016-10-31 Mon 14:43]--[2016-10-31 Mon 15:02] =>  0:19
+:END:
+**** WAITING W44 J-Hopping 
+SCHEDULED: <2016-11-06 Sun>
+**** WAITING W44 Technology
+SCHEDULED: <2016-11-06 Sun>
+:LOGBOOK:
+CLOCK: [2016-11-06 Sun 09:39]--[2016-11-06 Sun 09:39] =>  0:00
+CLOCK: [2016-11-04 Fri 17:22]--[2016-11-04 Fri 17:34] =>  0:12
+CLOCK: [2016-11-04 Fri 10:37]--[2016-11-04 Fri 11:11] =>  0:34
+CLOCK: [2016-11-04 Fri 09:01]--[2016-11-04 Fri 10:26] =>  1:25
+CLOCK: [2016-11-04 Fri 08:24]--[2016-11-04 Fri 08:39] =>  0:15
+CLOCK: [2016-11-03 Thu 18:25]--[2016-11-03 Thu 18:34] =>  0:09
+CLOCK: [2016-11-03 Thu 18:10]--[2016-11-03 Thu 18:25] =>  0:15
+CLOCK: [2016-11-03 Thu 12:58]--[2016-11-03 Thu 13:20] =>  0:22
+CLOCK: [2016-11-03 Thu 12:20]--[2016-11-03 Thu 12:50] =>  0:30
+CLOCK: [2016-11-02 Wed 17:34]--[2016-11-02 Wed 18:03] =>  0:29
+CLOCK: [2016-11-02 Wed 15:19]--[2016-11-02 Wed 16:23] =>  1:04
+CLOCK: [2016-11-02 Wed 14:33]--[2016-11-02 Wed 14:55] =>  0:22
+CLOCK: [2016-11-02 Wed 10:11]--[2016-11-02 Wed 11:04] =>  0:53
+CLOCK: [2016-11-02 Wed 07:51]--[2016-11-02 Wed 08:53] =>  1:02
+CLOCK: [2016-11-01 Tue 20:59]--[2016-11-01 Tue 21:50] =>  0:51
+CLOCK: [2016-11-01 Tue 17:09]--[2016-11-01 Tue 17:32] =>  0:23
+CLOCK: [2016-11-01 Tue 11:47]--[2016-11-01 Tue 11:53] =>  0:06
+CLOCK: [2016-11-01 Tue 10:59]--[2016-11-01 Tue 11:45] =>  0:46
+CLOCK: [2016-11-01 Tue 00:29]--[2016-11-01 Tue 00:41] =>  0:12
+CLOCK: [2016-10-31 Mon 23:57]--[2016-11-01 Tue 00:19] =>  0:22
+CLOCK: [2016-10-31 Mon 22:04]--[2016-10-31 Mon 22:58] =>  0:54
+CLOCK: [2016-10-31 Mon 22:04]--[2016-10-31 Mon 22:04] =>  0:00
+CLOCK: [2016-10-31 Mon 18:50]--[2016-10-31 Mon 19:16] =>  0:26
+CLOCK: [2016-10-31 Mon 16:44]--[2016-10-31 Mon 17:47] =>  1:03
+CLOCK: [2016-10-31 Mon 16:28]--[2016-10-31 Mon 16:28] =>  0:00
+CLOCK: [2016-10-31 Mon 09:35]--[2016-10-31 Mon 10:17] =>  0:42
+:END:
+**** weekly summary                                              :ARCHIVE:
+|                | monday | Tuesday | wednesday | Thursday | Friday         | Saturday           | Sunday     |
+|----------------+--------+---------+-----------+----------+----------------+--------------------+------------|
+| Friends&GOD    |        |         |           |          | Fellowship     | fellowship meeting | workship   |
+| administration |        |         | pictures  |          | Weekly Summary | administration     |            |
+| exercise       |        | Fitness |           | Fitness  |                | Fitness            | basketball |
+| study          | python |         |           |          |                |                    |            |
+| resume         |        | search  |           | submit   |                | search             |            |
+| family         |        |         |           |          |                | phone call         |            |
+| sleep          |        |         |           |          |                |                    |            |
+**** W44 Tech
+***** [#A] modify resume
+****** enrich python project
+****** add java project inside
+***** [#B] create personal website
+****** write HTML on emacs
+****** study course4 HTML, CSS, 
+****** enrich python project
+***** study ruby
+****** rewrite company assignment using ruby
+***** [#A] study leetcode
+***** [#B] summary python class
+*** W45 management                                                :ARCHIVE:
+**** WAITING W45 administration
+SCHEDULED: <2016-11-13 Sun>
+:LOGBOOK:
+CLOCK: [2016-11-13 Sun 21:14]--[2016-11-13 Sun 22:12] =>  0:58
+CLOCK: [2016-11-13 Sun 08:34]--[2016-11-13 Sun 08:39] =>  0:05
+CLOCK: [2016-11-12 Sat 08:51]--[2016-11-12 Sat 09:18] =>  0:27
+CLOCK: [2016-11-11 Fri 16:45]--[2016-11-11 Fri 17:21] =>  0:36
+CLOCK: [2016-11-10 Thu 07:52]--[2016-11-10 Thu 08:05] =>  0:13
+CLOCK: [2016-11-09 Wed 07:39]--[2016-11-09 Wed 07:54] =>  0:15
+CLOCK: [2016-11-08 Tue 08:04]--[2016-11-08 Tue 08:30] =>  0:26
+CLOCK: [2016-11-07 Mon 09:38]--[2016-11-07 Mon 09:58] =>  0:20
+CLOCK: [2016-11-07 Mon 09:12]--[2016-11-07 Mon 09:27] =>  0:15
+CLOCK: [2016-11-07 Mon 08:39]--[2016-11-07 Mon 09:11] =>  0:32
+:END:
+**** WAITING W45 work 
+SCHEDULED: <2016-11-13 Sun>
+:LOGBOOK:
+CLOCK: [2016-11-11 Fri 15:20]--[2016-11-11 Fri 16:00] =>  0:00
+CLOCK: [2016-11-11 Fri 14:20]--[2016-11-11 Fri 15:20] =>  1:00
+CLOCK: [2016-11-10 Thu 15:15]--[2016-11-10 Thu 15:38] =>  0:23
+CLOCK: [2016-11-10 Thu 14:00]--[2016-11-10 Thu 15:08] =>  1:08
+CLOCK: [2016-11-10 Thu 11:50]--[2016-11-10 Thu 12:09] =>  0:19
+CLOCK: [2016-11-09 Wed 14:06]--[2016-11-09 Wed 14:36] =>  0:00
+CLOCK: [2016-11-08 Tue 16:33]--[2016-11-08 Tue 18:22] =>  1:49
+CLOCK: [2016-11-08 Tue 14:04]--[2016-11-08 Tue 16:10] =>  2:06
+CLOCK: [2016-11-07 Mon 17:40]--[2016-11-07 Mon 18:03] =>  0:23
+CLOCK: [2016-11-07 Mon 16:30]--[2016-11-07 Mon 17:39] =>  1:09
+:END:
+**** WAITING W45 J-Hopping 
+SCHEDULED: <2016-11-13 Sun>
+**** WAITING W45 Technology
+SCHEDULED: <2016-11-13 Sun>
+:LOGBOOK:
+CLOCK: [2016-11-13 Sun 08:33]--[2016-11-13 Sun 08:33] =>  0:00
+CLOCK: [2016-11-12 Sat 18:04]--[2016-11-12 Sat 18:54] =>  0:50
+CLOCK: [2016-11-12 Sat 17:17]--[2016-11-12 Sat 17:47] =>  0:30
+CLOCK: [2016-11-12 Sat 10:45]--[2016-11-12 Sat 10:45] =>  0:00
+CLOCK: [2016-11-12 Sat 09:18]--[2016-11-12 Sat 10:45] =>  1:27
+CLOCK: [2016-11-11 Fri 10:44]--[2016-11-11 Fri 10:59] =>  0:15
+CLOCK: [2016-11-11 Fri 09:56]--[2016-11-11 Fri 10:19] =>  0:23
+CLOCK: [2016-11-11 Fri 08:38]--[2016-11-11 Fri 09:56] =>  1:18
+CLOCK: [2016-11-10 Thu 16:43]--[2016-11-10 Thu 17:27] =>  0:44
+CLOCK: [2016-11-10 Thu 11:16]--[2016-11-10 Thu 11:24] =>  0:08
+CLOCK: [2016-11-10 Thu 10:48]--[2016-11-10 Thu 11:15] =>  0:27
+CLOCK: [2016-11-10 Thu 09:27]--[2016-11-10 Thu 09:41] =>  0:14
+CLOCK: [2016-11-10 Thu 08:05]--[2016-11-10 Thu 09:27] =>  1:22
+CLOCK: [2016-11-09 Wed 21:00]--[2016-11-09 Wed 21:28] =>  0:28
+CLOCK: [2016-11-09 Wed 18:30]--[2016-11-09 Wed 19:25] =>  0:28
+CLOCK: [2016-11-09 Wed 18:15]--[2016-11-09 Wed 18:30] =>  0:15
+CLOCK: [2016-11-09 Wed 14:56]--[2016-11-09 Wed 17:06] =>  2:10
+CLOCK: [2016-11-09 Wed 08:45]--[2016-11-09 Wed 11:43] =>  2:58
+CLOCK: [2016-11-07 Mon 11:28]--[2016-11-07 Mon 11:48] =>  0:20
+CLOCK: [2016-11-07 Mon 09:33]--[2016-11-07 Mon 09:40] =>  0:07
+:END:
+**** weekly summary                                              :ARCHIVE:
+|                | monday | Tuesday | wednesday | Thursday | Friday         | Saturday           | Sunday     |
+|----------------+--------+---------+-----------+----------+----------------+--------------------+------------|
+| Friends&GOD    |        |         |           |          | Fellowship     | fellowship meeting | workship   |
+| administration |        |         | pictures  |          | Weekly Summary | administration     |            |
+| exercise       |        | Fitness |           | Fitness  |                | Fitness            | basketball |
+| study          | python |         |           |          |                |                    |            |
+| resume         |        | search  |           | submit   |                | search             |            |
+| family         |        |         |           |          |                | phone call         |            |
+| sleep          |        |         |           |          |                |                    |            |
+**** W45 Tech
+***** [#A] create personal website
+****** write HTML on emacs
+****** study course4 HTML, CSS, 
+****** enrich python project
+****** finish fullstack-course4
+***** [#A] study lispy and emacs
+****** emacs deft combine notes
+****** Paredit for lispy
+***** [#A] study ruby
+****** rewrite company assignment using ruby
+***** [#A] study leetcode
+***** [#B] summary python class
+***** [#C] modify resume
+****** enrich python project
+****** add java project inside
+** daily productivity
+*** 7/28 logically mind working like father: 
+1. everyday I could only play game for 1 hour,the time is after dinner
+2. everyday I need do fitness or running,as I sit for too long
+3. there are several mind in my mind, including minute personality,grateful, passion,ambition, I should take control of these mind insteading of be controlled. 
+须知参差多态，乃是幸福的本源
+工欲善其事，必先利其器。大道至简：因为折腾，所以简洁
+*** 8/3 学会满足, do not blame myself
+1. No matter I am playing games or I am watching some unhealth movies. That is the gift of life.I should be satisfied with life. 
+2. No matter I win or lose in the game, that is only the game. I should be happy as I have change to play games.
+知足这是幸福的来源，也是自己游戏时对于刺激渴求不停的解药。
+*** 8/19
+Try to be open mind, do not pay too much attention toward personal gain and lose. That only decrease the life standard and can not help a lot.
+** Time Management 
+*** W.reference :Time Management:                                 :ARCHIVE:
+| Project  | sub-project      | r.f.o |    |    |    | r.f.c | average |
+|----------+------------------+-------+----+----+----+-------+---------|
+| personal | Spiritual        |       |    |    |    |     0 |       0 |
+|          | exercise         |       |    |    |    |     0 |       0 |
+|          | sleep            |       |    |    |    |     0 |       0 |
+|          | Administration   |       |    |    |    |     0 |       0 |
+|          | movies           |       |    |    |    |     0 |       0 |
+|          | game             |       |    |    |    |     0 |       0 |
+|          | S.E.             |       |    |    |    |     0 |       0 |
+|----------+------------------+-------+----+----+----+-------+---------|
+| family   | Parents&sister   |       |    |    |    |     0 |       0 |
+|----------+------------------+-------+----+----+----+-------+---------|
+| Friends  | hangout(friends) |       |    |    |    |     0 |       0 |
+|----------+------------------+-------+----+----+----+-------+---------|
+| Church   | GOD              |       |    |    |    |     0 |       0 |
+|----------+------------------+-------+----+----+----+-------+---------|
+| Business | Technology       |       |    |    |    |     0 |       0 |
+|          | Job              |       |    |    |    |     0 |       0 |
+|          | Job-Hopping      |       |    |    |    |     0 |       0 |
+|----------+------------------+-------+----+----+----+-------+---------|
+|          | improveScr       |    0. | 0. | 0. | 0. |    0. |      0. |
+|          | balanceScr       |    0. | 0. | 0. | 0. |    0. |      0. |
+#+TBLFM: $8=vmean($3..$7)::@15$3..@15$7=vsum(@5*1.2,@12*1.5,@13*1,@14*1.8)::@16$3..@16$7=vsum(@2*1.2,@3*1,@5*1.2,@6*0.7,@7*0.1,@8*(-1),@9*1.2,@10*1.3,@11*1.3,@12*1.5,@13*1,@14*1.8)
+*** W.Temp. Time Management:                                      :ARCHIVE:
+| Project  | sub-project      |    |    |    |    |    | average                                                                 |
+|----------+------------------+----+----+----+----+----+-------------------------------------------------------------------------|
+| personal | Spiritual        |    |    |    |    |    |                                                                         |
+|          | exercise         |    |    |    |    |    | vmean([])                                                               |
+|          | sleep            |    |    |    |    |    | vmean([])                                                               |
+|          | Administration   |    |    |    |    |    | vmean([])                                                               |
+|          | movies           |    |    |    |    |    |                                                                         |
+|          | game             |    |    |    |    |    | vmean([])                                                               |
+|----------+------------------+----+----+----+----+----+-------------------------------------------------------------------------|
+| family   | Parents&sister   |    |    |    |    |    |                                                                         |
+|----------+------------------+----+----+----+----+----+-------------------------------------------------------------------------|
+| Friends  | hangout(friends) |    |    |    |    |    |                                                                         |
+|----------+------------------+----+----+----+----+----+-------------------------------------------------------------------------|
+| Church   | GOD              |    |    |    |    |    |                                                                         |
+|----------+------------------+----+----+----+----+----+-------------------------------------------------------------------------|
+| Business | Technology       |    |    |    |    |    | vmean([])                                                               |
+|          | Job              |    |    |    |    |    | vmean([])                                                               |
+|          | Job-Hopping      |    |    |    |    |    | vmean([])                                                               |
+|----------+------------------+----+----+----+----+----+-------------------------------------------------------------------------|
+|          | improveScr       | 0. | 0. | 0. | 0. | 0. | vsum(1.2 vmean([]), 1.5 vmean([]), vmean([]), 1.8 vmean([]))            |
+|          | balanceScr       | 0. | 0. | 0. | 0. | 0. | vsum(vmean([]), 1.2 vmean([]), 1.5 vmean([]), vmean([]), 1.8 vmean([])) |
+#+TBLFM: $8=vmean($3..$7)::@14$3..@14$8=vsum(@5*1.2,@11*1.5,@12*1,@13*1.8)::@15$3..@15$8=vsum(@2*1.2,@3*1,@5*1.2,@11*1.5,@12*1,@13*1.8)
+*** W31,32 :Time Management:                                      :ARCHIVE:
+SCHEDULED: <2016-08-13 Sat>
+| Project  | sub-project    | 8/12 | 8/11 | 8/10 | 8/9 | 8/8 | 8/7 | 8/6 | 8/5 | 8/4 | 8/3 | 8/2 | 8/1 | weekly summary |
+|----------+----------------+------+------+------+-----+-----+-----+-----+-----+-----+-----+-----+-----+----------------|
+| personal | Spiritual      |  0.5 |    0 |    0 |   0 | 0.3 | 0.3 | 0.4 | 0.5 | 0.4 | 0.4 | 0.6 | 0.4 |     0.31666667 |
+|          | exercise       |    0 |    3 |    0 | 0.4 |   0 | 2.5 |   0 |   0 |   0 |   0 |   0 |   0 |     0.49166667 |
+|          | sleep          |  8.5 |    7 |   11 | 8.5 | 4.5 | 8.5 |   9 |   6 |   6 |   8 |   5 |   7 |      7.4166667 |
+|          | Administration |    1 |    0 |    0 | 0.8 |   0 |   2 | 0.5 | 1.5 | 1.4 | 0.2 | 0.5 | 0.2 |          0.675 |
+|          | Entertainment  |  0.5 |  2.5 |    0 |   0 | 3.7 |   1 |   1 |   4 | 5.5 | 0.4 |   6 | 4.3 |      2.4083333 |
+|----------+----------------+------+------+------+-----+-----+-----+-----+-----+-----+-----+-----+-----+----------------|
+| family   | Maintain       |      |      |      |     |     |     |     |     |     |     |     | 0.2 |                |
+|          | Parents        |      |      |      |     |     |     |     |     |     |     |     |     |                |
+|----------+----------------+------+------+------+-----+-----+-----+-----+-----+-----+-----+-----+-----+----------------|
+| Friends  | hangout        |      |      |      |     |     |   4 |     |     |     |     |     |     |                |
+|----------+----------------+------+------+------+-----+-----+-----+-----+-----+-----+-----+-----+-----+----------------|
+| Church   | GOD            |    2 |      |      |     |     |   2 |     |     |     |     |     |     |                |
+|----------+----------------+------+------+------+-----+-----+-----+-----+-----+-----+-----+-----+-----+----------------|
+| Business | Technology     |  0.4 |  0.7 |  0.5 | 1.8 | 2.8 | 0.3 | 2.5 | 2.2 | 1.5 | 2.9 | 0.8 |   1 |           1.45 |
+|          | Job            |  4.4 |  3.4 |  6.2 | 4.4 | 5.5 |     |     | 3.3 | 3.2 | 2.5 | 4.6 |   2 |           3.95 |
+|          | Job-Hopping    |    0 |  0.5 |    0 | 1.3 |   0 |   0 |   0 |   0 |   1 |   0 | 0.5 |   0 |          0.275 |
+|----------+----------------+------+------+------+-----+-----+-----+-----+-----+-----+-----+-----+-----+----------------|
+| Total    |                |      |      |      |     |     |     |     |     |     |     |     |     |                |
+|----------+----------------+------+------+------+-----+-----+-----+-----+-----+-----+-----+-----+-----+----------------|
+#+TBLFM: $15=vmean($3..$14)
+
+
+|          | 8/12 | 8/11 | 8/10 | 8/9 | 8/8 | 8/7 | 8/6 | 8/5 | 8/4 | 8/3 | 8/2 | 8/1 |
+|----------+------+------+------+-----+-----+-----+-----+-----+-----+-----+-----+-----|
+| reading  | *    |      |      |     | *   | *   | *   | *   | *   | *   | *   | *   |
+| writing  |      |      | *    | *   | *   |     | *   |     | *   | *   | *   | *   |
+| shower   | *    | **   |      |     | *   | *   | *   | *   | **  |     | *   | *   |
+| job-s    |      |      |      |     |     |     |     |     |     |     | *   |     |
+| job-a    |      | *    |      | *   |     |     |     |     | *   |     |     |     |
+| vim      |      |      |      |     | *   |     |     |     |     | *   |     |     |
+| emacs    | *    | *    | *    | *   | *   | *   | *   | *   | *   | *   | *   | *   |
+| Web tech |      | *    |      |     |     |     |     |     |     | *   | *   | *   |
+| python   |      | *    |      |     |     | *   | *   |     |     |     |     |     |
+| photo.m  | *    |      |      |     |     |     |     |     | *   | *   |     |     |
+| S.E      |      | *    | *    |     |     |     |     |     |     |     | *   |     |
+| soul.M   | *    |      |      |     |     |     | *   |     |     |     |     |     |
+| running  |      |      |      |     |     |     |     |     |     |     |     |     |
+|
+*** W33,34 :Time Management:                                      :ARCHIVE:
+SCHEDULED: <2016-08-28 Sun>
+| Project  | sub-project    | 8/28 | 8/27 | 8/26 | 8/25 | 8/24 | 8/23 | 8/22 | 8/21 | 8/20 | 8/19 | 8/18 | 8/17 | 8/16 | 8/15 | 8/14 | 8/13 | weekly summary |
+|----------+----------------+------+------+------+------+------+------+------+------+------+------+------+------+------+------+------+------+----------------|
+| personal | Spiritual      |  0.5 |      |      |  0.5 |      |      |      |      |      |      |      |      |  0.4 |      |      |      |                |
+|          | exercise       |      |      |      |      |      |      |      |      |    1 |      |  2.5 |      |  0.3 |      |    3 |      |                |
+|          | sleep          |  7.5 |  7.2 |  6.8 |    7 |  6.5 |    6 |    7 |    7 |    9 |    4 |    7 |  8.5 |    8 |    7 |   10 |    7 |                |
+|          | Administration |  1.2 |  2.9 |  1.4 |      |  1.5 |      |  1.5 |  0.5 |      |  1.5 |      |  0.8 |      |  1.6 |  0.5 |  0.2 |                |
+|          | Entertainment  |      |  2.9 |      |  6.5 |  3.5 |    5 |    6 |    5 |    3 |    3 |  2.5 |      |    1 |    3 |      |    6 |                |
+|----------+----------------+------+------+------+------+------+------+------+------+------+------+------+------+------+------+------+------+----------------|
+| family   | Parents&sister |      |    1 |      |      |      |      |      |      |      |      |      |      |      |      |      |      |                |
+|----------+----------------+------+------+------+------+------+------+------+------+------+------+------+------+------+------+------+------+----------------|
+| Friends  | hangout        |      |      |    6 |      |      |      |  1.5 |      |    8 |      |      |  1.5 |    4 |      |  1.5 |      |                |
+|          | travel         |      |      |      |      |      |   11 |      |      |      |      |      |      |      |      |      |      |                |
+|----------+----------------+------+------+------+------+------+------+------+------+------+------+------+------+------+------+------+------+----------------|
+| Church   | GOD            |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |                |
+|----------+----------------+------+------+------+------+------+------+------+------+------+------+------+------+------+------+------+------+----------------|
+| Business | Technology     |  1.2 |  3.6 |      |  3.1 |      |    1 |  2.1 |    5 |      |      |  2.4 |    1 |    2 |  1.3 |    4 |  2.5 |                |
+|          | Job            |      |      |  4.8 |  3.5 |  5.7 |      |      |      |      |  5.5 |  2.3 |  4.7 |    3 |  5.5 |      |      |                |
+|          | Job-Hopping    |      |      |      |      |      |      |      |      |      |  0.5 |      |  0.5 |      |  0.2 |  0.5 |      |                |
+|----------+----------------+------+------+------+------+------+------+------+------+------+------+------+------+------+------+------+------+----------------|
+
+
+|          | 8/28 | 8/27 | 8/26 | 8/25 | 8/24 | 8/23 | 8/22 | 8/21 | 8/20 | 8/19 | 8/18 | 8/17 | 8/16 | 8/15 | 8/14 | 8/13 |
+|----------+------+------+------+------+------+------+------+------+------+------+------+------+------+------+------+------|
+| reading  |      | *    |      |      |      |      |      |      |      |      |      |      |      | *    |      |      |
+| writing  |      | *    | *    |      |      |      | *    | *    | *    | *    |      |      |      | *    |      | *    |
+| shower   |      | *    |      | *    | **   | *    | **   |      | *    | *    | *    | *    | *    | *    | **   | *    |
+| job-s    |      |      |      |      |      |      |      |      |      | *    |      | *    |      | *    | *    |      |
+| job-a    |      |      |      |      |      |      |      |      |      |      |      | *    |      | *    |      |      |
+| vim      |      |      |      |      |      |      | *    |      |      | *    | *    | *    | *    |      | *    |      |
+| emacs    |      | *    |      | *    |      | *    |      | *    |      | *    | *    | *    |      |      | *    | *    |
+| Web tech |      | *    |      |      |      |      |      | *    |      |      | *    |      | *    |      | *    | *    |
+| Database | *    | *    |      |      |      |      |      | *    |      | *    | *    | *    | *    |      |      |      |
+| python   | *    | *    |      | *    |      |      |      | *    |      |      |      |      | *    | *    |      | *    |
+| photo.m  |      |      | *    |      | *    |      | *    | *    |      |      |      |      |      | *    |      |      |
+| S.E      |      | *    |      | *    |      |      | *    |      |      |      |      |      |      | *    |      |      |
+| soul.M   |      |      |      |      |      |      | *    |      | *    |      |      | *    |      | *    |      |      |
+| running  |      |      |      |      |      |      |      |      | *    |      |      |      |      |      |      |      |
+| fitness  |      |      |      |      |      |      |      |      |      |      |      |      | *    |      |      |      |
+*** W35,36 :Time Management:                                      :ARCHIVE:
+| Project  | sub-project    | 9/10 | 9/9 | 9/8 | 9/7 | 9/6 | 9/5 |  9/4 | 9/3 | 9/2 | 9/1 | 8/31 | 8/30 | 8/29 |
+|----------+----------------+------+-----+-----+-----+-----+-----+------+-----+-----+-----+------+------+------|
+| personal | Spiritual      |  0.5 |     |   1 |     | 0.4 | 0.2 |      |     |     |     |      |      |  0.5 |
+|          | exercise       |      |     | 0.2 |     |     |     |      |     |     |     |      |      |      |
+|          | sleep          |  6.5 |   8 | 8.5 | 8.5 | 8.8 | 7.8 | 10.5 | 5.5 |   8 | 7.5 |    8 |    7 |  8.5 |
+|          | Administration |  6.6 | 0.3 | 0.6 |     |     | 2.5 |      |     |   1 | 1.6 |  0.8 |    4 |  0.4 |
+|          | Entertainment  |      |     |     | 1.8 |     |   3 |  2.5 | 6.5 |     | 2.9 |    5 |  1.5 |      |
+|----------+----------------+------+-----+-----+-----+-----+-----+------+-----+-----+-----+------+------+------|
+| family   | Parents&sister |      |     |     |     |     |     |      |     |     |     |  0.2 |      |      |
+|----------+----------------+------+-----+-----+-----+-----+-----+------+-----+-----+-----+------+------+------|
+| Friends  | hangout        |  4.5 | 0.5 |     |   1 |     | 3.6 |      |   1 | 2.5 | 1.3 |  0.3 |    4 |      |
+|----------+----------------+------+-----+-----+-----+-----+-----+------+-----+-----+-----+------+------+------|
+| Church   | GOD            |      | 4.3 |     |     |     |     |  3.5 |     | 2.5 |     |      |      |      |
+|----------+----------------+------+-----+-----+-----+-----+-----+------+-----+-----+-----+------+------+------|
+| Business | Technology     |  0.8 | 1.2 | 1.0 | 2.7 | 2.5 |   2 |  2.5 | 3.5 |     | 2.7 |      |      |  1.7 |
+|          | Job            |      |   5 | 6.5 | 4.1 |   4 |     |      |     | 3.7 | 2.2 |  3.6 |    3 |  5.2 |
+|          | Job-Hopping    |      |     |     |     |     |     |      | 0.5 |     |     |      |      |      |
+|----------+----------------+------+-----+-----+-----+-----+-----+------+-----+-----+-----+------+------+------|
+
+
+|          | 9/10 | 9/9 | 9/8 | 9/7 | 9/6 | 9/5 | 9/4 | 9/3 | 9/2 | 9/1 | 8/31 | 8/30 | 8/29 |
+|----------+------+-----+-----+-----+-----+-----+-----+-----+-----+-----+------+------+------|
+| emacs    |      |     |     | *   |     |     |     | *   |     | *   | *    |      | *    |
+| Web tech |      |     |     |     | *   | *   | *   | *   |     |     |      |      |      |
+| Database | *    |     | *   | *   |     |     |     |     |     |     |      |      |      |
+| python   | *    |     | *   | *   | *   | *   | *   | *   |     |     |      |      |      |
+|----------+------+-----+-----+-----+-----+-----+-----+-----+-----+-----+------+------+------|
+| job-s    |      |     |     |     |     |     |     | *   |     |     |      |      |      |
+| job-a    |      |     |     |     |     |     |     |     |     |     |      |      |      |
+| photo.m  |      |     |     |     |     |     |     |     |     | *   | *    | *    |      |
+|----------+------+-----+-----+-----+-----+-----+-----+-----+-----+-----+------+------+------|
+| reading  |      |     |     |     |     | *   | *   |     |     |     |      |      |      |
+| shower   | *    | *   |     | *   | *   | *   | *   | *   | *   | *   | *    | *    | *    |
+| running  |      |     |     |     |     |     |     |     |     |     |      |      |      |
+| fitness  |      |     |     |     |     |     |     |     |     |     |      |      |      |
+|----------+------+-----+-----+-----+-----+-----+-----+-----+-----+-----+------+------+------|
+| S.E      |      | *   | *   |     |     |     | *   |     |     |     | *    |      |      |
+
+**** rewards
+|                 |    9/10 | 9/9 | 9/6 | 9/5 | 9/4 | 9/2 | 9/1 |  Hstry | R.F.   |
+|-----------------+---------+-----+-----+-----+-----+-----+-----+--------+--------|
+| webdata.C       |         |     |  80 |  80 |  80 |     |     |    160 | 400    |
+| Database.C      |         | 120 |     |     |     |     |     |        | 600    |
+| Resume          |         |     |     |     |     |  30 |     |        | 30perR |
+| emacs Function  |         |     |     |     |     |     |  60 |        | 30perF |
+| biaoganrensheng |         |     |  20 |  20 |  20 |     |     |        |        |
+| fitness         |         |     |     |     |     |     |     |        | 20perD |
+|-----------------+---------+-----+-----+-----+-----+-----+-----+--------+--------|
+| Spent           |  180.29 |     |     |  80 |     |     |  70 |  23.56 |        |
+|-----------------+---------+-----+-----+-----+-----+-----+-----+--------+--------|
+| total           | -180.29 | 120 | 100 |  20 | 100 |  30 | -10 | 137.44 | 497.44 |
+#+TBLFM: $10=vsum($3..$9)
+*** W37,38 :Time Management:                                      :ARCHIVE:
+| Project  | sub-project      | 9/25 | 9/24 | 9/23 | 9/22 | 9/21 | 9/20 | 9/19 | 9/18 | 9/17 | 9/16 | 9/15 | 9/14 | 9/13 | 9/12 | 9/11 |     average |
+|----------+------------------+------+------+------+------+------+------+------+------+------+------+------+------+------+------+------+-------------|
+| personal | Spiritual        |    0 |    0 |    0 |    0 |    0 |  0.5 |    0 |    0 |  0.2 |    0 |    0 |    0 |    0 |    0 |    0 | 0.046666667 |
+|          | exercise         |    0 |    0 |    0 |    1 |    0 |    1 |    0 |    0 |    1 |    0 |    0 |  0.2 |    0 |    0 |  3.3 |  0.43333333 |
+|          | sleep            |    9 |  8.5 |  6.5 |  5.5 |  8.5 |    9 |    8 |  6.5 |  6.5 |  6.5 |    7 |    6 |  9.5 |    8 |  8.5 |   7.5666667 |
+|          | Administration   |  0.7 |  1.1 |  0.8 |    0 |  0.8 |  0.4 |  1.4 |    0 |    5 |    2 |  2.9 |  0.1 |  0.5 |    0 |  0.2 |        1.06 |
+|          | Entertainment    |    0 |    5 |    3 |    9 |    0 |    1 |    0 |    7 |  7.7 |    5 |    3 |  4.5 |    0 |    0 |  0.5 |   3.0466667 |
+|----------+------------------+------+------+------+------+------+------+------+------+------+------+------+------+------+------+------+-------------|
+| family   | Parents&sister   |      |      |      |      |      |      |      |      |      |      |      |      |      |      |  0.5 |             |
+|----------+------------------+------+------+------+------+------+------+------+------+------+------+------+------+------+------+------+-------------|
+| Friends  | hangout(friends) |    0 |    0 |    0 |    1 |    0 |    0 |    0 |    6 |  1.3 |    1 |  1.3 |    3 |    0 |  1.4 |    0 |             |
+|----------+------------------+------+------+------+------+------+------+------+------+------+------+------+------+------+------+------+-------------|
+| Church   | GOD              |      |      |    3 |      |      |      |      |      |      |    2 |      |      |      |      |      |             |
+|----------+------------------+------+------+------+------+------+------+------+------+------+------+------+------+------+------+------+-------------|
+| Business | Technology       |  2.3 |  0.8 |    1 |    0 |  3.3 |  0.8 |  2.3 |  0.6 |    0 |    0 |    2 |    2 |  2.2 |    1 |  3.3 |        1.44 |
+|          | Job              |      |      |    2 |  5.2 |  3.3 |  4.5 |  2.3 |      |      |    2 |  1.5 |  2.5 |  3.5 |  3.5 |    0 |   2.7545455 |
+|          | Job-Hopping      |    0 |    0 |  0.4 |    0 |  0.1 |    0 |    0 |    0 |    2 |    0 |    0 |    0 |    0 |    0 |    0 |  0.16666667 |
+|----------+------------------+------+------+------+------+------+------+------+------+------+------+------+------+------+------+------+-------------|
+#+TBLFM: $18=vmean($3..$17)
+
+
+|          | 9/25 | 9/24 | 9/23 | 9/22 | 9/21 | 9/20 | 9/19 | 9/18 | 9/17 | 9/16 | 9/15 | 9/14 | 9/13 | 9/12 | 9/11 |
+|----------+------+------+------+------+------+------+------+------+------+------+------+------+------+------+------|
+| emacs    | *    |      |      |      |      |      |      | *    |      |      |      |      |      |      |      |
+| Web tech |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |
+| Database |      |      |      |      |      |      |      |      |      |      | *    |      |      | *    |      |
+| java     | *    | *    |      |      |      |      |      |      |      |      |      |      |      |      |      |
+| python   | *    |      | *    |      |      | *    |      |      |      |      | *    |      |      | *    |      |
+|----------+------+------+------+------+------+------+------+------+------+------+------+------+------+------+------|
+| job-s    |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |
+| job-a    |      |      | *    |      |      |      |      |      | *    |      |      |      |      |      |      |
+| photo.m  |      |      |      |      |      |      |      |      |      |      | *    |      |      |      |      |
+|----------+------+------+------+------+------+------+------+------+------+------+------+------+------+------+------|
+| reading  |      |      |      |      |      |      |      |      |      |      | *    |      |      | *    |      |
+| shower   | *    |      | *    | *    |      | *    |      | *    | *    |      | *    |      | *    |      | *    |
+| running  |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |
+| fitness  | *    |      |      | *    |      |      |      |      | *    |      |      | *    |      |      | *    |
+|----------+------+------+------+------+------+------+------+------+------+------+------+------+------+------+------|
+| S.E      | *    |      |      |      |      |      | *    |      | *    |      | *    |      | **   | *    |      |
+*** W39,40 :Time Management:                                      :ARCHIVE:
+| Project  | sub-project      | 10/9 | 10/8 | 10/7 | 10/6 | 10/5 | 10/4 | 10/3 | 10/2 | 10/1 | 9/30 | 9/29 | 9/28 | 9/27 | 9/26 |    average |
+|----------+------------------+------+------+------+------+------+------+------+------+------+------+------+------+------+------+------------|
+| personal | Spiritual        |    0 |    0 |    0 |    0 |    1 |    1 |  0.5 |  0.5 |  0.5 |    1 |    0 |    0 |    0 |    0 | 0.32142857 |
+|          | exercise         |  2.5 |    0 |    0 |    0 |    0 |  1.4 |    0 |    0 |    0 |    0 |    0 |    0 |  0.2 |    0 | 0.36444445 |
+|          | sleep            |    9 |      |  5.5 |      |      |      |      |      |      |  1.5 |    9 |    9 |    9 |    9 |            |
+|          | Administration   |    0 |  0.5 |  0.4 |    1 |  1.9 |  1.6 |    0 |  1.3 |  2.8 |  2.2 |    2 |  0.7 |  0.2 |  1.4 |  1.1428571 |
+|          | movies           |    1 |    2 |    0 |    0 |    1 |    0 |    0 |    0 |    0 |    0 |    2 |    1 |    1 |    0 | 0.57142857 |
+|          | game             |    3 |  2.4 |    5 |    3 |    5 |  3.5 |    0 |    0 |    0 |    8 |    0 |    0 |    0 |    0 |  2.1357143 |
+|----------+------------------+------+------+------+------+------+------+------+------+------+------+------+------+------+------+------------|
+| family   | Parents&sister   |      |      |      |      |      |      |      |      |      |      |      |  0.2 |    1 |      |            |
+|----------+------------------+------+------+------+------+------+------+------+------+------+------+------+------+------+------+------------|
+| Friends  | hangout(friends) |  1.5 |      |      |      |      |      |      |      |  5.5 |      |      |      |      |      |            |
+|----------+------------------+------+------+------+------+------+------+------+------+------+------+------+------+------+------+------------|
+| Church   | GOD              |  3.5 |      |      |  0.5 |      |      |      |      |  0.4 |      |      |      |      |      |            |
+|----------+------------------+------+------+------+------+------+------+------+------+------+------+------+------+------+------+------------|
+| Business | Technology       |    0 |  5.1 |    6 |  2.3 |  2.2 |  1.4 |  1.8 |  1.6 |  0.7 |  1.1 |    0 |  2.1 |  2.9 |    4 |  2.2285714 |
+|          | Job              |      |      |  2.7 |  5.5 |    4 |  0.8 |  0.5 |      |      |  2.5 |    4 |  5.3 |  4.3 |    4 |       3.36 |
+|          | Job-Hopping      |    0 |    0 |    0 |    0 |    0 |    1 |  2.9 |    1 |    0 |    0 |    0 |  0.2 |    0 |    0 | 0.36428571 |
+|----------+------------------+------+------+------+------+------+------+------+------+------+------+------+------+------+------+------------|
+#+TBLFM: $17=vmean($3..$17)
+|            | 10/9 | 10/8 | 10/7 | 10/6 | 10/5 | 10/4 | 10/3 | 10/2 | 10/1 | 9/30 | 9/29 | 9/28 | 9/27 | 9/26 |
+|------------+------+------+------+------+------+------+------+------+------+------+------+------+------+------|
+| emacs      |      |      | *    |      |      |      |      |      | *    |      |      |      |      |      |
+| java       |      | *    | *    | *    | *    | *    | *    | *    | *    |      |      | *    |      | *    |
+| python     |      |      |      |      | *    |      |      |      |      | *    |      | *    | *    |      |
+| Algorithms |      | *    | *    |      |      |      |      |      | *    | *    |      |      | *    |      |
+|------------+------+------+------+------+------+------+------+------+------+------+------+------+------+------|
+| job-s      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |
+| job-a      |      |      |      |      |      |      | *    |      |      |      |      | *    |      |      |
+| photo.m    |      |      | *    | *    |      |      |      |      |      | *    |      |      |      |      |
+|------------+------+------+------+------+------+------+------+------+------+------+------+------+------+------|
+| reading    |      |      |      | *    |      | *    | *    | *    | *    | *    | *    | *    |      |      |
+| shower     | *    | *    |      | *    | *    |      | *    |      |      |      |      |      | *    | *    |
+| running    | *    |      |      | *    |      | *    | *    |      |      |      |      |      | *    |      |
+| fitness    |      |      |      |      |      |      | *    |      |      |      |      |      |      |      |
+|------------+------+------+------+------+------+------+------+------+------+------+------+------+------+------|
+| S.E        |      |      |      |      |      |      |      |      |      | *    |      | *    | *    |      |
+*** W41,42 :Time Management:                                      :ARCHIVE:
+| Project  | sub-project      | 10/23 | 10/22 | 10/21 | 10/20 | 10/19 | 10/18 | 10/17 | 10/16 | 10/15 | 10/14 | 10/13 | 10/12 | 10/11 | 10/10 |      vmean |
+|----------+------------------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+------------|
+| personal | Spiritual        |       |       |       |       |       |       |       |       |       |       |       |       |   0.3 |       |        0.3 |
+|          | exercise         |     3 |       |   0.2 |       |       |   1.5 |       |       |       |       |       |       |       |       |  1.5666667 |
+|          | sleep            |   8.3 |       |       |       |       |   7.8 |   6.5 |   6.5 |     9 |     9 |     7 |     7 |     8 |     8 |       7.71 |
+|          | Administration   |     1 |     1 |     2 |   1.4 |   0.3 |       |     2 |     2 |   1.8 |   0.8 |   0.9 |     1 |     0 |   1.5 |  1.2076923 |
+|          | movies           |       |       |   0.5 |       |   0.5 |       |       |       |       |       |     0 |       |       |       | 0.33333333 |
+|          | game             |   3.5 |     3 |   3.5 |     1 |   2.5 |   2.2 |   4.2 |   4.5 |   2.5 |     1 |     1 |     1 |     1 |   3.5 |  2.4571429 |
+|          | S.E.             |       |       |       |       |       |     1 |       |     1 |       |       |     1 |       |       |       |          1 |
+|----------+------------------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+------------|
+| family   | Parents&sister   |       |       |       |       |       |       |   0.1 |       |       |       |     0 |       |       |       |       0.05 |
+|----------+------------------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+------------|
+| Friends  | hangout(friends) |     3 |     5 |       |     1 |   1.5 |       |       |       |   1.5 |     1 |     0 |       |       |       |  1.8571429 |
+|----------+------------------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+------------|
+| Church   | GOD              |       |       |       |       |       |       |       |       |   3.5 |       |     0 |       |       |       |       1.75 |
+|----------+------------------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+------------|
+| Business | Technology       |   0.4 |   0.5 |   1.5 |     3 |     2 |     4 |   2.6 |   4.1 |   2.7 |     3 |   1.8 |     7 |   5.6 |     2 |  2.8714286 |
+|          | Job              |       |       |   2.2 |   2.7 |     4 |   3.7 |     3 |       |       |   2.4 |   3.6 |   1.2 |   3.9 |     3 |       2.97 |
+|          | Job-Hopping      |       |     3 |       |       |       |       |       |   0.4 |       |       |     0 |     0 |     0 |     0 | 0.56666667 |
+|----------+------------------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+------------|
+|          | improveScr       |   1.8 |  7.35 |  6.85 |  8.88 |  7.36 |   9.7 |   9.3 |  9.27 |  6.21 |  7.86 |  7.38 |  12.9 |  12.3 |   7.8 |  9.7916883 |
+|          | balanceScr       |  9.05 | 14.15 |  7.75 | 10.28 |  9.91 | 10.42 |  9.84 |  8.72 | 12.96 |  9.26 |  6.48 |   13. | 12.76 |  8.15 |  15.574069 |
+#+TBLFM: $17=vmean($3..$16)::@15$3..@15$16=vsum(@5*1.2,@12*1.5,@13*1,@14*1.8)::@16$3..@16$16=vsum(@2*1.2,@3*1,@5*1.2,@6*0.7,@7*0.1,@8*(-1),@9*1.2,@10*1.3,@11*1.3,@12*1.5,@13*1,@14*1.8)
+***** W41,42 action mark:                                       :ARCHIVE:
+|            | 10/13 | 10/12 | 10/11 |
+|------------+-------+-------+-------|
+| emacs      |       | *     |       |
+| java       | *     |       | *     |
+| python     |       |       |       |
+| Algorithms | *     |       | *     |
+|------------+-------+-------+-------|
+| job-s      |       |       |       |
+| job-a      |       |       |       |
+| photo.m    |       |       |       |
+|------------+-------+-------+-------|
+| reading    |       |       |       |
+| shower     |       |       |       |
+| running    |       |       | *     |
+| fitness    |       |       |       |
+|------------+-------+-------+-------|
+| S.E        |       | *     | *     |
+*** W43,44 :Time Management:                                      :ARCHIVE:
+| Project  | sub-project      | r.f.o | 11/6 | 11/5 |  11/4 | 11/3 |  11/2 | 11/1 | 10/31 | 10/30 | 10/29 | 10.28 | 10/27 | 10/26 | 10/25 | 10/24 |    #ERROR |
+|----------+------------------+-------+------+------+-------+------+-------+------+-------+-------+-------+-------+-------+-------+-------+-------+-----------|
+| personal | Spiritual        |       |      |  1.8 |       |      |       |  0.4 |       |   0.2 |   0.2 |       |   0.2 |   0.2 |   0.2 |   0.2 |     0.425 |
+|          | exercise         |       |    2 |      |       |  0.3 |       |      |       |       |       |       |       |   0.4 |       |       |       0.9 |
+|          | sleep            |       |      |      |       |      |       |      |       |       |     8 |     6 |     7 |   7.5 |       |       |     7.125 |
+|          | Administration   |       |      |  0.3 |   1.1 |    2 |   0.4 |  0.5 |   0.5 |       |   0.1 |   0.5 |   0.5 |   1.7 |   0.6 |   2.4 |       1.3 |
+|          | movies           |       |    2 |      |       |  0.5 |       |      |       |       |       |       |       |       |       |     0 |         0 |
+|          | game             |       |  6.5 |   12 |     2 |  3.5 |     5 |      |     4 |       |       |       |       |   0.8 |     1 |     2 |      3.85 |
+|          | S.E.             |       |      |      |     1 |      |       |    1 |       |     1 |     1 |       |       |       |     1 |     1 |         1 |
+|----------+------------------+-------+------+------+-------+------+-------+------+-------+-------+-------+-------+-------+-------+-------+-------+-----------|
+| family   | Parents&sister   |       |      |      |       |      |       |      |       |       |       |       |       |       |       |   0.5 |       0.5 |
+|          | GF               |       |      |  1.5 |       |      |       |      |       |       |       |       |       |       |       |       |       2.5 |
+|----------+------------------+-------+------+------+-------+------+-------+------+-------+-------+-------+-------+-------+-------+-------+-------+-----------|
+| Friends  | hangout(friends) |       |      |      |     3 |    2 |     2 |      |     2 |   2.5 |       |       |   1.5 |       |       |     0 | 1.8571429 |
+|----------+------------------+-------+------+------+-------+------+-------+------+-------+-------+-------+-------+-------+-------+-------+-------+-----------|
+| Church   | GOD              |       |      |      |   1.5 |      |       |      |       |     2 |       |       |     2 |       |       |     0 |     1.375 |
+|----------+------------------+-------+------+------+-------+------+-------+------+-------+-------+-------+-------+-------+-------+-------+-------+-----------|
+| Business | Technology       |       |      |  0.3 |   2.5 |  1.3 |   3.9 |  2.7 |   3.2 |   2.8 |   7.7 |     8 |   2.7 |   4.1 |   2.3 |   3.5 | 4.1111111 |
+|          | Job              |       |      |      |   1.2 |  1.2 |   0.7 |    1 |   0.9 |       |       |   1.7 |   3.7 |     4 |   4.9 |   2.3 |      2.16 |
+|          | Job-Hopping      |       |      |      |       |      |       |      |       |       |       |       |       |       |       |     0 |         0 |
+|----------+------------------+-------+------+------+-------+------+-------+------+-------+-------+-------+-------+-------+-------+-------+-------+-----------|
+|          | improveScr       |    0. |   0. | 0.81 |  6.27 | 5.55 |  7.03 | 5.65 |   6.3 |   4.2 | 11.67 |  14.3 |  8.35 | 12.19 |  9.07 | 10.43 | 7.7628571 |
+|          | balanceScr       |    0. | 4.05 | 5.82 | 11.32 | 9.15 | 10.13 | 5.13 |   9.3 |  9.29 | 10.91 |  14.3 | 13.14 | 12.91 |  8.41 | 10.47 | 8.3528571 |
+#+TBLFM: $18=vmean($3..$17)::@16$3..@16$17=vsum(@5*1.2,@13*1.5,@14*1,@15*1.8)::@17$3..@17$17=vsum(@2*1.2,@3*1,@5*1.2,@6*0.7,@7*0.1,@8*(-1),@9*1.2,@10*1.1,@11*1.3,@12*1.3,@13*1.5,@14*1,@15*1.8)
+**** diary
+* Misc
+** recent project(8/23-now)                                        :ARCHIVE:
+*** Technology
+**** Emacs Lisp Basics on Xah [0%]                               :ARCHIVE:
+****** [#B] Emacs Lisp Basics [14%]
+******** DONE [[http://ergoemacs.org/emacs/elisp_basics.html][Elisp Basics]][100%]
+CLOSED: [2016-08-26 Fri 00:21]
+********* DONE [[http://ergoemacs.org/emacs/elisp_eval_lisp_code.html][How to Evaluate Emacs Lisp Code]] [100%]
+CLOSED: [2016-08-25 Thu 23:41]
+********** DONE To evaluate a single lisp expression, move your cursor to the right of the last closing parenthesis, and call eval-last-sexp 【Ctrl+x Ctrl+e】
+CLOSED: [2016-08-25 Thu 08:17]
+********** DONE [[http://ergoemacs.org/emacs/keyboard_shortcuts.html][Emacs: How to Define Keys]]
+CLOSED: [2016-08-25 Thu 23:38]
+********** DONE [[http://ergoemacs.org/emacs/emacs_alias.html][Emacs: Use Alias for Fast M-x]]
+CLOSED: [2016-08-25 Thu 23:41]
+********** DONE Emacs has a interactive emacs lisp shell. Call ielm to start.
+CLOSED: [2016-08-25 Thu 08:18]
+******** TODO [[http://ergoemacs.org/emacs/elisp_editing_basics.html][Programing: Overview of Text-Processing in Emacs Lisp]] 
+******** TODO Elisp Text Processing Overview
+******** TODO Simple Elisp Examples
+******** TODO How to Evalute Elisp Code
+******** TODO Find FUnctions, Doc Lookup
+******** TODO How to Edit Lisp Code With Emacs
+******* Elisp Detail                                          :ARCHIVE:
+******** List
+******** Vector
+******** List vs Vector
+******** Filter a List
+******** Hash Table
+******** Exit f/Loop/Map
+******** f opt parameters
+******** Unicode Escape
+******** Parsing Date Time
+******** Formatting Date Time
+******** Lisp Symbol
+******** Is X Defined?
+******** Check OS, Emacs Version
+******** Traverse Dir
+******* TODO [[http://ergoemacs.org/emacs/elisp_basics.html][Elisp Basics]][0%]
+******** TODO [[http://ergoemacs.org/emacs/elisp_eval_lisp_code.html][How to Evaluate Emacs Lisp Code]] [50%]
+********* DONE To evaluate a single lisp expression, move your cursor to the right of the last closing parenthesis, and call eval-last-sexp 【Ctrl+x Ctrl+e】
+CLOSED: [2016-08-25 Thu 08:17]
+********* TODO Emacs: How to Define Keys
+********* TODO Emacs: Use Alias for Fast M-x
+********* DONE Emacs has a interactive emacs lisp shell. Call ielm to start.
+CLOSED: [2016-08-25 Thu 08:18]
+****** TODO Elisp Text Processing Overview
+****** TODO Simple Elisp Examples
+****** TODO How to Evalute Elisp Code
+****** TODO Find FUnctions, Doc Lookup
+****** TODO How to Edit Lisp Code With Emacs
+***** Elisp Detail                                              :ARCHIVE:
+****** List
+****** Vector
+****** List vs Vector
+****** Filter a List
+****** Hash Table
+****** Exit f/Loop/Map
+****** f opt parameters
+****** Unicode Escape
+****** Parsing Date Time
+****** Formatting Date Time
+****** Lisp Symbol
+****** Is X Defined?
+****** Check OS, Emacs Version
+****** Traverse Dir
+**** [#A] productivity as Geek[20%]                              :ARCHIVE:
+***** TODO install third-part packages [0%]
+****** TODO install package to spacemacs
+[[http://spacemacs.org/layers/chinese/README.html][Chinese layer]]
+my issue: installed package may be deleted later
+solution1: install developer mode(good to try and will work)
+ [[http://www.zhihu.com/question/29692328][install develop branch 知乎]]
+study github to understand git branch
+solution2: mark them at layer(good to understand, work)
+[[http://jr0cket.co.uk/2015/08/spacemacs-first-impressions-from-an-emacs-driven-developer.html][Spacemacs - First Impressions From an Emacs Driven Developer]]
+****** TODO gnus
+****** emacs web browser                                       :ARCHIVE:
+emacs-w3m better than w3
+eww web browers is good
+[[http://ergoemacs.org/emacs/elisp_browse_url.html][View URL in WEb Browser:browse-url by Xah Lee]]
+***** TODO bond emacs to python [50%]
+****** TODO auto complete in python environment
+****** DONE compile successful in emacs
+CLOSED: [2016-08-24 Wed 23:44]
+***** TODO study orgmode agenda [33%]
+[[http://orgmode.org/manual/Agenda-files.html#Agenda-files][Agenda files]]
+****** TODO auto clock time [[http://sachachua.com/blog/2007/12/a-day-in-a-life-with-org/][A day in life with org]]
+****** DONE review daily TODO in agenda
+CLOSED: [2016-08-24 Wed 23:46]
+****** TODO org mode clock table and charts 
+[[http://stackoverflow.com/questions/14260244/org-mode-clock-tables-and-charts][org-mode clock tables and charts]]
+[[http://sachachua.com/blog/2007/12/clocking-time-with-emacs-org/][clocking time by Sacha Chua]]
+***** TODO try modify org-mode table with chinese [0%]
+****** TODO understand online document [[http://coldnew.github.io/blog/2013/11-16_d2f3a/][解決 org-mode 表格內中英文對齊的問題]]
+***** DONE create my own Macro in emacs[%]
+CLOSED: [2016-09-25 Sun 12:26]
+:LOGBOOK:
+CLOCK: [2016-09-25 Sun 12:26]--[2016-09-25 Sun 12:26] =>  0:00
+:END:
+**** Object Oriented Java Programming: Data Structures and Beyond Specialization :ARCHIVE:
+***** Data Structures and Performance
+****** after completing this course, you will be able to...
+Author a class in Java and explain how objects are constructed, how they store data, and how you can define their actions.
+Trace the execution of code using memory-models.
+Define the scope of variables and methods.
+Extend existing libraries to build a medium-sized project.
+Implement user interface features.
+Build and work with a class hierarchy that has multiple levels.
+Explain “is-a” and “has-a” relationships between objects.
+Author code which implements an Interface.
+Explain the difference between compile-time and run-time decisions when working with polymorphism.
+Explain the difference between event-driven programming and imperative programming.
+Use searching and sorting to design algorithms for analyzing data.
+Search for an element in a sorted and unsorted list and explain the differences.
+Explain multiple sorting techniques and performance tradeoffs.
+***** Objected-Oriented Programming in Java
+**** Python for everyone Specialization                          :ARCHIVE:
+***** [#A] getting Databases certification[100%]                :ARCHIVE:
+[[https://www.coursera.org/learn/python-databases][python-databases in coursera]]
+****** DONE Object Oriented Python[100%]                       :ARCHIVE:
+CLOSED: [2016-09-09 Fri 07:09]
+******* DONE What is an"object"
+CLOSED: [2016-09-09 Fri 07:09]
+******* DONE Terminology
+CLOSED: [2016-09-09 Fri 07:09]
+******* DONE Simple Python Objects
+CLOSED: [2016-09-09 Fri 07:09]
+******* DONE Object Lifecycle
+CLOSED: [2016-09-09 Fri 07:09]
+******* DONE Quiz
+CLOSED: [2016-09-09 Fri 07:09]
+****** DONE Basic Structured Query Language[100%]              :ARCHIVE:
+CLOSED: [2016-09-13 Tue 16:34]
+******* DONE Database Introduction
+CLOSED: [2016-08-27 Sat 16:54]
+******* DONE Using Databases
+CLOSED: [2016-08-27 Sat 16:54]
+******* DONE Single Table CRUD
+CLOSED: [2016-08-27 Sat 16:54]
+******* DONE Quiz
+CLOSED: [2016-08-27 Sat 16:54]
+******* DONE Counting Email in ad Database
+CLOSED: [2016-09-13 Tue 14:24]
+****** DONE Data Models and Relational SQL[100%]               :ARCHIVE:
+CLOSED: [2016-09-13 Tue 16:35]
+******* DONE Designing a Data Model
+CLOSED: [2016-09-07 Wed 15:20]
+******* DONE Reresenting a Data Model in Tables
+CLOSED: [2016-09-07 Wed 18:16]
+******* DONE Inserting Relational Data
+CLOSED: [2016-09-07 Wed 18:16]
+******* DONE Reconstructing data with JOIN
+CLOSED: [2016-09-07 Wed 18:16]
+******* DONE Quiz Multi-Table Relational SQL
+CLOSED: [2016-09-13 Tue 16:35]
+******* DONE Multi-table Tracks Demo
+CLOSED: [2016-09-13 Tue 09:05]
+******* DONE Multi-Table Database-Tracks
+CLOSED: [2016-09-13 Tue 09:06]
+****** DONE Many-to-Many Relationships in SQL[100%]            :ARCHIVE:
+CLOSED: [2016-09-14 Wed 15:06]
+******* DONE Many-to-Many Roster Demo
+CLOSED: [2016-09-13 Tue 16:37]
+******* DONE Many-to-Many Relationships
+CLOSED: [2016-09-13 Tue 16:37]
+******* DONE Quiz
+CLOSED: [2016-09-14 Wed 14:53]
+******* DONE Many Students in Many Courses
+CLOSED: [2016-09-14 Wed 14:53]
+****** DONE Databases and Visualization[100%]                  :ARCHIVE:
+CLOSED: [2016-09-15 Thu 10:59]
+******** DONE Geocoding
+CLOSED: [2016-09-15 Thu 10:59]
+******** DONE Page Rank and Web Searching
+CLOSED: [2016-09-15 Thu 10:59]
+******** DONE Gmane-Mailing Lists
+CLOSED: [2016-09-15 Thu 10:59]
+******** DONE Databases and Visualization
+CLOSED: [2016-09-15 Thu 10:59]
+***** [#A] getting web data certification[100%]                 :ARCHIVE:
+[[https://www.coursera.org/learn/python-network-data/home/welcome][python web data in coursera]]
+****** DONE regular expression(Chapter 11)[100%]
+CLOSED: [2016-08-25 Thu 17:43]
+******* DONE regular expression 1(Chapter 11)
+CLOSED: [2016-08-22 Mon 23:28]
+******* DONE regular expression 2(Chapter 11)                 :ARCHIVE:
+CLOSED: [2016-08-25 Thu 11:43]
+******* DONE Chapter 11 homework[100%]                        :ARCHIVE:
+CLOSED: [2016-08-25 Thu 17:43]
+******** DONE homework1
+CLOSED: [2016-08-25 Thu 17:39]
+one question waiting for understand
+******** DONE homework2
+CLOSED: [2016-08-25 Thu 17:39]
+****** DONE networks and Sockets(Chapter 12)[100%]             :ARCHIVE:
+CLOSED: [2016-08-27 Sat 14:14]
+******* DONE Networked Programs
+CLOSED: [2016-08-27 Sat 14:14]
+******* DONE From Sockets to Applications
+CLOSED: [2016-08-27 Sat 14:14]
+******* DONE Let's Write a Web Browser
+CLOSED: [2016-08-27 Sat 14:14]
+****** DONE Program that Surf the web(Chapter 12)[100%]        :ARCHIVE:
+CLOSED: [2016-09-04 Sun 20:55]
+******* DONE Understanding HTML
+CLOSED: [2016-09-04 Sun 00:34]
+******* DONE [#B] Parsing HTML with Beautiful Soup
+CLOSED: [2016-09-04 Sun 20:54]
+******* DONE howework1
+CLOSED: [2016-09-04 Sun 20:54]
+******* DONE homework2
+CLOSED: [2016-09-04 Sun 20:55]
+****** DONE Web Service and XML(Chapter 13)                    :ARCHIVE:
+CLOSED: [2016-09-05 Mon 17:56]
+****** DONE JSON and REST Architecture(Chapter 13)             :ARCHIVE:
+CLOSED: [2016-09-06 Tue 14:40]
+***** [#A] Python Data Structures[100%]                         :ARCHIVE:
+********* DONE Chapter6: Strings                            :ARCHIVE:
+CLOSED: [2016-09-19 Mon 22:33]
+:PROPERTIES:
+:ARCHIVE_TIME: 2016-09-25 Sun 10:45
+:ARCHIVE_FILE: ~/Dropbox/Business/NSG Technology/Org_doc/organizer.org
+:ARCHIVE_OLPATH: Python Data Structures
+:ARCHIVE_CATEGORY: organizer
+:ARCHIVE_TODO: DONE
+:END:
+:LOGBOOK:
+CLOCK: [2016-09-19 Mon 22:33]--[2016-09-19 Mon 22:33] =>  0:00
+:END:
+********* DONE Chapter7: Files                              :ARCHIVE:
+CLOSED: [2016-09-21 Wed 18:02]
+:LOGBOOK:
+CLOCK: [2016-09-21 Wed 18:02]--[2016-09-21 Wed 18:02] =>  0:00
+:END:
+********** hardware
+Input and Output Devices
+Secondary Memory
+*********** Software inside
+Central Processing Unit
+Main Memory
+********** File Processing
+*********** Opening a File
+************ open()
+************* Handle = open(filename,mode)
+mode could be r(default), or w(write)
+filename is a string
+************* example
+fhand = open('mbox.txt')
+print fhand
+<open file 'mbox.txt', mode 'r' at 0x1005088b0>
+************ The newline Character
+************* example
+stuff = 'Hello\nWorld'
+print stuff
+Hello 
+World!
+************* len
+stuff = 'X\nY'
+len(stuff) = 3
+************ File Handle as a Sequence
+************* A file handle open for read can be treated as a sequence of strings where each line in the file is a string in the sequence
+************* We can use the for statement to iterate through a sequence
+************* Remember- a sequence is an ordered set
+************ Reading the "whole" File
+************* example
+fhand = open('mbox-short.txt')
+inp = fhand.read()
+print len(inp)
+print inp[:20]
+************ Searching Trough a file
+fhand = open('mbox.txt')
+for line in fhand:
+    line = line.rstrip()
+    if line.startswith('From:'):
+        print line
+************ Skipping with continue
+if not line.startswith('From:'):
+    continue
+************ Using in to select lines
+if not '@uct.ac.za' in line:
+    continue
+print line
+************ try and except
+try: 
+    hand = open(fname)
+except:
+    print 'File cannot be opened:', fname
+    exit()
+********* DONE Chapter8: Lists                              :ARCHIVE:
+CLOSED: [2016-09-21 Wed 23:46]
+:LOGBOOK:
+CLOCK: [2016-09-21 Wed 23:45]--[2016-09-21 Wed 23:46] =>  0:01
+:END:
+********** Collection
+ collection variaables can store multiple values in a single variable
+********** List Constrants
+A list element can be any Python object-even another list
+a list can be empty
+********** Lists are Mutable
+String are immutable
+Lists are mutable--we can change an element of a list using the index operator
+********** How long is a list
+len()
+********** Using the range function
+the range function returns a list of numbers that range from zero to one less than the parameter
+We can construct an index loop using for and an integer iterator
+********** A tale of two loops
+friends = ['Joseph','Glenn','Sally']
+for friend in friends:
+    print'Happy New year:',friend
+
+for i in range(len(friends)):
+    friend = friends[i]
+    print 'Happy New Year:',friend
+********** Concatenating lists using +
+a = [1,2,3]
+b = [4,5,6]
+c = a + b
+print c
+c = [1,2,3,4,5,6]
+********** List Methods
+type()
+dir()    what can we do fir this parameter
+append    stuff.append(x)
+max(nums)
+min(nums)
+sum(nums)
+********** Is something in a List?
+some= [1,9,21,10,16]
+9 in some
+Ture
+********** A list is an Ordered Sequence
+friends.sort()
+********** example
+numlist = list()
+while Ture:
+   inp = raw_input('Enter a number:')
+   if inp = 'done':break
+   value = float(inp)
+   numlist.append(value)
+
+average = sum(numlist)/len(numlist)
+********* DONE Chapter9: Dictionaires                       :ARCHIVE:
+CLOSED: [2016-09-21 Wed 23:46]
+:LOGBOOK:
+CLOCK: [2016-09-21 Wed 23:46]--[2016-09-21 Wed 23:46] =>  0:00
+:END:
+********** Comparing Lists and Dictionaries
+Dictionaries are like Lists excpet that they use keys instead of numbers to look up value
+********** When we see a new name
+counts = dict()
+names = ['csev','cwen','csav','zqian',cwen']
+for name in names:
+   if name not in counts:
+      counts[name] = 1
+   else:
+      counts[name] = counts[name] + 1
+print counts
+********** The get method for dictionary
+print counts.get(name,0)
+0 is the Default value if key does not exist(and no Traceback).
+
+equal to the following:
+if name in counts:
+   print counts[name]
+else:
+   print 0
+********** Simplified counting with get()
+for name in names:
+    counts[name] = counts.get(name,0) + 1
+print counts
+********** Definite loops and Dicgtionaries
+we can write a for loop that goes through all of the keys in the dictionary and looks up the values
+*********** example
+counts = {'chuck':1, 'fred' :42, 'jan': 100}
+for key in coutns
+    print key, counts[keys]
+********** Retrieving lists of keys and values
+jjj = {'chuck':1,'fred':42,'jan':100}
+print list(jjj),   ['jan','chuck','fred']
+print jjj.keys()
+print jjj.values()
+print jjj.items()    return as a list with tuple inside, [('jan',100)...]
+********** Bonus: Two Iteration Variables
+for aaa,bbb in counts.items():
+    print aaa,bbb
+********* DONE Chapter10: Tuples                            :ARCHIVE:
+CLOSED: [2016-09-25 Sun 10:42]
+:LOGBOOK:
+CLOCK: [2016-09-25 Sun 10:42]--[2016-09-25 Sun 10:42] =>  0:00
+:END:
+********** Tuples are "immutable"
+********** Tuples are more efficient
+*********** no need to build tuple structures
+*********** prefer tuples over lists on making "temporary variables"
+*********** Tuples and Assignment
+************ Put a tuple on the left hand side of an assignment statement
+************ even omit the parenthesis
+*********** Tuples and Dictionaries
+d = dict()
+d['csev'] = 2
+d['cwen'] = 4
+for (k,v) in d.items():
+    print k,v
+
+tups = d.items()
+print tups
+[('csev',2),('cwen',4)]
+********** Tuples are Comparable
+Comparision operators work with tuples, If the first item is equal, Python goes on to the next element
+(0,1,2) < (5, 1 ,2)
+true
+('Johes', 'Sally') > ('Adams','Sam')
+true
+********** Sorting Lists of Tuples
+d = {'a':10, 'b':1, 'c':22}
+t = d.items()
+print t
+t.sort()
+print t
+********** Using sorted()
+for k,v in sorted(d.items()):
+    print k,v
+
+tmp = list()
+for k,v in d.items():
+    tmp.append((v,k))
+tmp.sort(reverse=True)
+print tmp
+********** the top 10 most common words
+lst = list()
+for key, val in counts.item():
+    lst.append((val,key))
+lst.sort(reverse=True)
+for val,key in lst[:10]:
+    print key, val
+********** Even Shorter Version(adv)
+print sorted([(v,k) for k,v in d.items()])
+**** [#A] Teach Lin about spacemacs[0%]                          :ARCHIVE:
+***** TODO install spacemacs
+***** TODO using orgmode to practice
+***** TODO study emacs tutorial
+**** [#C] HTML, CSS and JavaScript[%]                            :ARCHIVE:
+***** HTML&CSS[%]
+****** Welcome! [0%]
+******* TODO Introduction to the Course
+******* TODO Full Stack Web Development Specialization
+******* TODO Learning About  HTML
+****** The Basics of HTML[0%]
+******* TODO About HTML
+******* TODO Getting to Know HTML
+******* TODO Using a Code Editor for HTML
+******* TODO Some Common HTML Elements
+******* TODO Formatting HTML Text
+****** Multimedia[0%]
+******* TODO Images
+******* TODO Audio
+******* [#B] Video
+****** Strengthening Your Knowledge of HTML[0%]
+******* TODO LInks
+******* TODO Void Elements &Breaks
+******* TODO Style
+******* TODO More on Style
+******* TODO Tables
+******* TODO Div and Span
+******* TODO Quiz
+****** Handling Forms[0%]
+******* TODO HTML Form Basics
+******* TODO More on Forms
+******* TODO Handling File Upload
+******* TODO SOme New HTML5 inpout Elements
+******* TODO Quiz
+****** Assemssment Task[%]
+******* HTML&CSS
+******* FAQ
+***** Introduction to JavaScript[%]
+****** TODO Learning JavaScript in This Course
+****** TODO Introduction to JavaScript
+****** TODO Basics of JavaScript
+****** TODO Decisions and Loops
+****** TODO Handling Data
+****** TODO Generating Random Numbers
+****** TODO An Example JavaScript Project-Guessing Game
+****** TODO Assemssment Taks[0%]
+******* TODO Introduction to JavaScript
+******* TODO Color Guessing Game
+***** Advanced JavaScript[0%]
+**** pygame[%]                                                   :ARCHIVE:
+**** study Java
+***** Java vs C++ vs Python vs C                                :ARCHIVE:
+|                 | Java   | C++  | Python  | C     |
+|-----------------+--------+------+---------+-------|
+| virtual machine | *****  |      |         |       |
+| popular         | *****  |      | ****    | ****  |
+| difficulty      | ***    | **** | **      | ***** |
+| web             | ****   |      | ****    |       |
+| library         | ****   |      | ****    |       |
+| data analysis   |        |      | *****   |       |
+| statical lan    | yes    |      | no      |       |
+| dynamical lan   | no     |      | yes     |       |
+| variable        | define |      | no need |       |
+| speed           | ****   | **** | ***     | ***** |
+****** [[https://segmentfault.com/a/1190000000361407][Java Vs Python]]  
+*** Life
+**** [#B] 40天标杆人生[%]                                        :ARCHIVE:
+**** [#B] fitness[0%]                                            :ARCHIVE:
+***** TODO Food
+****** breakfast
+1. 一小盒酸奶配一个牛油果，外加两鸡蛋和牛奶
+2. 稀饭（泡饭）配肉松榨菜
+3. 面条
+4. 牛奶/coffee+面包/Red Berries/eggs
+5. 八宝粥
+****** 上午还有下午加餐
+鸡蛋2个
+玉米一根
+迷你土豆或者小番茄
+圣女果
+核桃
+花生
+腰果
+****** 每天需要4000卡热量
+[[http://www.boohee.com/food/][食物热量查询]]
+***** TODO Exercise
+[[https://www.zhihu.com/question/26427903][瑜伽知乎]]
+***** TODO rest
+****** sleep at 10 oclock
+****** wake up at 6 oclcok
+**** [#C] reading books[16%]                                     :ARCHIVE:
+***** DONE 黑客与画家
+CLOSED: [2016-08-25 Thu 22:39]
+***** TODO Coders at Work
+***** TODO The Hard Thing about Hard things
+***** 万里任禅游
+***** TODO Hackers: Heroes of the Computer Revolution
+***** The Cathedral&the Bazaar
+***** TODO Shop Class as Soulcraft: An Inquiry into the Value of Work
+***** TODO 自由及其背叛
+** goal                                                            :ARCHIVE:
+| today time       |                 |                              |          |                        |
+|------------------+-----------------+------------------------------+----------+------------------------|
+| <2016-10-02 Sun> | 2 months later  | find another job             | 1 week   | finish Raspberry Pi    |
+|                  |                 |                              | 2 week   | get Capstone of Python |
+|                  |                 |                              | 3-4 week | get Java Programming   |
+|                  |                 |                              | daily    | leetcode               |
+|                  |                 |                              | daily    | submit resume          |
+|                  |                 |                              | daily    | exercise               |
+|                  |                 |                              | daily    | reading                |
+|                  |                 |                              | daily    | creative thinking      |
+|                  | 6 months later  | get another income resources |          |                        |
+|                  | 16 months later | go back to China             |          |                        |
+
+*** medium and long term plan
+| time      |        |      |         |     |              |           |
+|-----------+--------+------+---------+-----+--------------+-----------|
+| 1st month | python | Java | shua ti | J-H | raspberry pi |           |
+| 2nd month | python | java | shua ti | J-H |              |           |
+| 3rd month |        |      |         | J-H |              | find jobs |
+** rewards                                                         :ARCHIVE:
+|                | 9/22 | 9/20 | 9/19 | 9/17 | 9/15 |
+|----------------+------+------+------+------+------|
+| webdata.C      |      |      |      |      |      |
+| Database.C     |      |      |      |      |  480 |
+| data structure |  200 |      |      |      |      |
+| other income   |  130 |      |      |      |      |
+|----------------+------+------+------+------+------|
+| Spent          |      |      |      |      |      |
+|----------------+------+------+------+------+------|
+| total          |  810 |      |      |      |      |
+#+TBLFM: 
+** waiting list[0%]                                                :ARCHIVE:
+*** TODO [#B] install package on spacemacs
+*** TODO [#C] use GNUs for hotmail
+*** TODO [#B] install [[https://autohotkey.com/board/topic/149792-mac-style-screenshot/][mac style screenshot]]
+*** TODO [#B] install [[https://autohotkey.com/board/topic/96431-countdown-to-shutdown/][Countdown to shutdown]]
+*** WAITING study Latex
+*** begin to learn 五笔输入法
+**** [[http://www.wb86.com/wbwz/86help.htm][五笔打字教程（86版简明教程）]] 
+*** TODO study Coursera Python Capstone
+SCHEDULED: <2016-10-10 Mon>
+** LeetCode                                                        :ARCHIVE:
+*** W39 LeetCode
+| level      | mon | tue | wed | thu | fri | sat | sun |
+|------------+-----+-----+-----+-----+-----+-----+-----|
+| easy       | 292 | 136 |     |     |     |     |     |
+|            | 344 | 258 |     |     |     |     |     |
+|------------+-----+-----+-----+-----+-----+-----+-----|
+| confusion  |     | 104 |     |     |     |     |     |
+|------------+-----+-----+-----+-----+-----+-----+-----|
+| focus more |     | 383 |     |     |     |     |     |
+|            |     |     |     |     |     |     |     |
+|            |     |     |     |     |     |     |     |
+|            |     |     |     |     |     |     |     |
+** Coursera Courses                                                :ARCHIVE:
+|                 | startwith        | endwith          | predict period |
+|-----------------+------------------+------------------+----------------|
+| Raspberry       | <2016-10-10 Mon> | <2016-11-13 Sun> | 1 week         |
+| Java in Duke    | <2016-10-03 Mon> | <2016-11-06 Sun> | follow Course  |
+| Capstone python | <2016-10-10 Mon> | <2016-12-11 Sun> | 2 weeks        |
+** fitness
+*** W45
+| Body     | exercise           | Monday | Tuesday | Wednesday | Thursday | Firday | Saturday | Sunday |
+|----------+--------------------+--------+---------+-----------+----------+--------+----------+--------|
+| Chest    | Bench Press        |        |         |           |          |        |          |        |
+|          | PRC-FLY            |        |         |           |          |        |          |        |
+|----------+--------------------+--------+---------+-----------+----------+--------+----------+--------|
+| Legs     | Squats             |        |         |           |          |        |          |        |
+|          |                    |        |         |           |          |        |          |        |
+|----------+--------------------+--------+---------+-----------+----------+--------+----------+--------|
+| Back     | Rear Delt          |        |         |           |          |        |          |        |
+|          |                    |        |         |           |          |        |          |        |
+|----------+--------------------+--------+---------+-----------+----------+--------+----------+--------|
+|          | Run                |        |         |           |          |        |          |        |
+|          | running machine    |        |         |           |          |        |          |        |
+|          | Elliptical Trainer |        |         |           |          |        |          |        |
+|----------+--------------------+--------+---------+-----------+----------+--------+----------+--------|
+| weight   |                    | 81.5kg |         |           |          | 81.6kg |          |        |
+| Calories | input              |        |         |           |          |        |          |        |
+*** W43 :ARCHIVE:
+| Body     | exercise           | Monday | Tuesday | Wednesday | Thursday | Firday | Saturday | Sunday |
+|----------+--------------------+--------+---------+-----------+----------+--------+----------+--------|
+| Chest    | Bench Press        |        |         |           |          |        |          |        |
+|          | PRC-FLY            |        |         |           |          |        |          |        |
+|----------+--------------------+--------+---------+-----------+----------+--------+----------+--------|
+| Legs     | Squats             |        |         |           |          |        |          |        |
+|          |                    |        |         |           |          |        |          |        |
+|----------+--------------------+--------+---------+-----------+----------+--------+----------+--------|
+| Back     | Rear Delt          |        |         |           |          |        |          |        |
+|          |                    |        |         |           |          |        |          |        |
+|----------+--------------------+--------+---------+-----------+----------+--------+----------+--------|
+|          | Run                |        |         |           |          |        |          |        |
+|          | running machine    |        |         |           |          |        |          |        |
+|          | Elliptical Trainer |        |         |           |          |        |          |        |
+|----------+--------------------+--------+---------+-----------+----------+--------+----------+--------|
+| weight   |                    | 81.2kg | 81.2kg  |           |          |        |          |        |
+| Calories | input              |        |         |           |          |        |          |        |
+*** W42                                                           :ARCHIVE:
+| Body     | exercise           | Monday  | Tuesday | Wednesday | Thursday | Firday | Saturday | Sunday |
+|----------+--------------------+---------+---------+-----------+----------+--------+----------+--------|
+| Chest    | Bench Press        |         |         |           |          |        |          |        |
+|          | PRC-FLY            |         |         |           |          |        |          |        |
+|----------+--------------------+---------+---------+-----------+----------+--------+----------+--------|
+| Legs     | Squats             |         |         |           |          |        |          |        |
+|          |                    |         |         |           |          |        |          |        |
+|----------+--------------------+---------+---------+-----------+----------+--------+----------+--------|
+| Back     | Rear Delt          |         |         |           |          |        |          |        |
+|          |                    |         |         |           |          |        |          |        |
+|----------+--------------------+---------+---------+-----------+----------+--------+----------+--------|
+|          | Run                |         |         |           |          |        |          |        |
+|          | running machine    | 6m lev3 |         |           |          |        |          |        |
+|          | Elliptical Trainer |         |         |           |          |        |          |        |
+|----------+--------------------+---------+---------+-----------+----------+--------+----------+--------|
+| weight   |                    | 80.8kg  |         |           |          |        |          | 81.9kg |
+| Calories | input              |         |         |           |          |        |          |        |
+*** W40                                                           :ARCHIVE:
+| Body     | exercise           | Monday | Tuesday | Wednesday | Thursday | Firday | Saturday | Sunday |
+|----------+--------------------+--------+---------+-----------+----------+--------+----------+--------|
+| Chest    | Bench Press        |        |         |           |          |        |          |        |
+|          | PRC-FLY            |        |         |           |          |        |          |        |
+|----------+--------------------+--------+---------+-----------+----------+--------+----------+--------|
+| Legs     | Squats             |        |         |           |          |        |          |        |
+|          |                    |        |         |           |          |        |          |        |
+|----------+--------------------+--------+---------+-----------+----------+--------+----------+--------|
+| Back     | Rear Delt          |        |         |           |          |        |          |        |
+|          |                    |        |         |           |          |        |          |        |
+|----------+--------------------+--------+---------+-----------+----------+--------+----------+--------|
+|          | Run                |        |         |           |          |        |          |        |
+|          | Elliptical Trainer |        |         |           |          |        |          |        |
+|----------+--------------------+--------+---------+-----------+----------+--------+----------+--------|
+| weight   |                    | 81.4kg |         |           | 81kg     | 80.4kg | 80.5kg   | 81.1kg |
+| Calories | input              |        |         |           |          |        |          |        |
+*** W39                                                           :ARCHIVE:
+| Body     | exercise           | Monday | Tuesday | Wednesday | Thursday | Firday | Saturday | Sunday |
+|----------+--------------------+--------+---------+-----------+----------+--------+----------+--------|
+| Chest    | Bench Press        |        |         |           |          |        |          |        |
+|          | PRC-FLY            |        |         |           |          |        |          |        |
+|----------+--------------------+--------+---------+-----------+----------+--------+----------+--------|
+| Legs     | Squats             |        |         |           |          |        |          |        |
+|          | horse stand        |        |         |           |          |        |          | 2 mins |
+|----------+--------------------+--------+---------+-----------+----------+--------+----------+--------|
+| Back     | Rear Delt          |        |         |           |          |        |          |        |
+|          |                    |        |         |           |          |        |          |        |
+|----------+--------------------+--------+---------+-----------+----------+--------+----------+--------|
+|          | Run                |        | 10mins  |           |          |        |          |        |
+|          | Elliptical Trainer |        |         |           |          |        |          |        |
+|----------+--------------------+--------+---------+-----------+----------+--------+----------+--------|
+| weight   |                    | 79.6kg | 80.5kg  | 80.8kg    | 81.2kg   | 80.8kg | 80.7kg   | 81.6kg |
+| Calories | input              |        |         |           |          |        |          |        |
+*** W38                                                           :ARCHIVE:
+| Body     | exercise           | Monday | Tuesday         | Wednesday | Thursday  | Firday | Saturday | Sunday |
+|----------+--------------------+--------+-----------------+-----------+-----------+--------+----------+--------|
+| Chest    | Bench Press        |        | 0-1,10b-1,25b-3 |           |           |        |          |        |
+|          | PRC-FLY            |        | 85b-2           |           |           |        |          |        |
+|----------+--------------------+--------+-----------------+-----------+-----------+--------+----------+--------|
+| Legs     | Squats             |        |                 |           | 25b-3     |        |          |        |
+|          |                    |        |                 |           |           |        |          |        |
+|----------+--------------------+--------+-----------------+-----------+-----------+--------+----------+--------|
+| Back     | Rear Delt          |        | 55b-1           |           |           |        |          |        |
+|          |                    |        |                 |           |           |        |          |        |
+|----------+--------------------+--------+-----------------+-----------+-----------+--------+----------+--------|
+|          | Run                |        | 0.7-7-80cal     |           |           |        |          |        |
+|          | Elliptical Trainer |        |                 |           | 0.6-6-lv8 |        |          |        |
+|----------+--------------------+--------+-----------------+-----------+-----------+--------+----------+--------|
+| weight   |                    | 81.4kg | 81.2kg          | 81.6kg    | 80.9kg    | 80.2kg | 80kg     | 176.6b |
+| Calories | input              | 3390   | 4146            | 3108      | 3846      | 2214   | 3684     |        |
+** reading
+“我努力节省出尽可能多的时间，用于毫无功利的阅读，用于我喜爱的作家，他们富于诗的本质，这是我所相信的食物。 以心灵的秩序对抗世界的复杂性。” 
+** back to china plan
+*** plan ahead
+**** [#A] sell stuff
+**** [#A] oversea shipment
+**** TODO [#B] eat special medicine
+**** travel around
+*** transport (sea transport)
+| monitor         | $200 |
+| laptop          | $200 |
+| clothes         | $300 |
+| shoes           | $300 |
+| exercisemachine | $110 |
+| cookingmachine  | $90  |
+*** personal carry on
+**** laptop   $800
+**** projector  $500
+*** buy stuff
+**** clothes
+**** buy new luggage
+*** stuff sold 
+**** DONE [#A] sell vechile(1 item)  $11500----$12000
+CLOSED: [2016-11-16 Wed 15:53]
+:LOGBOOK:
+CLOCK: [2016-11-16 Wed 15:53]--[2016-11-16 Wed 15:53] =>  0:00
+:END:
+**** [#C] table(3 items)  $70, $40, $10
+**** [#C] mattress(2 items)  $40  $50
+**** [#C] chair(1 item)   $100
+**** [#A] fan(2 items)   $25   $10
+**** [#A] guitar(1 item)  $85
+:LOGBOOK:
+CLOCK: [2016-11-16 Wed 22:37]--[2016-11-16 Wed 22:37] =>  0:00
+:END:
+**** [#A] cleaner(1 item)  $25
+:LOGBOOK:
+CLOCK: [2016-11-16 Wed 22:37]--[2016-11-16 Wed 22:37] =>  0:00
+:END:
+**** close BOA, Chase account
+**** close Chase, BOA, AE, Citi, Discover account
+**** close phone 
+*** left for roommate
+**** black supportor   $15
+**** exercise bench   $100
+**** cooking tools   $20   $20
+*** people
+**** say goodbye to Matt
+SCHEDULED: <2016-11-24 Thu>
+**** say goodbye to classmates
+**** say goodbye to fellowship
+**** say goodbye to Panpan
+**** say goodbye to Weihua
+* Zach Agenda
+** WAITING administration                                         :Clocking:
+SCHEDULED: <2016-11-17 Thu>
+:LOGBOOK:
+CLOCK: [2016-11-17 Thu 08:44]--[2016-11-17 Thu 09:18] =>  0:34
+CLOCK: [2016-11-17 Thu 07:59]--[2016-11-17 Thu 08:14] =>  0:15
+CLOCK: [2016-11-17 Thu 07:58]--[2016-11-17 Thu 07:59] =>  0:01
+CLOCK: [2016-11-16 Wed 19:49]--[2016-11-16 Wed 21:19] =>  1:30
+CLOCK: [2016-11-16 Wed 17:06]--[2016-11-16 Wed 17:36] =>  0:30
+CLOCK: [2016-11-16 Wed 15:41]--[2016-11-16 Wed 17:06] =>  0:12
+CLOCK: [2016-11-16 Wed 12:23]--[2016-11-16 Wed 13:23] =>  1:00
+CLOCK: [2016-11-16 Wed 09:09]--[2016-11-16 Wed 09:31] =>  0:22
+CLOCK: [2016-11-16 Wed 08:55]--[2016-11-16 Wed 09:08] =>  0:13
+CLOCK: [2016-11-15 Tue 08:44]--[2016-11-15 Tue 09:15] =>  0:31
+CLOCK: [2016-11-14 Mon 18:19]--[2016-11-14 Mon 18:20] =>  0:01
+CLOCK: [2016-11-14 Mon 18:19]--[2016-11-14 Mon 18:19] =>  0:00
+CLOCK: [2016-11-14 Mon 18:18]--[2016-11-14 Mon 18:18] =>  0:00
+CLOCK: [2016-11-14 Mon 16:32]--[2016-11-14 Mon 16:32] =>  0:00
+CLOCK: [2016-11-14 Mon 08:03]--[2016-11-14 Mon 08:39] =>  0:36
+:END:
+** work                                                           :Clocking:
+SCHEDULED: <2016-11-17 Thu>
+:LOGBOOK:
+CLOCK: [2016-11-16 Wed 13:43]--[2016-11-16 Wed 14:41] =>  0:58
+CLOCK: [2016-11-15 Tue 14:33]--[2016-11-15 Tue 16:43] =>  2:10
+CLOCK: [2016-11-14 Mon 18:08]--[2016-11-14 Mon 18:08] =>  0:00
+CLOCK: [2016-11-14 Mon 16:09]--[2016-11-14 Mon 16:11] =>  0:02
+CLOCK: [2016-11-14 Mon 16:09]--[2016-11-14 Mon 16:09] =>  0:00
+:END:
+** TODO J-Hopping                                                 :Clocking:
+SCHEDULED: <2016-11-23 Wed>
+:LAST_REPEAT: [2016-11-17 Thu 08:14]
+:END:
+- State "DONE"       from "WAITING"    [2016-11-17 Thu 08:14]
+:LOGBOOK:
+CLOCK: [2016-11-17 Thu 08:14]--[2016-11-17 Thu 08:14] =>  0:00
+CLOCK: [2016-11-17 Thu 07:59]--[2016-11-17 Thu 07:59] =>  0:00
+CLOCK: [2016-11-14 Mon 18:09]--[2016-11-14 Mon 18:09] =>  0:00
+:END:
+** WAITING Technology                                             :Clocking:
+SCHEDULED: <2016-11-17 Thu>
+:LOGBOOK:
+CLOCK: [2016-11-17 Thu 07:22]--[2016-11-17 Thu 07:34] =>  0:12
+CLOCK: [2016-11-15 Tue 09:15]--[2016-11-15 Tue 09:51] =>  0:36
+CLOCK: [2016-11-15 Tue 09:15]--[2016-11-15 Tue 09:15] =>  0:00
+CLOCK: [2016-11-14 Mon 23:13]--[2016-11-14 Mon 23:13] =>  0:00
+CLOCK: [2016-11-14 Mon 21:30]--[2016-11-14 Mon 23:13] =>  1:43
+CLOCK: [2016-11-14 Mon 19:12]--[2016-11-14 Mon 19:32] =>  0:20
+CLOCK: [2016-11-14 Mon 16:32]--[2016-11-14 Mon 18:48] =>  2:16
+CLOCK: [2016-11-14 Mon 16:11]--[2016-11-14 Mon 16:32] =>  0:21
+CLOCK: [2016-11-14 Mon 14:55]--[2016-11-14 Mon 15:38] =>  0:43
+CLOCK: [2016-11-14 Mon 10:58]--[2016-11-14 Mon 11:32] =>  0:34
+CLOCK: [2016-11-14 Mon 10:49]--[2016-11-14 Mon 10:56] =>  0:00
+CLOCK: [2016-11-14 Mon 10:39]--[2016-11-14 Mon 10:49] =>  0:10
+CLOCK: [2016-11-14 Mon 10:06]--[2016-11-14 Mon 10:39] =>  0:33
+CLOCK: [2016-11-14 Mon 08:39]--[2016-11-14 Mon 09:13] =>  0:34
+:END:
+** TODO fitness                                                     :Habits:
+SCHEDULED: <2016-11-18 Fri 10:30 .+2d>
+:PROPERTIES:
+:LAST_REPEAT: [2016-11-16 Wed 13:23]
+:END:
+- State "DONE"       from "WAITING"    [2016-11-16 Wed 13:23]
+- State "DONE"       from "WAITING"    [2016-11-14 Mon 18:04]
+:LOGBOOK:
+CLOCK: [2016-11-16 Wed 12:23]--[2016-11-16 Wed 12:23] =>  0:00
+CLOCK: [2016-11-14 Mon 18:04]--[2016-11-14 Mon 18:04] =>  0:00
+CLOCK: [2016-11-14 Mon 17:57]--[2016-11-14 Mon 17:57] =>  0:00
+:END:
+
+** ruby project                                                       :Ruby:
+*** rewrite company assignment using ruby
+** leetcode Project                                                  :Study:
+** python Project                                                   :Python:
+*** enrich python project      
+** TODO [#A] modify resume                                          :Career:
+*** enrich python project
+*** add java project inside
+** Life Project                                                       :Life:
+*** TODO check how to use chase card's credit
+*** Fellowship
+SCHEDULED: <2016-11-18 Fri 7:00pm--10:00pm .+7d>
+*** reading
+**** [#A] reading soft skills 
+:LOGBOOK:
+CLOCK: [2016-11-17 Thu 07:34]--[2016-11-17 Thu 07:34] =>  0:00
+:END:
+**** reading 三体
+**** reading 无限恐怖
+**** TODO [#A] try kindle
+*** TODO [#B] customize Vimium
+*** TODO check outlets and what need to ship back
+** Emacs Packages                                                    :Emacs:
+*** emacs deft combine notes    
+*** Paredit for lispy
+*** TODO [#A] study spacemacs rock
+SCHEDULED: <2016-11-17 Thu .+3d/4d>
+** Web Project                                                         :Web:
+*** finish fullstack-course4    
+*** DONE export orgmode file online                             :Emacs:Web:
+CLOSED: [2016-11-15 Tue 09:51]
+:LOGBOOK:
+CLOCK: [2016-11-15 Tue 09:51]--[2016-11-15 Tue 09:51] =>  0:00
+CLOCK: [2016-11-14 Mon 15:38]--[2016-11-14 Mon 15:38] =>  0:00
+:END:
+*** add more CSS skills on online orgmode
+
+* W45,46 :Time Management:
+| Project  | sub-project      | r.f.o | 11/16 | 11/15 | 11/14 | 11/13 | 11/12 | 11/11 | 11/10 |  11/9 |  11/8 | 11/7 |    average |
+|----------+------------------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+------+------------|
+| personal | Spiritual        |       |       |       |       |   0.3 |   0.3 |       |       |       |       |    0 |          0 |
+|          | exercise         |       |   0.6 |       |       |   3.1 |       |       |       |       |       |    0 |          0 |
+|          | sleep            |       |       |       |       |       |       |       |       |       |     7 |    0 |          0 |
+|          | Administration   |       |   5.1 |   0.5 |   0.6 |     1 |   0.5 |   0.6 |   1.2 |   0.3 |     1 |  1.3 |       1.21 |
+|          | movies           |       |     2 |       |       |       |       |   0.4 |       |       |       |    0 |        0.8 |
+|          | game             |       |     1 |       |       |       |       |       |   0.4 |   2.6 |   1.2 |   10 |         10 |
+|          | S.E.             |       |     2 |       |     1 |       |       |     1 |       |       |       |    0 | 0.66666667 |
+|----------+------------------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+------+------------|
+| family   | Parents&sister   |       |       |       |       |       |       |       |       |       |       |    0 |          0 |
+|          | GF               |       |       |   0.5 |       |       |       |       |       |       |       |  1.5 |          0 |
+|----------+------------------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+------+------------|
+| Friends  | hangout(friends) |       |       |   5.5 |   0.8 |   1.3 |   6.5 |   2.5 |   4.8 |       |     3 |    0 |       3.05 |
+|----------+------------------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+------+------------|
+| Church   | GOD              |       |       |       |       |   2.5 |       |   0.6 |       |       |       |    0 |          0 |
+|----------+------------------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+------+------------|
+| Business | Technology       |       |       |   0.6 |   7.4 |   0.3 |   2.8 |     2 |     3 |   6.8 |   0.7 |  0.5 |        2.3 |
+|          | Job              |       |     1 |   2.2 |     0 |       |       |   1.7 |   1.5 |   0.5 |     4 |    0 |          0 |
+|          | Job-Hopping      |       |       |       |       |       |       |       |       |       |       |    0 |          0 |
+|----------+------------------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+------+------------|
+|          | improveScr       |    0. |  7.12 |   3.7 | 11.82 |  1.65 |   4.8 |  5.42 |  7.44 | 11.06 |  6.25 | 2.31 |         0. |
+|          | balanceScr       |    0. |  7.22 |  11.4 | 11.86 | 10.05 | 13.61 |  8.73 | 13.72 | 11.32 | 10.27 | 4.96 |         0. |
+#+TBLFM: $14=vmean($3..$13)::@16$3..@16$13=vsum(@5*1.2,@13*1.5,@14*1,@15*1.8)::@17$3..@17$13=vsum(@2*1.2,@3*1,@5*1.2,@6*0.7,@7*0.1,@8*(-1),@9*1.2,@10*1.1,@11*1.3,@12*1.3,@13*1.5,@14*1,@15*1.8)
+* testmony
+aaaatest on 9:39时间过得好快，咻咻一下就到了年尾啦
+接到ivy给我的这个任务，我其实挺害怕做这个testmony，今年我又没有在团契和教会做很多的服侍，也没有去参加短宣，觉得灵命成长也很缓慢。。
+我在想主耶稣在今年给了我什么启示呢？
+
+事实上主耶稣一直在关注我，主叫万事互相效力，叫爱神的人得益处，主一切都有安排
+
+ 一个月总会有一两天，或者更久，感觉孤独，失落情绪低落，
+我明显感觉我今年每一天都很快乐，没有焦虑勇往直前，有了主耶稣我不在惧怕孤独
+有些时候我一两天没有说话，学习的时候纵容一人在家，我也不慌，我把所有的重负都交在主耶稣的轭上，主叫我不至忧虑
+
+而我常常祷告，当我迷茫不知道方向的时候。
+
+
+

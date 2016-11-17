@@ -1,0 +1,448 @@
+#+STARTUP: indent
+#+SEQ_TODO: TODO STARTED WAITING DONE
+* EMACS
+** spacemacs&Vim shortcut 
+**** spacemacs
+| spacemacs SC  | Function                                  |
+|---------------+-------------------------------------------|
+| SPC+Tap       | switch between recent Buffers             |
+| SPC+b+b+Enter | switch between recent Buffers             |
+| C+o           | jump to older position in jump list       |
+| C+'           | switch among agenda file                  |
+| ''            | jump back previous position               |
+| alt+shift+j   | table going down                          |
+| Agenda        | buffer but not a file(not using ZZ,or :w) |
+| SPC+w+S/"-"   | split windows below                       |
+| SPC+w+V/"/"   | split windows right                       |
+| SPC+N.        | jump to windows(N.)                       |
+| SPC+f+t       | jump to Neotree                           |
+**** Neotree 
+| Neotree | Function                                      |
+|---------+-----------------------------------------------|
+| C-c C-n | create dir(end with /) or file(end without /) |
+| C-c C-d | delete file                                   |
+| d       | delete file                                   |
+| C-c C-r | rename file                                   |
+| r       | rename file                                   |
+**** agenda 
+| agenda shortcut      | function                      | cursor          |
+|----------------------+-------------------------------+-----------------|
+| C-c+[                | added local doc to Agenda     |                 |
+| C-c+]                | remove local doc from Agenda  |                 |
+| TAP(cursor on TDL)   | another page jump to position | on another page |
+| Enter(cursor on TDL) | agenda page jump to position  | on another page |
+| '(cursor on TDL)     | another page jump to position | on agenda page  |
+
+| SC | function            |
+|----+---------------------|
+| F8 | agenda view         |
+| d  | day-agenda view     |
+| w  | week-agenda view    |
+| f  | move forward(d,w,m) |
+| b  | move forward(d,w,m) |
+| r  | refresh agenda      |
+**** org-mode
+|                  | cursor location       | function                                                             |
+|------------------+-----------------------+----------------------------------------------------------------------|
+| t/(S-left/right) |                       | cycle between(TD tags)                                               |
+| T                |                       | create&jump to next line beginning with TD tag(same to current line) |
+| a-enter          | front of current line | create&jump to previous line begining with same indent               |
+|                  | end of current line   | create&jump to next line begining with same indent                   |
+**** emacs 
+| shortcut                | function                |
+|-------------------------+-------------------------|
+| c-e                     | jump to the end         |
+| c-a                     | jump to the begining    |
+| c-SPC                   | mark                    |
+|-------------------------+-------------------------|
+| c-x c-s                 | save current buffer     |
+| c-x s                   | save any or all buffers |
+| c-x s !                 | save all buffers        |
+| C-u C-x s               | save all buffers        |
+|-------------------------+-------------------------|
+| C-x C-b                 | open Ibuffer            |
+| m,d,x,h                 | mark,delete,kill,help   |
+| M-x kill others buffers | kill others buffers     |
+**** clocking 
+| function         | commands    |
+|------------------+-------------|
+| org-clock-in     | C-c C-x C-i |
+| org-clock-out    | C-c C-x C-o |
+| org-clock-report | C-c C-x C-r |
+
+*** vim adventures
+**** tables
+|          |                | result                                                                        | condition                  |
+|----------+----------------+-------------------------------------------------------------------------------+----------------------------|
+|          | level 7        |                                                                               |                            |
+|----------+----------------+-------------------------------------------------------------------------------+----------------------------|
+| level 7  | %              | jump to the match one                                                         | if in front or under (,[,{ |
+|          |                | jump to the back (,[,{                                                        | if between (,[,{           |
+|          | t T            | search words and stand right/left besides                                     |                            |
+|          | f F            | search exact on current line                                                  |                            |
+|          | ; ,            | repeat(f,F,t,T) or in reverse                                                 |                            |
+|          | gg             | default first line, #(gg) to #line                                            |                            |
+|          | G              | default last line, #(G) to #line                                              |                            |
+|          |                | the character under the cursor is not deleted.                                | when deleting backwards    |
+|          | dG             | delete current line until G position                                          |                            |
+|          | dgg            | delete cursor(not including current) to gg position                           |                            |
+|          | d%             | delete current line(cursor) to % position                                     |                            |
+|----------+----------------+-------------------------------------------------------------------------------+----------------------------|
+| level 8  | */#            | search forward/backward the whole word                                        |                            |
+|          | n/N            | repeat search(*,#,/,?) forward/backward                                      |                            |
+|----------+----------------+-------------------------------------------------------------------------------+----------------------------|
+| level 9  | 4$             | jump to end of 4th line                                                       |                            |
+|          | 3x             | delete 3 letter                                                               |                            |
+|          | 5~             | change case of 5 letter                                                       |                            |
+|          | d4j            | delete current&next 4 lines                                                   |                            |
+|          | d2w            | delete 2 words and jump to beginning of 3rd words                             |                            |
+|          | d2FX           | delete to 2nd X in the front                                                  |                            |
+|----------+----------------+-------------------------------------------------------------------------------+----------------------------|
+| level 10 | P              | paste after the cursor,below current line                                     |                            |
+|          | p              | paste before the cursor, above current line                                   |                            |
+|          | 2ft            | search forward 2nd t                                                          |                            |
+|          | 2p             | paste twice                                                                   |                            |
+|          | y2w            | copy two words                                                                |                            |
+|          | :reg           | view registers                                                                |                            |
+|          | text(del,yank) | save in '-' reg                                                               |                            |
+|          | delete,yank    | save in unnamed reg                                                           |                            |
+|          | "              | use reg(a-zA-Z0-9,%#:-) for next del,yank or put                              |                            |
+|          | reg"1-"9       | latest one in "1, the one before is "2                                        |                            |
+|          | reg"a-"z       | used bf any delete, yank                                                      |                            |
+|          | reg"A-"Z       | the deleted text append to but not replace existing content                   |                            |
+|          | reg"0          | Yanking text is stored                                                        |                            |
+|          | reg"_          | black hole register                                                           |                            |
+|          | reg""          | paste default                                                                 |                            |
+|----------+----------------+-------------------------------------------------------------------------------+----------------------------|
+| level 11 | cw/cW ce/cE    | Delete text and start insert                                                  |                            |
+|          | C              | delete to the end from the current cursor                                     |                            |
+|          | cc/S           | delete the whole line and start insert                                        |                            |
+|          | 3C             | delete to next 2 lines end from the current cursor                            |                            |
+|          | c2j            | delete current and the next 2 lines(like d2j) and insert                      |                            |
+|          | s              | delete and start insert(like x)                                               |                            |
+|          | 3ix            | insert x 3 times                                                              |                            |
+|          | 3a, 0          | repeat insert ", 0" three times                                               |                            |
+|          | o/O            | open a new line and start insert mode before or after current line            |                            |
+|----------+----------------+-------------------------------------------------------------------------------+----------------------------|
+| level 12 | (,)            | navigate sentences                                                            |                            |
+|          | d(,)           | delete until and inlcuding (,) line                                           |                            |
+|          | sentence       | ending at . ! ?                                                               |                            |
+|          | {,}            | paragraphs backward,forward                                                   |                            |
+|          | [{,[(,]),]}    | go to unmatched '{'( or ')'}                                                  |                            |
+|          | zt,zb,zz       | move screen                                                                   |                            |
+|          | text objects   | see the following                                                             |                            |
+|          | .              | repeat last change. enter a count, it will replace the last one               |                            |
+|          |                | including numbered register, the reg num incre                                |                            |
+|----------+----------------+-------------------------------------------------------------------------------+----------------------------|
+| level 14 | M              | to Middle line of window(num is okay to added in front of)                    |                            |
+|          | L              | to lowest line of window                                                      |                            |
+|          | H              | to Higest line of window                                                      |                            |
+|          | "l"            | to column in the current line                                                 |                            |
+|          | :nu            | to define line                                                                |                            |
+|          | /,?            | search forward or backward                                                    |                            |
+|          | `{mark}        | jump to special mark                                                          |                            |
+|          | :marks         | see a list of all marks                                                       |                            |
+|          | :delm          | remove marks, use"!" for all local marks                                      |                            |
+|          | CTRL-R         | Redo changes that were undone                                                 |                            |
+|          | '{mark}        | jump to the first non-blank character in the line of the specified mark       |                            |
+|          | m              | set a mark at cursor position.                                                |                            |
+|          |                | local marks, can mark different locations in different texts at the same time |                            |
+|          |                | global marks, (A-Z), save filename or buffer                                  |                            |
+|          | u              | Undo changes                                                                  |                            |
+***** text objects
+-----------------text objects--------------------
+text-objects     two character after operator(select the range)
+                 white space between words is counted 
+1st char 'a'     'an object', inlcuding space
+                 including object itself and the space followed
+                 including preceding space if no space followed or the cursor located front the object
+1st char 'i'     'inner object', wihtout surrounding space, or only space 
+'a'block         including barckets
+'i'block         uncluding barckets
+2nd char  -------------------------------
+w,W              word, WORD
+s                sentence
+p                paaragraph
+",',`            related quoted string
+                 1. work within one line
+                 2. not within a quote, search for down the line
+                 3. standing on a quote, pairs determined from the beginning of line
+{,},B            {}block
+(,),b            ()block
+[,]              []block
+<,>              <>block
+t                HTML,XML tag block
+-----------------------------------------
+-----------------text objects--------------------
+
+
+[[https://github.com/pepers/vim-adventures][Vim Adenture github]]
+**** vim adventures seperating record                            :ARCHIVE:
+***** level 7                                                   :ARCHIVE:
+dG   delete standing line to the end
+dgg  delete standing point to the beginning
+d%   delete standing point to % position
+***** level 8                                                   :ARCHIVE:
+*Motion  search forward the whole word nearest to the cursor in the current line
+#Motion  like* but search opposite
+n        will repeat the last search('*', '#')
+N        repeat in the opposite direction
+***** level 9                                                   :ARCHIVE:
+4$   --- goto end after 4 line 
+3x   --- delete 3 letter
+5~   --- change 5 leeter case
+d4j  --- delete current and the next 4 lines                                                            
+2dw  --- delete two words&space and at the end
+d2FX --- delete to 2nd X in the front,without del local position
+***** level 10                                                  :ARCHIVE:
+p          --- paste after the cursor,below current line
+P          --- paste before the cursor, above current line
+
+2f<space>  --- search second <space>
+2p         --- paste twice
+y2w        --- copy two words
+
+:reg       --- view registers
+text<<     --- save into '-' register
+delete     --- save in unnamed register
+"          --- use register{a-zA-Z0-9.%#:-} for next delete, yank or put
+reg"1-"9   --- latest one in "1, the one before is "2
+reg"a-"z   --- used bf any delete, yank
+reg"A-"Z   --- the deleted text append to but not replace existing content
+reg"_      --- black hole register
+reg"0      --- Yanking text is stored
+reg""      --- paste default
+
+
+{/%#:} only work with put
+***** level 11                                                  :ARCHIVE:
+Buffers allow edit multiple fils together
+--------------vim adventures-------------------
+:ls              list current buffers
+marked with %    active buffer
+marked with #    the buffer came from
+:b               buffer_name/buffer_#
+:b#              switch to the last buffer
+--------------vim adventures-------------------
+
+cw/cW ce/cE      Delete text and start insert
+C                delete to the end from the current cursor
+cc/S             delete the whole line and start insert
+3C               delete to next 2 lines end from the current cursor
+c2j              delete current and the next 2 lines(like d2j) and insert
+c3w=3cw          equally
+s                delete and start insert(like x)
+3ix              insert x 3 times
+3a, 0            repeat "a, 0" three times
+o/O              open a new line and start insert mode before or after current line
+***** level 12                                                  :ARCHIVE:
+destory a bug by giving a command(movement,delete,yank etc.), within command's range
+(,)              navigate sentences
+d(,)             delete until and inlcuding (,) line
+
+sentence         ending at . ! ?
+{,}              paragraphs backward,forward
+[{,[(,]),]}      go to unmatched '{'( or ')'}
+zt,zb,zz         move screen
+
+-----------------text objects--------------------
+text-objects     two character after operator(select the range)
+                 white space between words is counted 
+1st char 'a'     'an object', inlcuding space
+                 including object itself and the space followed
+                 including preceding space if no space followed or the cursor located front the object
+1st char 'i'     'inner object', wihtout surrounding space, or only space 
+'a'block         including barckets
+'i'block         uncluding barckets
+2nd char  -------------------------------
+w,W              word, WORD
+s                sentence
+p                paaragraph
+",',`            related quoted string
+                 1. work within one line
+                 2. not within a quote, search for down the line
+                 3. standing on a quote, pairs determined from the beginning of line
+{,},B            {}block
+(,),b            ()block
+[,]              []block
+<,>              <>block
+t                HTML,XML tag block
+-----------------------------------------
+-----------------text objects--------------------
+
+.               repeat last change.
+                enter a count, it will replace the last one
+                including numbered register, the reg num incre
+***** level 14                                                  :ARCHIVE:
+M        to Middle line of window(num is okay to added in front of)
+L        to lowest line of window
+H        to Higest line of window
+"|"      to column in the current line
+:nu      to define line
+
+/,?      search forward or backward
+`{mark}  jump to special mark
+:marks   see a list of all marks
+:delm    remove marks, use"!" for all local marks
+CTRL-R   Redo changes that were undone
+'{mark}  jump to the first non-blank character in the line of the specified mark
+m        set a mark at cursor position. 
+         local marks, can mark different locations in different texts at the same time
+         global marks, (A-Z), save filename or buffer
+u        Undo changes
+
+
+:delm D the(enter)
+? (space)o
+
+
+vim-adventures: on U mark puzzle
+chrome: global mark V
+**** vim group summaried by zac 
+count are in the back of operator(y,d,c etc.)
+|-------------+-----------------------------------------|
+| ''          | jump back after moving another location |
+| y,d,c       | operating symbol                        |
+| w,e,t,T,f,T | moving symbol                           |
+|             |                                         |
+**** Vimium in Chrome                                            :ARCHIVE:
+^       visit the previously-visited tab
+** Emacs Mics Function
+*** emacs buffers
+[[http://emacs.stackexchange.com/questions/728/how-do-i-switch-buffers-quickly][How do I switch buffers quickly?]]
+mapping C-; to other-window (cycling through windows)
+mapping C-' to other-frame (cycling through frames).
+[[https://github.com/emacs-china/hello-emacs/blob/master/Emacs_Redux/%E5%BF%AB%E9%80%9F%E5%AE%9A%E4%BD%8DEmacs_Lisp%E6%BA%90%E4%BB%A3%E7%A0%81.org][快速定位Emacs_Lisp源代码]]
+[[https://www.emacswiki.org/emacs/ControlTABbufferCycling][Buffer Stack]]
+*** Emacs Macro
+[[http://www.thegeekstuff.com/2010/07/emacs-macro-tutorial-how-to-record-and-play/][How to Record and Play]]
+*** emacs bookmarks
+[[https://www.gnu.org/software/emacs/manual/html_node/emacs/Bookmarks.html][emacs bookmarks]]
+| S.C. | function           |
+|------+--------------------|
+| d    | mark as delete     |
+| x    | delete marked file |
+*** Dired
+[[https://www.youtube.com/watch?v=7jZdul2fC94][Exploring the Filesystem with Dired]]
+[[file:///Users/zhenhuhua/Documents/xah_emacs_tutorial_2016-08-15_f9a00570/emacs/file_management.html][dired basic]]
+| keys | function                                                                                       |
+|------+------------------------------------------------------------------------------------------------|
+| o    | open in another buffer with cursor in other buffer                                             |
+| e    | open in another buffer with cursor in current buffer                                           |
+| R    | rename or move                                                                                 |
+| C    | copy                                                                                           |
+| u    | go to parent dir                                                                               |
+| +    | create new dir                                                                                 |
+|------+------------------------------------------------------------------------------------------------|
+| x    | Delete files flagged for deletion                                                              |
+| d    | Flag this file for deletation                                                                  |
+| DEL  | Move point to previous line and remove the deletion flag on that line                          |
+| u    | Remote the deletion flag                                                                       |
+| f    | Visit the file described on the current line, like typing C-x C-f and supplying that file name |
+*** emacs Python
+**** bug
+[[https://github.com/syl20bnr/spacemacs/issues/5544][python shell freezes upon TAB completion when using IPython shell]]
+** Emacs basic&advance
+*** emacs basic
+[[https://www.emacswiki.org/emacs/BackupDirectory][backup Directory]]
+[[https://github.com/syl20bnr/spacemacs/issues/1453][Add auto-save feature for Spacemacs]]
+[[http://stackoverflow.com/questions/151945/how-do-i-control-how-emacs-makes-backup-files][How do I control how Emacs makes backup files?]]
+[[https://www.gnu.org/software/emacs/manual/html_node/emacs/Comment-Commands.html][Comment-commands for emacs]]
+[[https://www.emacswiki.org/emacs/IncrementalSearch][Emacs Search]]
+**** 入门最好的教材就是自带的 Emacs 快速指南： c-h t
+查询某个键绑定可通过：c-h k
+Xah，李杀，一个 Emacs 狂热分子，他的文章很有学习价值：http://ergoemacs.org/emacs/emacs.html
+EmacsWiki: http://www.emacswiki.org/
+** environment setting 
+*** Python environment setting in emacs
+[[https://realpython.com/blog/python/emacs-the-best-python-editor/][Emacs-the best Python Editor]]
+**** the error: Warning (python):
+Your ‘python-shell-interpreter’
+doesn’t seem to support readline
+[[https://github.com/gregsexton/ob-ipython/issues/28][emacs hangs if python block is not executed #28]]
+ (setq python-shell-completion-native-enable nil)
+ -----put this info into the .spacemacs
+**** TODO run python autocomplete
+Elpy(which has more function), Anacodna(which is more responsivable)
+read the following doc
+[[https://github.com/syl20bnr/spacemacs/tree/master/layers/%252Blang/python][Anaconda dependencies on github]]
+[[https://emacs-china.org/t/spacemacs-python-mode/436][Spacemacs python mode下，自动不全不能正常工作]]
+**** check the function of Ipython
+**** TODO issue
+Spacemacs fail to install outside packages
+*** HTML environment setting in Emacs 
+**** Emacs for HTML
+[[http://darksun.blog.51cto.com/3874064/1416936][使用emacs编写html:html-mode简单使用笔记]]
+[[https://www.emacswiki.org/emacs/BrowseUrl][BrowseUrl in Emacs Wiki]]
+**** issue
+ShellExecute failed: The system cannot find the file specified.
+[[http://stackoverflow.com/questions/11553123/linking-to-files-on-windows-network-share][linking to files on Windows Network Share]]
+**** HTML
+***** C-c C-v shortcut for create web quick view
+** Org-mode
+*** reading [[http://orgmode.org/manual/][Org Manual]] website
+**** [[http://orgmode.org/manual/Timeline.html][Timeline for a signgle file]]
+**** [[http://orgmode.org/manual/The-date_002ftime-prompt.html#The-date_002ftime-prompt][The date/time prompt]]
+*** spreadsheet
+**** [[http://orgmode.org/worg/org-tutorials/org-spreadsheet-intro.html][Org as a spreadsheet system: a short introduction]]
+**** [[http://orgmode.org/org.html#Advanced-features][Orgmode advanced-features]] 
+**** [[http://orgmode.org/worg/org-glossary.html][An Explanation of Basic Org-Mode Concepts]]
+**** field references
+@row$column
+***** examples:
+     @2$3      2nd row, 3rd column (same as C2)
+     $5        column 5 in the current row (same as E&)
+     @2        current column, row 2
+     @-1$-3    the field one row up, three columns to the left
+     @-I$2     field just under hline above current row, column 2
+     @>$5      field in the last row, in column 5
+***** field coordinates in formulas
+Put the cursor in the (empty) [Formula] field. Now type :=vmean($2..$3) in this field
+hit C-c C-c
+**** Updating the table
+***** Recalculated the current row
+C-c *
+***** Recomputer the entire table
+C-u C-c *, C-u C-c C-c
+***** Iterate the table by recomputing it unitl no further changes occur
+C-u C-u C-c * or C-u C-u C-c C-c     (org-table-iterate)
+***** Recompute all tables in the current buffer 
+M-x org-table-recalculate-buffer-tables RET
+***** Interate all tables in the current buffer 
+M-x org-table-recalculate-buffer-tables RET
+**** Editing and debugging formulas
+***** Edit the formula associated with the current column/field in the minibuffer. 
+C-c = or C-u C-c =     (org-table-eval-formula)
+***** Edit all formulas for the current table in a special buffer
+C-c '     (org-table-edit-formulas)
+***** Turn the coordinate grid in the table on and off
+C-c }
+*** 中文乱码问题
+**** [[http://paxinla.github.io/2015/07/12/Windows%E4%B8%8BEmacs%E7%9A%84shell-mode%E4%B9%B1%E7%A0%81%E8%A7%A3%E5%86%B3/][Windows 下 Emacs24 的 shell-mode 中文乱码解决]]
+[[https://github.com/hick/emacs-chinese][Emacs相关中文问题以及解决方案]]
+[[https://github.com/tumashu/chinese-fonts-setup][chinese-fonts-setup]]
+*** Archive
+[[http://orgmode.org/manual/Moving-subtrees.html#Moving-subtrees][Archive in orgmode.org]]
+*** Agenda
+[[http://orgmode.org/worg/org-tutorials/orgtutorial_dto.html][David O'Toole Org tutorial]]
+[[http://orgmode.org/manual/Agenda-files.html#Agenda-files][Agenda files]]
+[[http://orgmode.org/manual/Agenda-dispatcher.html#Agenda-dispatcher][The agenda dispatcher]]
+[[http://orgmode.org/manual/Clocking-commands.html#Clocking-commands][clocking commands]]
+[[https://www.gnu.org/software/emacs/manual/html_node/emacs/Recover.html][recovering data from auto-saves]]
+*** [[http://orgmode.org/manual/Comment-lines.html][Comment-lines for orgmode]]
+
+* organize emacs in need 11/11
+** Dired+ could not be found, I have to think about other ways to kill buffers created by Dried
+way1: manual create functions(more challenge & I have failed once)
+way2: try to download Dired+ from other sources
+** Third-Party apps can not be installed
+stage1: try to use home computer for second try, as my home spacemacs version could be develop mode
+stage2: understand develop and master mode 
+stage3: understand how to transfer between develop mode to master mode and opposite way
+stage4: install various apps
+** understand emacs layout 
+read layout from [[dotfile]             [[http://spacemacs.org/doc/DOCUMENTATION.html#dotfile-configuration][dotfile configuration]]
+read spacemacs rock
+** setup website
+small link for my emacs page
+small link for my project page
