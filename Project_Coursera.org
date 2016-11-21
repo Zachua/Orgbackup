@@ -38,7 +38,8 @@ for (File f: fr.selectedFiles()){
 process each line in turn;}
 }}
 **** Pixel
-***** .getX()	returns the pixel's x-coordinate within <2016-11-09 Wed>the imag
+***** .getX()	returns the pixel's x-coordinate within <2016-11-09 
+** pythWed>the imag
 e	pix1.getX() is 100
 ***** .getY()	returns the pixel's y-coordinate within the image	pix1.getY() is 200
 ***** .getRed()	returns the value of the pixel's red component (always in the range 0-255)	pix1.getRed() is 0

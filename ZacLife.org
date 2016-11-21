@@ -732,32 +732,33 @@ JavaScript is the programming language of HTML and the Web.
 ** Human Resource
 *** company
 **** NSGT 
-| Company  | Person    | Nov | Oct | Position       | Email                  | phone             |
-|----------+-----------+-----+-----+----------------+------------------------+-------------------|
-|          | Nha Trans |     |     |                |                        |                   |
-|          | Phillip   |     |     |                |                        |                   |
-|----------+-----------+-----+-----+----------------+------------------------+-------------------|
-| NSGT     | Meihuang  |     |     | MPN, xx manger | mei.huang@foxconn.com  | 408-547-8817      |
-| Planer   | Kathrina  |   1 |     | Planer         |                        |                   |
-| QE       | Mei Wang  |     |     | QE             |                        |                   |
-|          | Juan      |   1 |     |                |                        |                   |
-|          | KC        |   1 |     |                |                        |                   |
-| FAE      | Doris     |   1 |     |                |                        |                   |
-| PM       | Edison    |     |     | PM             | edison.py.yu@gmail.com | TW: 886-928527997 |
-|----------+-----------+-----+-----+----------------+------------------------+-------------------|
-| operator | Kenny     |     |     | operator       |                        |                   |
-|          | Ping      |     |     | operator       |                        |                   |
-|          | Zoe       |     |   1 | operator       |                        |                   |
-|          | Ouyang    |     |     | operator       |                        |                   |
-|          | Sufeiya   |     |     | operator       |                        |                   |
-|          | Tonny     |     |     | operator       |                        |                   |
-|----------+-----------+-----+-----+----------------+------------------------+-------------------|
-|          | jackson   |     |     | operator       |                        |                   |
-|          | John      |     |     |                |                        |                   |
-|          | Shui      |     |     |                |                        |                   |
-|          | Mei       |     |     |                |                        |                   |
-|----------+-----------+-----+-----+----------------+------------------------+-------------------|
-|          |           |     |     |                |                        |                   |
+| Company  | Person    |              Nov | Oct | Position       | Email                  | phone             |
+|----------+-----------+------------------+-----+----------------+------------------------+-------------------|
+|          | Nha Trans |                  |     |                |                        |                   |
+|          | Phillip   |                  |     |                |                        |                   |
+|----------+-----------+------------------+-----+----------------+------------------------+-------------------|
+| NSGT     | Meihuang  |                  |     | MPN, xx manger | mei.huang@foxconn.com  | 408-547-8817      |
+| Planer   | Kathrina  |                1 |     | Planer         |                        |                   |
+| QE       | Mei Wang  |                  |     | QE             |                        |                   |
+|          | Juan      |                1 |     |                |                        |                   |
+|          | KC        |                1 |     |                |                        |                   |
+| FAE      | Doris     |                1 |     |                |                        |                   |
+| PM       | Edison    |                  |     | PM             | edison.py.yu@gmail.com | TW: 886-928527997 |
+|          | Jackie    | <2016-11-20 Sun> |     |                |                        |                   |
+|----------+-----------+------------------+-----+----------------+------------------------+-------------------|
+| operator | Kenny     | <2016-11-20 Sun> |     | operator       |                        |                   |
+|          | Ping      |                  |     | operator       |                        |                   |
+|          | Zoe       |                  |   1 | operator       |                        |                   |
+|          | Ouyang    |                  |     | operator       |                        |                   |
+|          | Sufeiya   |                  |     | operator       |                        |                   |
+|          | Tonny     |                  |     | operator       |                        |                   |
+|----------+-----------+------------------+-----+----------------+------------------------+-------------------|
+|          | jackson   |                  |     | operator       |                        |                   |
+|          | John      |                  |     |                |                        |                   |
+|          | Shui      |                  |     |                |                        |                   |
+|          | Mei       |                  |     |                |                        |                   |
+|----------+-----------+------------------+-----+----------------+------------------------+-------------------|
+|          |           |                  |     |                |                        |                   |
 **** Cisco
 | Company | Person     | Position | Email             |        phone |
 |---------+------------+----------+-------------------+--------------|
@@ -818,29 +819,30 @@ JavaScript is the programming language of HTML and the Web.
 *** Church Tongxin Fellowship
 | Group  | Name         | Nov | Oct |
 |--------+--------------+-----+-----|
-| Male   | Ryan         |   1 |   2 |
-|        | yuchi Zhang  |   2 |   3 |
+| Male   | Ryan         |   2 |   2 |
+|        | yuchi Zhang  |   3 |   3 |
 |        | Dongyang Z   |   1 |   1 |
 |        | Liu Zhanglao |     |   2 |
 |        | jiahong guo  |     |   1 |
 |        | Wang Lu      |   2 |     |
 |        | Michale      |   1 |     |
-|        | bingxiong L  |   1 |     |
+|        | bingxiong L  |   2 |     |
 |--------+--------------+-----+-----|
-| Female | Ivy(hanyi)   |   2 |   2 |
+| Female | Ivy(hanyi)   |   3 |   2 |
 |        | Song Fei     |     |   1 |
 |        | Shi Mu       |     |   2 |
-|        | Grace Z      |   2 |   3 |
-|        | Grace        |   2 |   3 |
+|        | Grace Z      |   3 |   3 |
+|        | Grace        |   3 |   3 |
 |        | Cindy        |   1 |   1 |
 |        | Katie        |     |   1 |
-|        | Anlin        |   2 |   2 |
-|        | Juan Liu     |   1 |   2 |
+|        | Anlin        |   3 |   2 |
+|        | Juan Liu     |   2 |   2 |
 |        | wentao       |   1 |   2 |
-|        | shu yao      |     |   1 |
-|        | copper       |     |   1 |
-|        | Teresa       | 1   |     |
-|        | Kristin      |     |   1 |
+|        | Shuyao       |     |   1 |
+|        | Copper       |     |   1 |
+|        | Teresa       |   1 |     |
+|        | Kristin      |   1 |   1 |
+|        | Jiaze Li     |   1 |     |
 |        | Ye Zhou      |   1 |     |
 *** Others
 | Group           | Name   | Oct | Sep              | Aug              |
@@ -991,6 +993,29 @@ Excerpt From: [美]华理克. “标杆人生.” iBooks.
 很温暖，这就是家的感觉，委身其中
 **** tips
 ***** 让大家多度经文
+** testmony on 2016
+过了一年，大家总有点收获吧，我今年有一个不小的收获，我在这里分享给大家：这个收获靠我自己是不行的，靠主耶稣才行
+背景： 出身城市， 不喜欢语文英语（原因是需要花时间和积累），大学每逢考试（紧张，血压升高，夜不能寐），结束后又就放肆玩乐。 
+去年工作，疲于应付，不知道事情进度。邮件几百上千，打开邮箱头痛
+甚至没必要的加班，下班回家也担心，精神得不到休息
+
+我总结一下我的问题，做事没有计划，生活浑浑噩噩
+
+短宣认识到自己的问题，主耶稣给我的启示。
+姐妹boundary这本书很棒，我看完之后在亚马逊书籍推荐区闲逛，发现有一本书，作者竟是一位牧师，
+
+Do More Better
+Tim Challies--------book review for WORLD magazine
+cofounder of Cruciform Press, has written several books
+pastor at Church
+
+
+现在生活很开心，做事很有条理，工作也比较轻松，有更多的时间做自己想做的事，做荣耀主的事。
+感谢赞美主。
+主叫万事互相效力，叫爱神的人得益处，主一切都有安排
+主是脚前的灯，路上的光，相信主都有安排
+ 一切赞美荣耀都归于主
+ 
 * PERSONAL
 ** a.p
 | category   | name           | email             | account         | password      | comment |
@@ -1008,6 +1033,7 @@ Excerpt From: [美]华理克. “标杆人生.” iBooks.
 |            | renren         | jiuweihuyao1@126  |                 | Passw0rd      |         |
 |            | weixin         |                   |                 | Passw0rd!     |         |
 |            | facebook       | huazhenhu@hotmail |                 | Passw0rd!     |         |
+|            | battle         | huazhenhu@hotmail |                 | 7438428904Hua |         |
 |------------+----------------+-------------------+-----------------+---------------+---------|
 | life tools | evernote       | huazhenhu@gmail   | n/a             | 7438428904    |         |
 |            | iMindMap       | huazhenhu@hotmail | zachary         | Passw0rd!     |         |
