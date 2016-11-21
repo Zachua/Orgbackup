@@ -101,7 +101,10 @@ Tim.Z fedex account: FedEx# 468468247
 | #4  | #1243     | ERBU  | Jackie | Ting Li  | KWE     | FSJ     |        |                  |                  |   |   |               |
 | #5  | #1244     | CVEBU | Alex J | Johnny   |         |         |        |                  |                  |   |   |               |
 | #6  | #1245     | ERBU  | Sen    |          |         |         |        |                  |                  |   |   |               |
+<<<<<<< HEAD
 | #7  | #1246     |       |        |          |         |         |        |                  |                  |   |   |               |
+=======
+>>>>>>> 28417e2... backup_Nov.17
 |-----+-----------+-------+--------+----------+---------+---------+--------+------------------+------------------+---+---+---------------|
 ** Quote
 *** Cisco RCFA invoice info
@@ -490,6 +493,7 @@ CLOSED: [2016-11-03 Thu 16:55]
 ***** [#A] submit PMI using ppt(shipment)
 SCHEDULED: <2016-12-01 Thu>
 * working list(week 46)                                                :Work:
+<<<<<<< HEAD
 *** #1236 wait Thrid-party reply about changing pallet
 SCHEDULED: <2016-11-21 Mon>
 *** DONE #1243 ready to ship, doing KWE process
@@ -509,6 +513,9 @@ CLOCK: [2016-11-18 Fri 17:41]--[2016-11-18 Fri 17:41] =>  0:00
 :END:
 *** #1246 wait for tracking#
 SCHEDULED: <2016-11-21 Mon>
+=======
+*** wait China reply about #1236
+>>>>>>> 28417e2... backup_Nov.17
 *** DONE [#A] #1236 ready to ship
 CLOSED: [2016-11-16 Wed 15:57]
 :LOGBOOK:
@@ -530,10 +537,19 @@ CLOSED: [2016-11-15 Tue 16:43]
 :LOGBOOK:
 CLOCK: [2016-11-15 Tue 16:43]--[2016-11-15 Tue 16:43] =>  0:00
 :END:
+<<<<<<< HEAD
 ** waiting list                                                     :Career:ARCHIVE:
 *** [#A] submit PMI using ppt(shipment)
 SCHEDULED: <2016-11-30 Wed>
 *** [#C] unknown shipment 5 cartons(cisco 2900) without any notice
 *** [#C] 1199
 *** WAITING [#C] work with Jackie and chen for QP station debugging
+=======
+** waiting list                                                     :Career:
+*** [#A] submit PMI using ppt(shipment)
+SCHEDULED: <2016-11-30 Wed>
+*** [#C] 1199
+*** WAITING [#C] work with Jackie and chen for QP station debugging
+*** [#C] unknown shipment 5 cartons(cisco 2900) without any notice
+>>>>>>> 28417e2... backup_Nov.17
 *** [#C] added Joe into email list

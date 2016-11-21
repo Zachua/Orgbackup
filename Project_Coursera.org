@@ -38,8 +38,12 @@ for (File f: fr.selectedFiles()){
 process each line in turn;}
 }}
 **** Pixel
+<<<<<<< HEAD
 ***** .getX()	returns the pixel's x-coordinate within <2016-11-09 
 ** pythWed>the imag
+=======
+***** .getX()	returns the pixel's x-coordinate within <2016-11-09 Wed>the imag
+>>>>>>> 28417e2... backup_Nov.17
 e	pix1.getX() is 100
 ***** .getY()	returns the pixel's y-coordinate within the image	pix1.getY() is 200
 ***** .getRed()	returns the value of the pixel's red component (always in the range 0-255)	pix1.getRed() is 0
@@ -1408,6 +1412,10 @@ browser-sync start --server --directory --file "**/*"
 |                    | git log --graph           | check graph of merging status                                   |
 |                    | --pretty=oneline          | make it pretty      tag:guess                                   |
 |                    | --abbrev-commit           | make it pretty      tag:guess                                   |
+<<<<<<< HEAD
+=======
+
+>>>>>>> 28417e2... backup_Nov.17
 * Spacemacs Rock
 |          | define                    | detail                                         |
 |----------+---------------------------+------------------------------------------------|
@@ -1554,6 +1562,9 @@ browser-sync start --server --directory --file "**/*"
 |----------+-----------+--------------------|
 | list(P)  |           |                    |
 | array(J) |           |                    |
+<<<<<<< HEAD
 ** submit my Orgmode to Github
 git remote add Orgmodehub git@github.com: Zachua/Orgmode.git
 git push Orgmodehub master
+=======
+>>>>>>> 28417e2... backup_Nov.17
