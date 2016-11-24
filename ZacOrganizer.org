@@ -1895,16 +1895,17 @@ SCHEDULED: <2016-10-10 Mon>
 **** exercise bench   $100
 **** cooking tools   $20   $20
 *** people
-**** say goodbye to Matt
+**** say happy thanksgiving
 SCHEDULED: <2016-11-24 Thu>
 **** say goodbye to classmates
 **** say goodbye to fellowship
 **** say goodbye to Panpan
 **** say goodbye to Weihua
 ** STARTED administration                                         :Clocking: 
-SCHEDULED: <2016-11-23 Wed>
+SCHEDULED: <2016-11-24 Thu>
 :LOGBOOK:
-CLOCK: [2016-11-23 Wed 22:49]
+CLOCK: [2016-11-24 Thu 08:41]
+CLOCK: [2016-11-23 Wed 22:49]--[2016-11-24 Thu 00:11] =>  1:22
 CLOCK: [2016-11-23 Wed 16:35]--[2016-11-23 Wed 19:16] =>  2:41
 CLOCK: [2016-11-23 Wed 14:17]--[2016-11-23 Wed 14:30] =>  0:13
 CLOCK: [2016-11-23 Wed 11:50]--[2016-11-23 Wed 12:10] =>  0:20
@@ -1924,7 +1925,7 @@ CLOCK: [2016-11-18 Fri 15:19]--[2016-11-18 Fri 15:19] =>  0:00
 CLOCK: [2016-11-18 Fri 17:10]--[2016-11-18 Fri 17:36] =>  0:26
 :END:
 ** WAITING work                                    :Clocking:    
-SCHEDULED: <2016-11-23 Wed>
+SCHEDULED: <2016-11-24 Thu>
 :LOGBOOK:
 CLOCK: [2016-11-23 Wed 15:33]--[2016-11-23 Wed 15:37] =>  0:04
 CLOCK: [2016-11-23 Wed 13:58]--[2016-11-23 Wed 14:08] =>  0:10
@@ -1939,7 +1940,7 @@ CLOCK: [2016-11-18 Fri 13:35]--[2016-11-18 Fri 14:25] =>  0:50
 CLOCK: [2016-11-18 Fri 14:25]--[2016-11-18 Fri 14:27] =>  0:02
 :END:
 ** TODO J-Hopping                                 :Clocking:  
-SCHEDULED: <2016-11-23 Wed>
+SCHEDULED: <2016-11-24 Thu>
 :LAST_REPEAT: [2016-11-17 Thu 08:14]
 :END:
 - State "DONE"       from "WAITING"    [2016-11-17 Thu 08:14]
@@ -1949,8 +1950,9 @@ CLOCK: [2016-11-17 Thu 07:59]--[2016-11-17 Thu 07:59] =>  0:00
 CLOCK: [2016-11-14 Mon 18:09]--[2016-11-14 Mon 18:09] =>  0:00
 :END:
 ** WAITING Technology                                             :Clocking:  
-SCHEDULED: <2016-11-23 Wed>
+SCHEDULED: <2016-11-24 Thu>
 :LOGBOOK:
+CLOCK: [2016-11-24 Thu 00:11]--[2016-11-24 Thu 00:17] =>  0:06
 CLOCK: [2016-11-23 Wed 19:16]--[2016-11-23 Wed 19:34] =>  0:18
 CLOCK: [2016-11-23 Wed 17:18]--[2016-11-23 Wed 17:22] =>  0:04
 CLOCK: [2016-11-23 Wed 14:07]--[2016-11-23 Wed 15:33] =>  1:26
@@ -2050,6 +2052,7 @@ http://www.listary.com/text-editor-anywhere
 [[http://www.chromeplugins.org/google/chrome-tips-tricks/edit-text-your-favorite-text-editor-chrome-9876.html][Edit text with your favorite text editor in Chrome!]]
 *** set other windows as Ctrl-left
 *** [#C] set emacs up to open pdf, word, excel, music and so on
+*** [#C] set up upper function in org mode(check emacs.org)
 *** [#C] understand layers in emacs, creating personal layers with my favorite application
 *** [#C] push .spacemacs to github orgmode file
 *** [#C] question about major mode
@@ -2058,32 +2061,32 @@ http://www.listary.com/text-editor-anywhere
 *** 
 ** Web Project                                                         :Web:
 *** TODO study fullstack-course4 for 20mins                         :Daily:
-SCHEDULED: <2016-11-23 Wed .+1d>
+SCHEDULED: <2016-11-24 Thu .+1d>
 *** add more CSS skills on online orgmode
 * W47,48 :Time Management:
-| Project  | sub-project      | r.f.o | 11/23 | 11/22 | 11/21 | average |
-|----------+------------------+-------+-------+-------+-------+---------|
-| personal | Spiritual        |       |       |       |     0 |       0 |
-|          | exercise         |       |       |   0.5 |     0 |       0 |
-|          | sleep            |       |       |       |     0 |       0 |
-|          | Administration   |       |   0.5 |   4.1 |   3.4 |     1.4 |
-|          | movies           |       |   0.5 |       |     0 |       0 |
-|          | game             |       |       |     5 |     5 |       0 |
-|          | S.E.             |       |       |       |     0 |       0 |
-|----------+------------------+-------+-------+-------+-------+---------|
-| family   | Parents&sister   |       |       |       |     0 |       0 |
-|          | GF               |       |       |       |     0 |       0 |
-|----------+------------------+-------+-------+-------+-------+---------|
-| Friends  | hangout(friends) |       |       |       |     1 |       1 |
-|----------+------------------+-------+-------+-------+-------+---------|
-| Church   | GOD              |       |       |       |     0 |       0 |
-|----------+------------------+-------+-------+-------+-------+---------|
-| Business | Technology       |       |       |   0.4 |   1.8 |     1.1 |
-|          | Job              |       |       |     3 |   0.6 |       0 |
-|          | Job-Hopping      |       |       |       |     0 |       0 |
-|----------+------------------+-------+-------+-------+-------+---------|
-|          | improveScr       |    0. |       |  8.52 |  7.38 |      0. |
-|          | balanceScr       |    0. |       |  9.52 |  9.18 |      0. |
+| Project  | sub-project      | r.f.o | 11/23 | 11/22 | 11/21 |   average |
+|----------+------------------+-------+-------+-------+-------+-----------|
+| personal | Spiritual        |       |       |       |     0 |         0 |
+|          | exercise         |       |       |   0.5 |     0 |         0 |
+|          | sleep            |       |       |       |     0 |         0 |
+|          | Administration   |       |   5.5 |   4.1 |   3.4 |       1.4 |
+|          | movies           |       |   0.5 |       |     0 |         0 |
+|          | game             |       |       |     5 |     5 |         0 |
+|          | S.E.             |       |       |       |     0 |         0 |
+|----------+------------------+-------+-------+-------+-------+-----------|
+| family   | Parents&sister   |       |       |       |     0 |         0 |
+|          | GF               |       |       |       |     0 |         0 |
+|----------+------------------+-------+-------+-------+-------+-----------|
+| Friends  | hangout(friends) |       |       |       |     1 |         1 |
+|----------+------------------+-------+-------+-------+-------+-----------|
+| Church   | GOD              |       |       |       |     0 |         0 |
+|----------+------------------+-------+-------+-------+-------+-----------|
+| Business | Technology       |       |   3.4 |   0.4 |   1.8 | 1.8666667 |
+|          | Job              |       |   0.7 |     3 |   0.6 |         0 |
+|          | Job-Hopping      |       |       |       |     0 |         0 |
+|----------+------------------+-------+-------+-------+-------+-----------|
+|          | improveScr       |    0. |  12.4 |  8.52 |  7.38 |        0. |
+|          | balanceScr       |    0. | 12.75 |  9.52 |  9.18 |        0. |
 #+TBLFM: $7=vmean($3..$6)::@16$3..@16$6=vsum(@5*1.2,@13*1.5,@14*1,@15*1.8)::@17$3..@17$6=vsum(@2*1.2,@3*1,@5*1.2,@6*0.7,@7*0.1,@8*(-1),@9*1.2,@10*1.1,@11*1.3,@12*1.3,@13*1.5,@14*1,@15*1.8)
 * modify init on air and windows
 ;;;;;;;;;;;;;;;;bookmark ;;;;;;;;;;;;;;;;;;;;;;;;;;;
