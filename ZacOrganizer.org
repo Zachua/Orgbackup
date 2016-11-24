@@ -1901,9 +1901,10 @@ SCHEDULED: <2016-11-24 Thu>
 **** say goodbye to fellowship
 **** say goodbye to Panpan
 **** say goodbye to Weihua
-** WAITING administration                                         :Clocking: 
+** STARTED administration                                         :Clocking: 
 SCHEDULED: <2016-11-23 Wed>
 :LOGBOOK:
+CLOCK: [2016-11-23 Wed 22:49]
 CLOCK: [2016-11-23 Wed 16:35]--[2016-11-23 Wed 19:16] =>  2:41
 CLOCK: [2016-11-23 Wed 14:17]--[2016-11-23 Wed 14:30] =>  0:13
 CLOCK: [2016-11-23 Wed 11:50]--[2016-11-23 Wed 12:10] =>  0:20
@@ -1950,6 +1951,7 @@ CLOCK: [2016-11-14 Mon 18:09]--[2016-11-14 Mon 18:09] =>  0:00
 ** WAITING Technology                                             :Clocking:  
 SCHEDULED: <2016-11-23 Wed>
 :LOGBOOK:
+CLOCK: [2016-11-23 Wed 19:16]--[2016-11-23 Wed 19:34] =>  0:18
 CLOCK: [2016-11-23 Wed 17:18]--[2016-11-23 Wed 17:22] =>  0:04
 CLOCK: [2016-11-23 Wed 14:07]--[2016-11-23 Wed 15:33] =>  1:26
 CLOCK: [2016-11-23 Wed 10:04]--[2016-11-23 Wed 10:04] =>  0:00
