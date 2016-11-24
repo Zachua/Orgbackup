@@ -70,6 +70,23 @@
 | org-clock-out    | C-c C-x C-o |
 | org-clock-report | C-c C-x C-r |
 
+**** Dired
+[[https://www.youtube.com/watch?v=7jZdul2fC94][Exploring the Filesystem with Dired]]
+[[file:///Users/zhenhuhua/Documents/xah_emacs_tutorial_2016-08-15_f9a00570/emacs/file_management.html][dired basic]]
+| keys | function                                                                                       |
+|------+------------------------------------------------------------------------------------------------|
+| o    | open in another buffer with cursor in other buffer                                             |
+| e    | open in another buffer with cursor in current buffer                                           |
+| R    | rename or move                                                                                 |
+| C    | copy                                                                                           |
+| u    | go to parent dir                                                                               |
+| +    | create new dir                                                                                 |
+|------+------------------------------------------------------------------------------------------------|
+| x    | Delete files flagged for deletion                                                              |
+| d    | Flag this file for deletation                                                                  |
+| DEL  | Move point to previous line and remove the deletion flag on that line                          |
+| u    | Remote the deletion flag                                                                       |
+| f    | Visit the file described on the current line, like typing C-x C-f and supplying that file name |
 *** vim adventures
 **** tables
 |          |                | result                                                                        | condition                  |
@@ -308,40 +325,10 @@ count are in the back of operator(y,d,c etc.)
 **** Vimium in Chrome                                            :ARCHIVE:
 ^       visit the previously-visited tab
 ** Emacs Mics Function
-*** emacs buffers
-[[http://emacs.stackexchange.com/questions/728/how-do-i-switch-buffers-quickly][How do I switch buffers quickly?]]
-mapping C-; to other-window (cycling through windows)
-mapping C-' to other-frame (cycling through frames).
-[[https://github.com/emacs-china/hello-emacs/blob/master/Emacs_Redux/%E5%BF%AB%E9%80%9F%E5%AE%9A%E4%BD%8DEmacs_Lisp%E6%BA%90%E4%BB%A3%E7%A0%81.org][快速定位Emacs_Lisp源代码]]
-[[https://www.emacswiki.org/emacs/ControlTABbufferCycling][Buffer Stack]]
 *** Emacs Macro
 [[http://www.thegeekstuff.com/2010/07/emacs-macro-tutorial-how-to-record-and-play/][How to Record and Play]]
 *** emacs bookmarks
 [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Bookmarks.html][emacs bookmarks]]
-| S.C. | function           |
-|------+--------------------|
-| d    | mark as delete     |
-| x    | delete marked file |
-*** Dired
-[[https://www.youtube.com/watch?v=7jZdul2fC94][Exploring the Filesystem with Dired]]
-[[file:///Users/zhenhuhua/Documents/xah_emacs_tutorial_2016-08-15_f9a00570/emacs/file_management.html][dired basic]]
-| keys | function                                                                                       |
-|------+------------------------------------------------------------------------------------------------|
-| o    | open in another buffer with cursor in other buffer                                             |
-| e    | open in another buffer with cursor in current buffer                                           |
-| R    | rename or move                                                                                 |
-| C    | copy                                                                                           |
-| u    | go to parent dir                                                                               |
-| +    | create new dir                                                                                 |
-|------+------------------------------------------------------------------------------------------------|
-| x    | Delete files flagged for deletion                                                              |
-| d    | Flag this file for deletation                                                                  |
-| DEL  | Move point to previous line and remove the deletion flag on that line                          |
-| u    | Remote the deletion flag                                                                       |
-| f    | Visit the file described on the current line, like typing C-x C-f and supplying that file name |
-*** emacs Python
-**** bug
-[[https://github.com/syl20bnr/spacemacs/issues/5544][python shell freezes upon TAB completion when using IPython shell]]
 ** Emacs basic&advance
 *** emacs basic
 [[https://www.emacswiki.org/emacs/BackupDirectory][backup Directory]]
@@ -349,40 +336,15 @@ mapping C-' to other-frame (cycling through frames).
 [[http://stackoverflow.com/questions/151945/how-do-i-control-how-emacs-makes-backup-files][How do I control how Emacs makes backup files?]]
 [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Comment-Commands.html][Comment-commands for emacs]]
 [[https://www.emacswiki.org/emacs/IncrementalSearch][Emacs Search]]
-**** 入门最好的教材就是自带的 Emacs 快速指南： c-h t
-查询某个键绑定可通过：c-h k
-Xah，李杀，一个 Emacs 狂热分子，他的文章很有学习价值：http://ergoemacs.org/emacs/emacs.html
-EmacsWiki: http://www.emacswiki.org/
+**** 入门最好的教材就是自带的 Emacs 快速指南： c-h t, 查询某个键绑定可通过：c-h k
 ** environment setting 
-*** Python environment setting in emacs
-[[https://realpython.com/blog/python/emacs-the-best-python-editor/][Emacs-the best Python Editor]]
-**** the error: Warning (python):
-Your ‘python-shell-interpreter’
-doesn’t seem to support readline
-[[https://github.com/gregsexton/ob-ipython/issues/28][emacs hangs if python block is not executed #28]]
- (setq python-shell-completion-native-enable nil)
- -----put this info into the .spacemacs
-**** TODO run python autocomplete
-Elpy(which has more function), Anacodna(which is more responsivable)
-read the following doc
-[[https://github.com/syl20bnr/spacemacs/tree/master/layers/%252Blang/python][Anaconda dependencies on github]]
-[[https://emacs-china.org/t/spacemacs-python-mode/436][Spacemacs python mode下，自动不全不能正常工作]]
-**** check the function of Ipython
-**** TODO issue
-Spacemacs fail to install outside packages
 *** HTML environment setting in Emacs 
 **** Emacs for HTML
 [[http://darksun.blog.51cto.com/3874064/1416936][使用emacs编写html:html-mode简单使用笔记]]
 [[https://www.emacswiki.org/emacs/BrowseUrl][BrowseUrl in Emacs Wiki]]
-**** issue
-ShellExecute failed: The system cannot find the file specified.
-[[http://stackoverflow.com/questions/11553123/linking-to-files-on-windows-network-share][linking to files on Windows Network Share]]
 **** HTML
 ***** C-c C-v shortcut for create web quick view
 ** Org-mode
-*** reading [[http://orgmode.org/manual/][Org Manual]] website
-**** [[http://orgmode.org/manual/Timeline.html][Timeline for a signgle file]]
-**** [[http://orgmode.org/manual/The-date_002ftime-prompt.html#The-date_002ftime-prompt][The date/time prompt]]
 *** spreadsheet
 **** [[http://orgmode.org/worg/org-tutorials/org-spreadsheet-intro.html][Org as a spreadsheet system: a short introduction]]
 **** [[http://orgmode.org/org.html#Advanced-features][Orgmode advanced-features]] 
@@ -421,28 +383,17 @@ C-c }
 **** [[http://paxinla.github.io/2015/07/12/Windows%E4%B8%8BEmacs%E7%9A%84shell-mode%E4%B9%B1%E7%A0%81%E8%A7%A3%E5%86%B3/][Windows 下 Emacs24 的 shell-mode 中文乱码解决]]
 [[https://github.com/hick/emacs-chinese][Emacs相关中文问题以及解决方案]]
 [[https://github.com/tumashu/chinese-fonts-setup][chinese-fonts-setup]]
-*** Archive
-[[http://orgmode.org/manual/Moving-subtrees.html#Moving-subtrees][Archive in orgmode.org]]
-*** Agenda
-[[http://orgmode.org/worg/org-tutorials/orgtutorial_dto.html][David O'Toole Org tutorial]]
-[[http://orgmode.org/manual/Agenda-files.html#Agenda-files][Agenda files]]
-[[http://orgmode.org/manual/Agenda-dispatcher.html#Agenda-dispatcher][The agenda dispatcher]]
-[[http://orgmode.org/manual/Clocking-commands.html#Clocking-commands][clocking commands]]
-[[https://www.gnu.org/software/emacs/manual/html_node/emacs/Recover.html][recovering data from auto-saves]]
-*** [[http://orgmode.org/manual/Comment-lines.html][Comment-lines for orgmode]]
-
-* organize emacs in need 11/11
-** Dired+ could not be found, I have to think about other ways to kill buffers created by Dried
-way1: manual create functions(more challenge & I have failed once)
-way2: try to download Dired+ from other sources
-** Third-Party apps can not be installed
-stage1: try to use home computer for second try, as my home spacemacs version could be develop mode
-stage2: understand develop and master mode 
-stage3: understand how to transfer between develop mode to master mode and opposite way
-stage4: install various apps
-** understand emacs layout 
-read layout from [[dotfile]             [[http://spacemacs.org/doc/DOCUMENTATION.html#dotfile-configuration][dotfile configuration]]
-read spacemacs rock
-** setup website
-small link for my emacs page
-small link for my project page
+* IMPROVING
+** emacs
+[[http://jingtao.freeshell.org/emacs/TheWayIUseEmacs.html][The way I use Emacs]]
+[[https://github.com/redguardtoo/mastering-emacs-in-one-year-guide/blob/master/guide-zh.org][一年成为Emacs高手(像神一样使用编辑器)]]
+[[http://www.jianshu.com/p/b4cf683c25f3][从零开始——Emacs 安装配置使用教程 2015]]
+[[http://xahlee.info/mswin/env_var.html][Windows Environment Variables Tutorial]]
+** [#B] Spacemacs
+*** [[https://github.com/emacs-china/Spacemacs-rocks][Master Emacs in 21 Days]]
+*** [[https://github.com/emacs-china/Spacemacs-rocks][emacs-china]]
+*** [[https://learnxinyminutes.com/docs/zh-cn/elisp-cn/][Learn X in Y minutes]]
+** Lisp tutorial
+[[http://www.tutorialspoint.com/lisp/][LISP Tutorial]]
+[[https://learnxinyminutes.com/docs/zh-cn/elisp-cn/][Learn X in Y minutes]]
+[[http://www.tutorialspoint.com/lisp/][LISP Tutorial]]

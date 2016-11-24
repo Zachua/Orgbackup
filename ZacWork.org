@@ -93,35 +93,34 @@ Tim.Z fedex account: FedEx# 468468247
 |  10 | #1239     | ERBU  | Jackie  | Ting Li   | Fedex   | FSJ       | Candy  | <2016-10-28 Fri> | <2016-11-01 Tue> | y | y |         |
 |-----+-----------+-------+---------+-----------+---------+-----------+--------+------------------+------------------+---+---+---------|
 *** Nov shipment
-| Num | shipment# | D.P.  | Sender | Receiver | Carrier | account | lgstcs | beginning        | ending           | F | N | comment       |
-|-----+-----------+-------+--------+----------+---------+---------+--------+------------------+------------------+---+---+---------------|
-| #1  | #1240     | WNBU  | Gary.W | Ella.W   | KWE     | FSJ     | Ella   | <2016-11-02 Wed> | <2016-11-11 Fri> | Y | Y | ready to ship |
-| #2  | #1241     | ERBU  | Jackie | Ting Li  | Fedex   | FSJ     | Candy  | <2016-11-03 Thu> | <2016-11-11 Fri> | Y | Y | ready to ship |
-| #3  | #1242     | IoTBU | Andy   | Macou    | Fedex   | FSJ     | Sally  | <2016-11-09 Wed> | <2016-11-11 Fri> | Y | Y | ready to ship |
-| #4  | #1243     | ERBU  | Jackie | Ting Li  | KWE     | FSJ     |        |                  |                  |   |   |               |
-| #5  | #1244     | CVEBU | Alex J | Johnny   |         |         |        |                  |                  |   |   |               |
-| #6  | #1245     | ERBU  | Sen    |          |         |         |        |                  |                  |   |   |               |
-<<<<<<< HEAD
-| #7  | #1246     |       |        |          |         |         |        |                  |                  |   |   |               |
-=======
->>>>>>> 28417e2... backup_Nov.17
-|-----+-----------+-------+--------+----------+---------+---------+--------+------------------+------------------+---+---+---------------|
+| Num | shipment# | D.P.  | Sender  | Receiver | Carrier | account   | lgstcs | beginning        | ending           | F | N | comment |
+|-----+-----------+-------+---------+----------+---------+-----------+--------+------------------+------------------+---+---+---------|
+| #1  | #1240     | WNBU  | Gary.W  | Ella.W   | KWE     | FSJ       | Ella   | <2016-11-02 Wed> | <2016-11-11 Fri> | Y | Y | 51 lbs  |
+| #2  | #1241     | ERBU  | Jackie  | Ting Li  | Fedex   | FSJ       | Candy  | <2016-11-03 Thu> | <2016-11-11 Fri> | Y | Y | 39 lbs  |
+| #3  | #1242     | IoTBU | Andy    | Macou    | Fedex   | FSJ       | Sally  | <2016-11-09 Wed> | <2016-11-11 Fri> | Y | Y | 43 lbs  |
+| #4  | #1243     | ERBU  | Jackie  | Ting Li  | KWE     | FSJ       | Candy  | <2016-11-08 Tue> | <2016-11-17 Thu> | Y | Y |         |
+| #5  | #1244     | CVEBU | Alex J  | Johnny   | Fedex   | 125351310 | Wanxin | <2016-11-16 Wed> | <2016-11-22 Tue> | Y | Y |         |
+| #6  | #1245     | ERBU  | Sen     | Johnny   |         |           |        | <2016-11-14 Mon> |                  |   |   |         |
+| #7  | #1246     |       | Saurabh | Johnny   |         |           |        | <2016-11-17 Thu> |                  |   |   |         |
+| #8  | #1247     | RCFA  | Khalid  | Kenneth  | KWE     | FSJ       |        |                  |                  |   |   |         |
+|-----+-----------+-------+---------+----------+---------+-----------+--------+------------------+------------------+---+---+---------|
 ** Quote
 *** Cisco RCFA invoice info
-|  # | FSJ#  | contactor |  Carrier inv | FSJ inv   | org prc |  p*1.03 | Send.Quote       | Receive.PO       | Send.PO          | comment     |
-|----+-------+-----------+--------------+-----------+---------+---------+------------------+------------------+------------------+-------------|
-|  1 | #1177 | Wilson    |  34051458980 | NSG114145 |  253.56 |  261.17 | <2016-08-15 Mon> | <2016-08-15 Mon> | <2016-08-15 Mon> |             |
-|  2 | #1187 | Jagdish   |    664231508 | NSG114259 | 1041.40 | 1072.65 | <2016-08-24 Wed> | <2016-09-14 Wed> | <2016-09-14 Wed> |             |
-|  3 | #1200 | Jagdish   |  34051464329 | NSG114300 |  363.27 |  374.17 | <2016-08-24 Wed> | <2016-09-14 Wed> | <2016-09-14 Wed> |             |
-|  4 | #1196 | Jagdish   |  34051462592 | NSG114258 |  207.92 |  214.16 | <2016-09-09 Fri> | <2016-09-21 Wed> | <2016-09-21 Wed> |             |
-|  5 | #1193 | Jagdish   |  34051463437 | NSG114281 |  410.88 |  423.20 | <2016-09-09 Fri> | <2016-09-21 Wed> | <2016-09-21 Wed> |             |
-|  6 | #1211 | Wilson    |  34051468068 | NSG114375 |  314.64 |  324.07 | <2016-09-12 Mon> | <2016-10-20 Thu> | <2016-10-20 Thu> |             |
-|  7 | #1183 | Wilson    |  34051467268 | NSG114205 |  211.86 |  218.22 | <2016-09-12 Mon> | <2016-09-21 Wed> | <2016-09-21 Wed> |             |
-|  8 | #1224 | Jagdish   |  34051473139 | NSG114475 |  673.80 |  694.01 | <2016-10-19 Wed> | <2016-11-16 Wed> | <2016-11-16 Wed> |             |
-|  9 | #1222 | Wilson    | 340514744142 | NSG114463 | 1450.66 |  1494.2 | <2016-11-03 Thu> | <2016-11-16 Wed> | <2016-11-16 Wed> |             |
-| 10 | #1231 | Jagdish   |    666843163 | NSG114460 |   56.77 |   57.68 | <2016-11-03 Thu> | <2016-11-16 Wed> | <2016-11-16 Wed> |             |
-| 11 | #1225 | Jas       | 340514755518 | NSG114524 |  682.48 |  702.95 | <2016-11-08 Tue> |                  |                  |             |
-| 12 | #1233 | Wilson    | 340514755519 | NSG114530 |  498.43 |  513.38 |                  |                  |                  | check price |
+|  # | FSJ#  | contactor |  Carrier inv | FSJ inv   | org prc |  p*1.03 | Send.Quote       | Receive.PO       | Send.PO          | comment |
+|----+-------+-----------+--------------+-----------+---------+---------+------------------+------------------+------------------+---------|
+|  1 | #1177 | Wilson    |  34051458980 | NSG114145 |  253.56 |  261.17 | <2016-08-15 Mon> | <2016-08-15 Mon> | <2016-08-15 Mon> |         |
+|  2 | #1187 | Jagdish   |    664231508 | NSG114259 | 1041.40 | 1072.65 | <2016-08-24 Wed> | <2016-09-14 Wed> | <2016-09-14 Wed> |         |
+|  3 | #1200 | Jagdish   |  34051464329 | NSG114300 |  363.27 |  374.17 | <2016-08-24 Wed> | <2016-09-14 Wed> | <2016-09-14 Wed> |         |
+|  4 | #1196 | Jagdish   |  34051462592 | NSG114258 |  207.92 |  214.16 | <2016-09-09 Fri> | <2016-09-21 Wed> | <2016-09-21 Wed> |         |
+|  5 | #1193 | Jagdish   |  34051463437 | NSG114281 |  410.88 |  423.20 | <2016-09-09 Fri> | <2016-09-21 Wed> | <2016-09-21 Wed> |         |
+|  6 | #1211 | Wilson    |  34051468068 | NSG114375 |  314.64 |  324.07 | <2016-09-12 Mon> | <2016-10-20 Thu> | <2016-10-20 Thu> |         |
+|  7 | #1183 | Wilson    |  34051467268 | NSG114205 |  211.86 |  218.22 | <2016-09-12 Mon> | <2016-09-21 Wed> | <2016-09-21 Wed> |         |
+|  8 | #1224 | Jagdish   |  34051473139 | NSG114475 |  673.80 |  694.01 | <2016-10-19 Wed> | <2016-11-16 Wed> | <2016-11-16 Wed> |         |
+|  9 | #1222 | Wilson    | 340514744142 | NSG114463 | 1450.66 |  1494.2 | <2016-11-03 Thu> | <2016-11-16 Wed> | <2016-11-16 Wed> |         |
+| 10 | #1231 | Jagdish   |    666843163 | NSG114460 |   56.77 |   57.68 | <2016-11-03 Thu> | <2016-11-16 Wed> | <2016-11-16 Wed> |         |
+| 11 | #1225 | Jas       | 340514755518 | NSG114524 |  682.48 |  702.95 | <2016-11-08 Tue> |                  |                  |         |
+| 12 | #1233 | Wilson    | 340514755519 | NSG114530 |  498.43 |  513.38 | <2016-11-23 Wed> |                  |                  |         |
+|    |       |           |              |           |         |         |                  |                  |                  |         |
 
 | BU    | PM_collect_PO |
 |-------+---------------|
@@ -492,64 +491,56 @@ CLOSED: [2016-11-03 Thu 16:55]
 ***** [#C] added Joe into email list
 ***** [#A] submit PMI using ppt(shipment)
 SCHEDULED: <2016-12-01 Thu>
-* working list(week 46)                                                :Work:
-<<<<<<< HEAD
-*** #1236 wait Thrid-party reply about changing pallet
-SCHEDULED: <2016-11-21 Mon>
-*** DONE #1243 ready to ship, doing KWE process
+*** working list(week 46)                                            :Work:
+***** DONE #1243 ready to ship, doing KWE process
 CLOSED: [2016-11-18 Fri 14:27] SCHEDULED: <2016-11-18 Fri>
 :LOGBOOK:
 CLOCK: [2016-11-18 Fri 14:27]--[2016-11-18 Fri 14:27] =>  0:00
 :END:
-*** #1244 wait Flex's or Cisco's shipping approval
-SCHEDULED: <2016-11-21 Mon>
+***** DONE #1244 ship
+CLOSED: [2016-11-22 Tue 16:59] SCHEDULED: <2016-11-22 Tue>
 :LOGBOOK:
+CLOCK: [2016-11-22 Tue 16:59]--[2016-11-22 Tue 16:59] =>  0:00
 CLOCK: [2016-11-18 Fri 14:27]--[2016-11-18 Fri 14:27] =>  0:00
 :END:
-*** DONE [#A] #1245 taking pictures
+***** DONE [#A] #1245 taking pictures
 CLOSED: [2016-11-18 Fri 17:41]
 :LOGBOOK:
 CLOCK: [2016-11-18 Fri 17:41]--[2016-11-18 Fri 17:41] =>  0:00
 :END:
-*** #1246 wait for tracking#
-SCHEDULED: <2016-11-21 Mon>
-=======
-*** wait China reply about #1236
->>>>>>> 28417e2... backup_Nov.17
-*** DONE [#A] #1236 ready to ship
+***** DONE [#A] #1236 ready to ship
 CLOSED: [2016-11-16 Wed 15:57]
 :LOGBOOK:
 CLOCK: [2016-11-16 Wed 15:57]--[2016-11-16 Wed 15:57] =>  0:00
 CLOCK: [2016-11-15 Tue 16:42]--[2016-11-15 Tue 16:42] =>  0:00
 :END:
-*** DONE doing #1243 document
+***** DONE doing #1243 document
 CLOSED: [2016-11-16 Wed 15:54]
 :LOGBOOK:
 CLOCK: [2016-11-16 Wed 15:54]--[2016-11-16 Wed 15:54] =>  0:00
 :END:
-*** DONE [#A] one more invoices                  
+***** DONE [#A] one more invoices                  
 CLOSED: [2016-11-15 Tue 16:42]
 :LOGBOOK:
 CLOCK: [2016-11-15 Tue 16:42]--[2016-11-15 Tue 16:42] =>  0:00
 :END:
-*** DONE doing #1244 document
+***** DONE doing #1244 document
 CLOSED: [2016-11-15 Tue 16:43]
 :LOGBOOK:
 CLOCK: [2016-11-15 Tue 16:43]--[2016-11-15 Tue 16:43] =>  0:00
 :END:
-<<<<<<< HEAD
+* working list(week 47)                                                :Work:
+*** TODO #1236 wait Thrid-party changing pallet
+SCHEDULED: <2016-11-23 Wed>
+*** TODO #1245 wait for China reply
+SCHEDULED: <2016-11-28 Mon>
+*** TODO check about the invoice and packing list (shipping to China)
+*** TODO #1246 wait for shipment
+SCHEDULED: <2016-11-28 Mon>
 ** waiting list                                                     :Career:ARCHIVE:
 *** [#A] submit PMI using ppt(shipment)
 SCHEDULED: <2016-11-30 Wed>
 *** [#C] unknown shipment 5 cartons(cisco 2900) without any notice
 *** [#C] 1199
 *** WAITING [#C] work with Jackie and chen for QP station debugging
-=======
-** waiting list                                                     :Career:
-*** [#A] submit PMI using ppt(shipment)
-SCHEDULED: <2016-11-30 Wed>
-*** [#C] 1199
-*** WAITING [#C] work with Jackie and chen for QP station debugging
-*** [#C] unknown shipment 5 cartons(cisco 2900) without any notice
->>>>>>> 28417e2... backup_Nov.17
 *** [#C] added Joe into email list

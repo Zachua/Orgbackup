@@ -1706,16 +1706,6 @@ print sorted([(v,k) for k,v in d.items()])
 ***** TODO rest
 ****** sleep at 10 oclock
 ****** wake up at 6 oclcok
-**** [#C] reading books[16%]                                     :ARCHIVE:
-***** DONE 黑客与画家
-CLOSED: [2016-08-25 Thu 22:39]
-***** TODO Coders at Work
-***** TODO The Hard Thing about Hard things
-***** 万里任禅游
-***** TODO Hackers: Heroes of the Computer Revolution
-***** The Cathedral&the Bazaar
-***** TODO Shop Class as Soulcraft: An Inquiry into the Value of Work
-***** TODO 自由及其背叛
 ** goal                                                            :ARCHIVE:
 | today time       |                 |                              |          |                        |
 |------------------+-----------------+------------------------------+----------+------------------------|
@@ -1736,18 +1726,6 @@ CLOSED: [2016-08-25 Thu 22:39]
 | 1st month | python | Java | shua ti | J-H | raspberry pi |           |
 | 2nd month | python | java | shua ti | J-H |              |           |
 | 3rd month |        |      |         | J-H |              | find jobs |
-** rewards                                                         :ARCHIVE:
-|                | 9/22 | 9/20 | 9/19 | 9/17 | 9/15 |
-|----------------+------+------+------+------+------|
-| webdata.C      |      |      |      |      |      |
-| Database.C     |      |      |      |      |  480 |
-| data structure |  200 |      |      |      |      |
-| other income   |  130 |      |      |      |      |
-|----------------+------+------+------+------+------|
-| Spent          |      |      |      |      |      |
-|----------------+------+------+------+------+------|
-| total          |  810 |      |      |      |      |
-#+TBLFM: 
 ** waiting list[0%]                                                :ARCHIVE:
 *** TODO [#B] install package on spacemacs
 *** TODO [#C] use GNUs for hotmail
@@ -1888,13 +1866,7 @@ SCHEDULED: <2016-10-10 Mon>
 ** back to china plan
 *** plan ahead
 <<<<<<< HEAD
-**** DONE [#A] sell stuff
-CLOSED: [2016-11-18 Fri 10:48]
-:LOGBOOK:
-CLOCK: [2016-11-18 Fri 10:48]--[2016-11-18 Fri 10:48] =>  0:00
-:END:
-**** [#C] oversea shipment
-=======
+**** oversea shipment
 **** TODO [#B] eat special medicine
 **** travel around
 *** transport (sea transport)
@@ -1911,35 +1883,10 @@ CLOCK: [2016-11-18 Fri 10:48]--[2016-11-18 Fri 10:48] =>  0:00
 **** clothes
 **** buy new luggage
 *** stuff sold 
-**** DONE [#A] sell vechile(1 item)  $11500----$12000
-CLOSED: [2016-11-16 Wed 15:53]
-:LOGBOOK:
-CLOCK: [2016-11-16 Wed 15:53]--[2016-11-16 Wed 15:53] =>  0:00
-:END:
-**** [#C] table(3 items)  $70, $40, $10
-**** [#C] mattress(2 items)  $40  $50
-**** [#C] chair(1 item)   $100
+**** table(3 items)  $70, $40, $10
+**** mattress(2 items)  $40  $50
+**** chair(1 item)   $100
 <<<<<<< HEAD
-**** DONE [#A] fan(2 items)   $25   $10
-CLOSED: [2016-11-18 Fri 14:27]
-:LOGBOOK:
-CLOCK: [2016-11-18 Fri 14:27]--[2016-11-18 Fri 14:27] =>  0:00
-:END:
-**** DONE [#A] guitar(1 item)  $85
-CLOSED: [2016-11-18 Fri 10:48]
-:LOGBOOK:
-CLOCK: [2016-11-18 Fri 10:48]--[2016-11-18 Fri 10:48] =>  0:00
-CLOCK: [2016-11-16 Wed 22:37]--[2016-11-16 Wed 22:37] =>  0:00
-:END:
-**** DONE [#A] cleaner(1 item)  $25
-CLOSED: [2016-11-18 Fri 10:48]
-:LOGBOOK:
-CLOCK: [2016-11-18 Fri 10:48]--[2016-11-18 Fri 10:48] =>  0:00
-=======
-:LOGBOOK:
->>>>>>> 28417e2... backup_Nov.17
-CLOCK: [2016-11-16 Wed 22:37]--[2016-11-16 Wed 22:37] =>  0:00
-:END:
 **** close BOA, Chase account
 **** close Chase, BOA, AE, Citi, Discover account
 **** close phone 
@@ -1954,28 +1901,43 @@ SCHEDULED: <2016-11-24 Thu>
 **** say goodbye to fellowship
 **** say goodbye to Panpan
 **** say goodbye to Weihua
-* Zach Agenda
-<<<<<<< HEAD
-** WAITING administration                                   :Clocking:
-SCHEDULED: <2016-11-21 Mon>
+** WAITING administration                                         :Clocking: 
+SCHEDULED: <2016-11-23 Wed>
 :LOGBOOK:
-CLOCK: [2016-11-18 Fri 17:10]--[2016-11-18 Fri 17:36] =>  0:26
-CLOCK: [2016-11-18 Fri 15:19]--[2016-11-18 Fri 15:19] =>  0:00
-CLOCK: [2016-11-18 Fri 10:01]--[2016-11-18 Fri 10:48] =>  0:47
-CLOCK: [2016-11-18 Fri 08:31]--[2016-11-18 Fri 09:43] =>  1:12
-CLOCK: [2016-11-18 Fri 08:18]--[2016-11-18 Fri 08:31] =>  0:13
-CLOCK: [2016-11-17 Thu 16:48]--[2016-11-17 Thu 16:59] =>  0:11
-CLOCK: [2016-11-17 Thu 16:28]--[2016-11-17 Thu 16:47] =>  0:19
+CLOCK: [2016-11-23 Wed 16:35]--[2016-11-23 Wed 19:16] =>  2:41
+CLOCK: [2016-11-23 Wed 14:17]--[2016-11-23 Wed 14:30] =>  0:13
+CLOCK: [2016-11-23 Wed 11:50]--[2016-11-23 Wed 12:10] =>  0:20
+CLOCK: [2016-11-23 Wed 08:22]--[2016-11-23 Wed 08:29] =>  0:07
+CLOCK: [2016-11-22 Tue 18:04]--[2016-11-22 Tue 18:59] =>  0:55
+CLOCK: [2016-11-22 Tue 12:00]--[2016-11-22 Tue 13:22] =>  1:22
+CLOCK: [2016-11-22 Tue 11:19]--[2016-11-22 Tue 11:23] =>  0:04
+CLOCK: [2016-11-22 Tue 07:02]--[2016-11-22 Tue 07:22] =>  0:20
+CLOCK: [2016-11-21 Mon 16:11]--[2016-11-21 Mon 16:17] =>  0:06
 CLOCK: [2016-11-17 Thu 12:11]--[2016-11-17 Thu 12:31] =>  0:20
-=======
-** WAITING work                                                   :Clocking:
-SCHEDULED: <2016-11-21 Mon>
+CLOCK: [2016-11-17 Thu 16:28]--[2016-11-17 Thu 16:47] =>  0:19
+CLOCK: [2016-11-17 Thu 16:48]--[2016-11-17 Thu 16:59] =>  0:11
+CLOCK: [2016-11-18 Fri 08:18]--[2016-11-18 Fri 08:31] =>  0:13
+CLOCK: [2016-11-18 Fri 08:31]--[2016-11-18 Fri 09:43] =>  1:12
+CLOCK: [2016-11-18 Fri 10:01]--[2016-11-18 Fri 10:48] =>  0:47
+CLOCK: [2016-11-18 Fri 15:19]--[2016-11-18 Fri 15:19] =>  0:00
+CLOCK: [2016-11-18 Fri 17:10]--[2016-11-18 Fri 17:36] =>  0:26
+:END:
+** WAITING work                                    :Clocking:    
+SCHEDULED: <2016-11-23 Wed>
 :LOGBOOK:
-CLOCK: [2016-11-18 Fri 14:25]--[2016-11-18 Fri 14:27] =>  0:02
-CLOCK: [2016-11-18 Fri 13:35]--[2016-11-18 Fri 14:25] =>  0:50
+CLOCK: [2016-11-23 Wed 15:33]--[2016-11-23 Wed 15:37] =>  0:04
+CLOCK: [2016-11-23 Wed 13:58]--[2016-11-23 Wed 14:08] =>  0:10
+CLOCK: [2016-11-23 Wed 13:32]--[2016-11-23 Wed 13:57] =>  0:25
+CLOCK: [2016-11-22 Tue 17:00]--[2016-11-22 Tue 17:30] =>  0:30
+CLOCK: [2016-11-22 Tue 15:31]--[2016-11-22 Tue 16:59] =>  1:28
+CLOCK: [2016-11-22 Tue 13:55]--[2016-11-22 Tue 15:01] =>  1:06
+CLOCK: [2016-11-22 Tue 07:28]--[2016-11-22 Tue 07:28] =>  0:00
+CLOCK: [2016-11-21 Mon 13:18]--[2016-11-21 Mon 13:53] =>  0:35
 CLOCK: [2016-11-17 Thu 14:59]--[2016-11-17 Thu 16:01] =>  1:02
-=======
-** TODO J-Hopping                                                 :Clocking:
+CLOCK: [2016-11-18 Fri 13:35]--[2016-11-18 Fri 14:25] =>  0:50
+CLOCK: [2016-11-18 Fri 14:25]--[2016-11-18 Fri 14:27] =>  0:02
+:END:
+** TODO J-Hopping                                 :Clocking:  
 SCHEDULED: <2016-11-23 Wed>
 :LAST_REPEAT: [2016-11-17 Thu 08:14]
 :END:
@@ -1985,20 +1947,29 @@ CLOCK: [2016-11-17 Thu 08:14]--[2016-11-17 Thu 08:14] =>  0:00
 CLOCK: [2016-11-17 Thu 07:59]--[2016-11-17 Thu 07:59] =>  0:00
 CLOCK: [2016-11-14 Mon 18:09]--[2016-11-14 Mon 18:09] =>  0:00
 :END:
-<<<<<<< HEAD
-** WAITING Technology                                             :Clocking:
-SCHEDULED: <2016-11-21 Mon>
+** WAITING Technology                                             :Clocking:  
+SCHEDULED: <2016-11-23 Wed>
 :LOGBOOK:
-CLOCK: [2016-11-21 Mon 09:20]--[2016-11-21 Mon 09:58] =>  0:38
-CLOCK: [2016-11-17 Thu 11:47]--[2016-11-17 Thu 11:47] =>  0:00
+CLOCK: [2016-11-23 Wed 17:18]--[2016-11-23 Wed 17:22] =>  0:04
+CLOCK: [2016-11-23 Wed 14:07]--[2016-11-23 Wed 15:33] =>  1:26
+CLOCK: [2016-11-23 Wed 10:04]--[2016-11-23 Wed 10:04] =>  0:00
+CLOCK: [2016-11-23 Wed 08:29]--[2016-11-23 Wed 10:04] =>  1:35
+CLOCK: [2016-11-22 Tue 20:26]--[2016-11-22 Tue 20:35] =>  0:09
+CLOCK: [2016-11-22 Tue 11:47]--[2016-11-22 Tue 12:00] =>  0:13
+CLOCK: [2016-11-21 Mon 16:03]--[2016-11-21 Mon 16:09] =>  0:06
+CLOCK: [2016-11-21 Mon 13:53]--[2016-11-21 Mon 14:56] =>  0:00
 CLOCK: [2016-11-17 Thu 11:11]--[2016-11-17 Thu 11:47] =>  0:36
-=======
+CLOCK: [2016-11-17 Thu 11:47]--[2016-11-17 Thu 11:47] =>  0:00
+CLOCK: [2016-11-21 Mon 09:20]--[2016-11-21 Mon 09:58] =>  0:38
+:END:
+* Zach Agenda
 ** TODO fitness                                                     :Habits:
-<<<<<<< HEAD
-SCHEDULED: <2016-11-19 Sat 10:30 .+2d>
-=======
-SCHEDULED: <2016-11-18 Fri 10:30 .+2d>
->>>>>>> 28417e2... backup_Nov.17
+SCHEDULED: <2016-11-24 Thu 10:30 .+2d>
+:PROPERTIES:
+:LAST_REPEAT: [2016-11-22 Tue 11:18]
+:END:
+- State "DONE"       from "WAITING"    [2016-11-22 Tue 11:18]
+SCHEDULED: <2016-11-24 Thu 10:30 .+2d>
 :PROPERTIES:
 :LAST_REPEAT: [2016-11-16 Wed 13:23]
 :END:
@@ -2009,22 +1980,27 @@ CLOCK: [2016-11-16 Wed 12:23]--[2016-11-16 Wed 12:23] =>  0:00
 CLOCK: [2016-11-14 Mon 18:04]--[2016-11-14 Mon 18:04] =>  0:00
 CLOCK: [2016-11-14 Mon 17:57]--[2016-11-14 Mon 17:57] =>  0:00
 :END:
-
 ** ruby project                                                       :Ruby:
 *** rewrite company assignment using ruby
 ** leetcode Project                                                  :Study:
 ** python Project                                                   :Python:
 *** enrich python project      
-** TODO [#A] modify resume                                          :Career:
+** [#A] modify resume                                               :Career:
 *** enrich python project
 *** add java project inside
 ** Life Project                                                       :Life:
-<<<<<<< HEAD
-*** DONE check how to use chase card's credit
-CLOSED: [2016-11-18 Fri 15:19]
-:LOGBOOK:
-CLOCK: [2016-11-18 Fri 15:19]--[2016-11-18 Fri 15:19] =>  0:00
-:END:
+*** [#C] reading books[100%]
+**** DONE 黑客与画家
+CLOSED: [2016-08-25 Thu 22:39]
+**** Coders at Work
+**** The Hard Thing about Hard things
+**** 万里任禅游
+**** Hackers: Heroes of the Computer Revolution
+**** The Cathedral&the Bazaar
+**** Shop Class as Soulcraft: An Inquiry into the Value of Work
+**** 自由及其背叛
+**** reading 三体
+**** reading 无限恐怖
 *** Fellowship
 SCHEDULED: <2016-11-26 Sat 07:00 .+7d>
 :PROPERTIES:
@@ -2034,129 +2010,80 @@ SCHEDULED: <2016-11-26 Sat 07:00 .+7d>
 :LOGBOOK:
 CLOCK: [2016-11-19 Sat 08:20]--[2016-11-19 Sat 08:20] =>  0:00
 :END:
-*** reading
-**** DONE [#A] reading soft skills 
-CLOSED: [2016-11-18 Fri 17:59]
-:LOGBOOK:
-CLOCK: [2016-11-18 Fri 17:59]--[2016-11-18 Fri 17:59] =>  0:00
-=======
-*** TODO Fellowship                                                 :Daily:
+*** [#A] cooking rice, cooking 猪蹄黄豆
+SCHEDULED: <2016-11-24 Thu>
+*** Fellowship                                                      :Daily:
 SCHEDULED: <2016-11-28 Mon 07:00 .+7d>
 :PROPERTIES:
 :LAST_REPEAT: [2016-11-21 Mon 10:00]
 :END:
 - State "DONE"       from "WAITING"    [2016-11-21 Mon 10:00]
+*** TODO [#B] cancel Amazon membership
 *** reading
-**** DONE [#A] reading soft skills 
-CLOSED: [2016-11-21 Mon 10:02]
-:LOGBOOK:
-CLOCK: [2016-11-21 Mon 10:02]--[2016-11-21 Mon 10:02] =>  0:00
->>>>>>> 28417e2... backup_Nov.17
-CLOCK: [2016-11-17 Thu 07:34]--[2016-11-17 Thu 07:34] =>  0:00
-:END:
-**** reading 三体
-**** reading 无限恐怖
-<<<<<<< HEAD
-**** DONE [#A] try kindle
-CLOSED: [2016-11-17 Thu 15:01]
-:LOGBOOK:
-CLOCK: [2016-11-17 Thu 15:01]--[2016-11-17 Thu 15:01] =>  0:00
-:END:
-*** DONE [#A] customize Vimium
-CLOSED: [2016-11-18 Fri 14:42]
-:LOGBOOK:
-CLOCK: [2016-11-18 Fri 14:42]--[2016-11-18 Fri 14:42] =>  0:00
-:END:
-*** DONE [#A] chrome simuluate emacs command
-CLOSED: [2016-11-19 Sat 12:58]
-:LOGBOOK:
-CLOCK: [2016-11-19 Sat 12:58]--[2016-11-19 Sat 12:58] =>  0:00
-:END:
-*** TODO check outlets in Reno
-*** travel on 11/25
-**** [#A] bought tire chain
-**** DONE [#A] bought boots
-CLOSED: [2016-11-18 Fri 17:44]
-:LOGBOOK:
-CLOCK: [2016-11-18 Fri 17:44]--[2016-11-18 Fri 17:44] =>  0:00
-:END:
-**** DONE [#A] bought snowboards
-CLOSED: [2016-11-19 Sat 22:37]
-:LOGBOOK:
-CLOCK: [2016-11-19 Sat 22:36]--[2016-11-19 Sat 22:36] =>  0:00
-:END:
-**** DONE [#A] ask lin to buy boots, snowboards, glass & snow pants
-CLOSED: [2016-11-19 Sat 12:59]
-:LOGBOOK:
-CLOCK: [2016-11-19 Sat 12:58]--[2016-11-19 Sat 12:58] =>  0:00
-:END:
 *** 洗床单
-*** DONE [#B] buy 老抽&猪蹄&黄豆
-CLOSED: [2016-11-21 Mon 00:27]
+*** DONE [#A] arrange clear up emacs folder and todo list
+CLOSED: [2016-11-23 Wed 18:51]
 :LOGBOOK:
-CLOCK: [2016-11-21 Mon 00:27]--[2016-11-21 Mon 00:27] =>  0:00
+CLOCK: [2016-11-23 Wed 18:51]--[2016-11-23 Wed 18:51] =>  0:00
 :END:
 ** Emacs Packages                                                    :Emacs:
 *** emacs deft combine notes    
 *** Paredit for lispy
-*** TODO study spacemacs rock
-SCHEDULED: <2016-11-23 Wed .+6d/7d>
+*** TODO study spacemacs rock                                      :Weekly:
+SCHEDULED: <2016-11-29 Tue .+6d/7d>
 :PROPERTIES:
-:LAST_REPEAT: [2016-11-17 Thu 15:05]
+:LAST_REPEAT: [2016-11-23 Wed 19:11]
+:END:
+- State "DONE"       from "WAITING"    [2016-11-23 Wed 19:11]
+:LOGBOOK:
+CLOCK: [2016-11-23 Wed 19:11]--[2016-11-23 Wed 19:11] =>  0:00
 :END:
 - State "DONE"       from "WAITING"    [2016-11-17 Thu 15:05]
 *** [#B] study searching function
-*** DONE [#A] study magit function
-CLOSED: [2016-11-21 Mon 10:02]
-:LOGBOOK:
-CLOCK: [2016-11-21 Mon 10:02]--[2016-11-21 Mon 10:02] =>  0:00
-:END:
 *** [#B] edit web page using Emacs
 [[http://superuser.com/questions/261689/its-all-text-for-chrome/262968#262968][It's All Text for Chrome?]]
 chrome-extension://ljobjlafonikaiipfkggjbhkghgicgoh/fancy-settings/source/index.html
 [[http://superuser.com/questions/488348/edit-any-text-input-shown-by-a-browser-mostly-chrome-with-emacs][Edit any text input shown by a browser (mostly Chrome) with Emacs]]
 http://www.listary.com/text-editor-anywhere
 [[http://www.chromeplugins.org/google/chrome-tips-tricks/edit-text-your-favorite-text-editor-chrome-9876.html][Edit text with your favorite text editor in Chrome!]]
-*** DONE [#A] changing vim C-Y, C-a, C-e, C-f, A-f, C-b, A-b inside the insert mode
-CLOSED: [2016-11-19 Sat 10:25]
-:LOGBOOK:
-CLOCK: [2016-11-19 Sat 10:25]--[2016-11-19 Sat 10:25] =>  0:00
-:END:
-=======
+*** set other windows as Ctrl-left
+*** [#C] set emacs up to open pdf, word, excel, music and so on
+*** [#C] understand layers in emacs, creating personal layers with my favorite application
+*** [#C] push .spacemacs to github orgmode file
+*** [#C] question about major mode
+*** [#C] dired+ check if it works
+*** [#C] understand dired-X, for third package
+*** 
 ** Web Project                                                         :Web:
-*** finish fullstack-course4    
-*** DONE export orgmode file online                             :Emacs:Web:
-CLOSED: [2016-11-15 Tue 09:51]
-:LOGBOOK:
-CLOCK: [2016-11-15 Tue 09:51]--[2016-11-15 Tue 09:51] =>  0:00
-CLOCK: [2016-11-14 Mon 15:38]--[2016-11-14 Mon 15:38] =>  0:00
-:END:
+*** TODO study fullstack-course4 for 20mins                         :Daily:
+SCHEDULED: <2016-11-23 Wed .+1d>
 *** add more CSS skills on online orgmode
-
-<<<<<<< HEAD
 * W47,48 :Time Management:
-| Project  | sub-project      | r.f.o | 11/7 | average |
-|----------+------------------+-------+------+---------|
-| personal | Spiritual        |       |    0 |       0 |
-|          | exercise         |       |    0 |       0 |
-|          | sleep            |       |    0 |       0 |
-|          | Administration   |       |  1.4 |     1.4 |
-|          | movies           |       |    0 |       0 |
-|          | game             |       |    0 |       0 |
-|          | S.E.             |       |    0 |       0 |
-|----------+------------------+-------+------+---------|
-| family   | Parents&sister   |       |    0 |       0 |
-|          | GF               |       |    0 |       0 |
-|----------+------------------+-------+------+---------|
-| Friends  | hangout(friends) |       |    0 |       0 |
-|----------+------------------+-------+------+---------|
-| Church   | GOD              |       |    0 |       0 |
-|----------+------------------+-------+------+---------|
-| Business | Technology       |       |    0 |       0 |
-|          | Job              |       |    0 |       0 |
-|          | Job-Hopping      |       |    0 |       0 |
-|----------+------------------+-------+------+---------|
-|          | improveScr       |    0. | 1.68 |      0. |
-|          | balanceScr       |    0. | 1.68 |      0. |
-#+TBLFM: $5=vmean($3..$4)::@16$3..@16$4=vsum(@5*1.2,@13*1.5,@14*1,@15*1.8)::@17$3..@17$4=vsum(@2*1.2,@3*1,@5*1.2,@6*0.7,@7*0.1,@8*(-1),@9*1.2,@10*1.1,@11*1.3,@12*1.3,@13*1.5,@14*1,@15*1.8)
-=======
+| Project  | sub-project      | r.f.o | 11/23 | 11/22 | 11/21 | average |
+|----------+------------------+-------+-------+-------+-------+---------|
+| personal | Spiritual        |       |       |       |     0 |       0 |
+|          | exercise         |       |       |   0.5 |     0 |       0 |
+|          | sleep            |       |       |       |     0 |       0 |
+|          | Administration   |       |   0.5 |   4.1 |   3.4 |     1.4 |
+|          | movies           |       |   0.5 |       |     0 |       0 |
+|          | game             |       |       |     5 |     5 |       0 |
+|          | S.E.             |       |       |       |     0 |       0 |
+|----------+------------------+-------+-------+-------+-------+---------|
+| family   | Parents&sister   |       |       |       |     0 |       0 |
+|          | GF               |       |       |       |     0 |       0 |
+|----------+------------------+-------+-------+-------+-------+---------|
+| Friends  | hangout(friends) |       |       |       |     1 |       1 |
+|----------+------------------+-------+-------+-------+-------+---------|
+| Church   | GOD              |       |       |       |     0 |       0 |
+|----------+------------------+-------+-------+-------+-------+---------|
+| Business | Technology       |       |       |   0.4 |   1.8 |     1.1 |
+|          | Job              |       |       |     3 |   0.6 |       0 |
+|          | Job-Hopping      |       |       |       |     0 |       0 |
+|----------+------------------+-------+-------+-------+-------+---------|
+|          | improveScr       |    0. |       |  8.52 |  7.38 |      0. |
+|          | balanceScr       |    0. |       |  9.52 |  9.18 |      0. |
+#+TBLFM: $7=vmean($3..$6)::@16$3..@16$6=vsum(@5*1.2,@13*1.5,@14*1,@15*1.8)::@17$3..@17$6=vsum(@2*1.2,@3*1,@5*1.2,@6*0.7,@7*0.1,@8*(-1),@9*1.2,@10*1.1,@11*1.3,@12*1.3,@13*1.5,@14*1,@15*1.8)
+* modify init on air and windows
+;;;;;;;;;;;;;;;;bookmark ;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(global-set-key (kbd "C-<f5>") 'bookmark-map)
+(global-set-key (kbd "<f5>") 'bookmark-jump)
